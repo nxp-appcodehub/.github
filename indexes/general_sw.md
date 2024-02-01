@@ -2,12 +2,12 @@
 [<img src="https://mcuxpresso.nxp.com/static/icon/nxp-logo-color.svg" width="100">]([https://www.nxp.com|https://www.nxp.com/])
 
 ## Index
-1. [vglite_examples_rt1170](#gs-vglite_examples_rt1170)
-2. [ML dry beans image classification using eIQ](#gs-ml-dry-beans-image-classification-using-eiq)
+1. [VGLite examples](#gs-vglite_examples_rt1170)
+2. [ML Dry Beans Image Classification Using eIQ](#gs-ml-dry-beans-image-classification-using-eiq)
 3. [ML Kitchen Pantry Object Classification](#gs-ml-kitchen-pantry-object-classification)
 
 <!-- gs-vglite_examples_rt1170 -->
-## 1. vglite_examples_rt1170<a name="gs-vglite_examples_rt1170"></a>
+## 1. VGLite examples<a name="gs-vglite_examples_rt1170"></a>
 ### Overview
  The VGLite examples show how to draw graphics assets using VGLite API. 
 
@@ -25,7 +25,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-vglite_examples_rt1170
 
 <!-- gs-ml-dry-beans-image-classification-using-eiq -->
-## 2. ML dry beans image classification using eIQ<a name="gs-ml-dry-beans-image-classification-using-eiq"></a>
+## 2. ML Dry Beans Image Classification Using eIQ<a name="gs-ml-dry-beans-image-classification-using-eiq"></a>
 ### Overview
  Step-by-step guide for deployment of an image classification model on an MCU-based system. A balanced image classification model is developed by using the eIQ portal. <br>
 

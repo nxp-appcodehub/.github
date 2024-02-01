@@ -2,31 +2,35 @@
 [<img src="https://mcuxpresso.nxp.com/static/icon/nxp-logo-color.svg" width="100">]([https://www.nxp.com|https://www.nxp.com/])
 
 ## Index
-1. [LPC553x dual-servo motor control](#an-lpc553x-dual-servo-motor-control)
-2. [flac-codec-rt685](#an-flac-codec-rt685)
-3. [lpc802_io_eeprom](#an-lpc802_io_eeprom)
+1. [AN13569 How to run dual-servo motor on LPC553x](#an-lpc553x-dual-servo-motor-control)
+2. [AN13793: FLAC codec porting and performance evaluation based on i.MX RT685](#an-flac-codec-rt685)
+3. [AN12125: Using LPC802 as I2C-bus EEPROM](#an-lpc802_io_eeprom)
 4. [multiple-usb-audio-formats-on-lpc5500](#an-multiple-usb-audio-formats-on-lpc5500)
 5. [LPC55S36_mc_bldc_wHall](#an-lpc55s36_mc_bldc_whall)
-6. [display_low_power_rt1170](#an-display_low_power_rt1170)
-7. [dsp_for_lpc553x_using_pq](#an-dsp_for_lpc553x_using_pq)
+6. [AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170](#an-display_low_power_rt1170)
+7. [AN13498: PowerQuad digital signal processing on NXP LPC553x/LPC55S3x](#an-dsp_for_lpc553x_using_pq)
 8. [flexio_camera_rt1010](#an-flexio_camera_rt1010)
-9. [ftm_lpit_adc12_multi_channel](#an-ftm_lpit_adc12_multi_channel)
-10. [graphics_features_rt1170](#an-graphics_features_rt1170)
-11. [hbllc_mc56f8xxxx](#an-hbllc_mc56f8xxxx)
-12. [hd_camera_rt1050](#an-hd_camera_rt1050)
-13. [lvgl_demo_for_small_mcu](#an-lvgl_demo_for_small_mcu)
-14. [tppfc_mc56f8xxxx](#an-tppfc_mc56f8xxxx)
-15. [uvc_imxrt](#an-uvc_imxrt)
-16. [vglite_porting_imxrt](#an-vglite_porting_imxrt)
-17. [flexio_8080_rt1050](#an-flexio_8080_rt1050)
-18. [mc_pfc_56f83783](#an-mc_pfc_56f83783)
-19. [fft_with_pq_and_cmsis_dsp](#an-fft_with_pq_and_cmsis_dsp)
-20. [fw_update_using_sec_bootloader](#an-fw_update_using_sec_bootloader)
+9. [AN13437: Triggering ADC multi-channel conversion via low power interrupt timer on KE17Z](#an-ftm_lpit_adc12_multi_channel)
+10. [AN13075：i.MX RT1170 heterogeneous graphics pipeline](#an-graphics_features_rt1170)
+11. [DRM172: Half bridge LLC converter based on MC56F81xxx](#an-hbllc_mc56f8xxxx)
+12. [AN12110: Developing a camera application with i.MX RT series](#an-hd_camera_rt1050)
+13. [AN13730: Developing a GUI on a memory constrained MCU with GUI Guider and LVGL](#an-lvgl_demo_for_small_mcu)
+14. [DRM174: Totem-pole power factor correction using MC56F81xxx](#an-tppfc_mc56f8xxxx)
+15. [AN12103: Simple USB video class device on i.MX RT1050](#an-uvc_imxrt)
+16. [AN13778: Porting VGLite driver for bare metal or single task](#an-vglite_porting_imxrt)
+17. [AN12822: Emulation of 8080 bus via FlexIO on RT1050](#an-flexio_8080_rt1050)
+18. [AN13184: 3-phase PMSM sensorless vector control and 2-phase interleaved PFC on MC56F83783](#an-mc_pfc_56f83783)
+19. [AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500](#an-fft_with_pq_and_cmsis_dsp)
+20. [AN13497: Firmware update using secondary bootloader](#an-fw_update_using_sec_bootloader)
 21. [lpc_uart_server](#an-lpc_uart_server)
 22. [mipi-dsi-screen-pushing-rt500](#an-mipi-dsi-screen-pushing-rt500)
+23. [MCX N PLU setup and usage](#an-mcxn-plu-setupandusage)
+24. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
+25. [Using the Real Time Clock (RTC) on MCX](#an-mcx-rtc-example)
+26. [USB to CAN-FD Adaptor based on MCXN Microcontroller](#an-usb-to-can-adaptor-mcxn947)
 
 <!-- an-lpc553x-dual-servo-motor-control -->
-## 1. LPC553x dual-servo motor control<a name="an-lpc553x-dual-servo-motor-control"></a>
+## 1. AN13569 How to run dual-servo motor on LPC553x<a name="an-lpc553x-dual-servo-motor-control"></a>
 ### Overview
  This application note describes the dual servo demo with the NXP LPC55S36 processor. It also can be used as a reference for motor control application developing based on other products. 
 
@@ -45,7 +49,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lpc553x-dual-servo-motor-control
 
 <!-- an-flac-codec-rt685 -->
-## 2. flac-codec-rt685<a name="an-flac-codec-rt685"></a>
+## 2. AN13793: FLAC codec porting and performance evaluation based on i.MX RT685<a name="an-flac-codec-rt685"></a>
 ### Overview
 The FLAC demo application demonstrates how to porting FLAC and evaluation performance&nbsp;on i.MXRT685 evk board.
 
@@ -62,7 +66,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flac-codec-rt685
 
 <!-- an-lpc802_io_eeprom -->
-## 3. lpc802_io_eeprom<a name="an-lpc802_io_eeprom"></a>
+## 3. AN12125: Using LPC802 as I2C-bus EEPROM<a name="an-lpc802_io_eeprom"></a>
 ### Overview
  AN12125: Using LPC802 as I2C-bus EEPROM&nbsp; 
 
@@ -115,7 +119,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lpc55s36_mc_bldc_whall
 
 <!-- an-display_low_power_rt1170 -->
-## 6. display_low_power_rt1170<a name="an-display_low_power_rt1170"></a>
+## 6. AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170<a name="an-display_low_power_rt1170"></a>
 ### Overview
  This application note describes how to add low-power mode operation on the Mobile Industry Processor Interface (MIPI) Display Serial Interface (DSI) host controller and LCDIFv2 controller. It is done to drive a DSI-compliant LCD panel on i.MX RT1170 to switch off and then back on again. 
 
@@ -132,7 +136,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-display_low_power_rt1170
 
 <!-- an-dsp_for_lpc553x_using_pq -->
-## 7. dsp_for_lpc553x_using_pq<a name="an-dsp_for_lpc553x_using_pq"></a>
+## 7. AN13498: PowerQuad digital signal processing on NXP LPC553x/LPC55S3x<a name="an-dsp_for_lpc553x_using_pq"></a>
 ### Overview
  AN13498: Digital Signal Processing for NXP LPC553x/LPC55S3x Using PowerQuad 
 
@@ -165,7 +169,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio_camera_rt1010
 
 <!-- an-ftm_lpit_adc12_multi_channel -->
-## 9. ftm_lpit_adc12_multi_channel<a name="an-ftm_lpit_adc12_multi_channel"></a>
+## 9. AN13437: Triggering ADC multi-channel conversion via low power interrupt timer on KE17Z<a name="an-ftm_lpit_adc12_multi_channel"></a>
 ### Overview
 The demo code shows the implementation of periodic triggering of the four ADC channels using LPIT0.
 
@@ -182,7 +186,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-ftm_lpit_adc12_multi_channel
 
 <!-- an-graphics_features_rt1170 -->
-## 10. graphics_features_rt1170<a name="an-graphics_features_rt1170"></a>
+## 10. AN13075：i.MX RT1170 heterogeneous graphics pipeline<a name="an-graphics_features_rt1170"></a>
 ### Overview
  This application note gives a brief overview of each one of the graphics engines (PxP, GPU2D, and LCDIFv2) how to initialize them, use them independently, and finally, it introduces a use case on how to use them in unison to get a performance and resource boost. Each stage has an associated software project to make things easier. 
 
@@ -200,7 +204,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-graphics_features_rt1170
 
 <!-- an-hbllc_mc56f8xxxx -->
-## 11. hbllc_mc56f8xxxx<a name="an-hbllc_mc56f8xxxx"></a>
+## 11. DRM172: Half bridge LLC converter based on MC56F81xxx<a name="an-hbllc_mc56f8xxxx"></a>
 ### Overview
  This is an LLC resonant converter reference design using MC56F8xxxx DSC. 
 
@@ -216,7 +220,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-hbllc_mc56f8xxxx
 
 <!-- an-hd_camera_rt1050 -->
-## 12. hd_camera_rt1050<a name="an-hd_camera_rt1050"></a>
+## 12. AN12110: Developing a camera application with i.MX RT series<a name="an-hd_camera_rt1050"></a>
 ### Overview
  This software accompanies application note [AN12110](https://www.nxp.com/docs/en/application-note/AN12110.pdf), which describes how to develop an HD camera application with the NXP i.MX RT1050 processor. 
 
@@ -235,7 +239,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-hd_camera_rt1050
 
 <!-- an-lvgl_demo_for_small_mcu -->
-## 13. lvgl_demo_for_small_mcu<a name="an-lvgl_demo_for_small_mcu"></a>
+## 13. AN13730: Developing a GUI on a memory constrained MCU with GUI Guider and LVGL<a name="an-lvgl_demo_for_small_mcu"></a>
 ### Overview
  This demo is an example of dashboard for electric bicycle. This demo is based on LVGL GUI library and GUI Guider. This demo can be used by customer to evaluate GUI performance of NXP part. Here, this demo uses LPC5506 as target MCU and uses an external SPI Flash to store image source and font source. This demo supports various GUI widget to show customer information such as meter panel, chart, label. 
 
@@ -251,7 +255,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lvgl_demo_for_small_mcu
 
 <!-- an-tppfc_mc56f8xxxx -->
-## 14. tppfc_mc56f8xxxx<a name="an-tppfc_mc56f8xxxx"></a>
+## 14. DRM174: Totem-pole power factor correction using MC56F81xxx<a name="an-tppfc_mc56f8xxxx"></a>
 ### Overview
  This is a totem-pole bridgeless power factor correction reference design using MC56F8xxxx DSC. 
 
@@ -267,7 +271,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-tppfc_mc56f8xxxx
 
 <!-- an-uvc_imxrt -->
-## 15. uvc_imxrt<a name="an-uvc_imxrt"></a>
+## 15. AN12103: Simple USB video class device on i.MX RT1050<a name="an-uvc_imxrt"></a>
 ### Overview
  This software accompanies application note [AN12103](https://www.nxp.com/docs/en/application-note/AN12103.pdf), which describes how to develop a simple UVC device using the NXP i.MX RT1050 or i.MX RT1170 processor. 
 
@@ -286,7 +290,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-uvc_imxrt
 
 <!-- an-vglite_porting_imxrt -->
-## 16. vglite_porting_imxrt<a name="an-vglite_porting_imxrt"></a>
+## 16. AN13778: Porting VGLite driver for bare metal or single task<a name="an-vglite_porting_imxrt"></a>
 ### Overview
  This application outlines the software structure of vglite middleware, analyzes current driver code to support multitask, then gives the details on how to port vglite middleware for bare metal and single task. The ported source code and its examples are provided. 
 
@@ -304,7 +308,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-vglite_porting_imxrt
 
 <!-- an-flexio_8080_rt1050 -->
-## 17. flexio_8080_rt1050<a name="an-flexio_8080_rt1050"></a>
+## 17. AN12822: Emulation of 8080 bus via FlexIO on RT1050<a name="an-flexio_8080_rt1050"></a>
 ### Overview
  This example shows how to use the FlexIO module to emulate the 8080 parallel bus and to drive a graphic TFT LCD with the 8080 bus interface. 
 
@@ -320,7 +324,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio_8080_rt1050
 
 <!-- an-mc_pfc_56f83783 -->
-## 18. mc_pfc_56f83783<a name="an-mc_pfc_56f83783"></a>
+## 18. AN13184: 3-phase PMSM sensorless vector control and 2-phase interleaved PFC on MC56F83783<a name="an-mc_pfc_56f83783"></a>
 ### Overview
  One PMSM Sensorless FOC and 2-ph Interleaved Boost PFC<br>Control based on MC56F83783 <br>
 
@@ -338,7 +342,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc_pfc_56f83783
 
 <!-- an-fft_with_pq_and_cmsis_dsp -->
-## 19. fft_with_pq_and_cmsis_dsp<a name="an-fft_with_pq_and_cmsis_dsp"></a>
+## 19. AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500<a name="an-fft_with_pq_and_cmsis_dsp"></a>
 ### Overview
  AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500 
 
@@ -355,7 +359,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-fft_with_pq_and_cmsis_dsp
 
 <!-- an-fw_update_using_sec_bootloader -->
-## 20. fw_update_using_sec_bootloader<a name="an-fw_update_using_sec_bootloader"></a>
+## 20. AN13497: Firmware update using secondary bootloader<a name="an-fw_update_using_sec_bootloader"></a>
 ### Overview
  AN13497: Firmware Update Using Secondary Bootloader 
 
@@ -404,4 +408,76 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### **Repository URL:** https://github.com/nxp-appcodehub/an-mipi-dsi-screen-pushing-rt500
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mipi-dsi-screen-pushing-rt500
+
+<!-- an-mcxn-plu-setupandusage -->
+## 23. MCX N PLU setup and usage<a name="an-mcxn-plu-setupandusage"></a>
+### Overview
+ This application note explains the elements that compose the PLU module and how to integrate them to achieve logic networks, as well as providing examples of combinational, sequential and wakeup circuits. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        PLU 
+#### Categories:         Low Power 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947]()
+
+
+#### **Repository URL:** https://github.com/nxp-appcodehub/an-mcxn-plu-setupandusage
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn-plu-setupandusage
+
+<!-- an-pmsm-foc-mcxa153 -->
+## 24. AN14099: PMSM Sensorless FOC Using MCXA153<a name="an-pmsm-foc-mcxa153"></a>
+### Overview
+ This application note describes the implementation of sensorless flux oriented control(FOC) application for 3-phase Permanent Magnet Synchronous Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, PWM 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA153]()
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/nxp-appcodehub/an-pmsm-foc-mcxa153
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-foc-mcxa153
+
+<!-- an-mcx-rtc-example -->
+## 25. Using the Real Time Clock (RTC) on MCX<a name="an-mcx-rtc-example"></a>
+### Overview
+ This example serves as a guide on enabling the RTC module on MCX, selecting the correct clock source, enable the time keeping functions, enabling the alarm mode and wake timer to wake the MCU from a Deep Power Down state. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        CLOCKS 
+#### Categories:         Low Power 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [MCX-N9XX-EVK]()
+* [FRDM-MCXN947]()
+
+
+#### **Repository URL:** https://github.com/nxp-appcodehub/an-mcx-rtc-example
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcx-rtc-example
+
+<!-- an-usb-to-can-adaptor-mcxn947 -->
+## 26. USB to CAN-FD Adaptor based on MCXN Microcontroller<a name="an-usb-to-can-adaptor-mcxn947"></a>
+### Overview
+ This application note aims to build a USB to CAN-FD adaptor where the USB data retransmit to CAN-bus and vice versa. NXP MCXN devices a high-speed USB port and CAN-FD controllers. HS USB can reach up to 480 Mbit/s transmission speed, which is enough for transmitting CAN-FD frame at highest CAN baud rate on MCXN 8Mbit/s. To make the system easy to use and compatible with other devices, we use USB CDC virtual COM port as communication. Python Interface is used to visualize the CAN-FD information in ASCII format. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        CAN, USB 
+#### Categories:         Industrial 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [MCX-N9XX-EVK]()
+* [FRDM-MCXN947]()
+
+
+#### **Repository URL:** https://github.com/nxp-appcodehub/an-usb-to-can-adaptor-mcxn947
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-usb-to-can-adaptor-mcxn947
 
