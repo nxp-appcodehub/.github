@@ -24,10 +24,11 @@
 20. [AN13497: Firmware update using secondary bootloader](#an-fw_update_using_sec_bootloader)
 21. [lpc_uart_server](#an-lpc_uart_server)
 22. [mipi-dsi-screen-pushing-rt500](#an-mipi-dsi-screen-pushing-rt500)
-23. [MCX N PLU setup and usage](#an-mcxn-plu-setupandusage)
-24. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
-25. [Using the Real Time Clock (RTC) on MCX](#an-mcx-rtc-example)
-26. [USB to CAN-FD Adaptor based on MCXN Microcontroller](#an-usb-to-can-adaptor-mcxn947)
+23. [AN12004: Low-Power Motion Wake-Up Examples for FXLS8974CF using Sensor Data Change Detection (SDCD) Block](#an-fxls8974cf-low-power-wake-up-examples)
+24. [MCX N PLU setup and usage](#an-mcxn-plu-setupandusage)
+25. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
+26. [Using the Real Time Clock (RTC) on MCX](#an-mcx-rtc-example)
+27. [USB to CAN-FD Adaptor based on MCXN Microcontroller](#an-usb-to-can-adaptor-mcxn947)
 
 <!-- an-lpc553x-dual-servo-motor-control -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a name="an-lpc553x-dual-servo-motor-control"></a>
@@ -409,8 +410,28 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **Repository URL:** https://github.com/nxp-appcodehub/an-mipi-dsi-screen-pushing-rt500
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mipi-dsi-screen-pushing-rt500
 
+<!-- an-fxls8974cf-low-power-wake-up-examples -->
+## 23. AN12004: Low-Power Motion Wake-Up Examples for FXLS8974CF using Sensor Data Change Detection (SDCD) Block<a name="an-fxls8974cf-low-power-wake-up-examples"></a>
+### Overview
+<ul><li>This software describes how to configure SDCD block of FXLS897xCF sensor to enable low-power motion wake-up in interrupt mode and use auto-wake/sleep feature to autonomously put the sensor back to low-power sleep mode when no-motion is detected for configured auto-sleep timer.<br></li></ul>
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        I2C, SPI, UART 
+#### Categories:         Low Power, Sensor 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [MCX-N9XX-EVK]()
+* [FRDM-MCXN947]()
+
+#### Expansion boards
+* [FRDM-STBI-A8974](https://mcuxpresso.nxp.com/eb-hub/product/frdm-stbi-a8974)
+
+#### **Repository URL:** https://github.com/nxp-appcodehub/an-fxls8974cf-low-power-wake-up-examples
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-fxls8974cf-low-power-wake-up-examples
+
 <!-- an-mcxn-plu-setupandusage -->
-## 23. MCX N PLU setup and usage<a name="an-mcxn-plu-setupandusage"></a>
+## 24. MCX N PLU setup and usage<a name="an-mcxn-plu-setupandusage"></a>
 ### Overview
  This application note explains the elements that compose the PLU module and how to integrate them to achieve logic networks, as well as providing examples of combinational, sequential and wakeup circuits. 
 
@@ -427,7 +448,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn-plu-setupandusage
 
 <!-- an-pmsm-foc-mcxa153 -->
-## 24. AN14099: PMSM Sensorless FOC Using MCXA153<a name="an-pmsm-foc-mcxa153"></a>
+## 25. AN14099: PMSM Sensorless FOC Using MCXA153<a name="an-pmsm-foc-mcxa153"></a>
 ### Overview
  This application note describes the implementation of sensorless flux oriented control(FOC) application for 3-phase Permanent Magnet Synchronous Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU. 
 
@@ -446,7 +467,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-foc-mcxa153
 
 <!-- an-mcx-rtc-example -->
-## 25. Using the Real Time Clock (RTC) on MCX<a name="an-mcx-rtc-example"></a>
+## 26. Using the Real Time Clock (RTC) on MCX<a name="an-mcx-rtc-example"></a>
 ### Overview
  This example serves as a guide on enabling the RTC module on MCX, selecting the correct clock source, enable the time keeping functions, enabling the alarm mode and wake timer to wake the MCU from a Deep Power Down state. 
 
@@ -464,7 +485,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcx-rtc-example
 
 <!-- an-usb-to-can-adaptor-mcxn947 -->
-## 26. USB to CAN-FD Adaptor based on MCXN Microcontroller<a name="an-usb-to-can-adaptor-mcxn947"></a>
+## 27. USB to CAN-FD Adaptor based on MCXN Microcontroller<a name="an-usb-to-can-adaptor-mcxn947"></a>
 ### Overview
  This application note aims to build a USB to CAN-FD adaptor where the USB data retransmit to CAN-bus and vice versa. NXP MCXN devices a high-speed USB port and CAN-FD controllers. HS USB can reach up to 480 Mbit/s transmission speed, which is enough for transmitting CAN-FD frame at highest CAN baud rate on MCXN 8Mbit/s. To make the system easy to use and compatible with other devices, we use USB CDC virtual COM port as communication. Python Interface is used to visualize the CAN-FD information in ASCII format. 
 

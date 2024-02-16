@@ -52,9 +52,9 @@ This repository holds the ML-Based System State Monitor App SW Pack and depends 
 <!-- ap-conversa-voice-calling -->
 ## 3. Conversa Voice Calling Software Pack<a name="ap-conversa-voice-calling"></a>
 ### Overview
- This project holds the <a href="https://www.nxp.com/design/software/embedded-software/application-software-packs/application-software-pack-conversa-voice-calling:APP-SW-PACK-CONVERSA-VOICE" target="_blank">Conversa Voice Calling App SW Pack</a>.<br>This application software pack enables a complete voice call application over USB using NXP’s MCUs and <a href="https://www.nxp.com/design/software/embedded-software/conversa-voice-suite:CONVERSA-VOICE-SUITE" target="_blank">Conversa Voice Suite</a>. <br>This project speeds up the evaluation of Voice over Internet Protocol (VoIP) products and provides sufficient audio quality required to meet the Microsoft Teams specification and receive certification.<br><br>The <i>main_rt1170</i> branch contains the conversa voice calling software pack for the <a href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVK" target="_blank">i.MX RT1170</a>.<br>The <i>main_lpc55</i> branch branch contains the conversa voice calling software pack for the <a href="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/lpcxpresso-boards/lpcxpresso55s69-development-board:LPC55S69-EVK" target="_blank">LPC55S69</a>.<br>To see other available devices, please check the other branches.<br><br>
+ Enables a complete voice call application over USB using NXP’s MCU and <a href="https://www.nxp.com/design/design-center/software/embedded-software/conversa-voice-suite:CONVERSA-VOICE-SUITE?tid=vanconversa" target="_blank">Conversa Voice Suite</a>. 
 
-#### Families:           i.MX, LPC 
+#### Families:           LPC, i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
 #### Peripherals:        DMA, SAI, USB, I2S 
 #### Categories:         Voice 
