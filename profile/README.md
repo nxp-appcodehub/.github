@@ -6,9 +6,9 @@ Full user experience is provided by Application Code Hub webpage. Search, filter
 
 ### Index
 
-* [Application notes](./indexes/app_note.md)
-* [Application SW packs](./indexes/sw_pack.md)
-* [Demos](./indexes/demo.md)
-* [General contributed SW](./indexes/general_sw.md)
+* [Application notes](./../indexes/app_note.md)
+* [Application SW packs](./../indexes/sw_pack.md)
+* [Demos](./../indexes/demo.md)
+* [General contributed SW](./../indexes/general_sw.md)
 
 To find more about Application Code Hub visit the Application Code Hub [software summary page](https://www.nxp.com/design/:APP-CODE-HUB). Application Code Hub is accessible directly from https://mcuxpresso.nxp.com/appcodehub, or inside [MCUXpresso for Visual Studio Code](https://www.nxp.com/design/:MCUXPRESSO-VSC) and [MCUXpresso IDE](https://www.nxp.com/design/:MCUXpresso-IDE).
