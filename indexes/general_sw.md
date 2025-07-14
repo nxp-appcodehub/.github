@@ -3,17 +3,19 @@
 
 <a id="top"></a>
 
+
+
 ## Index
-1. [VGLite examples](#gs-vglite_examples_rt1170_.)
-2. [Display on rm67162 smart panel by vglite, driven by dual core.](#gs-smart-panel-rm67162-rt1170_.)
-3. [ML Kitchen Pantry Object Classification](#gs-ml-kitchen-pantry-object-classification_.)
-4. [ML Dry Beans Image Classification Using eIQ](#gs-ml-dry-beans-image-classification-using-eiq_.)
-5. [LPC553x Motor control application framework](#gs-motor-control-application-framework_.)
-6. [MCXA153 Motor Control Application Framework](#gs-mcxa153-motor-control-application-framework_.)
-7. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu_.)
+1. [VGLite examples](#gs-vglite_examples_rt1170)
+2. [Display on rm67162 smart panel by vglite, driven by dual core.](#gs-smart-panel-rm67162-rt1170)
+3. [ML Kitchen Pantry Object Classification](#gs-ml-kitchen-pantry-object-classification)
+4. [ML Dry Beans Image Classification Using eIQ](#gs-ml-dry-beans-image-classification-using-eiq)
+5. [LPC553x Motor control application framework](#gs-motor-control-application-framework)
+6. [MCXA153 Motor Control Application Framework](#gs-mcxa153-motor-control-application-framework)
+7. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu)
 
 <!-- gs-vglite_examples_rt1170/. -->
-## 1. VGLite examples<a id="gs-vglite_examples_rt1170_."></a> <a href="#top" style="float:right">⤒</a>
+## 1. VGLite examples<a id="gs-vglite_examples_rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The VGLite examples show how to draw graphics assets using VGLite API. 
@@ -32,7 +34,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-vglite_examples_rt1170
 
 <!-- gs-smart-panel-rm67162-rt1170/. -->
-## 2. Display on rm67162 smart panel by vglite, driven by dual core.<a id="gs-smart-panel-rm67162-rt1170_."></a> <a href="#top" style="float:right">⤒</a>
+## 2. Display on rm67162 smart panel by vglite, driven by dual core.<a id="gs-smart-panel-rm67162-rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software displays a tiger on the smart lcd panel rm67162, in which the primary core uses vglite to draw contents and the secondary core sends image data to the panel. 
@@ -53,7 +55,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-smart-panel-rm67162-rt1170
 
 <!-- gs-ml-kitchen-pantry-object-classification/. -->
-## 3. ML Kitchen Pantry Object Classification<a id="gs-ml-kitchen-pantry-object-classification_."></a> <a href="#top" style="float:right">⤒</a>
+## 3. ML Kitchen Pantry Object Classification<a id="gs-ml-kitchen-pantry-object-classification"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Step-by-step guide for deployment of an object classification model on an MCU-based system. The classification model is developed by fine-tuning a MobileNet model using transfer learning.  
@@ -73,7 +75,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-ml-kitchen-pantry-object-classification
 
 <!-- gs-ml-dry-beans-image-classification-using-eiq/. -->
-## 4. ML Dry Beans Image Classification Using eIQ<a id="gs-ml-dry-beans-image-classification-using-eiq_."></a> <a href="#top" style="float:right">⤒</a>
+## 4. ML Dry Beans Image Classification Using eIQ<a id="gs-ml-dry-beans-image-classification-using-eiq"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Step-by-step guide for deployment of an image classification model on an MCU-based system. A balanced image classification model is developed by using the eIQ portal. <br>
@@ -93,7 +95,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-ml-dry-beans-image-classification-using-eiq
 
 <!-- gs-motor-control-application-framework/. -->
-## 5. LPC553x Motor control application framework<a id="gs-motor-control-application-framework_."></a> <a href="#top" style="float:right">⤒</a>
+## 5. LPC553x Motor control application framework<a id="gs-motor-control-application-framework"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software introduces framework with peripherals, interrupts and additional resources for developing motor control application with LPC55S3x/553x EVK with NXP low voltage PMSM board. It is easy to port to any custom board and debug by using FreeMASTER tool.    
@@ -113,7 +115,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-motor-control-application-framework
 
 <!-- gs-mcxa153-motor-control-application-framework/. -->
-## 6. MCXA153 Motor Control Application Framework<a id="gs-mcxa153-motor-control-application-framework_."></a> <a href="#top" style="float:right">⤒</a>
+## 6. MCXA153 Motor Control Application Framework<a id="gs-mcxa153-motor-control-application-framework"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software introduces framework with peripherals, interrupts and additional resources for developing motor control application with FRDM-MCXA 153 with NXP low voltage PMSM board. It is easy to port to any custom board and debug by using FreeMASTER tool.
@@ -133,7 +135,7 @@ This software introduces framework with peripherals, interrupts and additional r
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxa153-motor-control-application-framework
 
 <!-- gs-test-loader-for-mcu/. -->
-## 7. Runtime environment for testing MCU applications<a id="gs-test-loader-for-mcu_."></a> <a href="#top" style="float:right">⤒</a>
+## 7. Runtime environment for testing MCU applications<a id="gs-test-loader-for-mcu"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Test loader is a software component which must be integrated into the firmware of a Device Under Test (DUT) which includes a MCU relying on FreeRTOS and LittleFS

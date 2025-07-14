@@ -3,21 +3,23 @@
 
 <a id="top"></a>
 
+
+
 ## Index
-1. [ML Person Detector](#ap-ml-person-detector_.)
-2. [i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM](#ap-qmc2g-industrial_.)
-3. [Basic Matter Ready Connected HMI platform with cost-optimized MCU, Wi-Fi 4, Thread, and Bluetooth Low Energy 5.0](#ap-basic-matter-ready-connected-hmi_.)
-4. [DVS With Internal PVT Sensor](#ap-dvs-pvt-sensor_.)
-5. [Power Optimized Voice UI](#ap-optimized-voice-ui_.)
-6. [Conversa Voice Calling Software Pack](#ap-conversa-voice-calling_.)
-7. [ML State Monitor](#ap-ml-state-monitor_.)
-8. [ML Universal Datalogger for FreeMASTER](#ap-ml-universal-datalogger-for-freemaster_.)
-9. [Buspal Application for FRDM MCX Families](#ap-frdm-mcx-buspal_.)
-10. [FRDM MCXW71 Matter light &amp; switch app Thread end device solution](#ap-frdm-mcxw71-light-switch-combo-app_.)
-11. [FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution](#ap-frdm-rw612-light-switch-otbr-combo_.)
+1. [ML Person Detector](#ap-ml-person-detector)
+2. [i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM](#ap-qmc2g-industrial)
+3. [Basic Matter Ready Connected HMI platform with cost-optimized MCU, Wi-Fi 4, Thread, and Bluetooth Low Energy 5.0](#ap-basic-matter-ready-connected-hmi)
+4. [DVS With Internal PVT Sensor](#ap-dvs-pvt-sensor)
+5. [Power Optimized Voice UI](#ap-optimized-voice-ui)
+6. [Conversa Voice Calling Software Pack](#ap-conversa-voice-calling)
+7. [ML State Monitor](#ap-ml-state-monitor)
+8. [ML Universal Datalogger for FreeMASTER](#ap-ml-universal-datalogger-for-freemaster)
+9. [Buspal Application for FRDM MCX Families](#ap-frdm-mcx-buspal)
+10. [FRDM MCXW71 Matter light &amp; switch app Thread end device solution](#ap-frdm-mcxw71-light-switch-combo-app)
+11. [FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution](#ap-frdm-rw612-light-switch-otbr-combo)
 
 <!-- ap-ml-person-detector/. -->
-## 1. ML Person Detector<a id="ap-ml-person-detector_."></a> <a href="#top" style="float:right">⤒</a>
+## 1. ML Person Detector<a id="ap-ml-person-detector"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This App SW Pack provides a ML example for people detection using eIQ. The software provides customers with product quality code that can be integrated into their designs. 
@@ -36,7 +38,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-ml-person-detector
 
 <!-- ap-qmc2g-industrial/. -->
-## 2. i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM<a id="ap-qmc2g-industrial_."></a> <a href="#top" style="float:right">⤒</a>
+## 2. i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM<a id="ap-qmc2g-industrial"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The Industrial Drive Development Platform shows how a single i.MX RT1176 Crossover MCU can control up to four different motors, while managing wired or wireless connectivity and an HMI interface. 
@@ -54,7 +56,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-qmc2g-industrial
 
 <!-- ap-basic-matter-ready-connected-hmi/. -->
-## 3. Basic Matter Ready Connected HMI platform with cost-optimized MCU, Wi-Fi 4, Thread, and Bluetooth Low Energy 5.0<a id="ap-basic-matter-ready-connected-hmi_."></a> <a href="#top" style="float:right">⤒</a>
+## 3. Basic Matter Ready Connected HMI platform with cost-optimized MCU, Wi-Fi 4, Thread, and Bluetooth Low Energy 5.0<a id="ap-basic-matter-ready-connected-hmi"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  NXP's cost-optimized MCU (FreeRTOS) platform enables Matter-ready edge node development with Wi-Fi 4, Thread, and Bluetooth Low Energy 5.0 wireless connectivity protocols using i.MX RT1060 MCU, K32W0x MCU, and 88W8801 Wi-Fi SoC. 
@@ -72,7 +74,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-basic-matter-ready-connected-hmi
 
 <!-- ap-dvs-pvt-sensor/. -->
-## 4. DVS With Internal PVT Sensor<a id="ap-dvs-pvt-sensor_."></a> <a href="#top" style="float:right">⤒</a>
+## 4. DVS With Internal PVT Sensor<a id="ap-dvs-pvt-sensor"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application showcase the dynamic voltage scaling (DVS) capabilities of i.MX RT500 using the internal PVT sensor. 
@@ -90,7 +92,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-dvs-pvt-sensor
 
 <!-- ap-optimized-voice-ui/. -->
-## 5. Power Optimized Voice UI<a id="ap-optimized-voice-ui_."></a> <a href="#top" style="float:right">⤒</a>
+## 5. Power Optimized Voice UI<a id="ap-optimized-voice-ui"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This Application Software Pack provides a power optimized application featuring local voice control using NXP's <a href="https://www.nxp.com/design/software/embedded-software/voice-intelligent-technology:VOICE-INTELLIGENT-TECHNOLOGY" target="_blank">Voice Intelligent Technology (VIT)</a> on the i.MX RT595 Crossover MCU. 
@@ -108,7 +110,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-optimized-voice-ui
 
 <!-- ap-conversa-voice-calling/. -->
-## 6. Conversa Voice Calling Software Pack<a id="ap-conversa-voice-calling_."></a> <a href="#top" style="float:right">⤒</a>
+## 6. Conversa Voice Calling Software Pack<a id="ap-conversa-voice-calling"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Enables a complete voice call application over USB using NXP’s MCU and <a href="https://www.nxp.com/design/design-center/software/embedded-software/conversa-voice-suite:CONVERSA-VOICE-SUITE?tid=vanconversa" target="_blank">Conversa Voice Suite</a>. 
@@ -127,7 +129,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-conversa-voice-calling
 
 <!-- ap-ml-state-monitor/. -->
-## 7. ML State Monitor<a id="ap-ml-state-monitor_."></a> <a href="#top" style="float:right">⤒</a>
+## 7. ML State Monitor<a id="ap-ml-state-monitor"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This Machine Learning (ML) application software pack relies on Deep Learning and enables developers to develop and deploy neural networks on MCU-based systems for building smart sensing applications that use time series real-time sensed data for system state monitoring.<br>
@@ -151,7 +153,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-ml-state-monitor
 
 <!-- ap-ml-universal-datalogger-for-freemaster/. -->
-## 8. ML Universal Datalogger for FreeMASTER<a id="ap-ml-universal-datalogger-for-freemaster_."></a> <a href="#top" style="float:right">⤒</a>
+## 8. ML Universal Datalogger for FreeMASTER<a id="ap-ml-universal-datalogger-for-freemaster"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software allows the user to perform tests and record data on any FreeMASTER-enabled MCU by automatically running user-implemented scenarios on the MCU side. 
@@ -169,7 +171,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-ml-universal-datalogger-for-freemaster
 
 <!-- ap-frdm-mcx-buspal/. -->
-## 9. Buspal Application for FRDM MCX Families<a id="ap-frdm-mcx-buspal_."></a> <a href="#top" style="float:right">⤒</a>
+## 9. Buspal Application for FRDM MCX Families<a id="ap-frdm-mcx-buspal"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software pack provides the buspal application ported to different MCX device families. Buspal is an embedded software tool that is available as a companion to blhost. The tool acts as a bus translator with an established connection with blhost over UART and with the target device over I2C, SPI or CAN, and assists blhost in carrying out commands and responses from the USB target device. 
@@ -188,7 +190,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-frdm-mcx-buspal
 
 <!-- ap-frdm-mcxw71-light-switch-combo-app/. -->
-## 10. FRDM MCXW71 Matter light &amp; switch app Thread end device solution<a id="ap-frdm-mcxw71-light-switch-combo-app_."></a> <a href="#top" style="float:right">⤒</a>
+## 10. FRDM MCXW71 Matter light &amp; switch app Thread end device solution<a id="ap-frdm-mcxw71-light-switch-combo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The Matter FRDM-MCXW71 Light Switch Combo example</strong> demonstrates a dual-endpoint application. Endpoint 1</strong> represents a Light Device (bulb)</strong>, while Endpoint 2</strong> functions as a Light Switch device</strong>. The light bulb is simulated using the onboard RGB LED, and buttons are used to test turning the local light bulb on/off or controlling bound lights. This example serves as a reference for developing your own Matter-based applications.
@@ -210,7 +212,7 @@ It operates as a Matter accessory </strong>, meaning it can be paired with an ex
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=frdm-mcxw71-light-switch-combo-app
 
 <!-- ap-frdm-rw612-light-switch-otbr-combo/. -->
-## 11. FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution<a id="ap-frdm-rw612-light-switch-otbr-combo_."></a> <a href="#top" style="float:right">⤒</a>
+## 11. FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution<a id="ap-frdm-rw612-light-switch-otbr-combo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The Matter FRDM-RW612 Light Switch Combo example demonstrates a dual-endpoint application. Endpoint 1 represents a Light Device (bulb), while Endpoint 2 functions as a Light Switch device. The light bulb is simulated using the onboard RGB LED, and buttons are used to test turning the local light bulb on/off or controlling bound lights. This example serves as a reference for developing your own Matter-based applications.<br /><br />
