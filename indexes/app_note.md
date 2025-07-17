@@ -42,14 +42,14 @@
 34. [XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module](#an-xip-external-nor-flash-plus-external-psram)
 35. [AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application](#an-kw4x-bluetooth-le-nfc-integration)
 36. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-pmsm-one-shunt-lpc86x)
-37. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
-38. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
-39. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
-40. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
-41. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
-42. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
-43. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
-44. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
+37. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
+38. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
+39. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
+40. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
+41. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
+42. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
+43. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
+44. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -713,26 +713,8 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-pmsm-one-shunt-lpc86x/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-one-shunt-lpc86x
 
-<!-- an-mc-bldc-lpc86x/. -->
-## 37. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
- This project implements sensorless six-step square wave brushless DC(BLDC) motor control on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14018. 
-
-#### Families:           LPC 
-#### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        PWM, ADC 
-#### Categories:         Motor Control 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-* [LPCXpresso860MAX]()
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-bldc-lpc86x/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-lpc86x
-
 <!-- an-mc-bldc-ke17z/. -->
-## 38. Sensorless BLDC motor control on KE17Z<a id="an-mc-bldc-ke17z"></a> <a href="#top" style="float:right">⤒</a>
+## 37. Sensorless BLDC motor control on KE17Z<a id="an-mc-bldc-ke17z"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on KE17Z512 and KE17Z256 MCUs. The NXP Freedom board FRDM-MC-LVBLDC is used as a hardware platform for the motor control reference solution. The hardware-dependent part of the motor control software is addressed as well, including a detailed peripheral setup and driver description. The FreeMASTER operation is also described in this document.<a target="_blank"></a>
@@ -751,7 +733,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-ke17z
 
 <!-- an-mcxn236-usb-bridge-to-i3c/. -->
-## 39. AN14434 How to implement MCXN236 USB to I3C demo<a id="an-mcxn236-usb-bridge-to-i3c"></a> <a href="#top" style="float:right">⤒</a>
+## 38. AN14434 How to implement MCXN236 USB to I3C demo<a id="an-mcxn236-usb-bridge-to-i3c"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is the complementary project for [AN14434](https://www.nxp.com.cn/docs/en/application-note/AN14434.pdf), which demonstrates how implement usb to i3c demo on MCXN236.<br><br>In the MCXN236 USB to I3C demo, the USB device uses USB CDC virtual com class to communicate with PC host.&nbsp;<br>You can use terminal tool to send a serial data to control I3C interface.<br>The terminal tool used in following contents is pzh-py-com tool. Customer can download it from followed link: https://github.com/JayHeng/pzh-py-com.<br>This demo provided some commands such as Dynamic address assign, direct write, direct read, write with register address, read with register address, IBI/Hot-join functions.<br>[&lt;img src="./images/MCXN236_USB_TO_I3C_Block.png" align="center" width="800"/&gt;](./images/MCXN236_USB_TO_I3C_Block.png) 
@@ -769,7 +751,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn236-usb-bridge-to-i3c
 
 <!-- an-frdmrw612-module-migration-guide/. -->
-## 40. Migration guide from FRDM-RW612 to third-party module memories<a id="an-frdmrw612-module-migration-guide"></a> <a href="#top" style="float:right">⤒</a>
+## 39. Migration guide from FRDM-RW612 to third-party module memories<a id="an-frdmrw612-module-migration-guide"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The objective of this application note is to help developers migrating their applications from the RW612-FRDM board to their module-based board. <br>This application note contains: <br><ul><li>An overview of what does imply to move your application to a different board with different Flash and pSRAM.</li><li>Flash configuration files (flash_config.c) for each supported module.</li><li>Application Flash and pSRAM configurations for each supported module.</li></ul>
@@ -786,7 +768,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-frdmrw612-module-migration-guide
 
 <!-- an-mc-bldc-mcxa153/. -->
-## 41. Sensorless BLDC motor control on MCXA153<a id="an-mc-bldc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+## 40. Sensorless BLDC motor control on MCXA153<a id="an-mc-bldc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on the MCXA family of MCUs. The NXP Freedom board FRDM-MC-LVBLDC is used as a hardware platform for the motor control reference solution. The hardware-dependent part of the motor control software is addressed as well, including a detailed peripheral setup and driver description. The FreeMASTER operation is also described in this document.<a target="_blank"></a>
@@ -806,7 +788,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-mcxa153
 
 <!-- an-lpc55s69-rtc-osc-calibration/. -->
-## 42. AN14605 Using the RTC OSC Calibration Feature of the LPC5500<a id="an-lpc55s69-rtc-osc-calibration"></a> <a href="#top" style="float:right">⤒</a>
+## 41. AN14605 Using the RTC OSC Calibration Feature of the LPC5500<a id="an-lpc55s69-rtc-osc-calibration"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note AN14605, which describes how to use the RTC OSC Calibration Feature of the LPC5500.
@@ -824,7 +806,7 @@ This software accompanies application note AN14605, which describes how to use t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=lpc55s69-rtc-osc-calibration
 
 <!-- an-ethernet-lwip-ptpd-imxrt/. -->
-## 43. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
+## 42. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note AN12149, which describes how to implementation a 1588 V2 application based on ptpd.
@@ -843,7 +825,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ethernet-lwip-ptpd-imxrt
 
 <!-- an-emulating-i2s-bus-with-flexio-on-mcxa156/. -->
-## 44. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 43. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156. The audio function is tested using the codec on LPCXpress55s69 board. 
@@ -860,4 +842,22 @@ This software accompanies application note AN12149, which describes how to imple
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-emulating-i2s-bus-with-flexio-on-mcxa156/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-emulating-i2s-bus-with-flexio-on-mcxa156
+
+<!-- an-mc-bldc-lpc86x/. -->
+## 44. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This project implements sensorless six-step square wave brushless DC(BLDC) motor control on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14018. 
+
+#### Families:           LPC 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        PWM, ADC 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [LPCXpresso860MAX]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-bldc-lpc86x/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-lpc86x
 
