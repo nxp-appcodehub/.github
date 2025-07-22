@@ -50,6 +50,7 @@
 42. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
 43. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
 44. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
+45. [AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x](#an-mcxe24x-csec-getting-started)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -860,4 +861,22 @@ This software accompanies application note AN12149, which describes how to imple
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-bldc-lpc86x/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-lpc86x
+
+<!-- an-mcxe24x-csec-getting-started/. -->
+## 45. AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x<a id="an-mcxe24x-csec-getting-started"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+Software package for application note AN14729, it shows basic usage of MCX E24x EdgeLock Accelerator(CSEC).
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ENTROPY 
+#### Categories:         Security 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXE247]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxe24x-csec-getting-started/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-csec-getting-started
 
