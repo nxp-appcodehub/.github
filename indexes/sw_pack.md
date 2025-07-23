@@ -61,7 +61,7 @@
 ### Overview
  NXP's cost-optimized MCU (FreeRTOS) platform enables Matter-ready edge node development with Wi-Fi 4, Thread, and Bluetooth Low Energy 5.0 wireless connectivity protocols using i.MX RT1060 MCU, K32W0x MCU, and 88W8801 Wi-Fi SoC. 
 
-#### Families:           i.MX RT, K32W, MW 
+#### Families:           MW, K32W, i.MX RT 
 #### Toolchains:         GCC 
 #### Peripherals:        DISPLAY, DMA, FLASH, GPIO, I2C, SPI, UART, USB 
 #### Categories:         HMI, Cloud Connected Devices, RTOS, Wireless Connectivity 
@@ -134,7 +134,7 @@
 ### Overview
  This Machine Learning (ML) application software pack relies on Deep Learning and enables developers to develop and deploy neural networks on MCU-based systems for building smart sensing applications that use time series real-time sensed data for system state monitoring.<br>
 
-#### Families:           i.MX RT, LPC, Kinetis, MCX 
+#### Families:           Kinetis, LPC, MCX, i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
 #### Peripherals:        I2C, SDIO, SENSOR, UART, TIMER 
 #### Categories:         Sensor, Anomaly Detection, AI/ML, RTOS, Tools, SDMMC 
