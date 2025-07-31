@@ -60,6 +60,7 @@
 52. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
 53. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
 54. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
+55. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -1051,4 +1052,22 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-flexio-emulating-uart-with-irda/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio-emulating-uart-with-irda
+
+<!-- an-mcxe24x-flextimer-example/. -->
+## 55. AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x<a id="an-mcxe24x-flextimer-example"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The FlexTimer module (FTM) is an enhanced timer module that supports input capture, output compare, and the generation of PWM signals to control electric motor and power management applications and it is commonly used on many Kinetis MCUs. AN14617 is primarily focused on the features of the FTM module in MCXE24x product series, and use FRDM-MCXE247 to demonstrate the functionality of FTM module.<br /><br />This is the complementary project for AN14617, which demonstrates how to use the FlexTimer (FTM) module on MCXE24x. Please use serial tool to select the example provided.<br /><br />This software includes the following examples:<br /><ul><li>Edge Aligned PWM</li><li>Center Aligned PWM</li><li>Phase Shifted PWM</li><li>Single Edge Capture Mode</li><li>Dual Edge Capture Mode</li><li>Quadrature Decoder Mode</li><li>CPWM and Fault Control Mode</li><li>Half and Full Cycle Reload Mode</li><li>FTM0 CPWM SoftSync Mode</li><li>FTM0 CPWM HardSync Mode</li><li>CPWM and Global Time Base Mode</li><li>ADC triggering Mode</li></ul>
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        PWM, TIMER 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXE247]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxe24x-flextimer-example/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-flextimer-example
 
