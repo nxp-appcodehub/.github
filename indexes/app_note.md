@@ -51,6 +51,15 @@
 43. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
 44. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
 45. [AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x](#an-mcxe24x-csec-getting-started)
+46. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
+47. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
+48. [AN14754 Using MCXE247 QuadSPI Module](#an-using-mcxe247-quadspi-module)
+49. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
+50. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
+51. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
+52. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
+53. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
+54. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -879,4 +888,167 @@ Software package for application note AN14729, it shows basic usage of MCX E24x
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxe24x-csec-getting-started/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-csec-getting-started
+
+<!-- an-mcxn947-ctimer-center-aligned-pwm/. -->
+## 46. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This software accompanies application note [AN12345], which describes how to use ctimer to generate center aligned PWM in MCX MCU.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        CLOCKS, GPIO, COUNTER, TIMER 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxn947-ctimer-center-aligned-pwm/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxn947-ctimer-center-aligned-pwm
+
+<!-- an-mc-pmsm-mcxe247/. -->
+## 47. AN14616: Sensorless Field oriented Control (FOC) on MCXE24x<a id="an-mc-pmsm-mcxe247"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is demo code for PMSM sensorless control on FRDM-MCXE247.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, PWM 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXE247]()
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-mcxe247/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-mcxe247
+
+<!-- an-using-mcxe247-quadspi-module/. -->
+## 48. AN14754 Using MCXE247 QuadSPI Module<a id="an-using-mcxe247-quadspi-module"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        SPI 
+#### Categories:         Memory 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXE247]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-using-mcxe247-quadspi-module/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=using-mcxe247-quadspi-module
+
+<!-- an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947/. -->
+## 49. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software accompanies application note, which describes how to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        FlexIO, PWM 
+#### Categories:         Motor Control, Industrial 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947
+
+<!-- an-mcxn947-keyscan-interface-by-smartdma/. -->
+## 50. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software accompanies application note [AN14184](<a href="https://www.nxp.com.cn/docs/en/application-note/AN14184.pdf" target="_blank">nxp.com.cn/docs/en/application-note/AN14184.pdf</a>).This application note mainly introduces the Keyscan solution for MCX N series MCU. It includes the introduction of the Keyscan solution, its features and API routines, and a demo. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        GPIO 
+#### Categories:         HMI 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxn947-keyscan-interface-by-smartdma/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-keyscan-interface-by-smartdma
+
+<!-- an-mcxn947-camera-interface-by-smartdma/. -->
+## 51. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software accompanies application note [AN14191](https://www.nxp.com.cn/docs/en/application-note/AN14191.pdf).This application note describes the parallel interface for the camera solution in MCXN947 andMCXN236. It includes the introduction of camera interface, features, API routines, and demo. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        DMA, FlexIO, VIDEO 
+#### Categories:         Graphics, HMI, Vision 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxn947-camera-interface-by-smartdma/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-camera-interface-by-smartdma
+
+<!-- an-mcxn947-mdio-slave-interface-by-smartdma/. -->
+## 52. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software accompanies the application note primarily introduces how to implement MDIOI slave interface functionality using SmartDMA.<br>
+
+#### Families:           MCX 
+#### Toolchains:         IAR 
+#### Peripherals:        ETHERNET, GPIO 
+#### Categories:         HMI, Industrial, Networking, User Interface 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxn947-mdio-slave-interface-by-smartdma/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-mdio-slave-interface-by-smartdma
+
+<!-- an-smart-battery-charger-lpc86x/. -->
+## 53. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ The application introduces the smart battery charger solution based on LPC865. 
+
+#### Families:           LPC 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, I2C, UART, TIMER, SPI, GPIO 
+#### Categories:         Industrial 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-smart-battery-charger-lpc86x/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-smart-battery-charger-lpc86x
+
+<!-- an-flexio-emulating-uart-with-irda/. -->
+## 54. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software accompanies application note[ANxxx], which describes how to implement emulating UART with IRDA by using FlexIO. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        GPIO, UART 
+#### Categories:         Industrial, User Interface 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-flexio-emulating-uart-with-irda/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio-emulating-uart-with-irda
 
