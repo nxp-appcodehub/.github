@@ -15,8 +15,8 @@
 7. [ML State Monitor](#ap-ml-state-monitor)
 8. [ML Universal Datalogger for FreeMASTER](#ap-ml-universal-datalogger-for-freemaster)
 9. [Buspal Application for FRDM MCX Families](#ap-frdm-mcx-buspal)
-10. [FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution](#ap-frdm-rw612-light-switch-otbr-combo)
-11. [FRDM MCXW71 Matter light &amp; switch app Thread end device solution](#ap-frdm-mcxw71-light-switch-combo-app)
+10. [FRDM MCXW71 Matter light &amp; switch app Thread end device solution](#ap-frdm-mcxw71-light-switch-combo-app)
+11. [FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution](#ap-frdm-rw612-light-switch-otbr-combo)
 
 <!-- ap-ml-person-detector/. -->
 ## 1. ML Person Detector<a id="ap-ml-person-detector"></a> <a href="#top" style="float:right">⤒</a>
@@ -189,27 +189,8 @@
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/ap-frdm-mcx-buspal/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-frdm-mcx-buspal
 
-<!-- ap-frdm-rw612-light-switch-otbr-combo/. -->
-## 10. FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution<a id="ap-frdm-rw612-light-switch-otbr-combo"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-The Matter FRDM-RW612 Light Switch Combo example demonstrates a dual-endpoint application. Endpoint 1 represents a Light Device (bulb), while Endpoint 2 functions as a Light Switch device. The light bulb is simulated using the onboard RGB LED, and buttons are used to test turning the local light bulb on/off or controlling bound lights. This example serves as a reference for developing your own Matter-based applications.<br /><br />
-This example is built on Matter and the NXP RW612 SDK, supporting remote access and control of a light bulb over Wi-Fi with OpenThread Border Router (OTBR).<br /><br />
-It operates as a Matter accessory, meaning it can be paired with an existing Matter network and controlled through that network.
-
-#### Families:           RW61x 
-#### Toolchains:         GCC 
-#### Peripherals:        Bluetooth, Wi-Fi, 802.15.4 
-#### Categories:         RTOS, Wireless Connectivity 
-#### Application format: CMSIS Pack
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/ap-frdm-rw612-light-switch-otbr-combo/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=frdm-rw612-light-switch-otbr-combo
-
 <!-- ap-frdm-mcxw71-light-switch-combo-app/. -->
-## 11. FRDM MCXW71 Matter light &amp; switch app Thread end device solution<a id="ap-frdm-mcxw71-light-switch-combo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 10. FRDM MCXW71 Matter light &amp; switch app Thread end device solution<a id="ap-frdm-mcxw71-light-switch-combo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The Matter FRDM-MCXW71 Light Switch Combo example</strong> demonstrates a dual-endpoint application. Endpoint 1</strong> represents a Light Device (bulb)</strong>, while Endpoint 2</strong> functions as a Light Switch device</strong>. The light bulb is simulated using the onboard RGB LED, and buttons are used to test turning the local light bulb on/off or controlling bound lights. This example serves as a reference for developing your own Matter-based applications.
@@ -229,4 +210,23 @@ It operates as a Matter accessory </strong>, meaning it can be paired with an ex
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/ap-frdm-mcxw71-light-switch-combo-app/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=frdm-mcxw71-light-switch-combo-app
+
+<!-- ap-frdm-rw612-light-switch-otbr-combo/. -->
+## 11. FRDM RW612 Matter light &amp; switch app plus Thread Border Router solution<a id="ap-frdm-rw612-light-switch-otbr-combo"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The Matter FRDM-RW612 Light Switch Combo example demonstrates a dual-endpoint application. Endpoint 1 represents a Light Device (bulb), while Endpoint 2 functions as a Light Switch device. The light bulb is simulated using the onboard RGB LED, and buttons are used to test turning the local light bulb on/off or controlling bound lights. This example serves as a reference for developing your own Matter-based applications.<br /><br />
+This example is built on Matter and the NXP RW612 SDK, supporting remote access and control of a light bulb over Wi-Fi with OpenThread Border Router (OTBR).<br /><br />
+It operates as a Matter accessory, meaning it can be paired with an existing Matter network and controlled through that network.
+
+#### Families:           RW61x 
+#### Toolchains:         GCC 
+#### Peripherals:        Bluetooth, Wi-Fi, 802.15.4 
+#### Categories:         RTOS, Wireless Connectivity 
+#### Application format: CMSIS Pack
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/ap-frdm-rw612-light-switch-otbr-combo/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=frdm-rw612-light-switch-otbr-combo
 
