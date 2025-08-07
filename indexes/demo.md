@@ -124,11 +124,12 @@
 116. [NXP Platform Accelerator for MCXN947 Freedom Board](#nxp-vee-mcxn947-frdm)
 117. [NXP Platform Accelerator for i.MXRT595 EVK](#nxp-vee-imxrt595-evk)
 118. [NXP Platform Accelerator for i.MXRT1170 EVK](#nxp-vee-imxrt1170-evk)
-119. [HTTPS LCD LED Demo](#dm-https-lcd-led-demo)
-120. [Wi-Fi Scan and Connectivity Demo on RW612BGA](#dm-wifi-set-up-ping)
-121. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
-122. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
-123. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
+119. [Low-Power Wireless Sensors Examples for MCXW23](#dm-low-power-wireless-sensors-examples-for-mcxw23)
+120. [HTTPS LCD LED Demo](#dm-https-lcd-led-demo)
+121. [Wi-Fi Scan and Connectivity Demo on RW612BGA](#dm-wifi-set-up-ping)
+122. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
+123. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
+124. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2510,8 +2511,31 @@ This release runs on FRDM-RW612 with an LCD_PAR_S035 display panel.
 #### **Repository URL:** https://github.com/nxp-mcuxpresso/nxp-vee-imxrt1170-evk/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-platform-accelerator-for-i-mxrt1170-evk
 
+<!-- dm-low-power-wireless-sensors-examples-for-mcxw23/. -->
+## 119. Low-Power Wireless Sensors Examples for MCXW23<a id="dm-low-power-wireless-sensors-examples-for-mcxw23"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo project provides low-power sensors examples ported on FRDM-MCXW23. Additionally, the project contains several demo applications to showcase how to configure an accelerometer, magnetic switch sensor and pressure/altimeter sensor in various modes.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE, VS Code 
+#### Peripherals:        I2C, Bluetooth 
+#### Categories:         Low Power, Sensor, Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXW23]()
+
+#### Expansion boards
+* [FRDMSTBC-P3115](https://mcuxpresso.nxp.com/eb-hub/product/frdmstbc-p3115)
+* [FRDM-STBI-NMH1000](https://mcuxpresso.nxp.com/eb-hub/product/frdm-stbi-nmh1000)
+* [HALL SWITCH 3 CLICK](https://mcuxpresso.nxp.com/eb-hub/product/hall switch 3 click)
+* [ACCEL PRESSURE CLICK](https://mcuxpresso.nxp.com/eb-hub/product/accel pressure click)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-low-power-wireless-sensors-examples-for-mcxw23/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=low-power-sensors-examples-for-mcxw23
+
 <!-- dm-https-lcd-led-demo/. -->
-## 119. HTTPS LCD LED Demo<a id="dm-https-lcd-led-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 120. HTTPS LCD LED Demo<a id="dm-https-lcd-led-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo example of HTTPS client-server communication using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510.
@@ -2531,7 +2555,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=https-lcd-led-demo
 
 <!-- dm-wifi-set-up-ping/. -->
-## 120. Wi-Fi Scan and Connectivity Demo on RW612BGA<a id="dm-wifi-set-up-ping"></a> <a href="#top" style="float:right">⤒</a>
+## 121. Wi-Fi Scan and Connectivity Demo on RW612BGA<a id="dm-wifi-set-up-ping"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo example of Wi-Fi scan, connect and ping with nearby access point using RW612BGA.
@@ -2549,7 +2573,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wifi-set-up-ping
 
 <!-- app-network-ml/. -->
-## 121. DeepPacket: Encrypted network packets classification system<a id="app-network-ml"></a> <a href="#top" style="float:right">⤒</a>
+## 122. DeepPacket: Encrypted network packets classification system<a id="app-network-ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is an encrypted traffic packets classification demo, which can tell us which service types are being carried by passing packets. Currently supported categories are file transfer, Web browsing, VoIP, Email and Microsoft Office.
@@ -2569,7 +2593,7 @@ This is an encrypted traffic packets classification demo, which can tell us whic
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=deeppacket
 
 <!-- dm-pcal6408a-8-bit-i2c-gpio-expander/. -->
-## 122. Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6408a-8-bit-i2c-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
+## 123. Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6408a-8-bit-i2c-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O expansion for many microcontroller families via the I²C-bus interface.
@@ -2589,7 +2613,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pcal6408a-8-bit-i2c-gpio-expander
 
 <!-- dm-matter-secure-lock-on-rw612/. -->
-## 123. Matter EdgeLock 2GO secure lock example running on RW612<a id="dm-matter-secure-lock-on-rw612"></a> <a href="#top" style="float:right">⤒</a>
+## 124. Matter EdgeLock 2GO secure lock example running on RW612<a id="dm-matter-secure-lock-on-rw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo application run on the FRDM-RW612 board, which provides an example on how to securely provision a Matter device using the EdgeLock 2GO service.
