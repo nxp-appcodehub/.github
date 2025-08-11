@@ -483,8 +483,6 @@
 #### Compatible boards:
 * [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
 
-#### Expansion boards
-* [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-label-cifar10-images-on-mcxn947/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-label-cifar10-images-on-mcxn947
