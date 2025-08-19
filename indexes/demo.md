@@ -1792,8 +1792,6 @@
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
 * [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
-#### Expansion boards
-* [4x4 Key Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 key click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-4x4-key-click-frdm/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-4x4-key-click-frdm
@@ -1818,8 +1816,6 @@
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
 * [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
-#### Expansion boards
-* [Knob G Click](https://mcuxpresso.nxp.com/eb-hub/product/knob g click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-knob-g-click-frdm/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-knob-g-click-frdm
@@ -2277,8 +2273,6 @@ This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
-#### Expansion boards
-* [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-nxp-rw612-gui-guider-ble/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-rw612-gui-guider-ble
