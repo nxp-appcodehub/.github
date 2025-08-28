@@ -1621,7 +1621,7 @@
 ### Overview
  Demo is an example for Mikroe Joystick 2 Click module in FRDM boards with CMSIS driver and GPIO adapter. 
 
-#### Families:           MCX, RW61x 
+#### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        GPIO, I2C, UART 
 #### Categories:         User Interface 
@@ -1646,7 +1646,7 @@
 ### Overview
  Demo is an example for Mikroe OLED B click module in FRDM boards with CMSIS driver and GPIO adapter. 
 
-#### Families:           MCX, RW61x 
+#### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        GPIO, I2C, UART 
 #### Categories:         Graphics, HMI, User Interface 
@@ -1671,7 +1671,7 @@
 ### Overview
  Demo is an example for Mikroe Relay 5 click module in FRDM boards usign CMSIS driver for I2C comunication, and GPIO component. 
 
-#### Families:           MCX, RW61x 
+#### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        I2C, GPIO, UART 
 #### Categories:         Industrial 
@@ -2441,7 +2441,7 @@ The PCA9958 is a 24-channel SPI serial bus 63 mA LED driver with a supply voltag
 ### Overview
 NXP Platform Accelerator provides a development environment to run virtualised applications developed in Java. It is built upon MicroEJ technology.<br />This release runs on FRDM-RW612 with an LCD_PAR_S035 display panel.<br />This implementation supports:<br /><ul><li>Wi-Fi 6 connectivity </li><li>Display enablement through LCD integration</li></ul>
 
-#### Families:           RW61x 
+#### Families:           RW 
 #### Toolchains:         GCC, VS Code 
 #### Peripherals:        Wi-Fi, DISPLAY, ETHERNET, PINCTRL, UART 
 #### Categories:         Security, RTOS, Networking, Wireless Connectivity 
@@ -2573,7 +2573,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 ### Overview
 This is a demo example of Wi-Fi scan, connect and ping with nearby access point using RW612BGA.
 
-#### Families:           RW61x 
+#### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
 #### Peripherals:        SDIO, Wi-Fi 
 #### Categories:         RTOS, Wireless Connectivity 
@@ -2631,7 +2631,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 ### Overview
 This is a demo application run on the FRDM-RW612 board, which provides an example on how to securely provision a Matter device using the EdgeLock 2GO service.
 
-#### Families:           RW61x 
+#### Families:           RW 
 #### Toolchains:         GCC 
 #### Peripherals:        Wi-Fi, 802.15.4, Bluetooth, UART 
 #### Categories:         Security, Wireless Connectivity 

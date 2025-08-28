@@ -219,7 +219,7 @@ The Matter FRDM-RW612 Light Switch Combo example demonstrates a dual-endpoint ap
 This example is built on Matter and the NXP RW612 SDK, supporting remote access and control of a light bulb over Wi-Fi with OpenThread Border Router (OTBR).<br /><br />
 It operates as a Matter accessory, meaning it can be paired with an existing Matter network and controlled through that network.
 
-#### Families:           RW61x 
+#### Families:           RW 
 #### Toolchains:         GCC 
 #### Peripherals:        Bluetooth, Wi-Fi, 802.15.4 
 #### Categories:         RTOS, Wireless Connectivity 
