@@ -131,6 +131,7 @@
 123. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
 124. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
 125. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
+126. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2641,4 +2642,22 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-matter-secure-lock-on-rw612/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=matter-secure-lock-on-rw612
+
+<!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
+## 126. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
+
+#### Families:           i.MX 
+#### Toolchains:         GCC 
+#### Peripherals:        SAI 
+#### Categories:         Low Power, Audio, AI/ML 
+#### Application format: Python (Linux)
+#### Compatible boards:
+* [MCIMX93-EVK]()
+
+
+#### **Repository URL:** https://github.com/nxp-imx-support/nxp-demo-experience-demos-list/tree/lf-6.12.3_1.0.0/scripts/machine_learning/low_power_ml
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=i-mx93-low-power-ml
 
