@@ -1582,7 +1582,7 @@
 ### Overview
  This demo provide user how to integrate non-matter device as zigbee nodes to Matter enviroment 
 
-#### Families:           RW61x 
+#### Families:           RW 
 #### Toolchains:         GCC 
 #### Peripherals:        UART 
 #### Categories:         RTOS, Wireless Connectivity, Bridge 
