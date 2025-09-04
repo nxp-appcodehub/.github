@@ -131,7 +131,8 @@
 123. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
 124. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
 125. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
-126. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+126. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
+127. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2643,8 +2644,26 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-matter-secure-lock-on-rw612/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=matter-secure-lock-on-rw612
 
+<!-- dm-ble-throughput-measurement-rt1170/. -->
+## 126. BLE throughput measurement on RT1170 EVKB + IW612<a id="dm-ble-throughput-measurement-rt1170"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application demonstrates BLE Throughput measurement on RT1170 using wireless module IW612.
+
+#### Families:           i.MX RT 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        Bluetooth 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [MIMXRT1170-EVKB](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ble-throughput-measurement-rt1170/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-throughput-rt1170-evkb
+
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 126. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 127. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
