@@ -1779,7 +1779,7 @@
 ### Overview
  Demo is an example for MIKROE 4x4 Key Click module in FRDM boards with CMSIS driver and NXP HAL Software. 
 
-#### Families:           MCX, RW61x 
+#### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        GPIO, SPI 
 #### Categories:         HMI, Industrial, Tools 
@@ -1794,6 +1794,8 @@
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
 * [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
+#### Expansion boards
+* [4x4 Key Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 key click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-4x4-key-click-frdm/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-4x4-key-click-frdm
@@ -1804,7 +1806,7 @@
 ### Overview
  Demo is an example for MIKROE Knob G Click module in FRDM boards with CMSIS driver and NXP HAL Software. 
 
-#### Families:           MCX, RW61x 
+#### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        I2C, UART, TIMER, GPIO 
 #### Categories:         Industrial, Tools, User Interface 
@@ -1818,6 +1820,8 @@
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
 * [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
+#### Expansion boards
+* [Knob G Click](https://mcuxpresso.nxp.com/eb-hub/product/knob g click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-knob-g-click-frdm/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-knob-g-click-frdm
@@ -2268,13 +2272,15 @@ I3C-Hub connects to a host CPU via I3C/I2C/SMBus bus on one side and connect to 
 ### Overview
 This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE example.
 
-#### Families:           RW61x 
+#### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
 #### Peripherals:        DISPLAY 
 #### Categories:         Graphics, HMI, RTOS, Wireless Connectivity, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
+#### Expansion boards
+* [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-nxp-rw612-gui-guider-ble/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-rw612-gui-guider-ble
