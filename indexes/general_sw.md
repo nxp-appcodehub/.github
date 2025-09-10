@@ -13,6 +13,7 @@
 5. [LPC553x Motor control application framework](#gs-motor-control-application-framework)
 6. [MCXA153 Motor Control Application Framework](#gs-mcxa153-motor-control-application-framework)
 7. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu)
+8. [sCan: A Simple CAN-FD Communication Module](#gs-scan)
 
 <!-- gs-vglite_examples_rt1170/. -->
 ## 1. VGLite examples<a id="gs-vglite_examples_rt1170"></a> <a href="#top" style="float:right">⤒</a>
@@ -153,4 +154,23 @@ Test loader is a software component which must be integrated into the firmware o
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-test-loader-for-mcu/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=test-loader-for-mcu
+
+<!-- gs-scan/. -->
+## 8. sCan: A Simple CAN-FD Communication Module<a id="gs-scan"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is a middleware software used to simplify CAN communication, it is easy to configure and provides simple sending and receiving functions and the format for transmitting data was specified. It has some defined commands such as reset, data transmission, OTA, Bluetooth settings, the users can extend these commands according to your needs.
+
+#### Families:           PN 
+#### Toolchains:         IAR 
+#### Peripherals:        CAN, Bluetooth, GPIO 
+#### Categories:         Wireless Connectivity, Tools 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [KW47-EVK]()
+* [KW47-LOC]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-scan/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=scan
 
