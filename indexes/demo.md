@@ -131,9 +131,10 @@
 123. [Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter](#dm-mikroe-oled-c-click-display-frdm)
 124. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
 125. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
-126. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
-127. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
-128. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+126. [I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor ](#dm-pct2075dp-ard-temperature-sensor)
+127. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
+128. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
+129. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2653,8 +2654,29 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcal6408a-8-bit-i2c-gpio-expander/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pcal6408a-8-bit-i2c-gpio-expander
 
+<!-- dm-pct2075dp-ard-temperature-sensor/. -->
+## 126. I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor <a id="dm-pct2075dp-ard-temperature-sensor"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The PCT2075 is a temperature-to-digital converter featuring ±1 °C accuracy over -25 °C<br />
+to +100 °C range. It uses an on-chip band gap temperature sensor and Sigma-Delta Ato-<br />
+D conversion technique with an overtemperature detection output
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        I2C 
+#### Categories:         Sensor 
+#### Application format: CMSIS Pack
+#### Compatible boards:
+* [FRDM-MCXA153](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a14x-a15x-mcus:FRDM-MCXA153)
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pct2075dp-ard-temperature-sensor/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pct2075dp-ard-temperature-sensor
+
 <!-- dm-matter-secure-lock-on-rw612/. -->
-## 126. Matter EdgeLock 2GO secure lock example running on RW612<a id="dm-matter-secure-lock-on-rw612"></a> <a href="#top" style="float:right">⤒</a>
+## 127. Matter EdgeLock 2GO secure lock example running on RW612<a id="dm-matter-secure-lock-on-rw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo application run on the FRDM-RW612 board, which provides an example on how to securely provision a Matter device using the EdgeLock 2GO service.
@@ -2671,7 +2693,7 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=matter-secure-lock-on-rw612
 
 <!-- dm-ble-throughput-measurement-rt1170/. -->
-## 127. BLE throughput measurement on RT1170 EVKB + IW612<a id="dm-ble-throughput-measurement-rt1170"></a> <a href="#top" style="float:right">⤒</a>
+## 128. BLE throughput measurement on RT1170 EVKB + IW612<a id="dm-ble-throughput-measurement-rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application demonstrates BLE Throughput measurement on RT1170 using wireless module IW612.
@@ -2689,7 +2711,7 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-throughput-rt1170-evkb
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 128. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 129. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
