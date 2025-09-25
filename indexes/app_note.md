@@ -37,30 +37,30 @@
 29. [USB to Multi VCOM on MCXC444 Series MCU](#an-usb-to-multi-vcom-on-mcxc444)
 30. [AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170](#an-display_low_power_rt1170)
 31. [How to use In-System Programming (ISP) on FRDM-RW612](#an-frdmrw612-in-system-programming)
-32. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
-33. [AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783](#an-bidirectional-dcdc-mc56f83783)
-34. [XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module](#an-xip-external-nor-flash-plus-external-psram)
-35. [AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application](#an-kw4x-bluetooth-le-nfc-integration)
-36. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-pmsm-one-shunt-lpc86x)
-37. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
-38. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
-39. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
-40. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
-41. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
-42. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
-43. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
-44. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
-45. [AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x](#an-mcxe24x-csec-getting-started)
-46. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
-47. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
-48. [AN14754 Using MCXE247 QuadSPI Module](#an-using-mcxe247-quadspi-module)
-49. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
-50. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
-51. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
-52. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
-53. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
-54. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
-55. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
+32. [AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783](#an-bidirectional-dcdc-mc56f83783)
+33. [XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module](#an-xip-external-nor-flash-plus-external-psram)
+34. [AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application](#an-kw4x-bluetooth-le-nfc-integration)
+35. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-pmsm-one-shunt-lpc86x)
+36. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
+37. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
+38. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
+39. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
+40. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
+41. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
+42. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
+43. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
+44. [AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x](#an-mcxe24x-csec-getting-started)
+45. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
+46. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
+47. [AN14754 Using MCXE247 QuadSPI Module](#an-using-mcxe247-quadspi-module)
+48. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
+49. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
+50. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
+51. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
+52. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
+53. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
+54. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
+55. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -634,25 +634,8 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-frdmrw612-in-system-programming/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-frdmrw612-in-system-programming
 
-<!-- an-bidirectional-acdc-mc56f83783/. -->
-## 32. AN14354: Multimode bidirectional AC-DC converter design using MC56F83783<a id="an-bidirectional-acdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
- This software accompanies application note AN14354, which describes how to design a multimode bidirectional ACDC converter using MC56F83783. 
-
-#### Families:           DSC 
-#### Toolchains:         CodeWarrior 
-#### Peripherals:        ADC, GPIO, PWM, TIMER 
-#### Categories:         Power Conversion 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-bidirectional-acdc-mc56f83783/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-bidirectional-acdc-mc56f83783
-
 <!-- an-bidirectional-dcdc-mc56f83783/. -->
-## 33. AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783<a id="an-bidirectional-dcdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
+## 32. AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783<a id="an-bidirectional-dcdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a bidirectional CLLC resonant converter reference design using MC56F83783 DSC. 
@@ -669,7 +652,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-bidirectional-dcdc-mc56f83783
 
 <!-- an-xip-external-nor-flash-plus-external-psram/. -->
-## 34. XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module<a id="an-xip-external-nor-flash-plus-external-psram"></a> <a href="#top" style="float:right">⤒</a>
+## 33. XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module<a id="an-xip-external-nor-flash-plus-external-psram"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  RW61x has a FlexSPI module with two ports that allows you to connect two QSPI/SPI memories allowing to perform XIP from one of them. This application note will guide you step by step how to configure the NOR flash connected to the portA and perform XIP and configure a pSRAM memory connected to the portB and access them through the AHB bus (cache) and IP bus. 
@@ -686,7 +669,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-xip-external-nor-flash-plus-external-psram
 
 <!-- an-kw4x-bluetooth-le-nfc-integration/. -->
-## 35. AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application<a id="an-kw4x-bluetooth-le-nfc-integration"></a> <a href="#top" style="float:right">⤒</a>
+## 34. AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application<a id="an-kw4x-bluetooth-le-nfc-integration"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN13953], which gives instructions on how to create a Bluetooth Low Energy project for the EVK-KW45 development board and MCUXpresso IDE, and how to integrate NFC Reader Library.  
@@ -705,7 +688,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-kw4x-bluetooth-le-nfc-integration
 
 <!-- an-pmsm-one-shunt-lpc86x/. -->
-## 36. AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x<a id="an-pmsm-one-shunt-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 35. AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x<a id="an-pmsm-one-shunt-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This project implements sensorless one-shunt FOC on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14017. 
@@ -725,7 +708,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-one-shunt-lpc86x
 
 <!-- an-mc-bldc-ke17z/. -->
-## 37. Sensorless BLDC motor control on KE17Z<a id="an-mc-bldc-ke17z"></a> <a href="#top" style="float:right">⤒</a>
+## 36. Sensorless BLDC motor control on KE17Z<a id="an-mc-bldc-ke17z"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on KE17Z512 and KE17Z256 MCUs. The NXP Freedom board FRDM-MC-LVBLDC is used as a hardware platform for the motor control reference solution. The hardware-dependent part of the motor control software is addressed as well, including a detailed peripheral setup and driver description. The FreeMASTER operation is also described in this document.<a target="_blank"></a>
@@ -744,7 +727,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-ke17z
 
 <!-- an-mcxn236-usb-bridge-to-i3c/. -->
-## 38. AN14434 How to implement MCXN236 USB to I3C demo<a id="an-mcxn236-usb-bridge-to-i3c"></a> <a href="#top" style="float:right">⤒</a>
+## 37. AN14434 How to implement MCXN236 USB to I3C demo<a id="an-mcxn236-usb-bridge-to-i3c"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is the complementary project for [AN14434](https://www.nxp.com.cn/docs/en/application-note/AN14434.pdf), which demonstrates how implement usb to i3c demo on MCXN236.<br><br>In the MCXN236 USB to I3C demo, the USB device uses USB CDC virtual com class to communicate with PC host.&nbsp;<br>You can use terminal tool to send a serial data to control I3C interface.<br>The terminal tool used in following contents is pzh-py-com tool. Customer can download it from followed link: https://github.com/JayHeng/pzh-py-com.<br>This demo provided some commands such as Dynamic address assign, direct write, direct read, write with register address, read with register address, IBI/Hot-join functions.<br>[&lt;img src="./images/MCXN236_USB_TO_I3C_Block.png" align="center" width="800"/&gt;](./images/MCXN236_USB_TO_I3C_Block.png) 
@@ -762,7 +745,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn236-usb-bridge-to-i3c
 
 <!-- an-frdmrw612-module-migration-guide/. -->
-## 39. Migration guide from FRDM-RW612 to third-party module memories<a id="an-frdmrw612-module-migration-guide"></a> <a href="#top" style="float:right">⤒</a>
+## 38. Migration guide from FRDM-RW612 to third-party module memories<a id="an-frdmrw612-module-migration-guide"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The objective of this application note is to help developers migrating their applications from the RW612-FRDM board to their module-based board. <br>This application note contains: <br><ul><li>An overview of what does imply to move your application to a different board with different Flash and pSRAM.</li><li>Flash configuration files (flash_config.c) for each supported module.</li><li>Application Flash and pSRAM configurations for each supported module.</li></ul>
@@ -779,7 +762,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-frdmrw612-module-migration-guide
 
 <!-- an-mc-bldc-mcxa153/. -->
-## 40. Sensorless BLDC motor control on MCXA153<a id="an-mc-bldc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+## 39. Sensorless BLDC motor control on MCXA153<a id="an-mc-bldc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on the MCXA family of MCUs. The NXP Freedom board FRDM-MC-LVBLDC is used as a hardware platform for the motor control reference solution. The hardware-dependent part of the motor control software is addressed as well, including a detailed peripheral setup and driver description. The FreeMASTER operation is also described in this document.<a target="_blank"></a>
@@ -799,7 +782,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-mcxa153
 
 <!-- an-lpc55s69-rtc-osc-calibration/. -->
-## 41. AN14605 Using the RTC OSC Calibration Feature of the LPC5500<a id="an-lpc55s69-rtc-osc-calibration"></a> <a href="#top" style="float:right">⤒</a>
+## 40. AN14605 Using the RTC OSC Calibration Feature of the LPC5500<a id="an-lpc55s69-rtc-osc-calibration"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note AN14605, which describes how to use the RTC OSC Calibration Feature of the LPC5500.
@@ -817,7 +800,7 @@ This software accompanies application note AN14605, which describes how to use t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=lpc55s69-rtc-osc-calibration
 
 <!-- an-ethernet-lwip-ptpd-imxrt/. -->
-## 42. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
+## 41. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note AN12149, which describes how to implementation a 1588 V2 application based on ptpd.
@@ -836,7 +819,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ethernet-lwip-ptpd-imxrt
 
 <!-- an-emulating-i2s-bus-with-flexio-on-mcxa156/. -->
-## 43. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 42. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156. The audio function is tested using the codec on LPCXpress55s69 board. 
@@ -855,7 +838,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-emulating-i2s-bus-with-flexio-on-mcxa156
 
 <!-- an-mc-bldc-lpc86x/. -->
-## 44. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 43. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This project implements sensorless six-step square wave brushless DC(BLDC) motor control on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14018. 
@@ -873,7 +856,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-lpc86x
 
 <!-- an-mcxe24x-csec-getting-started/. -->
-## 45. AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x<a id="an-mcxe24x-csec-getting-started"></a> <a href="#top" style="float:right">⤒</a>
+## 44. AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x<a id="an-mcxe24x-csec-getting-started"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Software package for application note AN14729, it shows basic usage of MCX E24x EdgeLock Accelerator(CSEC).
@@ -891,7 +874,7 @@ Software package for application note AN14729, it shows basic usage of MCX E24x
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-csec-getting-started
 
 <!-- an-mcxn947-ctimer-center-aligned-pwm/. -->
-## 46. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
+## 45. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note [AN12345], which describes how to use ctimer to generate center aligned PWM in MCX MCU.
@@ -909,7 +892,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxn947-ctimer-center-aligned-pwm
 
 <!-- an-mc-pmsm-mcxe247/. -->
-## 47. AN14616: Sensorless Field oriented Control (FOC) on MCXE24x<a id="an-mc-pmsm-mcxe247"></a> <a href="#top" style="float:right">⤒</a>
+## 46. AN14616: Sensorless Field oriented Control (FOC) on MCXE24x<a id="an-mc-pmsm-mcxe247"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo code for PMSM sensorless control on FRDM-MCXE247.
@@ -929,7 +912,7 @@ This is demo code for PMSM sensorless control on FRDM-MCXE247.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-mcxe247
 
 <!-- an-using-mcxe247-quadspi-module/. -->
-## 48. AN14754 Using MCXE247 QuadSPI Module<a id="an-using-mcxe247-quadspi-module"></a> <a href="#top" style="float:right">⤒</a>
+## 47. AN14754 Using MCXE247 QuadSPI Module<a id="an-using-mcxe247-quadspi-module"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
@@ -947,7 +930,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=using-mcxe247-quadspi-module
 
 <!-- an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947/. -->
-## 49. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 48. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note, which describes how to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU. 
@@ -965,7 +948,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947
 
 <!-- an-mcxn947-keyscan-interface-by-smartdma/. -->
-## 50. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 49. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN14184](<a href="https://www.nxp.com.cn/docs/en/application-note/AN14184.pdf" target="_blank">nxp.com.cn/docs/en/application-note/AN14184.pdf</a>).This application note mainly introduces the Keyscan solution for MCX N series MCU. It includes the introduction of the Keyscan solution, its features and API routines, and a demo. 
@@ -983,7 +966,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-keyscan-interface-by-smartdma
 
 <!-- an-mcxn947-camera-interface-by-smartdma/. -->
-## 51. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 50. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN14191](https://www.nxp.com.cn/docs/en/application-note/AN14191.pdf).This application note describes the parallel interface for the camera solution in MCXN947 andMCXN236. It includes the introduction of camera interface, features, API routines, and demo. 
@@ -1001,7 +984,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-camera-interface-by-smartdma
 
 <!-- an-mcxn947-mdio-slave-interface-by-smartdma/. -->
-## 52. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 51. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies the application note primarily introduces how to implement MDIOI slave interface functionality using SmartDMA.<br>
@@ -1019,7 +1002,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-mdio-slave-interface-by-smartdma
 
 <!-- an-smart-battery-charger-lpc86x/. -->
-## 53. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 52. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The application introduces the smart battery charger solution based on LPC865. 
@@ -1036,7 +1019,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-smart-battery-charger-lpc86x
 
 <!-- an-flexio-emulating-uart-with-irda/. -->
-## 54. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
+## 53. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note[ANxxx], which describes how to implement emulating UART with IRDA by using FlexIO. 
@@ -1054,7 +1037,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio-emulating-uart-with-irda
 
 <!-- an-mcxe24x-flextimer-example/. -->
-## 55. AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x<a id="an-mcxe24x-flextimer-example"></a> <a href="#top" style="float:right">⤒</a>
+## 54. AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x<a id="an-mcxe24x-flextimer-example"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The FlexTimer module (FTM) is an enhanced timer module that supports input capture, output compare, and the generation of PWM signals to control electric motor and power management applications and it is commonly used on many Kinetis MCUs. AN14617 is primarily focused on the features of the FTM module in MCXE24x product series, and use FRDM-MCXE247 to demonstrate the functionality of FTM module.<br /><br />This is the complementary project for AN14617, which demonstrates how to use the FlexTimer (FTM) module on MCXE24x. Please use serial tool to select the example provided.<br /><br />This software includes the following examples:<br /><ul><li>Edge Aligned PWM</li><li>Center Aligned PWM</li><li>Phase Shifted PWM</li><li>Single Edge Capture Mode</li><li>Dual Edge Capture Mode</li><li>Quadrature Decoder Mode</li><li>CPWM and Fault Control Mode</li><li>Half and Full Cycle Reload Mode</li><li>FTM0 CPWM SoftSync Mode</li><li>FTM0 CPWM HardSync Mode</li><li>CPWM and Global Time Base Mode</li><li>ADC triggering Mode</li></ul>
@@ -1070,4 +1053,21 @@ The FlexTimer module (FTM) is an enhanced timer module that supports input captu
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxe24x-flextimer-example/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-flextimer-example
+
+<!-- an-bidirectional-acdc-mc56f83783/. -->
+## 55. AN14354: Multimode bidirectional AC-DC converter design using MC56F83783<a id="an-bidirectional-acdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software accompanies application note AN14354, which describes how to design a multimode bidirectional ACDC converter using MC56F83783. 
+
+#### Families:           DSC 
+#### Toolchains:         CodeWarrior 
+#### Peripherals:        ADC, GPIO, PWM, TIMER 
+#### Categories:         Power Conversion 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-bidirectional-acdc-mc56f83783/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-bidirectional-acdc-mc56f83783
 
