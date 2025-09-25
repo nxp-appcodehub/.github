@@ -134,7 +134,9 @@
 126. [I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor ](#dm-pct2075dp-ard-temperature-sensor)
 127. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
 128. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
-129. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+129. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
+130. [demo project to use the module sCan](#dm-loc-apps-kw47)
+131. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2710,8 +2712,47 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ble-throughput-measurement-rt1170/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-throughput-rt1170-evkb
 
+<!-- dm-http-client-get-and-post-json-data/. -->
+## 129. HTTP Client Get and Post JSON Data<a id="dm-http-client-get-and-post-json-data"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The HTTP(S) client JSON demo application demonstrates how to perform GET and POST requests to a remote API endpoint, handling JSON data payloads over both non-secure (HTTP) and secure (HTTPS) channels.
+
+#### Families:           i.MX RT 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        Wi-Fi 
+#### Categories:         Security, RTOS, Networking, Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [MIMXRT1060-EVKC]()
+
+#### Expansion boards
+* [IW612 - muRata Type-2EL Module](https://mcuxpresso.nxp.com/eb-hub/product/iw612 - murata type-2el module)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-http-client-get-and-post-json-data/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=http-client-get-and-post-json-data
+
+<!-- dm-loc-apps-kw47/. -->
+## 130. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is demo project about how to use the module sCan. sCan is a middleware software used to simplify CAN communication, it is easy to configure and provides simple sending and receiving functions and the format for transmitting data was specified. It has some defined commands such as reset, data transmission, OTA, Bluetooth settings, the users can extend these commands according to your needs. 
+
+#### Families:           KW45 
+#### Toolchains:         IAR 
+#### Peripherals:        Bluetooth, CAN, GPIO 
+#### Categories:         Low Power, RTOS, Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [KW47-EVK]()
+* [KW47-LOC]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-loc-apps-kw47/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=loc-apps-kw47
+
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 129. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 131. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
