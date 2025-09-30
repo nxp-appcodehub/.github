@@ -14,6 +14,7 @@
 6. [MCXA153 Motor Control Application Framework](#gs-mcxa153-motor-control-application-framework)
 7. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu)
 8. [sCan: A Simple CAN-FD Communication Module](#gs-scan)
+9. [Enhancing Converter Performance with Low-Jitter eFlexPWM Module](#gs-low-jitter-eflexpwm-module)
 
 <!-- gs-vglite_examples_rt1170/. -->
 ## 1. VGLite examples<a id="gs-vglite_examples_rt1170"></a> <a href="#top" style="float:right">⤒</a>
@@ -173,4 +174,22 @@ This is a middleware software used to simplify CAN communication, it is easy to 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-scan/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=scan
+
+<!-- gs-low-jitter-eflexpwm-module/. -->
+## 9. Enhancing Converter Performance with Low-Jitter eFlexPWM Module<a id="gs-low-jitter-eflexpwm-module"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This software provides examples of various PWM modes of <b>eFlexPWM </b>module on <b>MCXA153</b>. The <b>eFlexPWM </b>module is a flexible and high-resolution PWM module, commonly used in embedded systems for precise motor and power control. Its key strengths include <strong>low output jitter</strong>, synchronized multi-channel operation and advanced features, making it especially suitable for applications like <strong>induction cooktops</strong>, where stable and efficient high-frequency switching is essential.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        PWM 
+#### Categories:         Motor Control, Power Conversion 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA153](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a14x-a15x-mcus:FRDM-MCXA153)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-low-jitter-eflexpwm-module/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=low-jitter-eflexpwm-module
 
