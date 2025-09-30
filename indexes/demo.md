@@ -137,7 +137,8 @@
 129. [I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection](#dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app)
 130. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
 131. [demo project to use the module sCan](#dm-loc-apps-kw47)
-132. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+132. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board](#dm-ble-fsci-host-application)
+133. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2771,8 +2772,28 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-loc-apps-kw47/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=loc-apps-kw47
 
+<!-- dm-ble-fsci-host-application/. -->
+## 132. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The Bluetooth LE FSCI Host application demonstrates a host-side implementation for the Health Thermometer use case. It is designed to work alongside the Bluetooth LE FSCI Blackbox application, which runs on platforms such as the MCXW236 Click Board, FRDM-MCXW236, or other compatible Bluetooth LE wireless MCUs. 
+
+#### Families:           MCX 
+#### Toolchains:         VS Code 
+#### Peripherals:        UART, TIMER, Bluetooth, CLOCKS, GPIO 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+* [FRDM-MCXW7X]()
+* [FRDM-MCXW23]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ble-fsci-host-application/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-fsci-host-application
+
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 132. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 133. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
