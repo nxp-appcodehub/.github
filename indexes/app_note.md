@@ -63,6 +63,9 @@
 55. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
 56. [How to running RT-Thread on MCUXpressoIDE](#an-running-rtthread-on-mcuxpressoide)
 57. [How to implment tamagawa protocol on MCXE31](#an-digital-encoder-tamagawa-on-mcx31)
+58. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa346)
+59. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa156)
+60. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa153)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -1108,4 +1111,64 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-digital-encoder-tamagawa-on-mcx31/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=digital-encoder-tamagawa-on-mcx31
+
+<!-- an-mc-pmsm-one-shunt-mcxa346/. -->
+## 58. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa346"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is demo code for PMSM sensorless one shunt FOC on MCX A
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, PWM 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA346]()
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-one-shunt-mcxa346/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-one-shunt-mcxa156
+
+<!-- an-mc-pmsm-one-shunt-mcxa156/. -->
+## 59. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is demo code for PMSM sensorless one shunt FOC on MCX A
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, PWM 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA156](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a144-5-6-a154-5-6-mcus:FRDM-MCXA156)
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-one-shunt-mcxa156/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-one-shunt-mcxa156
+
+<!-- an-mc-pmsm-one-shunt-mcxa153/. -->
+## 60. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is demo code for PMSM sensorless one shunt FOC on MCX A
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, PWM 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA153](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a14x-a15x-mcus:FRDM-MCXA153)
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-one-shunt-mcxa153/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-one-shunt-mcxa153
 
