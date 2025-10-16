@@ -45,27 +45,27 @@
 37. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
 38. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
 39. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
-40. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
-41. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
-42. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
-43. [AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x](#an-mcxe24x-csec-getting-started)
-44. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
-45. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
-46. [AN14754 Using MCXE247 QuadSPI Module](#an-using-mcxe247-quadspi-module)
-47. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
-48. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
-49. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
-50. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
-51. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
-52. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
-53. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
-54. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
-55. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
-56. [How to running RT-Thread on MCUXpressoIDE](#an-running-rtthread-on-mcuxpressoide)
-57. [How to implment tamagawa protocol on MCXE31](#an-digital-encoder-tamagawa-on-mcx31)
-58. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa346)
-59. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa156)
-60. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa153)
+40. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
+41. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
+42. [AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x](#an-mcxe24x-csec-getting-started)
+43. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
+44. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
+45. [AN14754 Using MCXE247 QuadSPI Module](#an-using-mcxe247-quadspi-module)
+46. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
+47. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
+48. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
+49. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
+50. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
+51. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
+52. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
+53. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
+54. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
+55. [How to running RT-Thread on MCUXpressoIDE](#an-running-rtthread-on-mcuxpressoide)
+56. [How to implment tamagawa protocol on MCXE31](#an-digital-encoder-tamagawa-on-mcx31)
+57. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa346)
+58. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa156)
+59. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa153)
+60. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -784,27 +784,8 @@ This software accompanies application note AN14605, which describes how to use t
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-lpc55s69-rtc-osc-calibration/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=lpc55s69-rtc-osc-calibration
 
-<!-- an-ethernet-lwip-ptpd-imxrt/. -->
-## 40. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This software accompanies application note AN12149, which describes how to implementation a 1588 V2 application based on ptpd.
-
-#### Families:           i.MX RT 
-#### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ETHERNET 
-#### Categories:         Time Sensitive Networking, Networking 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-* [EVKB-IMXRT1050](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1050-evaluation-kit:MIMXRT1050-EVK)
-* [EVK-MIMXRT1020](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1020-evaluation-kit:MIMXRT1020-EVK)
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-ethernet-lwip-ptpd-imxrt/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ethernet-lwip-ptpd-imxrt
-
 <!-- an-emulating-i2s-bus-with-flexio-on-mcxa156/. -->
-## 41. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 40. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156. The audio function is tested using the codec on LPCXpress55s69 board. 
@@ -823,7 +804,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-emulating-i2s-bus-with-flexio-on-mcxa156
 
 <!-- an-mc-bldc-lpc86x/. -->
-## 42. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 41. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This project implements sensorless six-step square wave brushless DC(BLDC) motor control on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14018. 
@@ -841,7 +822,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-lpc86x
 
 <!-- an-mcxe24x-csec-getting-started/. -->
-## 43. AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x<a id="an-mcxe24x-csec-getting-started"></a> <a href="#top" style="float:right">⤒</a>
+## 42. AN14729 Getting Started with EdgeLock Accelerator(CSEC) on MCX E24x<a id="an-mcxe24x-csec-getting-started"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Software package for application note AN14729, it shows basic usage of MCX E24x EdgeLock Accelerator(CSEC).
@@ -859,7 +840,7 @@ Software package for application note AN14729, it shows basic usage of MCX E24x
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-csec-getting-started
 
 <!-- an-mcxn947-ctimer-center-aligned-pwm/. -->
-## 44. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
+## 43. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note [AN12345], which describes how to use ctimer to generate center aligned PWM in MCX MCU.
@@ -877,7 +858,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxn947-ctimer-center-aligned-pwm
 
 <!-- an-mc-pmsm-mcxe247/. -->
-## 45. AN14616: Sensorless Field oriented Control (FOC) on MCXE24x<a id="an-mc-pmsm-mcxe247"></a> <a href="#top" style="float:right">⤒</a>
+## 44. AN14616: Sensorless Field oriented Control (FOC) on MCXE24x<a id="an-mc-pmsm-mcxe247"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo code for PMSM sensorless control on FRDM-MCXE247.
@@ -897,7 +878,7 @@ This is demo code for PMSM sensorless control on FRDM-MCXE247.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-mcxe247
 
 <!-- an-using-mcxe247-quadspi-module/. -->
-## 46. AN14754 Using MCXE247 QuadSPI Module<a id="an-using-mcxe247-quadspi-module"></a> <a href="#top" style="float:right">⤒</a>
+## 45. AN14754 Using MCXE247 QuadSPI Module<a id="an-using-mcxe247-quadspi-module"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
@@ -915,7 +896,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=using-mcxe247-quadspi-module
 
 <!-- an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947/. -->
-## 47. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 46. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note, which describes how to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU. 
@@ -933,7 +914,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947
 
 <!-- an-mcxn947-keyscan-interface-by-smartdma/. -->
-## 48. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 47. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN14184](<a href="https://www.nxp.com.cn/docs/en/application-note/AN14184.pdf" target="_blank">nxp.com.cn/docs/en/application-note/AN14184.pdf</a>).This application note mainly introduces the Keyscan solution for MCX N series MCU. It includes the introduction of the Keyscan solution, its features and API routines, and a demo. 
@@ -951,7 +932,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-keyscan-interface-by-smartdma
 
 <!-- an-mcxn947-camera-interface-by-smartdma/. -->
-## 49. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 48. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN14191](https://www.nxp.com.cn/docs/en/application-note/AN14191.pdf).This application note describes the parallel interface for the camera solution in MCXN947 andMCXN236. It includes the introduction of camera interface, features, API routines, and demo. 
@@ -969,7 +950,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-camera-interface-by-smartdma
 
 <!-- an-mcxn947-mdio-slave-interface-by-smartdma/. -->
-## 50. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 49. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies the application note primarily introduces how to implement MDIOI slave interface functionality using SmartDMA.<br>
@@ -987,7 +968,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-mdio-slave-interface-by-smartdma
 
 <!-- an-smart-battery-charger-lpc86x/. -->
-## 51. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 50. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The application introduces the smart battery charger solution based on LPC865. 
@@ -1004,7 +985,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-smart-battery-charger-lpc86x
 
 <!-- an-flexio-emulating-uart-with-irda/. -->
-## 52. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
+## 51. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note[ANxxx], which describes how to implement emulating UART with IRDA by using FlexIO. 
@@ -1022,7 +1003,7 @@ This is the source code repository for AN14754 - Using MCXE247 QuadSPI Module.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio-emulating-uart-with-irda
 
 <!-- an-mcxe24x-flextimer-example/. -->
-## 53. AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x<a id="an-mcxe24x-flextimer-example"></a> <a href="#top" style="float:right">⤒</a>
+## 52. AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x<a id="an-mcxe24x-flextimer-example"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The FlexTimer module (FTM) is an enhanced timer module that supports input capture, output compare, and the generation of PWM signals to control electric motor and power management applications and it is commonly used on many Kinetis MCUs. AN14617 is primarily focused on the features of the FTM module in MCXE24x product series, and use FRDM-MCXE247 to demonstrate the functionality of FTM module.<br /><br />This is the complementary project for AN14617, which demonstrates how to use the FlexTimer (FTM) module on MCXE24x. Please use serial tool to select the example provided.<br /><br />This software includes the following examples:<br /><ul><li>Edge Aligned PWM</li><li>Center Aligned PWM</li><li>Phase Shifted PWM</li><li>Single Edge Capture Mode</li><li>Dual Edge Capture Mode</li><li>Quadrature Decoder Mode</li><li>CPWM and Fault Control Mode</li><li>Half and Full Cycle Reload Mode</li><li>FTM0 CPWM SoftSync Mode</li><li>FTM0 CPWM HardSync Mode</li><li>CPWM and Global Time Base Mode</li><li>ADC triggering Mode</li></ul>
@@ -1040,7 +1021,7 @@ The FlexTimer module (FTM) is an enhanced timer module that supports input captu
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxe24x-flextimer-example
 
 <!-- an-bidirectional-acdc-mc56f83783/. -->
-## 54. AN14354: Multimode bidirectional AC-DC converter design using MC56F83783<a id="an-bidirectional-acdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
+## 53. AN14354: Multimode bidirectional AC-DC converter design using MC56F83783<a id="an-bidirectional-acdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note AN14354, which describes how to design a multimode bidirectional ACDC converter using MC56F83783. 
@@ -1057,7 +1038,7 @@ The FlexTimer module (FTM) is an enhanced timer module that supports input captu
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-bidirectional-acdc-mc56f83783
 
 <!-- an-pmsm-foc-mcxa153/. -->
-## 55. AN14099: PMSM Sensorless FOC Using MCXA153<a id="an-pmsm-foc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+## 54. AN14099: PMSM Sensorless FOC Using MCXA153<a id="an-pmsm-foc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes the implementation of sensorless flux oriented control(FOC) application for 3-phase Permanent Magnet Synchronous Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU. 
@@ -1077,7 +1058,7 @@ The FlexTimer module (FTM) is an enhanced timer module that supports input captu
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-foc-mcxa153
 
 <!-- an-running-rtthread-on-mcuxpressoide/. -->
-## 56. How to running RT-Thread on MCUXpressoIDE<a id="an-running-rtthread-on-mcuxpressoide"></a> <a href="#top" style="float:right">⤒</a>
+## 55. How to running RT-Thread on MCUXpressoIDE<a id="an-running-rtthread-on-mcuxpressoide"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Overview:TBD 
@@ -1095,7 +1076,7 @@ The FlexTimer module (FTM) is an enhanced timer module that supports input captu
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-running-rtthread-on-mcuxpressoide
 
 <!-- an-digital-encoder-tamagawa-on-mcx31/. -->
-## 57. How to implment tamagawa protocol on MCXE31<a id="an-digital-encoder-tamagawa-on-mcx31"></a> <a href="#top" style="float:right">⤒</a>
+## 56. How to implment tamagawa protocol on MCXE31<a id="an-digital-encoder-tamagawa-on-mcx31"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
@@ -1113,7 +1094,7 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=digital-encoder-tamagawa-on-mcx31
 
 <!-- an-mc-pmsm-one-shunt-mcxa346/. -->
-## 58. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa346"></a> <a href="#top" style="float:right">⤒</a>
+## 57. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa346"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo code for PMSM sensorless one shunt FOC on MCX A
@@ -1133,7 +1114,7 @@ This is demo code for PMSM sensorless one shunt FOC on MCX A
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-one-shunt-mcxa156
 
 <!-- an-mc-pmsm-one-shunt-mcxa156/. -->
-## 59. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 58. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo code for PMSM sensorless one shunt FOC on MCX A
@@ -1153,7 +1134,7 @@ This is demo code for PMSM sensorless one shunt FOC on MCX A
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-one-shunt-mcxa156
 
 <!-- an-mc-pmsm-one-shunt-mcxa153/. -->
-## 60. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+## 59. AN14619: PMSM sensorless one shunt FOC on MCX A<a id="an-mc-pmsm-one-shunt-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo code for PMSM sensorless one shunt FOC on MCX A
@@ -1171,4 +1152,23 @@ This is demo code for PMSM sensorless one shunt FOC on MCX A
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-one-shunt-mcxa153/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-one-shunt-mcxa153
+
+<!-- an-ethernet-lwip-ptpd-imxrt/. -->
+## 60. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This software accompanies application note AN12149, which describes how to implementation a 1588 V2 application based on ptpd.
+
+#### Families:           i.MX RT 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ETHERNET 
+#### Categories:         Time Sensitive Networking, Networking 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [EVKB-IMXRT1050](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1050-evaluation-kit:MIMXRT1050-EVK)
+* [EVK-MIMXRT1020](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1020-evaluation-kit:MIMXRT1020-EVK)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-ethernet-lwip-ptpd-imxrt/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ethernet-lwip-ptpd-imxrt
 
