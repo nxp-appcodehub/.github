@@ -137,10 +137,11 @@
 129. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
 130. [I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection](#dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app)
 131. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
-132. [demo project to use the module sCan](#dm-loc-apps-kw47)
-133. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board](#dm-ble-fsci-host-application)
-134. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
-135. [Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards](#dm-mcxn947-click-shield-ping-pong-game)
+132. [Wireless RFTM Application for Performance Testing of RW612 board](#dm-wireless-rf-test-mode-demo)
+133. [demo project to use the module sCan](#dm-loc-apps-kw47)
+134. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board](#dm-ble-fsci-host-application)
+135. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+136. [Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards](#dm-mcxn947-click-shield-ping-pong-game)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -2773,8 +2774,30 @@ The HTTP(S) client JSON demo application demonstrates how to perform GET and POS
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-http-client-get-and-post-json-data/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=http-client-get-and-post-json-data
 
+<!-- dm-wireless-rf-test-mode-demo/. -->
+## 132. Wireless RFTM Application for Performance Testing of RW612 board<a id="dm-wireless-rf-test-mode-demo"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This software demonstrates a Custom Wireless RF Test Mode (RFTM) application running on an NXP development board.  <br />
+Upon powering the board, it starts in Access Point (AP) mode, allowing configuration via a web interface.  <br />
+Users can connect to the AP, enter configuration commands one at a time, and start RFTM mode for wireless testing.  <br />
+The device logs results in flash memory, which can be retrieved later by reconnecting to the AP and using the provided "Read the Results" feature.  <br />
+This example is useful for validating wireless performance, range, and stability in custom RF test scenarios. 
+
+#### Families:           RW 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        Wi-Fi, Bluetooth 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [RD-RW612-BGA]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-wireless-rf-test-mode-demo/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wireless-rf-test-mode-demo
+
 <!-- dm-loc-apps-kw47/. -->
-## 132. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
+## 133. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo project about how to use the module sCan. sCan is a middleware software used to simplify CAN communication, it is easy to configure and provides simple sending and receiving functions and the format for transmitting data was specified. It has some defined commands such as reset, data transmission, OTA, Bluetooth settings, the users can extend these commands according to your needs. 
@@ -2793,7 +2816,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=loc-apps-kw47
 
 <!-- dm-ble-fsci-host-application/. -->
-## 133. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
+## 134. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The Bluetooth LE FSCI Host application demonstrates a host-side implementation for the Health Thermometer use case. It is designed to work alongside the Bluetooth LE FSCI Blackbox application, which runs on platforms such as the MCXW236 Click Board, FRDM-MCXW236, or other compatible Bluetooth LE wireless MCUs. 
@@ -2813,7 +2836,7 @@ The Bluetooth LE FSCI Host application demonstrates a host-side implementation f
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-fsci-host-application
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 134. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 135. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
@@ -2831,7 +2854,7 @@ This Low Power Machine Learning (ML) application showcases the i.MX 93's machine
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=i-mx93-low-power-ml
 
 <!-- dm-mcxn947-click-shield-ping-pong-game/. -->
-## 135. Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards<a id="dm-mcxn947-click-shield-ping-pong-game"></a> <a href="#top" style="float:right">⤒</a>
+## 136. Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards<a id="dm-mcxn947-click-shield-ping-pong-game"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application showcases the MCXN947 MCU integrated with the MikroE Click Shield, featuring three Click Board slots. The demo utilizes an OLED C Click display and two Joystick Click Boards, with MCXN947 pins configured to route signals precisely to each slot. The final implementation delivers an interactive ping pong game, where players control paddles using the joysticks and view gameplay on the OLED screen. This project highlights the MCXN947’s flexibility in handling multiple peripherals and provides a fun, hands-on example of embedded graphics and input handling using NXP’s development ecosystem.
