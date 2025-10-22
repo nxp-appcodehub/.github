@@ -66,6 +66,7 @@
 58. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa156)
 59. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa153)
 60. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
+61. [AN14717: Dual PMSM FOC on MCX A](#an-mc-pmsm-dual-mcxa346)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -1171,4 +1172,24 @@ This software accompanies application note AN12149, which describes how to imple
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-ethernet-lwip-ptpd-imxrt/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ethernet-lwip-ptpd-imxrt
+
+<!-- an-mc-pmsm-dual-mcxa346/. -->
+## 61. AN14717: Dual PMSM FOC on MCX A<a id="an-mc-pmsm-dual-mcxa346"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This is demo code for dual PMSM sensorless FOC on MCX A346.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, PWM 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA346]()
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-dual-mcxa346/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-dual-mcxa346
 
