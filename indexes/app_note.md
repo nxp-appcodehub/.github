@@ -67,6 +67,7 @@
 59. [AN14619: PMSM sensorless one shunt FOC on MCX A](#an-mc-pmsm-one-shunt-mcxa153)
 60. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
 61. [AN14717: Dual PMSM FOC on MCX A](#an-mc-pmsm-dual-mcxa346)
+62. [AN14765 Low Power Implementation on MCXA345/346](#an-mcxa346-low-power-implementation)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -1192,4 +1193,25 @@ This is demo code for dual PMSM sensorless FOC on MCX A346.
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-dual-mcxa346/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mc-pmsm-dual-mcxa346
+
+<!-- an-mcxa346-low-power-implementation/. -->
+## 62. AN14765 Low Power Implementation on MCXA345/346<a id="an-mcxa346-low-power-implementation"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application note
+introduces the power domains, power modes, highlight configurations, wake up,
+and low power and wakeup optimization of MCXA345/346. It provides different low
+power and wake up configurations through demo for user reference.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        CLOCKS 
+#### Categories:         Low Power 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA346]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxa346-low-power-implementation/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxa346-low-power-implementation
 
