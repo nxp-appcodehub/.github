@@ -2889,6 +2889,8 @@ This is a standalone repository with the Pouch BLE GATT example. It also require
 #### Compatible boards:
 * [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
+#### Expansion boards
+* [Weather Click](https://mcuxpresso.nxp.com/eb-hub/product/weather click)
 
 #### **Repository URL:** https://github.com/golioth/nxp-appcodehub/tree/main/dm-ble-cloud
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=bluetooth-pouch-standalone-frdm-mcxw71
