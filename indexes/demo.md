@@ -2761,7 +2761,7 @@ P3T1755DP is a ±0.5°C accurate temperature-to-digital converter with a -40 °C
 ## 131.  MCXA34X 3MC demo using HVP board<a id="dm-mc-pmsm-triple-mcxa34x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This software accompanies application note [ANXXXX]<br />(http://nxp.com/AM12344)
+This demo describes the implementation of sensorless triple motor FOC on NXP MCXA346 MCU. Application note AN14805
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
