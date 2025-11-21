@@ -136,7 +136,7 @@
 128. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
 129. [P3T1035xUK - P3T2030xUK - I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor](#dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app)
 130. [I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection](#dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app)
-131. [ MCXA34X 3MC demo using HVP board](#dm-mc-pmsm-triple-mcxa34x)
+131. [ MCXA34X  triple motor control demo using HVP board](#dm-mc-pmsm-triple-mcxa34x)
 132. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
 133. [Wireless RFTM Application for Performance Testing of RW612 board](#dm-wireless-rf-test-mode-demo)
 134. [demo project to use the module sCan](#dm-loc-apps-kw47)
@@ -2758,7 +2758,7 @@ P3T1755DP is a ±0.5°C accurate temperature-to-digital converter with a -40 °C
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=p3t175xdp-i2c-13c-temperature-sensor-demo-app
 
 <!-- dm-mc-pmsm-triple-mcxa34x/. -->
-## 131.  MCXA34X 3MC demo using HVP board<a id="dm-mc-pmsm-triple-mcxa34x"></a> <a href="#top" style="float:right">⤒</a>
+## 131.  MCXA34X  triple motor control demo using HVP board<a id="dm-mc-pmsm-triple-mcxa34x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo describes the implementation of sensorless triple motor FOC on NXP MCXA346 MCU. Application note AN14805
