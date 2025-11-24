@@ -2360,7 +2360,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 ## 111. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application designed for NXP i.MX95 devices. This Demonstrator Demo enables t following pipeline components:<br /><br />    VIT: "Hey NXP" Wake word<br />    ASR: Whisper Small English<br />    RAG: Embedding model + exemple database<br />    LLM: Danube<br />    TTS: 16kHz English
+The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application designed for NXP i.MX95 devices. This Demonstrator Demo enables t following pipeline components:<br /><br />    VIT: "Hey NXP" Wake word, or custom<br />    ASR: Whisper Small English, moonshine-tiny, moonshine-base<br />    RAG: Embedding model + example database<br />    LLM: Danube<br />    TTS: 16kHz English
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
@@ -2368,7 +2368,16 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### Categories:         Voice, Audio, AI/ML 
 #### Application format: Python (Linux)
 #### Compatible boards:
+* [EVK-MIMX8MM](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-mini-applications-processor:8MMINILPD4-EVK)
+* [EVK-MIMX8MN](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-nano-applications-processor:8MNANOD4-EVK)
+* [EVK-MIMX8MQ](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-applications-processor:MCIMX8M-EVK)
+* [EVK-MIMX8MP](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/evaluation-kit-for-the-i-mx-8m-plus-applications-processor:8MPLUSLPD4-EVK)
+* [MCIMX93-EVK]()
+* [MCIMX93-QSB]()
 * [IMX95LPD5EVK-19]()
+* [IMX943-EVK]()
+* [IMX95LP4XEVK-15]()
+* [FRDM-IMX95]()
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-eiq-genai-flow-demonstrator/tree/main
