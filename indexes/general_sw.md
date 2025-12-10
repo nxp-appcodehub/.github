@@ -15,6 +15,7 @@
 7. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu)
 8. [sCan: A Simple CAN-FD Communication Module](#gs-scan)
 9. [Enhancing Converter Performance with Low-Jitter eFlexPWM Module](#gs-low-jitter-eflexpwm-module)
+10. [UBX100 SDK - UBX100 FW and Host SW](#gs-ubx100-sdk)
 
 <!-- gs-vglite_examples_rt1170/. -->
 ## 1. VGLite examples<a id="gs-vglite_examples_rt1170"></a> <a href="#top" style="float:right">⤒</a>
@@ -192,4 +193,27 @@ This software provides examples of various PWM modes of <b>eFlexPWM </b>module
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-low-jitter-eflexpwm-module/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=low-jitter-eflexpwm-module
+
+<!-- gs-ubx100-sdk/. -->
+## 10. UBX100 SDK - UBX100 FW and Host SW<a id="gs-ubx100-sdk"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The UBX100 SDK contains the host radio modem library (HRML) which implements SPI communication
+between the host micro-controller and the radio modem (UBX100). The library offers APIs for
+configuration and execution of sub-GHz applications with standardized physical radio parameters. Furthermore,
+the released SDK also contains the firmware of the radio modem with corresponding functionality. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        GPIO, SPI, TIMER 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+#### Expansion boards
+* [OM-UBX100-001](https://mcuxpresso.nxp.com/eb-hub/product/om-ubx100-001)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-ubx100-sdk/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ubx100-sdk
 
