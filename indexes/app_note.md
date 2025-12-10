@@ -69,6 +69,8 @@
 61. [AN14717: Dual PMSM FOC on MCX A](#an-mc-pmsm-dual-mcxa346)
 62. [AN14765 Low Power Implementation on MCXA345/346](#an-mcxa346-low-power-implementation)
 63. [AN14797 3-Phase PMSM Field-Oriented Control Solution using MCX E31B](#an-mc-pmsm-mcxe31b)
+64. [AN14860 Using Segment Liquid Crystal Displays (SLCD) Controller on MCX A Series](#an-mcxa366-slcd-example)
+65. [AN14856 MPPT demo based on MCX A346](#an-mcxa346-mppt-demo)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -1237,4 +1239,39 @@ for 3 phase permanent magnet synchronous motor(PMSM) on MCX E31x series MCU. 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-mcxe31b/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an14797-pmsm-field-oriented-control-using-mcx-e31b
+
+<!-- an-mcxa366-slcd-example/. -->
+## 64. AN14860 Using Segment Liquid Crystal Displays (SLCD) Controller on MCX A Series<a id="an-mcxa366-slcd-example"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application note provides a comprehensive guide on using the Segment Liquid Crystal Display (SLCD) technology, specifically focusing on the NXP MCXA366 which integrates an SLCD controller module.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        DISPLAY 
+#### Categories:         HMI 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA366]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxa366-slcd-example/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxa366-slcd-example
+
+<!-- an-mcxa346-mppt-demo/. -->
+## 65. AN14856 MPPT demo based on MCX A346<a id="an-mcxa346-mppt-demo"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This software accompanies the application note which primarily introduces the MPPT (Maximum Power Point Tracking) demo based on MCXA346.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, GPIO, I2C, PWM, TIMER, UART, SPI 
+#### Categories:         Power Conversion 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxa346-mppt-demo/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxa346-mppt-demo-v2
 
