@@ -211,7 +211,7 @@
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, TIMER, PWM, DMA 
+#### Peripherals:        ADC, DMA, PWM, TIMER 
 #### Categories:         HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -246,7 +246,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SDMMC, DISPLAY 
+#### Peripherals:        DISPLAY, SDMMC 
 #### Categories:         Graphics, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -364,7 +364,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SAI, USB 
+#### Peripherals:        USB, SAI 
 #### Categories:         Audio 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -464,7 +464,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, PWM, UART, TIMER, I2C, ETHERNET 
+#### Peripherals:        ADC, ETHERNET, I2C, PWM, TIMER, UART 
 #### Categories:         Graphics, Sensor, Motor Control, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -485,7 +485,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        USB, DISPLAY 
+#### Peripherals:        DISPLAY, USB 
 #### Categories:         Graphics, HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -589,7 +589,7 @@
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, SENSOR, UART, TIMER, CLOCKS 
+#### Peripherals:        CLOCKS, I2C, SENSOR, TIMER, UART 
 #### Categories:         AI/ML, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -698,7 +698,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, I2C 
+#### Peripherals:        I2C, SPI 
 #### Categories:         Real Time Clock 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -799,7 +799,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, UART, SENSOR, GPIO, TIMER 
+#### Peripherals:        GPIO, I2C, SENSOR, TIMER, UART 
 #### Categories:         Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -977,7 +977,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        SDIO, UART 
+#### Peripherals:        UART, SDIO 
 #### Categories:         RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1094,7 +1094,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, UART, SENSOR 
+#### Peripherals:        I2C, SENSOR, UART 
 #### Categories:         Sensor, Wireless Connectivity, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1156,7 +1156,7 @@
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        UART, TIMER, SPI, PWM, I2C, GPIO, FLASH, CLOCKS, ADC, CAN, ETHERNET 
+#### Peripherals:        ADC, CAN, CLOCKS, ETHERNET, FLASH, GPIO, I2C, PWM, SPI, TIMER, UART 
 #### Categories:         Low Power, Industrial, Security, Safety 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1195,7 +1195,7 @@
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        DISPLAY, MIPI-CSI, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -1214,7 +1214,7 @@
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -1253,7 +1253,7 @@
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -1311,7 +1311,7 @@
 
 #### Families:           i.MX 
 #### Toolchains:         IAR 
-#### Peripherals:        PWM, GPIO, ADC 
+#### Peripherals:        ADC, GPIO, PWM 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1471,7 +1471,7 @@
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        UART, SDIO, DISPLAY 
+#### Peripherals:        DISPLAY, UART, SDIO 
 #### Categories:         Graphics, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1502,7 +1502,7 @@ The PCA9422 is a highly integrated Ultra Low Power Management IC (PMIC), targete
 * [PCA9422-EVB](https://mcuxpresso.nxp.com/eb-hub/product/pca9422-evb)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app
 
 <!-- edgehog-zephyr-device/samples/edgehog_app -->
 ## 70. Clea Edgehog IoT devices using Zephyr RTOS<a id="edgehog-zephyr-device_samples_edgehog_app"></a> <a href="#top" style="float:right">⤒</a>
@@ -1548,7 +1548,7 @@ Transform your board in an IoT device. Connect to the cloud using Astarte and st
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -1570,7 +1570,7 @@ Transform your board in an IoT device. Connect to the cloud using Astarte and st
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -1606,7 +1606,7 @@ sign/verify operation. 
 * [EdgeLock A30 Secure Authenticator](https://mcuxpresso.nxp.com/eb-hub/product/edgelock a30 secure authenticator)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-a30-mcxa153-ecc-example/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=a30-mcxa153-ecc-example
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-a30-mcxa153-ecc-example
 
 <!-- dm-ip-frdmmcxc242-rotary-motor-update-usb/. -->
 ## 75. Motor RPM Control with KnobGClick with USB<a id="dm-ip-frdmmcxc242-rotary-motor-update-usb"></a> <a href="#top" style="float:right">⤒</a>
@@ -1626,7 +1626,7 @@ This demo is part of Industrial Panel V2, the MCXC242 have usb connection with m
 * [Knob G Click](https://mcuxpresso.nxp.com/eb-hub/product/knob g click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ip-frdmmcxc242-rotary-motor-update-usb/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ip-frdmmcxc242-rotary-motor-update-usb
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ip-frdmmcxc242-rotary-motor-update-usb
 
 <!-- dm-ip-frdmmcxa153-oled-motor-graph-usb/. -->
 ## 76. Motor RPM Grapher in OLED with USB<a id="dm-ip-frdmmcxa153-oled-motor-graph-usb"></a> <a href="#top" style="float:right">⤒</a>
@@ -1646,7 +1646,7 @@ This demo is part of Industrial Panel V2, the MCXA153 have usb connection with m
 * [OLED B click](https://mcuxpresso.nxp.com/eb-hub/product/oled b click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ip-frdmmcxa153-oled-motor-graph-usb/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ip-frdmmcxa153-oled-motor-graph-usb
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ip-frdmmcxa153-oled-motor-graph-usb
 
 <!-- dm-mcxn-portable-anomaly-detect-demo/. -->
 ## 77. Portable Anomaly Detect Demo with FRDM-MCXN947 and FXLS8974CF (ML Vibro Sens Click)<a id="dm-mcxn-portable-anomaly-detect-demo"></a> <a href="#top" style="float:right">⤒</a>
@@ -1656,7 +1656,7 @@ This demo is part of Industrial Panel V2, the MCXA153 have usb connection with m
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        VIDEO, DISPLAY, FLASH, I2C, PWM, UART 
+#### Peripherals:        DISPLAY, FLASH, I2C, PWM, UART, VIDEO 
 #### Categories:         Graphics, Sensor, Anomaly Detection, AI/ML 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -1687,7 +1687,7 @@ This demo is part of Industrial Panel V2, the MCXC444 have usb connection with m
 * [Knob G Click](https://mcuxpresso.nxp.com/eb-hub/product/knob g click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ip-frdmmcxc444-rotary-motor-update-usb/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ip-frdmmcxc444-rotary-motor-update-usb
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ip-frdmmcxc444-rotary-motor-update-usb
 
 <!-- dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application/. -->
 ## 79. Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6<a id="dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application"></a> <a href="#top" style="float:right">⤒</a>
@@ -1697,14 +1697,14 @@ This example demo describes the process of adding and executing a Door Lock Clus
 
 #### Families:           K32W 
 #### Toolchains:         GCC 
-#### Peripherals:        Bluetooth, USB 
+#### Peripherals:        USB, Bluetooth 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application
 
 <!-- dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app/. -->
 ## 80. PCA9846: Four-Channel Ultra-Low Voltage, Fm+ I2C-Bus Switch with Reset demo application <a id="dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app"></a> <a href="#top" style="float:right">⤒</a>
@@ -1736,7 +1736,7 @@ The PCA9846 is an ultra-low voltage, quad bidirectional translating switch contr
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app
 
 <!-- nxp-appcodehub/dm-wolfmqtt-publisher-client-with-zephyr -->
 ## 81. wolfSSL MQTT AWS Test using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
@@ -1746,7 +1746,7 @@ The PCA9846 is an ultra-low voltage, quad bidirectional translating switch contr
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        UART, ETHERNET 
+#### Peripherals:        ETHERNET, UART 
 #### Categories:         Cloud Connected Devices, Networking, Wireless Connectivity 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -1808,7 +1808,7 @@ This repository contains the light switched actuator basic (LSAB) and light swit
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-knx-iot-examples-on-nxp-mcxw71/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=knx-iot-examples-on-nxp-mcxw71
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-knx-iot-examples-on-nxp-mcxw71
 
 <!-- dm-nafex388-application-examples/. -->
 ## 85. Nafe Industrial Application Examples using API Libraries<a id="dm-nafex388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
@@ -1818,7 +1818,7 @@ This repository contains the light switched actuator basic (LSAB) and light swit
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SPI, TIMER, UART, SENSOR, DMA 
+#### Peripherals:        DMA, GPIO, SENSOR, SPI, TIMER, UART 
 #### Categories:         Sensor, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1839,7 +1839,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, GCC 
-#### Peripherals:        ETHERNET, USB, CAN 
+#### Peripherals:        CAN, ETHERNET, USB 
 #### Categories:         Sensor, Industrial, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1849,7 +1849,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 * [NAFE13388-UIM](https://mcuxpresso.nxp.com/eb-hub/product/nafe13388-uim)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mcxn947-remote-io-with-nafe13388/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxn947-remote-io-with-nafe13388
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn947-remote-io-with-nafe13388
 
 <!-- dm-nafe13388-application-examples/. -->
 ## 87. NAFE13388-UIM Industrial Applications with GUI and CLI support .<a id="dm-nafe13388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
@@ -1859,7 +1859,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SENSOR, SPI, TIMER, UART, DMA 
+#### Peripherals:        DMA, GPIO, SENSOR, SPI, TIMER, UART 
 #### Categories:         Sensor, Industrial, User Interface 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -1888,7 +1888,7 @@ I3C-Hub connects to a host CPU via I3C/I2C/SMBus bus on one side and connect to 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-p3h2x4x-i3c-hub-demo-application/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=p3h2x4x-i3c-hub-demo-application
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3h2x4x-i3c-hub-demo-application
 
 <!-- dm-https-lcd-led-demo/. -->
 ## 89. HTTPS LCD LED Demo<a id="dm-https-lcd-led-demo"></a> <a href="#top" style="float:right">⤒</a>
@@ -1898,7 +1898,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DISPLAY, Wi-Fi, SDIO 
+#### Peripherals:        DISPLAY, SDIO, Wi-Fi 
 #### Categories:         Touch Sensing, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1908,7 +1908,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 * [FRDM-IW416-AW-AM510](https://mcuxpresso.nxp.com/eb-hub/product/frdm-iw416-aw-am510)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-https-lcd-led-demo/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=https-lcd-led-demo
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-https-lcd-led-demo
 
 <!-- dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156/. -->
 ## 90. Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156<a id="dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
@@ -1970,7 +1970,7 @@ This is scripts package is used for KW45 secure boot, including generating keys,
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-kw45-secure-boot-scripts/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=kw45-secure-boot-scripts
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-kw45-secure-boot-scripts
 
 <!-- dm-pca9958hn-led-driver-with-spi-demo-app/. -->
 ## 93. 24-Channel SPI Serial Bus 63 mA / 5.5 V Constant-Current LED Driver<a id="dm-pca9958hn-led-driver-with-spi-demo-app"></a> <a href="#top" style="float:right">⤒</a>
@@ -1990,7 +1990,7 @@ The PCA9958 is a 24-channel SPI serial bus 63 mA LED driver with a supply voltag
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pca9958hn-led-driver-with-spi-demo-app/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pca9958hn-led-driver-with-spi-demo-app
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pca9958hn-led-driver-with-spi-demo-app
 
 <!-- dm-sja1124evb-spi-to-quad-lin-bridge/. -->
 ## 94. SJA1124EVB : Quad LIN Commander Transceiver with LIN Commander Controller<a id="dm-sja1124evb-spi-to-quad-lin-bridge"></a> <a href="#top" style="float:right">⤒</a>
@@ -2024,7 +2024,7 @@ board power measurement</li></ul>
 
 #### Families:           i.MX 
 #### Toolchains:         GCC 
-#### Peripherals:        802.15.4, Bluetooth, Wi-Fi, USB 
+#### Peripherals:        USB, Bluetooth, Wi-Fi, 802.15.4 
 #### Categories:         Low Power, AI/ML, Wireless Connectivity, Vision 
 #### Application format: Yocto Project
 #### Compatible boards:
@@ -2046,7 +2046,7 @@ This release runs on FRDM-MCXN947 with an LCD_PAR_S035 display panel.
 
 #### Families:           MCX 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        DISPLAY, ETHERNET, VIDEO, UART 
+#### Peripherals:        DISPLAY, ETHERNET, UART, VIDEO 
 #### Categories:         Graphics, AI/ML, Security, RTOS, Networking, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2094,7 +2094,7 @@ This release runs on EVK-MIMXRT595 with an <a href="https://www.nxp.com/part/G1
 
 #### Families:           i.MX RT 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        UART, VIDEO, DISPLAY 
+#### Peripherals:        DISPLAY, UART, VIDEO 
 #### Categories:         AI/ML, Security, RTOS, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2114,7 +2114,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, GPIO, I2C, DMA 
+#### Peripherals:        DMA, GPIO, I2C, SPI 
 #### Categories:         Low Power, Industrial 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -2124,7 +2124,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcal6408a-8-bit-i2c-gpio-expander/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pcal6408a-8-bit-i2c-gpio-expander
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcal6408a-8-bit-i2c-gpio-expander
 
 <!-- dm-pcal9722hn-22-bit-spi-gpio-expander/. -->
 ## 100. PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features<a id="dm-pcal9722hn-22-bit-spi-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
@@ -2146,7 +2146,7 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 * [PCAL9722HN](https://mcuxpresso.nxp.com/eb-hub/product/pcal9722hn)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcal9722hn-22-bit-spi-gpio-expander/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pcal9722hn-22-bit-spi-gpio-expander
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcal9722hn-22-bit-spi-gpio-expander
 
 <!-- apps_zephyr/. -->
 ## 101. Facial Detection Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
@@ -2156,7 +2156,7 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 
 #### Families:           MCX, i.MX RT 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        DISPLAY, DMA, FlexIO, I2C, VIDEO 
+#### Peripherals:        DISPLAY, DMA, I2C, VIDEO, FlexIO 
 #### Categories:         AI/ML, RTOS, Vision 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -2188,7 +2188,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 * [ACCEL 4 CLICK](https://mcuxpresso.nxp.com/eb-hub/product/accel 4 click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-frdmrw612-sensors-over-wifi/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=frdmrw612-sensors-over-wifi
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-sensors-over-wifi
 
 <!-- dm-frdmrw612-temperature-sensor-over-ble/. -->
 ## 103. FRDM-RW612 On-board temperature sensor over BLE<a id="dm-frdmrw612-temperature-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
@@ -2273,7 +2273,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, GPIO, SPI, VIDEO 
+#### Peripherals:        GPIO, I2C, SPI, VIDEO 
 #### Categories:         Graphics, HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2311,7 +2311,7 @@ NXP Platform Accelerator provides a development environment to run virtualised a
 
 #### Families:           RW 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        Wi-Fi, DISPLAY, ETHERNET, PINCTRL, UART 
+#### Peripherals:        DISPLAY, ETHERNET, PINCTRL, UART, Wi-Fi 
 #### Categories:         Security, RTOS, Networking, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2328,14 +2328,14 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 
 #### Families:           RW 
 #### Toolchains:         GCC 
-#### Peripherals:        Wi-Fi, 802.15.4, Bluetooth, UART 
+#### Peripherals:        UART, Bluetooth, Wi-Fi, 802.15.4 
 #### Categories:         Security, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-matter-secure-lock-on-rw612/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=matter-secure-lock-on-rw612
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-matter-secure-lock-on-rw612
 
 <!-- dm-mikroe-oledbclick-frdm/. -->
 ## 111. Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-oledbclick-frdm"></a> <a href="#top" style="float:right">⤒</a>
@@ -2403,7 +2403,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-wifi-set-up-ping/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wifi-set-up-ping
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-set-up-ping
 
 <!-- dm-mikroe-relay5click-frdm/. -->
 ## 114. Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-relay5click-frdm"></a> <a href="#top" style="float:right">⤒</a>
@@ -2413,7 +2413,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 
 #### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        I2C, GPIO, UART 
+#### Peripherals:        GPIO, I2C, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2464,7 +2464,7 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ble-throughput-measurement-rt1170/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-throughput-rt1170-evkb
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ble-throughput-measurement-rt1170
 
 <!-- dm-mikroe-knob-g-click-frdm/. -->
 ## 117. Knob G Click: multi-platform ecosystem.<a id="dm-mikroe-knob-g-click-frdm"></a> <a href="#top" style="float:right">⤒</a>
@@ -2474,7 +2474,7 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 
 #### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        I2C, UART, TIMER, GPIO 
+#### Peripherals:        GPIO, I2C, TIMER, UART 
 #### Categories:         Industrial, Tools, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2536,7 +2536,7 @@ This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE 
 * [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-nxp-rw612-gui-guider-ble/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-rw612-gui-guider-ble
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nxp-rw612-gui-guider-ble
 
 <!-- dm-matter-zigbee-bridge-rw612/. -->
 ## 120. matter zigbee bridge rw612<a id="dm-matter-zigbee-bridge-rw612"></a> <a href="#top" style="float:right">⤒</a>
@@ -2564,7 +2564,7 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SPI, DISPLAY 
+#### Peripherals:        DISPLAY, GPIO, SPI 
 #### Categories:         Graphics 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2573,7 +2573,7 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-oled-c-click-display-frdm/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mikroe-oled-c-click-display-frdm
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-oled-c-click-display-frdm
 
 <!-- dm-pct2075dp-ard-temperature-sensor/. -->
 ## 122. I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor <a id="dm-pct2075dp-ard-temperature-sensor"></a> <a href="#top" style="float:right">⤒</a>
@@ -2594,7 +2594,7 @@ D conversion technique with an overtemperature detection output
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pct2075dp-ard-temperature-sensor/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pct2075dp-ard-temperature-sensor
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pct2075dp-ard-temperature-sensor
 
 <!-- dm-tamper-detection-using-low-power-wakeup-sensor-over-ble/. -->
 ## 123. Tamper detection with low-power wakeup sensor using BLE wireless UART<a id="dm-tamper-detection-using-low-power-wakeup-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
@@ -2641,7 +2641,7 @@ This demo project provides low-power sensors examples ported on FRDM-MCXW23. Add
 * [ACCEL PRESSURE CLICK](https://mcuxpresso.nxp.com/eb-hub/product/accel pressure click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-low-power-wireless-sensors-examples-for-mcxw23/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=low-power-sensors-examples-for-mcxw23
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-low-power-wireless-sensors-examples-for-mcxw23
 
 <!-- dm-http-client-get-and-post-json-data/. -->
 ## 125. HTTP Client Get and Post JSON Data<a id="dm-http-client-get-and-post-json-data"></a> <a href="#top" style="float:right">⤒</a>
@@ -2661,7 +2661,7 @@ The HTTP(S) client JSON demo application demonstrates how to perform GET and POS
 * [IW612 - muRata Type-2EL Module](https://mcuxpresso.nxp.com/eb-hub/product/iw612 - murata type-2el module)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-http-client-get-and-post-json-data/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=http-client-get-and-post-json-data
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-http-client-get-and-post-json-data
 
 <!-- dm-loc-apps-kw47/. -->
 ## 126. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
@@ -2671,7 +2671,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 
 #### Families:           KW45 
 #### Toolchains:         IAR 
-#### Peripherals:        Bluetooth, CAN, GPIO 
+#### Peripherals:        CAN, GPIO, Bluetooth 
 #### Categories:         Low Power, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2680,7 +2680,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-loc-apps-kw47/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=loc-apps-kw47
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-loc-apps-kw47
 
 <!-- apps_zephyr/. -->
 ## 127. SmartWatch Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
@@ -2719,7 +2719,7 @@ P3T1755DP is a ±0.5°C accurate temperature-to-digital converter with a -40 °C
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=p3t175xdp-i2c-13c-temperature-sensor-demo-app
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app
 
 <!-- dm-ble-fsci-host-application/. -->
 ## 129. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
@@ -2729,7 +2729,7 @@ The Bluetooth LE FSCI Host application demonstrates a host-side implementation f
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        UART, TIMER, Bluetooth, CLOCKS, GPIO 
+#### Peripherals:        CLOCKS, GPIO, TIMER, UART, Bluetooth 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2739,7 +2739,7 @@ The Bluetooth LE FSCI Host application demonstrates a host-side implementation f
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ble-fsci-host-application/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ble-fsci-host-application
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ble-fsci-host-application
 
 <!-- dm-wifi-provisioning-using-ble/. -->
 ## 130. WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL<a id="dm-wifi-provisioning-using-ble"></a> <a href="#top" style="float:right">⤒</a>
@@ -2757,7 +2757,7 @@ This is a demo example of Wi-Fi connection using BLE on RT1170 EVKB using Wi-Fi 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-wifi-provisioning-using-ble/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wifi-provisioning-using-ble
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-provisioning-using-ble
 
 <!-- dm-mcxn947-click-shield-ping-pong-game/. -->
 ## 131. Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards<a id="dm-mcxn947-click-shield-ping-pong-game"></a> <a href="#top" style="float:right">⤒</a>
@@ -2777,7 +2777,7 @@ This application showcases the MCXN947 MCU integrated with the MikroE Click Shie
 * [Click Shield for FRDM-MCXN947](https://mcuxpresso.nxp.com/eb-hub/product/click shield for frdm-mcxn947)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mcxn947-click-shield-ping-pong-game/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxn947-click-shield-ping-pong-game
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn947-click-shield-ping-pong-game
 
 <!-- dm-wireless-rf-test-mode-demo/. -->
 ## 132. Wireless RFTM Application for Performance Testing of RW612 board<a id="dm-wireless-rf-test-mode-demo"></a> <a href="#top" style="float:right">⤒</a>
@@ -2791,7 +2791,7 @@ This example is useful for validating wireless performance, range, and stability
 
 #### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        Wi-Fi, Bluetooth 
+#### Peripherals:        Bluetooth, Wi-Fi 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2799,7 +2799,7 @@ This example is useful for validating wireless performance, range, and stability
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-wireless-rf-test-mode-demo/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wireless-rf-test-mode-demo
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wireless-rf-test-mode-demo
 
 <!-- dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander/. -->
 ## 133. PCAL6416AEV-ARD Low-Voltage Translating 16-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander"></a> <a href="#top" style="float:right">⤒</a>
@@ -2821,7 +2821,7 @@ The PCAL6416AEV-ARD Arduino Shield allows easy integration with Arduino EVKs to 
 * [PCAL6416AEV-ARD](https://mcuxpresso.nxp.com/eb-hub/product/pcal6416aev-ard)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander
 
 <!-- dm-rw612frdm-door-chime-demo/. -->
 ## 134. RW612-FRDM Door chime demo with MQTT over Wi-Fi and I2S audio output<a id="dm-rw612frdm-door-chime-demo"></a> <a href="#top" style="float:right">⤒</a>
@@ -2848,7 +2848,7 @@ The <a href="https://www.nxp.com/products/P3T1035xUK">P3T1035xUK</a> or <a hr
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I3C, I2C 
+#### Peripherals:        I2C, I3C 
 #### Categories:         Sensor 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -2857,7 +2857,7 @@ The <a href="https://www.nxp.com/products/P3T1035xUK">P3T1035xUK</a> or <a hr
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app
 
 <!-- nxp-appcodehub/dm-wolfssl-tls-hello-server-pqc-with-zephyr -->
 ## 136. wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
@@ -2885,7 +2885,7 @@ This is a standalone repository with the Pouch BLE GATT example. It also require
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        Bluetooth, I2C, SENSOR, Wi-Fi, ETHERNET 
+#### Peripherals:        ETHERNET, I2C, SENSOR, Bluetooth, Wi-Fi 
 #### Categories:         Secure Provisioning, Sensor, Cloud Connected Devices, Networking, Wireless Connectivity 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -2913,7 +2913,7 @@ This demo describes the implementation of sensorless triple motor FOC on NXP MCX
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mc-pmsm-triple-mcxa34x/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=hvp-mcxa34x-3mc
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mc-pmsm-triple-mcxa34x
 
 <!-- dm-eiq-genai-flow-demonstrator/. -->
 ## 139. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
@@ -2923,7 +2923,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        ADC, DAC, I2S, SDIO, UART 
+#### Peripherals:        ADC, DAC, I2S, UART, SDIO 
 #### Categories:         Voice, Audio, AI/ML 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -2940,7 +2940,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-eiq-genai-flow-demonstrator/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=llm-pipeline-demonstrator
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-eiq-genai-flow-demonstrator
 
 <!-- dm-imx943-netc-control-and-sharing-between-m33s-acore/. -->
 ## 140. NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores<a id="dm-imx943-netc-control-and-sharing-between-m33s-acore"></a> <a href="#top" style="float:right">⤒</a>
@@ -2958,5 +2958,5 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-imx943-netc-control-and-sharing-between-m33s-acore/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=imx943-netc-control-and-sharing-between-m33s-acore
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-imx943-netc-control-and-sharing-between-m33s-acore
 

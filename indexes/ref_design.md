@@ -20,7 +20,7 @@
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SDMMC, SDIO, DISPLAY, DMA, ETHERNET, FLASH, GPIO, I2C, SPI, UART, USB 
+#### Peripherals:        DISPLAY, DMA, ETHERNET, FLASH, GPIO, I2C, SPI, UART, USB, SDMMC, SDIO 
 #### Categories:         HMI, Cloud Connected Devices, Industrial, RTOS, Networking, Wireless Connectivity, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -60,14 +60,14 @@ This application showcases the analog and digital I/O features supported by the 
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        CAN, FLASH, PWM, SPI, UART, PINCTRL, TIMER, CLOCKS, DMA, ETHERNET, GPIO, ADC 
+#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
 #### Categories:         Sensor, Industrial, RTOS, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop-demo/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=riop-demo
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-demo
 
 <!-- rd-riop-ecat/. -->
 ## 4. Remote IO Platform: ECAT Sample Application<a id="rd-riop-ecat"></a> <a href="#top" style="float:right">⤒</a>
@@ -77,14 +77,14 @@ This application showcases the analog and digital I/O features supported by the 
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        CAN, DMA, CLOCKS, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART, ADC 
+#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
 #### Categories:         Sensor, Industrial, RTOS, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop-ecat/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=riop-oobe
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-ecat
 
 <!-- rd-mcu-svui/. -->
 ## 5. i.MX RT106V Based Smart Voice User Interface Solution<a id="rd-mcu-svui"></a> <a href="#top" style="float:right">⤒</a>
@@ -94,7 +94,7 @@ This application showcases the analog and digital I/O features supported by the 
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        USB, UART, SPI, SDMMC, SDIO, SAI, PWM, I2S, GPIO, FlexIO, FLASH, DMA, CLOCKS 
+#### Peripherals:        CLOCKS, DMA, FLASH, GPIO, I2S, PWM, SPI, UART, USB, SDMMC, SDIO, SAI, FlexIO 
 #### Categories:         Voice, HMI, Audio, RTOS, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:

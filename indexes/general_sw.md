@@ -135,7 +135,7 @@ This software introduces framework with peripherals, interrupts and additional r
 * [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-mcxa153-motor-control-application-framework/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=mcxa153-motor-control-application-framework
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-mcxa153-motor-control-application-framework
 
 <!-- gs-test-loader-for-mcu/. -->
 ## 7. Runtime environment for testing MCU applications<a id="gs-test-loader-for-mcu"></a> <a href="#top" style="float:right">⤒</a>
@@ -145,7 +145,7 @@ Test loader is a software component which must be integrated into the firmware o
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        USB, UART 
+#### Peripherals:        UART, USB 
 #### Categories:         Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -155,7 +155,7 @@ Test loader is a software component which must be integrated into the firmware o
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-test-loader-for-mcu/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=test-loader-for-mcu
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-test-loader-for-mcu
 
 <!-- gs-scan/. -->
 ## 8. sCan: A Simple CAN-FD Communication Module<a id="gs-scan"></a> <a href="#top" style="float:right">⤒</a>
@@ -165,7 +165,7 @@ This is a middleware software used to simplify CAN communication, it is easy to 
 
 #### Families:           PN 
 #### Toolchains:         IAR 
-#### Peripherals:        CAN, Bluetooth, GPIO 
+#### Peripherals:        CAN, GPIO, Bluetooth 
 #### Categories:         Wireless Connectivity, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -174,7 +174,7 @@ This is a middleware software used to simplify CAN communication, it is easy to 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-scan/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=scan
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-scan
 
 <!-- gs-low-jitter-eflexpwm-module/. -->
 ## 9. Enhancing Converter Performance with Low-Jitter eFlexPWM Module<a id="gs-low-jitter-eflexpwm-module"></a> <a href="#top" style="float:right">⤒</a>
@@ -192,7 +192,7 @@ This software provides examples of various PWM modes of <b>eFlexPWM </b>module
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-low-jitter-eflexpwm-module/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=low-jitter-eflexpwm-module
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-low-jitter-eflexpwm-module
 
 <!-- gs-ubx100-sdk/. -->
 ## 10. UBX100 SDK - UBX100 FW and Host SW<a id="gs-ubx100-sdk"></a> <a href="#top" style="float:right">⤒</a>
@@ -215,5 +215,5 @@ the released SDK also contains the firmware of the radio modem with correspondin
 * [OM-UBX100-001](https://mcuxpresso.nxp.com/eb-hub/product/om-ubx100-001)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-ubx100-sdk/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ubx100-sdk
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-ubx100-sdk
 
