@@ -146,6 +146,7 @@
 138. [ MCXA34X  triple motor control demo using HVP board](#dm-mc-pmsm-triple-mcxa34x)
 139. [eIQ GenAI Flow Demonstrator](#dm-eiq-genai-flow-demonstrator)
 140. [NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores](#dm-imx943-netc-control-and-sharing-between-m33s-acore)
+141. [How to enable low power in your application on MIMXRT700-EVK](#dm-mimxrt700-evk-dual-core-low-power-thermometer-clock)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -2959,4 +2960,24 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-imx943-netc-control-and-sharing-between-m33s-acore/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-imx943-netc-control-and-sharing-between-m33s-acore
+
+<!-- dm-mimxrt700-evk-dual-core-low-power-thermometer-clock/. -->
+## 141. How to enable low power in your application on MIMXRT700-EVK<a id="dm-mimxrt700-evk-dual-core-low-power-thermometer-clock"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo is an example of low power thermometer and clock which is based on LVGL 9.2.1 and GUI Guider 1.9.1-GA. It can be used to evaluate low power performances on MIMXRT700 cores with a 1FPS display and to discover how to use power manager on this chip. Here, this demo uses on-board I3C temperature sensor and RTC to gather temperature and current time. User can connect current probes directly on cores power lines to evaluate power consumption. User can also use buttons SW5 and SW7 to set current time.
+
+#### Families:           i.MX RT 
+#### Toolchains:         VS Code 
+#### Peripherals:        DISPLAY, I3C 
+#### Categories:         Low Power, Graphics, Real Time Clock 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [MIMXRT700-EVK]()
+
+#### Expansion boards
+* [G1120B0MIPI](https://mcuxpresso.nxp.com/eb-hub/product/g1120b0mipi)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mimxrt700-evk-dual-core-low-power-thermometer-clock/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mimxrt700-evk-dual-core-low-power-thermometer-clock
 
