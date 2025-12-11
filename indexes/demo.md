@@ -147,6 +147,7 @@
 139. [eIQ GenAI Flow Demonstrator](#dm-eiq-genai-flow-demonstrator)
 140. [NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores](#dm-imx943-netc-control-and-sharing-between-m33s-acore)
 141. [How to enable low power in your application on MIMXRT700-EVK](#dm-mimxrt700-evk-dual-core-low-power-thermometer-clock)
+142. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -2980,4 +2981,24 @@ This demo is an example of low power thermometer and clock which is based on LVG
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mimxrt700-evk-dual-core-low-power-thermometer-clock/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mimxrt700-evk-dual-core-low-power-thermometer-clock
+
+<!-- dm-ubx100-flashloader/. -->
+## 142. UBX100 flashloader demo application<a id="dm-ubx100-flashloader"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+The UBX100 flashloader demo application demonstrates how a host MCU can interact with a target UBX100 bootloader/flashloader to update its firmware. The platforms used by this example are the FRDM-MCXN947 as the host and the OM-UBX100-001 as the target. Updating the UBX100 firmware is a crucial first step in enablement of the IC.<br />
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        GPIO, SPI, TIMER 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+#### Expansion boards
+* [OM-UBX100-001](https://mcuxpresso.nxp.com/eb-hub/product/om-ubx100-001)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-flashloader/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-flashloader
 
