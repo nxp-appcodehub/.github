@@ -148,6 +148,7 @@
 140. [NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores](#dm-imx943-netc-control-and-sharing-between-m33s-acore)
 141. [How to enable low power in your application on MIMXRT700-EVK](#dm-mimxrt700-evk-dual-core-low-power-thermometer-clock)
 142. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
+143. [Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers. ](#dm-control-led-emios-pwm-s32k312-mcal)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -3001,4 +3002,21 @@ The UBX100 flashloader demo application demonstrates how a host MCU can interact
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-flashloader/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-flashloader
+
+<!-- dm-control-led-emios-pwm-s32k312-mcal/. -->
+## 143. Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers. <a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo shows how to configure the Enhanced Modular IO Subsystem (eMIOS) module to use it as a PWM specifically in OPWMB (Output Pulse Width Modulation Buffered) mode, using the RTD high-level drivers, commonly known as MCAL drivers.<br />
+
+#### Families:           S32K 
+#### Toolchains:         S32 Design Studio IDE 
+#### Peripherals:        PWM, eMIOS 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-control-led-emios-pwm-s32k312-mcal/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-control-led-emios-pwm-s32k312-mcal
 
