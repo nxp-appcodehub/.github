@@ -72,83 +72,83 @@
 64. [MCXN947 NPU vs Tensorflm Benchmark](#dm-mcxn947-npu-vs-tensorflm-benchmark)
 65. [LPC55S69 Multi Face Detection](#dm-lpc55s69-multi-face-detection)
 66. [LPC55S69 Fashion Mnist Object Recognition](#dm-lpc55s69-fashion-mnist-object-recognition)
-67. [FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System](#dm-ml-sensorless-anomaly-detection)
-68. [Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510](#dm-wifi-lcd-connect-frdm-mcxn947)
-69. [PCA9422: PCA9422 Ultra Low Power Charger and Gauge PMIC for RT5/6/700 demo application on FRDM-MCXN947 and MCXA153 ](#dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app)
-70. [Clea Edgehog IoT devices using Zephyr RTOS](#edgehog-zephyr-device_samples_edgehog_app)
-71. [Clea Astarte IoT devices using Zephyr RTOS](#astarte-device-sdk-zephyr_samples_astarte_app)
-72. [NNStreamer Object Detection](#nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_detection)
-73. [NNStreamer Image Classification](#nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_classification)
-74. [Integrating EdgeLock® A30 secure authenticator to FRDM-MCXA153 board](#dm-a30-mcxa153-ecc-example)
-75. [Motor RPM Control with KnobGClick with USB](#dm-ip-frdmmcxc242-rotary-motor-update-usb)
-76. [Motor RPM Grapher in OLED with USB](#dm-ip-frdmmcxa153-oled-motor-graph-usb)
-77. [Portable Anomaly Detect Demo with FRDM-MCXN947 and FXLS8974CF (ML Vibro Sens Click)](#dm-mcxn-portable-anomaly-detect-demo)
-78. [Motor RPM Control with KnobGClick and RPM Display in Real Time with USB](#dm-ip-frdmmcxc444-rotary-motor-update-usb)
-79. [Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6](#dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application)
-80. [PCA9846: Four-Channel Ultra-Low Voltage, Fm+ I2C-Bus Switch with Reset demo application ](#dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app)
-81. [wolfSSL MQTT AWS Test using Zephyr RTOS](#nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr)
-82. [wolfSSH RGB Server using Zephyr RTOS](#nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr)
-83. [wolfSSL TLSv1.3 Hello Server using Zephyr RTOS](#nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr)
-84. [KNX IoT stack examples running on FRDM-MCXW71](#dm-knx-iot-examples-on-nxp-mcxw71)
-85. [Nafe Industrial Application Examples using API Libraries](#dm-nafex388-application-examples)
-86. [NAFE13388 Universal Analog Sensing Module with Wired Connectivity](#dm-mcxn947-remote-io-with-nafe13388)
-87. [NAFE13388-UIM Industrial Applications with GUI and CLI support .](#dm-nafe13388-application-examples)
-88. [P3H2X4X : I3C hub demo application on FRDM MCXN947 and MCXA153](#dm-p3h2x4x-i3c-hub-demo-application)
-89. [HTTPS LCD LED Demo](#dm-https-lcd-led-demo)
-90. [Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156](#dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156)
-91. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
-92. [KW45: Secure boot scripts based on spsdk](#dm-kw45-secure-boot-scripts)
-93. [24-Channel SPI Serial Bus 63 mA / 5.5 V Constant-Current LED Driver](#dm-pca9958hn-led-driver-with-spi-demo-app)
-94. [SJA1124EVB : Quad LIN Commander Transceiver with LIN Commander Controller](#dm-sja1124evb-spi-to-quad-lin-bridge)
-95. [i.MX93 Smart Appliance for MATTER](#meta-smart-appliance)
-96. [NXP Platform Accelerator for MCXN947 Freedom Board](#nxp-vee-mcxn947-frdm)
-97. [NXP Platform Accelerator for i.MXRT1170 EVK](#nxp-vee-imxrt1170-evk)
-98. [NXP Platform Accelerator for i.MXRT595 EVK](#nxp-vee-imxrt595-evk)
-99. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
-100. [PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features](#dm-pcal9722hn-22-bit-spi-gpio-expander)
-101. [Facial Detection Zephyr Demo](#apps_zephyr)
-102. [FRDM-RW612 Sensors over Wi-Fi with http server](#dm-frdmrw612-sensors-over-wifi)
-103. [FRDM-RW612 On-board temperature sensor over BLE](#dm-frdmrw612-temperature-sensor-over-ble)
-104. [Using SmartDMA to implement camera interface in MCXN236](#dm-mcxn236-camera-interface-by-smartdma)
-105. [EZH implements keyscan function in lpc5516](#dm-lpc55s16-keyscan-by-ezh)
-106. [EZH implements Quad encoder function in lpc5516](#dm-lpc55s16-qei-interface-by-ezh)
-107. [Using EZH to implement camera interface in lpc55 series mcu](#dm-lpc55s69-camera-interface-by-ezh)
-108. [Doom-MCX port of popular Doom game to run on NXP MCX microcontrollers](#doom-mcx)
-109. [NXP Platform Accelerator for RW612 Freedom](#npa-vee-rw612)
-110. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
-111. [Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-oledbclick-frdm)
-112. [Demo of Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-joystick2click-frdm)
-113. [Wi-Fi Scan and Connectivity Demo on RW612BGA](#dm-wifi-set-up-ping)
-114. [Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-relay5click-frdm)
-115. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
-116. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
-117. [Knob G Click: multi-platform ecosystem.](#dm-mikroe-knob-g-click-frdm)
-118. [4x4 Key Click: multi-platform ecosystem.](#dm-mikroe-4x4-key-click-frdm)
-119. [FRDM-RW612 GUI Guider integration on Bluetooth LE example](#dm-nxp-rw612-gui-guider-ble)
-120. [matter zigbee bridge rw612](#dm-matter-zigbee-bridge-rw612)
-121. [Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter](#dm-mikroe-oled-c-click-display-frdm)
-122. [I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor ](#dm-pct2075dp-ard-temperature-sensor)
-123. [Tamper detection with low-power wakeup sensor using BLE wireless UART](#dm-tamper-detection-using-low-power-wakeup-sensor-over-ble)
-124. [Low-Power Wireless Sensors Examples for MCXW23](#dm-low-power-wireless-sensors-examples-for-mcxw23)
-125. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
-126. [demo project to use the module sCan](#dm-loc-apps-kw47)
-127. [SmartWatch Zephyr Demo](#apps_zephyr)
-128. [I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection](#dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app)
-129. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board](#dm-ble-fsci-host-application)
-130. [WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL](#dm-wifi-provisioning-using-ble)
-131. [Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards](#dm-mcxn947-click-shield-ping-pong-game)
-132. [Wireless RFTM Application for Performance Testing of RW612 board](#dm-wireless-rf-test-mode-demo)
-133. [PCAL6416AEV-ARD Low-Voltage Translating 16-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander)
-134. [RW612-FRDM Door chime demo with MQTT over Wi-Fi and I2S audio output](#dm-rw612frdm-door-chime-demo)
-135. [P3T1035xUK - P3T2030xUK - I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor](#dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app)
-136. [wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS](#nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr)
-137. [Golioth Bluetooth Data to the Cloud using Pouch](#nxp-appcodehub_dm-ble-cloud)
-138. [ MCXA34X  triple motor control demo using HVP board](#dm-mc-pmsm-triple-mcxa34x)
-139. [eIQ GenAI Flow Demonstrator](#dm-eiq-genai-flow-demonstrator)
-140. [NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores](#dm-imx943-netc-control-and-sharing-between-m33s-acore)
-141. [How to enable low power in your application on MIMXRT700-EVK](#dm-mimxrt700-evk-dual-core-low-power-thermometer-clock)
-142. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
-143. [Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers. ](#dm-control-led-emios-pwm-s32k312-mcal)
+67. [Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510](#dm-wifi-lcd-connect-frdm-mcxn947)
+68. [PCA9422: PCA9422 Ultra Low Power Charger and Gauge PMIC for RT5/6/700 demo application on FRDM-MCXN947 and MCXA153 ](#dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app)
+69. [Clea Edgehog IoT devices using Zephyr RTOS](#edgehog-zephyr-device_samples_edgehog_app)
+70. [Clea Astarte IoT devices using Zephyr RTOS](#astarte-device-sdk-zephyr_samples_astarte_app)
+71. [NNStreamer Object Detection](#nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_detection)
+72. [NNStreamer Image Classification](#nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_classification)
+73. [Integrating EdgeLock® A30 secure authenticator to FRDM-MCXA153 board](#dm-a30-mcxa153-ecc-example)
+74. [Motor RPM Control with KnobGClick with USB](#dm-ip-frdmmcxc242-rotary-motor-update-usb)
+75. [Motor RPM Grapher in OLED with USB](#dm-ip-frdmmcxa153-oled-motor-graph-usb)
+76. [Portable Anomaly Detect Demo with FRDM-MCXN947 and FXLS8974CF (ML Vibro Sens Click)](#dm-mcxn-portable-anomaly-detect-demo)
+77. [Motor RPM Control with KnobGClick and RPM Display in Real Time with USB](#dm-ip-frdmmcxc444-rotary-motor-update-usb)
+78. [Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6](#dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application)
+79. [PCA9846: Four-Channel Ultra-Low Voltage, Fm+ I2C-Bus Switch with Reset demo application ](#dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app)
+80. [wolfSSL MQTT AWS Test using Zephyr RTOS](#nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr)
+81. [wolfSSH RGB Server using Zephyr RTOS](#nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr)
+82. [wolfSSL TLSv1.3 Hello Server using Zephyr RTOS](#nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr)
+83. [KNX IoT stack examples running on FRDM-MCXW71](#dm-knx-iot-examples-on-nxp-mcxw71)
+84. [Nafe Industrial Application Examples using API Libraries](#dm-nafex388-application-examples)
+85. [NAFE13388 Universal Analog Sensing Module with Wired Connectivity](#dm-mcxn947-remote-io-with-nafe13388)
+86. [NAFE13388-UIM Industrial Applications with GUI and CLI support .](#dm-nafe13388-application-examples)
+87. [P3H2X4X : I3C hub demo application on FRDM MCXN947 and MCXA153](#dm-p3h2x4x-i3c-hub-demo-application)
+88. [HTTPS LCD LED Demo](#dm-https-lcd-led-demo)
+89. [Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156](#dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156)
+90. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
+91. [KW45: Secure boot scripts based on spsdk](#dm-kw45-secure-boot-scripts)
+92. [24-Channel SPI Serial Bus 63 mA / 5.5 V Constant-Current LED Driver](#dm-pca9958hn-led-driver-with-spi-demo-app)
+93. [SJA1124EVB : Quad LIN Commander Transceiver with LIN Commander Controller](#dm-sja1124evb-spi-to-quad-lin-bridge)
+94. [i.MX93 Smart Appliance for MATTER](#meta-smart-appliance)
+95. [NXP Platform Accelerator for MCXN947 Freedom Board](#nxp-vee-mcxn947-frdm)
+96. [NXP Platform Accelerator for i.MXRT1170 EVK](#nxp-vee-imxrt1170-evk)
+97. [NXP Platform Accelerator for i.MXRT595 EVK](#nxp-vee-imxrt595-evk)
+98. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
+99. [PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features](#dm-pcal9722hn-22-bit-spi-gpio-expander)
+100. [Facial Detection Zephyr Demo](#apps_zephyr)
+101. [FRDM-RW612 Sensors over Wi-Fi with http server](#dm-frdmrw612-sensors-over-wifi)
+102. [FRDM-RW612 On-board temperature sensor over BLE](#dm-frdmrw612-temperature-sensor-over-ble)
+103. [Using SmartDMA to implement camera interface in MCXN236](#dm-mcxn236-camera-interface-by-smartdma)
+104. [EZH implements keyscan function in lpc5516](#dm-lpc55s16-keyscan-by-ezh)
+105. [EZH implements Quad encoder function in lpc5516](#dm-lpc55s16-qei-interface-by-ezh)
+106. [Using EZH to implement camera interface in lpc55 series mcu](#dm-lpc55s69-camera-interface-by-ezh)
+107. [Doom-MCX port of popular Doom game to run on NXP MCX microcontrollers](#doom-mcx)
+108. [NXP Platform Accelerator for RW612 Freedom](#npa-vee-rw612)
+109. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
+110. [Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-oledbclick-frdm)
+111. [Demo of Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-joystick2click-frdm)
+112. [Wi-Fi Scan and Connectivity Demo on RW612BGA](#dm-wifi-set-up-ping)
+113. [Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-relay5click-frdm)
+114. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+115. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
+116. [Knob G Click: multi-platform ecosystem.](#dm-mikroe-knob-g-click-frdm)
+117. [4x4 Key Click: multi-platform ecosystem.](#dm-mikroe-4x4-key-click-frdm)
+118. [FRDM-RW612 GUI Guider integration on Bluetooth LE example](#dm-nxp-rw612-gui-guider-ble)
+119. [matter zigbee bridge rw612](#dm-matter-zigbee-bridge-rw612)
+120. [Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter](#dm-mikroe-oled-c-click-display-frdm)
+121. [I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor ](#dm-pct2075dp-ard-temperature-sensor)
+122. [Tamper detection with low-power wakeup sensor using BLE wireless UART](#dm-tamper-detection-using-low-power-wakeup-sensor-over-ble)
+123. [Low-Power Wireless Sensors Examples for MCXW23](#dm-low-power-wireless-sensors-examples-for-mcxw23)
+124. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
+125. [demo project to use the module sCan](#dm-loc-apps-kw47)
+126. [SmartWatch Zephyr Demo](#apps_zephyr)
+127. [I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection](#dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app)
+128. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board](#dm-ble-fsci-host-application)
+129. [WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL](#dm-wifi-provisioning-using-ble)
+130. [Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards](#dm-mcxn947-click-shield-ping-pong-game)
+131. [Wireless RFTM Application for Performance Testing of RW612 board](#dm-wireless-rf-test-mode-demo)
+132. [PCAL6416AEV-ARD Low-Voltage Translating 16-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander)
+133. [RW612-FRDM Door chime demo with MQTT over Wi-Fi and I2S audio output](#dm-rw612frdm-door-chime-demo)
+134. [P3T1035xUK - P3T2030xUK - I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor](#dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app)
+135. [wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS](#nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr)
+136. [Golioth Bluetooth Data to the Cloud using Pouch](#nxp-appcodehub_dm-ble-cloud)
+137. [ MCXA34X  triple motor control demo using HVP board](#dm-mc-pmsm-triple-mcxa34x)
+138. [eIQ GenAI Flow Demonstrator](#dm-eiq-genai-flow-demonstrator)
+139. [NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores](#dm-imx943-netc-control-and-sharing-between-m33s-acore)
+140. [How to enable low power in your application on MIMXRT700-EVK](#dm-mimxrt700-evk-dual-core-low-power-thermometer-clock)
+141. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
+142. [Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers. ](#dm-control-led-emios-pwm-s32k312-mcal)
+143. [FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System](#dm-ml-sensorless-anomaly-detection)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -1445,29 +1445,8 @@
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-lpc55s69-fashion-mnist-object-recognition/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lpc55s69-fashion-mnist-object-recognition
 
-<!-- dm-ml-sensorless-anomaly-detection/. -->
-## 67. FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System<a id="dm-ml-sensorless-anomaly-detection"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
- This demo showcases machine learning anomaly detection in a motor control system with modern GUI and touch controls. The demo showcases integration of many NXP tools. The demo utilizes MCUXpresso SDK for basic drivers, LVGL support for GUI and PMSM motor control algorithms. Using GUI Guider a modern and easy to navigate user interface is developed. Next, the demo incorporates FreeMASTER real time debugging tool to collect datasets using the Machine Learning Universal Datalogger project, which is also available as a standalone project on the Application Code Hub. This dataset can be used to develop a custom anomaly detection model using the Time Series Studio tool which is a part of eIQ® Toolkit. 
-
-#### Families:           MCX 
-#### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DISPLAY, DMA, PWM, TIMER, UART 
-#### Categories:         Graphics, HMI, Motor Control, Anomaly Detection, AI/ML, User Interface 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
-
-#### Expansion boards
-* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
-* [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ml-sensorless-anomaly-detection/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ml-sensorless-anomaly-detection
-
 <!-- dm-wifi-lcd-connect-frdm-mcxn947/. -->
-## 68. Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510<a id="dm-wifi-lcd-connect-frdm-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 67. Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510<a id="dm-wifi-lcd-connect-frdm-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510. 
@@ -1487,7 +1466,7 @@
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-lcd-connect-frdm-mcxn947
 
 <!-- dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app/. -->
-## 69. PCA9422: PCA9422 Ultra Low Power Charger and Gauge PMIC for RT5/6/700 demo application on FRDM-MCXN947 and MCXA153 <a id="dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 68. PCA9422: PCA9422 Ultra Low Power Charger and Gauge PMIC for RT5/6/700 demo application on FRDM-MCXN947 and MCXA153 <a id="dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCA9422 is a highly integrated Ultra Low Power Management IC (PMIC), targeted to provide a full power management solution for low power microcontroller applications or other similar applications with small batterie<br />Feature provided:<br />Three Step-Down DC/DC Converters<br />One Buck-Boost Converter<br />Four Low Dropout Regulators ( LDOs )<br />Linear Battery Charger for Charging Single Cell Li-Ion Battery
@@ -1508,7 +1487,7 @@ The PCA9422 is a highly integrated Ultra Low Power Management IC (PMIC), targete
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pca9422-evb-ultra-low-power-charger-gauge-pmic-demo-app
 
 <!-- edgehog-zephyr-device/samples/edgehog_app -->
-## 70. Clea Edgehog IoT devices using Zephyr RTOS<a id="edgehog-zephyr-device_samples_edgehog_app"></a> <a href="#top" style="float:right">⤒</a>
+## 69. Clea Edgehog IoT devices using Zephyr RTOS<a id="edgehog-zephyr-device_samples_edgehog_app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Fleet manage your IoT device through opensource Edgehog device management platform. Enable remote updates and system configuration.
@@ -1526,7 +1505,7 @@ Fleet manage your IoT device through opensource Edgehog device management platfo
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=edgehog-iot-devices-using-zephyr-rtos
 
 <!-- astarte-device-sdk-zephyr/samples/astarte_app -->
-## 71. Clea Astarte IoT devices using Zephyr RTOS<a id="astarte-device-sdk-zephyr_samples_astarte_app"></a> <a href="#top" style="float:right">⤒</a>
+## 70. Clea Astarte IoT devices using Zephyr RTOS<a id="astarte-device-sdk-zephyr_samples_astarte_app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Transform your board in an IoT device. Connect to the cloud using Astarte and start transferring data.
@@ -1544,7 +1523,7 @@ Transform your board in an IoT device. Connect to the cloud using Astarte and st
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=astarte-iot-devices-using-zephyr-rtos
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/nnstreamer/detection -->
-## 72. NNStreamer Object Detection<a id="nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_detection"></a> <a href="#top" style="float:right">⤒</a>
+## 71. NNStreamer Object Detection<a id="nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_detection"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Object Detection showcases the Machine Learning (ML) capabilities ofi.MX SoCs by using a Neural Processing Unit (NPU). Object detection is the ML task that detects instances of objects of a certain class within an image. A bounding box and a class label are found for each detected object. 
@@ -1566,7 +1545,7 @@ Transform your board in an IoT device. Connect to the cloud using Astarte and st
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-object-detection
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/nnstreamer/classification -->
-## 73. NNStreamer Image Classification<a id="nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_classification"></a> <a href="#top" style="float:right">⤒</a>
+## 72. NNStreamer Image Classification<a id="nxp-demo-experience-demos-list_scripts_machine_learning_nnstreamer_classification"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Image Classification showcases the Machine Learning (ML) capabilities of i.MX SoCs by using a Neural Processing Unit (NPU).  
@@ -1588,7 +1567,7 @@ Transform your board in an IoT device. Connect to the cloud using Astarte and st
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-image-classification
 
 <!-- dm-a30-mcxa153-ecc-example/. -->
-## 74. Integrating EdgeLock® A30 secure authenticator to FRDM-MCXA153 board<a id="dm-a30-mcxa153-ecc-example"></a> <a href="#top" style="float:right">⤒</a>
+## 73. Integrating EdgeLock® A30 secure authenticator to FRDM-MCXA153 board<a id="dm-a30-mcxa153-ecc-example"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This
@@ -1612,7 +1591,7 @@ sign/verify operation. 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-a30-mcxa153-ecc-example
 
 <!-- dm-ip-frdmmcxc242-rotary-motor-update-usb/. -->
-## 75. Motor RPM Control with KnobGClick with USB<a id="dm-ip-frdmmcxc242-rotary-motor-update-usb"></a> <a href="#top" style="float:right">⤒</a>
+## 74. Motor RPM Control with KnobGClick with USB<a id="dm-ip-frdmmcxc242-rotary-motor-update-usb"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo is part of Industrial Panel V2, the MCXC242 have usb connection with main panel and uses the mikroe KnobGClick module for change RPM.
@@ -1632,7 +1611,7 @@ This demo is part of Industrial Panel V2, the MCXC242 have usb connection with m
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ip-frdmmcxc242-rotary-motor-update-usb
 
 <!-- dm-ip-frdmmcxa153-oled-motor-graph-usb/. -->
-## 76. Motor RPM Grapher in OLED with USB<a id="dm-ip-frdmmcxa153-oled-motor-graph-usb"></a> <a href="#top" style="float:right">⤒</a>
+## 75. Motor RPM Grapher in OLED with USB<a id="dm-ip-frdmmcxa153-oled-motor-graph-usb"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo is part of Industrial Panel V2, the MCXA153 have usb connection with main panel and uses the mikroe OledBClick module to graph RPM in real time.
@@ -1652,7 +1631,7 @@ This demo is part of Industrial Panel V2, the MCXA153 have usb connection with m
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ip-frdmmcxa153-oled-motor-graph-usb
 
 <!-- dm-mcxn-portable-anomaly-detect-demo/. -->
-## 77. Portable Anomaly Detect Demo with FRDM-MCXN947 and FXLS8974CF (ML Vibro Sens Click)<a id="dm-mcxn-portable-anomaly-detect-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 76. Portable Anomaly Detect Demo with FRDM-MCXN947 and FXLS8974CF (ML Vibro Sens Click)<a id="dm-mcxn-portable-anomaly-detect-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The Portable Anomaly Detect demo shows an on-device trainable anomaly detection platform that is based on the FRDM-MCXN947 board. The demo shows how to train the SVM model on-device with FXLS8974CF accelerometer data and inference SVM model on-device too.<br>During the whole life cycle of a device, learning may need to be done multiple times.<br>The GUI is implemented in LVGL. 
@@ -1673,7 +1652,7 @@ This demo is part of Industrial Panel V2, the MCXA153 have usb connection with m
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn-portable-anomaly-detect-demo
 
 <!-- dm-ip-frdmmcxc444-rotary-motor-update-usb/. -->
-## 78. Motor RPM Control with KnobGClick and RPM Display in Real Time with USB<a id="dm-ip-frdmmcxc444-rotary-motor-update-usb"></a> <a href="#top" style="float:right">⤒</a>
+## 77. Motor RPM Control with KnobGClick and RPM Display in Real Time with USB<a id="dm-ip-frdmmcxc444-rotary-motor-update-usb"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo is part of Industrial Panel V2, the MCXC444 have usb connection with main panel and uses the mikroe KnobGClick module for change RPM and LCD for show real time RPM.
@@ -1693,7 +1672,7 @@ This demo is part of Industrial Panel V2, the MCXC444 have usb connection with m
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ip-frdmmcxc444-rotary-motor-update-usb
 
 <!-- dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application/. -->
-## 79. Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6<a id="dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application"></a> <a href="#top" style="float:right">⤒</a>
+## 78. Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6<a id="dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This example demo describes the process of adding and executing a Door Lock Cluster to an already existing Matter Lighting App running on the NXP K32W061 DK6 development kit. It highlights the changes added to the Matter Lighting application, while also showing the required cluster configuration using the ZAP Platform.  Both examples are based on the <a href="https://github.com/projectchip/connectedhomeip/tree/v1.4.0.0">https://github.com/projectchip/connectedhomeip/tree/v1.4.0.0</a> repository, so the user will need to go over the whole process of cloning and setting up the environment as described in the original README. This demo only contains the folders and files that must replace the original ones from the lighting app example. <br />
@@ -1710,7 +1689,7 @@ This example demo describes the process of adding and executing a Door Lock Clus
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application
 
 <!-- dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app/. -->
-## 80. PCA9846: Four-Channel Ultra-Low Voltage, Fm+ I2C-Bus Switch with Reset demo application <a id="dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 79. PCA9846: Four-Channel Ultra-Low Voltage, Fm+ I2C-Bus Switch with Reset demo application <a id="dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCA9846 is an ultra-low voltage, quad bidirectional translating switch controlled via the I2C-bus. The SCL/SDA upstream pair fans out to four downstream pairs, or channels. Any or all SCx/SDx channels can be selected, determined by the programmable control register. This feature allows multiple devices with the same I2C-bus address to reside on the same bus. The switch device can also separate a heavily loaded I2C-bus into separate bus segments, eliminating the need for a bus buffer.<br />Features Provided :<br /><pre>Ultra-low voltage operation, down to 0.8 V to interface with next-generation CPUs
@@ -1742,7 +1721,7 @@ The PCA9846 is an ultra-low voltage, quad bidirectional translating switch contr
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pca9846pw-ard-ultra-low-voltage-fm-plus-i2c-bus-switch-demo-app
 
 <!-- nxp-appcodehub/dm-wolfmqtt-publisher-client-with-zephyr -->
-## 81. wolfSSL MQTT AWS Test using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 80. wolfSSL MQTT AWS Test using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo demostrate capabilities of new FRDM-MCXN947.<br><a href="https://github.com/wolfSSL/nxp-appcodehub/tree/main/dm-wolfmqtt-publisher-client-with-zephyr#demo" target="_blank"></a>Simple connects to an AWS broker subscribes, and publishes a message. 
@@ -1760,7 +1739,7 @@ The PCA9846 is an ultra-low voltage, quad bidirectional translating switch contr
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wolfmqtt-publisher-client-with-zephyr
 
 <!-- nxp-appcodehub/dm-wolfssh-rgb-server-with-zephyr -->
-## 82. wolfSSH RGB Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 81. wolfSSH RGB Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo demostrates capabilities of new FRDM-MCXN947.<br><a href="https://github.com/wolfSSL/nxp-appcodehub/tree/main/dm-wolfssh-rgb-server-with-zephyr#demo" target="_blank"></a>Creating a simple server using the Zephyr RTOS and wolfSSL to utilize the networking capabilities of the FRDM-MCXN947 through its ethernet port. 
@@ -1778,7 +1757,7 @@ The PCA9846 is an ultra-low voltage, quad bidirectional translating switch contr
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wolfssh-rgb-server-with-zephyr
 
 <!-- nxp-appcodehub/dm-wolftpm-wolfssl-tls-with-zephyr -->
-## 83. wolfSSL TLSv1.3 Hello Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 82. wolfSSL TLSv1.3 Hello Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Creating a simple server using the Zephyr RTOS and wolfSSL to utilize the networking capabilities of the FRDM-MCXN947 through its ethernet port. 
@@ -1796,7 +1775,7 @@ The PCA9846 is an ultra-low voltage, quad bidirectional translating switch contr
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wolfssl-tls-hello-server-with-zephyr
 
 <!-- dm-knx-iot-examples-on-nxp-mcxw71/. -->
-## 84. KNX IoT stack examples running on FRDM-MCXW71<a id="dm-knx-iot-examples-on-nxp-mcxw71"></a> <a href="#top" style="float:right">⤒</a>
+## 83. KNX IoT stack examples running on FRDM-MCXW71<a id="dm-knx-iot-examples-on-nxp-mcxw71"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This repository contains the light switched actuator basic (LSAB) and light switched sensor basic (LSSB) example running on NXP FRDM-MCXW71
@@ -1814,7 +1793,7 @@ This repository contains the light switched actuator basic (LSAB) and light swit
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-knx-iot-examples-on-nxp-mcxw71
 
 <!-- dm-nafex388-application-examples/. -->
-## 85. Nafe Industrial Application Examples using API Libraries<a id="dm-nafex388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
+## 84. Nafe Industrial Application Examples using API Libraries<a id="dm-nafex388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a collection of MCUXpresso projects, in this collection several fundamental voltage/current/sensor readout applications via NXP analog front-end are exposed. 
@@ -1835,7 +1814,7 @@ This repository contains the light switched actuator basic (LSAB) and light swit
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nafex388-application-examples
 
 <!-- dm-mcxn947-remote-io-with-nafe13388/. -->
-## 86. NAFE13388 Universal Analog Sensing Module with Wired Connectivity<a id="dm-mcxn947-remote-io-with-nafe13388"></a> <a href="#top" style="float:right">⤒</a>
+## 85. NAFE13388 Universal Analog Sensing Module with Wired Connectivity<a id="dm-mcxn947-remote-io-with-nafe13388"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Software-configurable analog input solution for high-precision sensing with wired connectivity via CAN FD, Ethernet and USB
@@ -1855,7 +1834,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn947-remote-io-with-nafe13388
 
 <!-- dm-nafe13388-application-examples/. -->
-## 87. NAFE13388-UIM Industrial Applications with GUI and CLI support .<a id="dm-nafe13388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
+## 86. NAFE13388-UIM Industrial Applications with GUI and CLI support .<a id="dm-nafe13388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a demo application which provides a command line interface&nbsp; and GUI interface for these six applications of NAFE13388 for Analog to Digital Conversion.<br>Current Sensing using SCSR Conversion<br>Voltage Sensing using SCSR Conversion<br>Voltage Sensing using MCMR Conversion<br>RTD 2/4 Wires using SCCR Conversion<br>Weight Scale 
@@ -1875,7 +1854,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nafe13388-application-examples
 
 <!-- dm-p3h2x4x-i3c-hub-demo-application/. -->
-## 88. P3H2X4X : I3C hub demo application on FRDM MCXN947 and MCXA153<a id="dm-p3h2x4x-i3c-hub-demo-application"></a> <a href="#top" style="float:right">⤒</a>
+## 87. P3H2X4X : I3C hub demo application on FRDM MCXN947 and MCXA153<a id="dm-p3h2x4x-i3c-hub-demo-application"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 I3C-Hub connects to a host CPU via I3C/I2C/SMBus bus on one side and connect to multiple peripheral devices on the other side. The hub device generally have two controller ports and up to eight target ports to expand bus connectivity to multiple devices
@@ -1894,7 +1873,7 @@ I3C-Hub connects to a host CPU via I3C/I2C/SMBus bus on one side and connect to 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3h2x4x-i3c-hub-demo-application
 
 <!-- dm-https-lcd-led-demo/. -->
-## 89. HTTPS LCD LED Demo<a id="dm-https-lcd-led-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 88. HTTPS LCD LED Demo<a id="dm-https-lcd-led-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo example of HTTPS client-server communication using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510.
@@ -1914,7 +1893,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-https-lcd-led-demo
 
 <!-- dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156/. -->
-## 90. Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156<a id="dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 89. Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156<a id="dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156 
@@ -1935,7 +1914,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156
 
 <!-- app-network-ml/. -->
-## 91. DeepPacket: Encrypted network packets classification system<a id="app-network-ml"></a> <a href="#top" style="float:right">⤒</a>
+## 90. DeepPacket: Encrypted network packets classification system<a id="app-network-ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is an encrypted traffic packets classification demo, which can tell us which service types are being carried by passing packets. Currently supported categories are file transfer, Web browsing, VoIP, Email and Microsoft Office.
@@ -1955,7 +1934,7 @@ This is an encrypted traffic packets classification demo, which can tell us whic
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=deeppacket
 
 <!-- dm-kw45-secure-boot-scripts/. -->
-## 92. KW45: Secure boot scripts based on spsdk<a id="dm-kw45-secure-boot-scripts"></a> <a href="#top" style="float:right">⤒</a>
+## 91. KW45: Secure boot scripts based on spsdk<a id="dm-kw45-secure-boot-scripts"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is scripts package is used for KW45 secure boot, including generating keys, programming fuse, signing image, generating sb3 file, debugging authentication, advancing lifecycle.<br /><a href="https://spsdk.readthedocs.io/en/latest/">https://spsdk.readthedocs.io/</a>
@@ -1976,7 +1955,7 @@ This is scripts package is used for KW45 secure boot, including generating keys,
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-kw45-secure-boot-scripts
 
 <!-- dm-pca9958hn-led-driver-with-spi-demo-app/. -->
-## 93. 24-Channel SPI Serial Bus 63 mA / 5.5 V Constant-Current LED Driver<a id="dm-pca9958hn-led-driver-with-spi-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 92. 24-Channel SPI Serial Bus 63 mA / 5.5 V Constant-Current LED Driver<a id="dm-pca9958hn-led-driver-with-spi-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCA9958 is a 24-channel SPI serial bus 63 mA LED driver with a supply voltage range of 2.7 V to 5.5 V. This device is optimized for dimming and blinking RGBA LEDs.
@@ -1996,7 +1975,7 @@ The PCA9958 is a 24-channel SPI serial bus 63 mA LED driver with a supply voltag
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pca9958hn-led-driver-with-spi-demo-app
 
 <!-- dm-sja1124evb-spi-to-quad-lin-bridge/. -->
-## 94. SJA1124EVB : Quad LIN Commander Transceiver with LIN Commander Controller<a id="dm-sja1124evb-spi-to-quad-lin-bridge"></a> <a href="#top" style="float:right">⤒</a>
+## 93. SJA1124EVB : Quad LIN Commander Transceiver with LIN Commander Controller<a id="dm-sja1124evb-spi-to-quad-lin-bridge"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example provides CMSIS Compliant APIs to configure different device configurations of SJA1124. It also provides the APIS lmentioned below :<br><ol><li>LIN traffic send/receive in between commander and responder</li><li>Low power mode support </li><li>Device configuration support</li></ol>
@@ -2017,7 +1996,7 @@ The PCA9958 is a 24-channel SPI serial bus 63 mA LED driver with a supply voltag
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-sja1124evb-spi-to-quad-lin-bridge
 
 <!-- meta-smart-appliance/. -->
-## 95. i.MX93 Smart Appliance for MATTER<a id="meta-smart-appliance"></a> <a href="#top" style="float:right">⤒</a>
+## 94. i.MX93 Smart Appliance for MATTER<a id="meta-smart-appliance"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 i.MX93 Smart Appliance Demo <br />Features:<br /><ul><li>Board level power &lt; 400mW in DSM</li><li>Fast boot from power on to GUI </li><li>GUI design by LVGL_V8.3.5</li><li>Vision inference
@@ -2038,7 +2017,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=short-title-i-mx93-smart-appliance
 
 <!-- nxp-vee-mcxn947-frdm/. -->
-## 96. NXP Platform Accelerator for MCXN947 Freedom Board<a id="nxp-vee-mcxn947-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 95. NXP Platform Accelerator for MCXN947 Freedom Board<a id="nxp-vee-mcxn947-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 NXP Platform Accelerator provides a development environment to run
@@ -2062,7 +2041,7 @@ This release runs on FRDM-MCXN947 with an LCD_PAR_S035 display panel.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-platform-accelerator-for-mcxn947-freedom-board
 
 <!-- nxp-vee-imxrt1170-evk/. -->
-## 97. NXP Platform Accelerator for i.MXRT1170 EVK<a id="nxp-vee-imxrt1170-evk"></a> <a href="#top" style="float:right">⤒</a>
+## 96. NXP Platform Accelerator for i.MXRT1170 EVK<a id="nxp-vee-imxrt1170-evk"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 NXP Platform Accelerator provides a development environment to run
@@ -2086,7 +2065,7 @@ This release runs on FRDM-RW612 with an LCD_PAR_S035 display panel.
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-platform-accelerator-for-i-mxrt1170-evk
 
 <!-- nxp-vee-imxrt595-evk/. -->
-## 98. NXP Platform Accelerator for i.MXRT595 EVK<a id="nxp-vee-imxrt595-evk"></a> <a href="#top" style="float:right">⤒</a>
+## 97. NXP Platform Accelerator for i.MXRT595 EVK<a id="nxp-vee-imxrt595-evk"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 NXP Platform Accelerator provides a development environment to run
@@ -2110,7 +2089,7 @@ This release runs on EVK-MIMXRT595 with an <a href="https://www.nxp.com/part/G1
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=nxp-platform-accelerator-for-i-mxrt595-evk
 
 <!-- dm-pcal6408a-8-bit-i2c-gpio-expander/. -->
-## 99. Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6408a-8-bit-i2c-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
+## 98. Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6408a-8-bit-i2c-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O expansion for many microcontroller families via the I²C-bus interface.
@@ -2130,7 +2109,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcal6408a-8-bit-i2c-gpio-expander
 
 <!-- dm-pcal9722hn-22-bit-spi-gpio-expander/. -->
-## 100. PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features<a id="dm-pcal9722hn-22-bit-spi-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
+## 99. PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features<a id="dm-pcal9722hn-22-bit-spi-gpio-expander"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, interrupt output and reset evaluation board
@@ -2152,7 +2131,7 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcal9722hn-22-bit-spi-gpio-expander
 
 <!-- apps_zephyr/. -->
-## 101. Facial Detection Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 100. Facial Detection Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Multiple Face detection based on the machine learning algorithm.  A portable Zephyr application that runs on MCXN947 with ML accelerated by the NPU, and on i.MX RT1060. 
@@ -2174,7 +2153,7 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-facialdetect-zephyr-demo
 
 <!-- dm-frdmrw612-sensors-over-wifi/. -->
-## 102. FRDM-RW612 Sensors over Wi-Fi with http server<a id="dm-frdmrw612-sensors-over-wifi"></a> <a href="#top" style="float:right">⤒</a>
+## 101. FRDM-RW612 Sensors over Wi-Fi with http server<a id="dm-frdmrw612-sensors-over-wifi"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to use and send the data from the built-in temperature sensor in the FRDM-RW612 board as well as the Accel 4 click and the HeartRate 4 click mikro-e boards over wifi to an http server that displays their information.
@@ -2194,7 +2173,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-sensors-over-wifi
 
 <!-- dm-frdmrw612-temperature-sensor-over-ble/. -->
-## 103. FRDM-RW612 On-board temperature sensor over BLE<a id="dm-frdmrw612-temperature-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 102. FRDM-RW612 On-board temperature sensor over BLE<a id="dm-frdmrw612-temperature-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo shows how to use the FRDM-RW612's P3T1755&nbsp;on-board temperature sensor. Also, temperature measurements are sent over Bluetooth low energy so they can be seen with the IoT toolbox mobile application.<br><br>
@@ -2211,7 +2190,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-temperature-sensor-over-ble
 
 <!-- dm-mcxn236-camera-interface-by-smartdma/. -->
-## 104. Using SmartDMA to implement camera interface in MCXN236<a id="dm-mcxn236-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 103. Using SmartDMA to implement camera interface in MCXN236<a id="dm-mcxn236-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo introduces a parallel interface for the camera solution for MCXN236 
@@ -2231,7 +2210,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn236-camera-interface-by-smartdma
 
 <!-- dm-lpc55s16-keyscan-by-ezh/. -->
-## 105. EZH implements keyscan function in lpc5516<a id="dm-lpc55s16-keyscan-by-ezh"></a> <a href="#top" style="float:right">⤒</a>
+## 104. EZH implements keyscan function in lpc5516<a id="dm-lpc55s16-keyscan-by-ezh"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  EZH, as a co-processor of LPC55, can quickly access IO. For mechanical repetitive tasks like keyscan, EZH provides high and low levels for each row of the keyboard, then quickly reads the level of each column, and finally determines which button is pressed. It is very suitable for keyboard applications. 
@@ -2251,7 +2230,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lpc55s16-keyscan-by-ezh
 
 <!-- dm-lpc55s16-qei-interface-by-ezh/. -->
-## 106. EZH implements Quad encoder function in lpc5516<a id="dm-lpc55s16-qei-interface-by-ezh"></a> <a href="#top" style="float:right">⤒</a>
+## 105. EZH implements Quad encoder function in lpc5516<a id="dm-lpc55s16-qei-interface-by-ezh"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo introduces a method to implement two input quad encoder function by using EZH in LPC55.EZH, as a co-processor of LPC55, can quickly access IO. For mechanical repetitive tasks like Quad encoder(QEI) signal scan. EZH detect the level and edge changing of phase A and phase B, then calculate the direction and index. 
@@ -2269,7 +2248,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lpc55s16-qei-interface-by-ezh
 
 <!-- dm-lpc55s69-camera-interface-by-ezh/. -->
-## 107. Using EZH to implement camera interface in lpc55 series mcu<a id="dm-lpc55s69-camera-interface-by-ezh"></a> <a href="#top" style="float:right">⤒</a>
+## 106. Using EZH to implement camera interface in lpc55 series mcu<a id="dm-lpc55s69-camera-interface-by-ezh"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo introduces a parallel interface for the camera solution for LPC55(S)xx.<br><br>
@@ -2287,7 +2266,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lpc55s69-camera-interface-by-ezh
 
 <!-- doom-mcx/. -->
-## 108. Doom-MCX port of popular Doom game to run on NXP MCX microcontrollers<a id="doom-mcx"></a> <a href="#top" style="float:right">⤒</a>
+## 107. Doom-MCX port of popular Doom game to run on NXP MCX microcontrollers<a id="doom-mcx"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  A port of prBoom to the NXP MCXN947 MCU running on top Zephyr RTOS. 
@@ -2307,7 +2286,7 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-doom-mcx
 
 <!-- npa-vee-rw612/. -->
-## 109. NXP Platform Accelerator for RW612 Freedom<a id="npa-vee-rw612"></a> <a href="#top" style="float:right">⤒</a>
+## 108. NXP Platform Accelerator for RW612 Freedom<a id="npa-vee-rw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 NXP Platform Accelerator provides a development environment to run virtualised applications developed in Java. It is built upon MicroEJ technology.<br />This release runs on FRDM-RW612 with an LCD_PAR_S035 display panel.<br />This implementation supports:<br /><ul><li>Wi-Fi 6 connectivity </li><li>Display enablement through LCD integration</li></ul>
@@ -2324,7 +2303,7 @@ NXP Platform Accelerator provides a development environment to run virtualised a
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rw612-microej-vee-port-wifi
 
 <!-- dm-matter-secure-lock-on-rw612/. -->
-## 110. Matter EdgeLock 2GO secure lock example running on RW612<a id="dm-matter-secure-lock-on-rw612"></a> <a href="#top" style="float:right">⤒</a>
+## 109. Matter EdgeLock 2GO secure lock example running on RW612<a id="dm-matter-secure-lock-on-rw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo application run on the FRDM-RW612 board, which provides an example on how to securely provision a Matter device using the EdgeLock 2GO service.
@@ -2341,7 +2320,7 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-matter-secure-lock-on-rw612
 
 <!-- dm-mikroe-oledbclick-frdm/. -->
-## 111. Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-oledbclick-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 110. Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-oledbclick-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Demo is an example for Mikroe OLED B click module in FRDM boards with CMSIS driver and GPIO adapter. 
@@ -2366,7 +2345,7 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-oledbclick-frdm
 
 <!-- dm-mikroe-joystick2click-frdm/. -->
-## 112. Demo of Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-joystick2click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 111. Demo of Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-joystick2click-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Demo is an example for Mikroe Joystick 2 Click module in FRDM boards with CMSIS driver and GPIO adapter. 
@@ -2391,7 +2370,7 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-joystick2click-frdm
 
 <!-- dm-wifi-set-up-ping/. -->
-## 113. Wi-Fi Scan and Connectivity Demo on RW612BGA<a id="dm-wifi-set-up-ping"></a> <a href="#top" style="float:right">⤒</a>
+## 112. Wi-Fi Scan and Connectivity Demo on RW612BGA<a id="dm-wifi-set-up-ping"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo example of Wi-Fi scan, connect and ping with nearby access point using RW612BGA.
@@ -2409,7 +2388,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-set-up-ping
 
 <!-- dm-mikroe-relay5click-frdm/. -->
-## 114. Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-relay5click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 113. Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-relay5click-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Demo is an example for Mikroe Relay 5 click module in FRDM boards usign CMSIS driver for I2C comunication, and GPIO component. 
@@ -2434,7 +2413,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-relay5click-frdm
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 115. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 114. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
@@ -2452,7 +2431,7 @@ This Low Power Machine Learning (ML) application showcases the i.MX 93's machine
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=i-mx93-low-power-ml
 
 <!-- dm-ble-throughput-measurement-rt1170/. -->
-## 116. BLE throughput measurement on RT1170 EVKB + IW612<a id="dm-ble-throughput-measurement-rt1170"></a> <a href="#top" style="float:right">⤒</a>
+## 115. BLE throughput measurement on RT1170 EVKB + IW612<a id="dm-ble-throughput-measurement-rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application demonstrates BLE Throughput measurement on RT1170 using wireless module IW612.
@@ -2470,7 +2449,7 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ble-throughput-measurement-rt1170
 
 <!-- dm-mikroe-knob-g-click-frdm/. -->
-## 117. Knob G Click: multi-platform ecosystem.<a id="dm-mikroe-knob-g-click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 116. Knob G Click: multi-platform ecosystem.<a id="dm-mikroe-knob-g-click-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Demo is an example for MIKROE Knob G Click module in FRDM boards with CMSIS driver and NXP HAL Software. 
@@ -2496,7 +2475,7 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-knob-g-click-frdm
 
 <!-- dm-mikroe-4x4-key-click-frdm/. -->
-## 118. 4x4 Key Click: multi-platform ecosystem.<a id="dm-mikroe-4x4-key-click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 117. 4x4 Key Click: multi-platform ecosystem.<a id="dm-mikroe-4x4-key-click-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Demo is an example for MIKROE 4x4 Key Click module in FRDM boards with CMSIS driver and NXP HAL Software. 
@@ -2523,7 +2502,7 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-4x4-key-click-frdm
 
 <!-- dm-nxp-rw612-gui-guider-ble/. -->
-## 119. FRDM-RW612 GUI Guider integration on Bluetooth LE example<a id="dm-nxp-rw612-gui-guider-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 118. FRDM-RW612 GUI Guider integration on Bluetooth LE example<a id="dm-nxp-rw612-gui-guider-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE example.
@@ -2542,7 +2521,7 @@ This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nxp-rw612-gui-guider-ble
 
 <!-- dm-matter-zigbee-bridge-rw612/. -->
-## 120. matter zigbee bridge rw612<a id="dm-matter-zigbee-bridge-rw612"></a> <a href="#top" style="float:right">⤒</a>
+## 119. matter zigbee bridge rw612<a id="dm-matter-zigbee-bridge-rw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo provide user how to integrate non-matter device as zigbee nodes to Matter enviroment 
@@ -2560,7 +2539,7 @@ This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-matter-zigbee-bridge-rw612
 
 <!-- dm-mikroe-oled-c-click-display-frdm/. -->
-## 121. Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter<a id="dm-mikroe-oled-c-click-display-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 120. Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter<a id="dm-mikroe-oled-c-click-display-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS driver and GPIO component
@@ -2579,7 +2558,7 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-oled-c-click-display-frdm
 
 <!-- dm-pct2075dp-ard-temperature-sensor/. -->
-## 122. I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor <a id="dm-pct2075dp-ard-temperature-sensor"></a> <a href="#top" style="float:right">⤒</a>
+## 121. I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor <a id="dm-pct2075dp-ard-temperature-sensor"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCT2075 is a temperature-to-digital converter featuring ±1 °C accuracy over -25 °C<br />
@@ -2600,7 +2579,7 @@ D conversion technique with an overtemperature detection output
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pct2075dp-ard-temperature-sensor
 
 <!-- dm-tamper-detection-using-low-power-wakeup-sensor-over-ble/. -->
-## 123. Tamper detection with low-power wakeup sensor using BLE wireless UART<a id="dm-tamper-detection-using-low-power-wakeup-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 122. Tamper detection with low-power wakeup sensor using BLE wireless UART<a id="dm-tamper-detection-using-low-power-wakeup-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 <ul><li>This example demo describes how to configure low-power motion or magnetic or pressure wake-up sensor for tamper/theft detection and transmit ALERT to connected end user via BLE wireless UART using FRDM-MCXW71.</li><li>Such use-case can find many applications where user would like to completely shut off power supply or put the device in power down mode etc. based on wake up detected by sensors. Examples include, smart meters, shelf labels, reed switch replacement, smart home etc.</li></ul>
@@ -2624,7 +2603,7 @@ D conversion technique with an overtemperature detection output
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-tamper-detection-using-low-power-wakeup-sensor-over-ble
 
 <!-- dm-low-power-wireless-sensors-examples-for-mcxw23/. -->
-## 124. Low-Power Wireless Sensors Examples for MCXW23<a id="dm-low-power-wireless-sensors-examples-for-mcxw23"></a> <a href="#top" style="float:right">⤒</a>
+## 123. Low-Power Wireless Sensors Examples for MCXW23<a id="dm-low-power-wireless-sensors-examples-for-mcxw23"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo project provides low-power sensors examples ported on FRDM-MCXW23. Additionally, the project contains several demo applications to showcase how to configure an accelerometer, magnetic switch sensor and pressure/altimeter sensor in various modes.
@@ -2647,7 +2626,7 @@ This demo project provides low-power sensors examples ported on FRDM-MCXW23. Add
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-low-power-wireless-sensors-examples-for-mcxw23
 
 <!-- dm-http-client-get-and-post-json-data/. -->
-## 125. HTTP Client Get and Post JSON Data<a id="dm-http-client-get-and-post-json-data"></a> <a href="#top" style="float:right">⤒</a>
+## 124. HTTP Client Get and Post JSON Data<a id="dm-http-client-get-and-post-json-data"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The HTTP(S) client JSON demo application demonstrates how to perform GET and POST requests to a remote API endpoint, handling JSON data payloads over both non-secure (HTTP) and secure (HTTPS) channels.
@@ -2667,7 +2646,7 @@ The HTTP(S) client JSON demo application demonstrates how to perform GET and POS
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-http-client-get-and-post-json-data
 
 <!-- dm-loc-apps-kw47/. -->
-## 126. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
+## 125. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo project about how to use the module sCan. sCan is a middleware software used to simplify CAN communication, it is easy to configure and provides simple sending and receiving functions and the format for transmitting data was specified. It has some defined commands such as reset, data transmission, OTA, Bluetooth settings, the users can extend these commands according to your needs. 
@@ -2686,7 +2665,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-loc-apps-kw47
 
 <!-- apps_zephyr/. -->
-## 127. SmartWatch Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 126. SmartWatch Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Wearable example application optimized for the i.MX RT500 MCU.&nbsp; Leverages display driver to MIPI smart wearable display.&nbsp; Power-optimized reference for battery-powered devices. Leverages Zephyr’s Power Management subsystem.&nbsp; Demonstrates power-optimization techniques for applications.&nbsp; UI created with LVGL and NXP’s&nbsp;<a href="https://www.nxp.com/design/software/development-software/gui-guider:GUI-GUIDER" target="_blank">GUI-Guider tool</a>.&nbsp; Professional LVGL graphics with multiple animated watch screens.&nbsp; Leverages GPU acceleration to offload CPU.&nbsp; &nbsp;<br>
@@ -2706,7 +2685,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-smartwatch-zephyr-demo
 
 <!-- dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app/. -->
-## 128. I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection<a id="dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 127. I3C/I²C-Bus ±0.5 °C Accurate Digital Temperature Sensor with over temperature detection<a id="dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 P3T1755DP is a ±0.5°C accurate temperature-to-digital converter with a -40 °C to +125 °C range. It uses an on-chip band gap temperature sensor and A-to-D conversion technique with overtemperature detection which can be configured for different operation conditions like continues conversion, one-shot mode or shutdown mode.<br /><br />
@@ -2725,7 +2704,7 @@ P3T1755DP is a ±0.5°C accurate temperature-to-digital converter with a -40 °C
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3t175xdp-i2c-13c-temperature-sensor-demo-app
 
 <!-- dm-ble-fsci-host-application/. -->
-## 129. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
+## 128. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The Bluetooth LE FSCI Host application demonstrates a host-side implementation for the Health Thermometer use case. It is designed to work alongside the Bluetooth LE FSCI Blackbox application, which runs on platforms such as the MCXW236 Click Board, FRDM-MCXW236, or other compatible Bluetooth LE wireless MCUs. 
@@ -2745,7 +2724,7 @@ The Bluetooth LE FSCI Host application demonstrates a host-side implementation f
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ble-fsci-host-application
 
 <!-- dm-wifi-provisioning-using-ble/. -->
-## 130. WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL<a id="dm-wifi-provisioning-using-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 129. WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL<a id="dm-wifi-provisioning-using-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo example of Wi-Fi connection using BLE on RT1170 EVKB using Wi-Fi module Murata 2EL.
@@ -2763,7 +2742,7 @@ This is a demo example of Wi-Fi connection using BLE on RT1170 EVKB using Wi-Fi 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-provisioning-using-ble
 
 <!-- dm-mcxn947-click-shield-ping-pong-game/. -->
-## 131. Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards<a id="dm-mcxn947-click-shield-ping-pong-game"></a> <a href="#top" style="float:right">⤒</a>
+## 130. Interactive Ping Pong Game Demo Using the MCXN947 Click Shield with OLED C Display and Dual Joystick Click Boards<a id="dm-mcxn947-click-shield-ping-pong-game"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application showcases the MCXN947 MCU integrated with the MikroE Click Shield, featuring three Click Board slots. The demo utilizes an OLED C Click display and two Joystick Click Boards, with MCXN947 pins configured to route signals precisely to each slot. The final implementation delivers an interactive ping pong game, where players control paddles using the joysticks and view gameplay on the OLED screen. This project highlights the MCXN947’s flexibility in handling multiple peripherals and provides a fun, hands-on example of embedded graphics and input handling using NXP’s development ecosystem.
@@ -2783,7 +2762,7 @@ This application showcases the MCXN947 MCU integrated with the MikroE Click Shie
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn947-click-shield-ping-pong-game
 
 <!-- dm-wireless-rf-test-mode-demo/. -->
-## 132. Wireless RFTM Application for Performance Testing of RW612 board<a id="dm-wireless-rf-test-mode-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 131. Wireless RFTM Application for Performance Testing of RW612 board<a id="dm-wireless-rf-test-mode-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software demonstrates a Custom Wireless RF Test Mode (RFTM) application running on an NXP development board.  <br />
@@ -2805,7 +2784,7 @@ This example is useful for validating wireless performance, range, and stability
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wireless-rf-test-mode-demo
 
 <!-- dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander/. -->
-## 133. PCAL6416AEV-ARD Low-Voltage Translating 16-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander"></a> <a href="#top" style="float:right">⤒</a>
+## 132. PCAL6416AEV-ARD Low-Voltage Translating 16-Bit I²C-Bus/SMBus I/O Expander<a id="dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The PCAL6416AEV-ARD Arduino Shield allows easy integration with Arduino EVKs to evaluate 16-bit general-purpose I/O expander features for interfacing to sensors, push buttons, keypad, etc. A graphical interface allows the user to easily explore the different functions of the GPIO expander to create an evaluation system.<ul><li>I/O connector for external access to IC input-output pins</li><li>Eight user switches connected to I/O pins of the IC</li><li>Eight user LEDs connected to I/O pins of the IC</li><li>Equipped with Arduino Uno R3 port for direct connection with Arduino devices</li><li>Fully compliant with IMXRT1050 EVK board</li><li>Fully compliant with LPCXpresso55S69 dev. board</li><li>Compliant with i.MX Mini LPDDR4 EVK board.</li></ul>
@@ -2827,7 +2806,7 @@ The PCAL6416AEV-ARD Arduino Shield allows easy integration with Arduino EVKs to 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander
 
 <!-- dm-rw612frdm-door-chime-demo/. -->
-## 134. RW612-FRDM Door chime demo with MQTT over Wi-Fi and I2S audio output<a id="dm-rw612frdm-door-chime-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 133. RW612-FRDM Door chime demo with MQTT over Wi-Fi and I2S audio output<a id="dm-rw612frdm-door-chime-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo shows how to implement a wireless door chime with the RW612-FRDM board. <br>The chime is controlled over Wi-Fi with the MQTT application protocol. Chime sound data is streamed on the I2S pins of the RW612-FRDM Arduino header. An external codec and also an amplifier are required to play the sound on an external speaker. 
@@ -2844,7 +2823,7 @@ The PCAL6416AEV-ARD Arduino Shield allows easy integration with Arduino EVKs to 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-rw612frdm-door-chime-demo
 
 <!-- dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app/. -->
-## 135. P3T1035xUK - P3T2030xUK - I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor<a id="dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 134. P3T1035xUK - P3T2030xUK - I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor<a id="dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The <a href="https://www.nxp.com/products/P3T1035xUK">P3T1035xUK</a> or <a href="https://www.nxp.com/products/P3T2030xUK">P3T2030xUK</a> is a temperature-to-digital converter from -40 °C to +125 °C range. It uses an on-chip band gap temperature sensor and A-to-D conversion technique with an overtemperature detection.
@@ -2863,7 +2842,7 @@ The <a href="https://www.nxp.com/products/P3T1035xUK">P3T1035xUK</a> or <a hr
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app
 
 <!-- nxp-appcodehub/dm-wolfssl-tls-hello-server-pqc-with-zephyr -->
-## 136. wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 135. wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 It starts with running our benchmarks for the wolfCrypt library and getting performance numbers for all enable algorithms which in this case includes ML-KEM and ML-DSA. Once the benchmarks are done, a TLS 1.3 server is started. Importantly, this server is configured to support the post-quantum algorithms ML-KEM and ML-DSA.
@@ -2881,7 +2860,7 @@ It starts with running our benchmarks for the wolfCrypt library and getting perf
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wolfssl-tls-1-3-example-using-pqc-on-zephyr
 
 <!-- nxp-appcodehub/dm-ble-cloud -->
-## 137. Golioth Bluetooth Data to the Cloud using Pouch<a id="nxp-appcodehub_dm-ble-cloud"></a> <a href="#top" style="float:right">⤒</a>
+## 136. Golioth Bluetooth Data to the Cloud using Pouch<a id="nxp-appcodehub_dm-ble-cloud"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a standalone repository with the Pouch BLE GATT example. It also requires a Click Weather board to demonstrate how to create a Pouch-base application and send up data on the BLE GATT transport.
@@ -2901,7 +2880,7 @@ This is a standalone repository with the Pouch BLE GATT example. It also require
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=bluetooth-pouch-standalone-frdm-mcxw71
 
 <!-- dm-mc-pmsm-triple-mcxa34x/. -->
-## 138.  MCXA34X  triple motor control demo using HVP board<a id="dm-mc-pmsm-triple-mcxa34x"></a> <a href="#top" style="float:right">⤒</a>
+## 137.  MCXA34X  triple motor control demo using HVP board<a id="dm-mc-pmsm-triple-mcxa34x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo describes the implementation of sensorless triple motor FOC on NXP MCXA346 MCU. Application note AN14805
@@ -2919,7 +2898,7 @@ This demo describes the implementation of sensorless triple motor FOC on NXP MCX
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mc-pmsm-triple-mcxa34x
 
 <!-- dm-eiq-genai-flow-demonstrator/. -->
-## 139. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
+## 138. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application designed for NXP i.MX95 devices. This Demonstrator Demo enables t following pipeline components:<br /><br />    VIT: "Hey NXP" Wake word, or custom<br />    ASR: Whisper Small English, moonshine-tiny, moonshine-base<br />    RAG: Embedding model + example database<br />    LLM: Danube<br />    TTS: 16kHz English
@@ -2946,7 +2925,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-eiq-genai-flow-demonstrator
 
 <!-- dm-imx943-netc-control-and-sharing-between-m33s-acore/. -->
-## 140. NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores<a id="dm-imx943-netc-control-and-sharing-between-m33s-acore"></a> <a href="#top" style="float:right">⤒</a>
+## 139. NETC: Ethernet Switch Control on M33 with Management Port Sharing via VSIs with A-cores<a id="dm-imx943-netc-control-and-sharing-between-m33s-acore"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 <strong>NETC switch control PoC</strong> is an application designed to demonstrate the functionality of the NETC switch on the iMX943 platform.<br />It also showcases the <strong>PCIe SR-IOV</strong> capabilities of NETC by sharing the host <strong>ENETC3</strong>, which is connected to the switch management port, with the A-cores through <strong>Virtual Station Interfaces (VSIs)</strong>.The switch is configured using the <strong>MCU SDK driver API</strong>.<br />A <strong>command-line interface (CLI)</strong> is included, offering a set of commands to enable various switch features. Additional commands can be added to extend support for other NETC switch capabilities.The application uses <strong>FreeRTOS tasks</strong> to handle multiple operations in parallel, including:<ul><li>CLI command processing</li><li>RPMSG communication for PCIe virtualization</li><li>PSI-VSI messaging</li></ul>
@@ -2964,7 +2943,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-imx943-netc-control-and-sharing-between-m33s-acore
 
 <!-- dm-mimxrt700-evk-dual-core-low-power-thermometer-clock/. -->
-## 141. How to enable low power in your application on MIMXRT700-EVK<a id="dm-mimxrt700-evk-dual-core-low-power-thermometer-clock"></a> <a href="#top" style="float:right">⤒</a>
+## 140. How to enable low power in your application on MIMXRT700-EVK<a id="dm-mimxrt700-evk-dual-core-low-power-thermometer-clock"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo is an example of low power thermometer and clock which is based on LVGL 9.2.1 and GUI Guider 1.9.1-GA. It can be used to evaluate low power performances on MIMXRT700 cores with a 1FPS display and to discover how to use power manager on this chip. Here, this demo uses on-board I3C temperature sensor and RTC to gather temperature and current time. User can connect current probes directly on cores power lines to evaluate power consumption. User can also use buttons SW5 and SW7 to set current time.
@@ -2984,7 +2963,7 @@ This demo is an example of low power thermometer and clock which is based on LVG
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mimxrt700-evk-dual-core-low-power-thermometer-clock
 
 <!-- dm-ubx100-flashloader/. -->
-## 142. UBX100 flashloader demo application<a id="dm-ubx100-flashloader"></a> <a href="#top" style="float:right">⤒</a>
+## 141. UBX100 flashloader demo application<a id="dm-ubx100-flashloader"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The UBX100 flashloader demo application demonstrates how a host MCU can interact with a target UBX100 bootloader/flashloader to update its firmware. The platforms used by this example are the FRDM-MCXN947 as the host and the OM-UBX100-001 as the target. Updating the UBX100 firmware is a crucial first step in enablement of the IC.<br />
@@ -3004,7 +2983,7 @@ The UBX100 flashloader demo application demonstrates how a host MCU can interact
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-flashloader
 
 <!-- dm-control-led-emios-pwm-s32k312-mcal/. -->
-## 143. Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers. <a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
+## 142. Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers. <a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure the Enhanced Modular IO Subsystem (eMIOS) module to use it as a PWM specifically in OPWMB (Output Pulse Width Modulation Buffered) mode, using the RTD high-level drivers, commonly known as MCAL drivers.<br />
@@ -3019,4 +2998,25 @@ This demo shows how to configure the Enhanced Modular IO Subsystem (eMIOS) modul
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-control-led-emios-pwm-s32k312-mcal/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-control-led-emios-pwm-s32k312-mcal
+
+<!-- dm-ml-sensorless-anomaly-detection/. -->
+## 143. FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System<a id="dm-ml-sensorless-anomaly-detection"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This demo showcases machine learning anomaly detection in a motor control system with modern GUI and touch controls. The demo showcases integration of many NXP tools. The demo utilizes MCUXpresso SDK for basic drivers, LVGL support for GUI and PMSM motor control algorithms. Using GUI Guider a modern and easy to navigate user interface is developed. Next, the demo incorporates FreeMASTER real time debugging tool to collect datasets using the Machine Learning Universal Datalogger project, which is also available as a standalone project on the Application Code Hub. This dataset can be used to develop a custom anomaly detection model using the Time Series Studio tool which is a part of eIQ® Toolkit. 
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        DISPLAY, DMA, PWM, TIMER, UART 
+#### Categories:         Graphics, HMI, Motor Control, Anomaly Detection, AI/ML, User Interface 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+* [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ml-sensorless-anomaly-detection/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ml-sensorless-anomaly-detection
 
