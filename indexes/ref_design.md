@@ -8,9 +8,9 @@
 ## Index
 1. [How to set up the motion control reference design on iMX.RT1180](#rd-motion-control-slave-servo-mimxrt1180)
 2. [i.MX RT106V Based Smart Voice User Interface Solution](#rd-mcu-svui)
-3. [NXP EasyEVSE iMXRT106x](#rd-nxp-easyevse-imxrt106x)
-4. [Remote IO Platform: Demo](#rd-riop-demo)
-5. [Remote IO Platform: ECAT Sample Application](#rd-riop-ecat)
+3. [Remote IO Platform: Demo](#rd-riop-demo)
+4. [Remote IO Platform: ECAT Sample Application](#rd-riop-ecat)
+5. [NXP EasyEVSE iMXRT106x](#rd-nxp-easyevse-imxrt106x)
 
 <!-- rd-motion-control-slave-servo-mimxrt1180/. -->
 ## 1. How to set up the motion control reference design on iMX.RT1180<a id="rd-motion-control-slave-servo-mimxrt1180"></a> <a href="#top" style="float:right">⤒</a>
@@ -46,8 +46,42 @@
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-mcu-svui/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-mcu-svui
 
+<!-- rd-riop-demo/. -->
+## 3. Remote IO Platform: Demo<a id="rd-riop-demo"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application showcases the analog and digital I/O features supported by the Remote IO Platform without using any industrial protocols. The platform communicates with a PC-based FreeMASTER application via NETC over ethernet. <br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>The application comes pre-programmed into the Remote IO Platform and is part of the Out-of-Box Experience. It is supported by MCUXpresso IDE and VS Code.
+
+#### Families:           i.MX RT 
+#### Toolchains:         MCUXpresso IDE, VS Code 
+#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
+#### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop-demo/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-demo
+
+<!-- rd-riop-ecat/. -->
+## 4. Remote IO Platform: ECAT Sample Application<a id="rd-riop-ecat"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application showcases the analog and digital I/O features supported by the Remote IO Platform in combination with the EtherCAT industrial protocol. The platform communicates over ethernet with a TwinCAT-driven soft-PLC application running on a PC.<br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>
+
+#### Families:           i.MX RT 
+#### Toolchains:         MCUXpresso IDE, VS Code 
+#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
+#### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop-ecat/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-ecat
+
 <!-- rd-nxp-easyevse-imxrt106x/. -->
-## 3. NXP EasyEVSE iMXRT106x<a id="rd-nxp-easyevse-imxrt106x"></a> <a href="#top" style="float:right">⤒</a>
+## 5. NXP EasyEVSE iMXRT106x<a id="rd-nxp-easyevse-imxrt106x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  EasyEVSE is a simulated electric vehicle charging station, J1772 compliant, connected to the Microsoft Azure IoT Central over Ethernet or Wi-Fi communication. The provided application is available in 2 flavors. One is the basic enablement, available on github, while the full enablement can be found at nxp.com.&nbsp;<br>Basic enablement provides:<ul><li>Graphical UI using LVGL and NXP Gui Guider tool</li><li>Network connectivity using either Ethernet or Wi-Fi<br></li><li>Secure Microsoft Azure Cloud connectivity using the SE050 secure element</li><li>EVSE-SIG-BRD add-on development board communication for J1772 vehicle charger standard</li><li>Kinetis KM3x Metrology MCU communication.</li></ul>Full enablement provides the following additional functionalities:<br><ul><li>Integration with Sevenstax ISO15118-2 high level charging protocol using the&nbsp;HomePlug Green PHY (HPGP) transceiver (Lumissil IS32CG5317)</li><li>integration with NXP CLRC663 NFC for external identification method</li></ul>
@@ -68,38 +102,4 @@
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-nxp-easyevse-imxrt106x/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-nxp-easyevse-imxrt106x
-
-<!-- rd-riop-demo/. -->
-## 4. Remote IO Platform: Demo<a id="rd-riop-demo"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This application showcases the analog and digital I/O features supported by the Remote IO Platform without using any industrial protocols. The platform communicates with a PC-based FreeMASTER application via NETC over ethernet. <br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>The application comes pre-programmed into the Remote IO Platform and is part of the Out-of-Box Experience. It is supported by MCUXpresso IDE and VS Code.
-
-#### Families:           i.MX RT 
-#### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
-#### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop-demo/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-demo
-
-<!-- rd-riop-ecat/. -->
-## 5. Remote IO Platform: ECAT Sample Application<a id="rd-riop-ecat"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This application showcases the analog and digital I/O features supported by the Remote IO Platform in combination with the EtherCAT industrial protocol. The platform communicates over ethernet with a TwinCAT-driven soft-PLC application running on a PC.<br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>
-
-#### Families:           i.MX RT 
-#### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
-#### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop-ecat/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-ecat
 
