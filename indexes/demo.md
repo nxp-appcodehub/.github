@@ -106,7 +106,7 @@
 98. [Low-Voltage Translating, 8-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6408a-8-bit-i2c-gpio-expander)
 99. [PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features](#dm-pcal9722hn-22-bit-spi-gpio-expander)
 100. [Facial Detection Zephyr Demo](#apps_zephyr)
-101. [FRDM-RW612 Sensors over Wi-Fi with http server](#dm-frdmrw612-sensors-over-wifi)
+101. [FRDM-RW612 Sensors over Wi-Fi with http server](#dm-frdm-rw612-vit-on-zephyr)
 102. [FRDM-RW612 On-board temperature sensor over BLE](#dm-frdmrw612-temperature-sensor-over-ble)
 103. [Using SmartDMA to implement camera interface in MCXN236](#dm-mcxn236-camera-interface-by-smartdma)
 104. [EZH implements keyscan function in lpc5516](#dm-lpc55s16-keyscan-by-ezh)
@@ -2153,8 +2153,8 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 #### **Repository URL:** https://github.com/nxp-zephyr/apps_zephyr/tree/FacialDetect
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-facialdetect-zephyr-demo
 
-<!-- dm-frdmrw612-sensors-over-wifi/. -->
-## 101. FRDM-RW612 Sensors over Wi-Fi with http server<a id="dm-frdmrw612-sensors-over-wifi"></a> <a href="#top" style="float:right">⤒</a>
+<!-- dm-frdm-rw612-vit-on-zephyr/. -->
+## 101. FRDM-RW612 Sensors over Wi-Fi with http server<a id="dm-frdm-rw612-vit-on-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to use and send the data from the built-in temperature sensor in the FRDM-RW612 board as well as the Accel 4 click and the HeartRate 4 click mikro-e boards over wifi to an http server that displays their information.
@@ -2166,11 +2166,8 @@ This demo shows how to use and send the data from the built-in temperature senso
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
-#### Expansion boards
-* [HEART RATE 4 CLICK](https://mcuxpresso.nxp.com/eb-hub/product/heart rate 4 click)
-* [ACCEL 4 CLICK](https://mcuxpresso.nxp.com/eb-hub/product/accel 4 click)
 
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-frdmrw612-sensors-over-wifi/tree/main
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-frdm-rw612-vit-on-zephyr/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-sensors-over-wifi
 
 <!-- dm-frdmrw612-temperature-sensor-over-ble/. -->
