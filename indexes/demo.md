@@ -150,6 +150,7 @@
 142. [FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System](#dm-ml-sensorless-anomaly-detection)
 143. [SmartWatch Zephyr Demo](#apps_zephyr)
 144. [UBX100 FreeMASTER evaluation GUI](#dm-ubx100-freemaster-gui)
+145. [UBX100 RF toolbox application](#dm-ubx100-rf-toolbox-application)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -3037,4 +3038,24 @@ The UBX100 FreeMASTER evaluation GUI is a demo developed for the FRDM-MCXN947. I
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-freemaster-gui/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-freemaster-gui
+
+<!-- dm-ubx100-rf-toolbox-application/. -->
+## 145. UBX100 RF toolbox application<a id="dm-ubx100-rf-toolbox-application"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+Software solution for evaluation of the OM-UBX100-001 radio board RF toolbox. Contains and MCUXpresso project with a sample application for the FRDM-MCXN947 development board. Contains the binary of the application in .hex format for easy deployment.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        GPIO, SPI, TIMER 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+
+#### Expansion boards
+* [OM-UBX100-001](https://mcuxpresso.nxp.com/eb-hub/product/om-ubx100-001)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-rf-toolbox-application/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-rf-toolbox-application
 

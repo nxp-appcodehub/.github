@@ -71,6 +71,7 @@
 63. [AN14860 Using Segment Liquid Crystal Displays (SLCD) Controller on MCX A Series](#an-mcxa366-slcd-example)
 64. [AN14856 MPPT demo based on MCX A346](#an-mcxa346-mppt-demo)
 65. [AN14797 3-Phase PMSM Field-Oriented Control Solution using MCX E31B](#an-mc-pmsm-mcxe31b)
+66. [AN how to implement 8K USB keyboard on MCXN236](#an-how-to-implement-8k-usb-keyboard-on-mcxn236)
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
 ## 1. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
@@ -1274,4 +1275,22 @@ for 3 phase permanent magnet synchronous motor(PMSM) on MCX E31x series MCU. 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-mcxe31b/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-pmsm-mcxe31b
+
+<!-- an-how-to-implement-8k-usb-keyboard-on-mcxn236/. -->
+## 66. AN how to implement 8K USB keyboard on MCXN236<a id="an-how-to-implement-8k-usb-keyboard-on-mcxn236"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application note describes how to implement 8K USB keyboard on MCXN236
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        SPI, USB, SmartDMA 
+#### Categories:         HMI 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXN236](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n23x-mcus:FRDM-MCXN236)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-how-to-implement-8k-usb-keyboard-on-mcxn236/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-how-to-implement-8k-usb-keyboard-on-mcxn236
 
