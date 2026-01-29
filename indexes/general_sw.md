@@ -10,12 +10,12 @@
 2. [Display on rm67162 smart panel by vglite, driven by dual core.](#gs-smart-panel-rm67162-rt1170)
 3. [ML Kitchen Pantry Object Classification](#gs-ml-kitchen-pantry-object-classification)
 4. [ML Dry Beans Image Classification Using eIQ](#gs-ml-dry-beans-image-classification-using-eiq)
-5. [LPC553x Motor control application framework](#gs-motor-control-application-framework)
-6. [MCXA153 Motor Control Application Framework](#gs-mcxa153-motor-control-application-framework)
-7. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu)
-8. [sCan: A Simple CAN-FD Communication Module](#gs-scan)
-9. [Enhancing Converter Performance with Low-Jitter eFlexPWM Module](#gs-low-jitter-eflexpwm-module)
-10. [UBX100 SDK - UBX100 FW and Host SW](#gs-ubx100-sdk)
+5. [MCXA153 Motor Control Application Framework](#gs-mcxa153-motor-control-application-framework)
+6. [Runtime environment for testing MCU applications](#gs-test-loader-for-mcu)
+7. [sCan: A Simple CAN-FD Communication Module](#gs-scan)
+8. [Enhancing Converter Performance with Low-Jitter eFlexPWM Module](#gs-low-jitter-eflexpwm-module)
+9. [UBX100 SDK - UBX100 FW and Host SW](#gs-ubx100-sdk)
+10. [LPC553x Motor control application framework](#gs-motor-control-application-framework)
 
 <!-- gs-vglite_examples_rt1170/. -->
 ## 1. VGLite examples<a id="gs-vglite_examples_rt1170"></a> <a href="#top" style="float:right">⤒</a>
@@ -97,28 +97,8 @@
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-ml-dry-beans-image-classification-using-eiq/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-ml-dry-beans-image-classification-using-eiq
 
-<!-- gs-motor-control-application-framework/. -->
-## 5. LPC553x Motor control application framework<a id="gs-motor-control-application-framework"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
- This software introduces framework with peripherals, interrupts and additional resources for developing motor control application with LPC55S3x/553x EVK with NXP low voltage PMSM board. It is easy to port to any custom board and debug by using FreeMASTER tool.    
-
-#### Families:           LPC 
-#### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, CLOCKS, GPIO, PWM, TIMER, UART 
-#### Categories:         Motor Control 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-* [LPCXpresso55S36](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/lpcxpresso-boards/lpcxpresso55s36-development-board:LPCXpresso55S36)
-
-#### Expansion boards
-* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-motor-control-application-framework/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-motor-control-application-framework
-
 <!-- gs-mcxa153-motor-control-application-framework/. -->
-## 6. MCXA153 Motor Control Application Framework<a id="gs-mcxa153-motor-control-application-framework"></a> <a href="#top" style="float:right">⤒</a>
+## 5. MCXA153 Motor Control Application Framework<a id="gs-mcxa153-motor-control-application-framework"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software introduces framework with peripherals, interrupts and additional resources for developing motor control application with FRDM-MCXA 153 with NXP low voltage PMSM board. It is easy to port to any custom board and debug by using FreeMASTER tool.
@@ -138,7 +118,7 @@ This software introduces framework with peripherals, interrupts and additional r
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-mcxa153-motor-control-application-framework
 
 <!-- gs-test-loader-for-mcu/. -->
-## 7. Runtime environment for testing MCU applications<a id="gs-test-loader-for-mcu"></a> <a href="#top" style="float:right">⤒</a>
+## 6. Runtime environment for testing MCU applications<a id="gs-test-loader-for-mcu"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Test loader is a software component which must be integrated into the firmware of a Device Under Test (DUT) which includes a MCU relying on FreeRTOS and LittleFS
@@ -158,7 +138,7 @@ Test loader is a software component which must be integrated into the firmware o
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-test-loader-for-mcu
 
 <!-- gs-scan/. -->
-## 8. sCan: A Simple CAN-FD Communication Module<a id="gs-scan"></a> <a href="#top" style="float:right">⤒</a>
+## 7. sCan: A Simple CAN-FD Communication Module<a id="gs-scan"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a middleware software used to simplify CAN communication, it is easy to configure and provides simple sending and receiving functions and the format for transmitting data was specified. It has some defined commands such as reset, data transmission, OTA, Bluetooth settings, the users can extend these commands according to your needs.
@@ -177,7 +157,7 @@ This is a middleware software used to simplify CAN communication, it is easy to 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-scan
 
 <!-- gs-low-jitter-eflexpwm-module/. -->
-## 9. Enhancing Converter Performance with Low-Jitter eFlexPWM Module<a id="gs-low-jitter-eflexpwm-module"></a> <a href="#top" style="float:right">⤒</a>
+## 8. Enhancing Converter Performance with Low-Jitter eFlexPWM Module<a id="gs-low-jitter-eflexpwm-module"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software provides examples of various PWM modes of <b>eFlexPWM </b>module on <b>MCXA153</b>. The <b>eFlexPWM </b>module is a flexible and high-resolution PWM module, commonly used in embedded systems for precise motor and power control. Its key strengths include <strong>low output jitter</strong>, synchronized multi-channel operation and advanced features, making it especially suitable for applications like <strong>induction cooktops</strong>, where stable and efficient high-frequency switching is essential.
@@ -195,7 +175,7 @@ This software provides examples of various PWM modes of <b>eFlexPWM </b>module
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-low-jitter-eflexpwm-module
 
 <!-- gs-ubx100-sdk/. -->
-## 10. UBX100 SDK - UBX100 FW and Host SW<a id="gs-ubx100-sdk"></a> <a href="#top" style="float:right">⤒</a>
+## 9. UBX100 SDK - UBX100 FW and Host SW<a id="gs-ubx100-sdk"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The UBX100 SDK contains the host radio modem library (HRML) which implements SPI communication
@@ -216,4 +196,24 @@ the released SDK also contains the firmware of the radio modem with correspondin
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-ubx100-sdk/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-ubx100-sdk
+
+<!-- gs-motor-control-application-framework/. -->
+## 10. LPC553x Motor control application framework<a id="gs-motor-control-application-framework"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software introduces framework with peripherals, interrupts and additional resources for developing motor control application with LPC55S3x/553x EVK with NXP low voltage PMSM board. It is easy to port to any custom board and debug by using FreeMASTER tool.    
+
+#### Families:           LPC 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, CLOCKS, GPIO, PWM, TIMER, UART 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [LPCXpresso55S36](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/lpcxpresso-boards/lpcxpresso55s36-development-board:LPCXpresso55S36)
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/gs-motor-control-application-framework/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=gs-motor-control-application-framework
 
