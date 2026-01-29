@@ -151,6 +151,7 @@
 143. [SmartWatch Zephyr Demo](#apps_zephyr)
 144. [UBX100 FreeMASTER evaluation GUI](#dm-ubx100-freemaster-gui)
 145. [UBX100 RF toolbox application](#dm-ubx100-rf-toolbox-application)
+146. [afci 8ch mcxn547 demo](#dm-afci-8ch-mcxn547)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -3058,4 +3059,21 @@ Software solution for evaluation of the OM-UBX100-001 radio board RF toolbox. Co
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-rf-toolbox-application/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-rf-toolbox-application
+
+<!-- dm-afci-8ch-mcxn547/. -->
+## 146. afci 8ch mcxn547 demo<a id="dm-afci-8ch-mcxn547"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+afci 8ch mcxn547 demo
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, DMA 
+#### Categories:         AI/ML, Power Conversion 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-afci-8ch-mcxn547/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-afci-8ch-mcxn547
 
