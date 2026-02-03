@@ -58,7 +58,7 @@
 50. [Nafe Industrial Application Examples using API Libraries](#dm-nafex388-application-examples)
 51. [Implementation of Motor Control Algorithms to MCIMX93-EVK](#dm-motor-control-demo-for-i-mx93)
 52. [EVSE-SIG-BRD using LPC5536/LPC55S36 for electric vehicle chargers](#dm-lpc5536-evse-sigbrd)
-53. [PCF85063AT : Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.](#dm-pcf85063at-real-time-clock-demo-app)
+53. [PCF85063AT : Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.](#dm-pcf85063at-tp-real-time-clock-demo-app)
 54. [A simple CAN bootloader project for FRDM-MCXA156](#dm-frdm-mcxa156-can-bootloader)
 55. [Tamper detection with low-power wakeup sensor using BLE wireless UART](#dm-tamper-detection-using-low-power-wakeup-sensor-over-ble)
 56. [FRDM-RW612 On-board temperature sensor over BLE](#dm-frdmrw612-temperature-sensor-over-ble)
@@ -1158,8 +1158,8 @@
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-lpc5536-evse-sigbrd/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lpc5536-evse-sigbrd
 
-<!-- dm-pcf85063at-real-time-clock-demo-app/. -->
-## 53. PCF85063AT : Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.<a id="dm-pcf85063at-real-time-clock-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+<!-- dm-pcf85063at-tp-real-time-clock-demo-app/. -->
+## 53. PCF85063AT : Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.<a id="dm-pcf85063at-tp-real-time-clock-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example demo provides CMSIS Compliant APIs to configure different operating modes of PCF85063AT RTC. It also provides APIs to perform below mentioned operations:<br><ul><li>RTC Start</li><li>RTC Stop</li><li>Get/Set Time and date </li><li>Minute/Half Minute Interrupt</li><li>Offset Modes </li><li>Correction Interrupts </li><li>Get &amp; Set Alarm  etc. </li></ul>
@@ -1176,7 +1176,7 @@
 #### Expansion boards
 * [PCF85063AT](https://mcuxpresso.nxp.com/eb-hub/product/pcf85063at)
 
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcf85063at-real-time-clock-demo-app/tree/main
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcf85063at-tp-real-time-clock-demo-app/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcf85063at-real-time-clock-demo-app
 
 <!-- dm-frdm-mcxa156-can-bootloader/. -->
