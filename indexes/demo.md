@@ -153,6 +153,7 @@
 145. [wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS](#nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr)
 146. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
 147. [UBX100 RF toolbox application](#dm-ubx100-rf-toolbox-application)
+148. [Motor Control PMSM FRDM with LVGL](#dm-motor-control-pmsm-frdm-mcxa156)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -3099,4 +3100,25 @@ Software solution for evaluation of the OM-UBX100-001 radio board RF toolbox. Co
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-rf-toolbox-application/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-rf-toolbox-application
+
+<!-- dm-motor-control-pmsm-frdm-mcxa156/. -->
+## 148. Motor Control PMSM FRDM with LVGL<a id="dm-motor-control-pmsm-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+Demo is Motor Control Implementation of Permanent Magnet Synchronous Motor (PMSM) using LVGL with graphics.
+
+#### Families:           MCX 
+#### Toolchains:         MCUXpresso IDE 
+#### Peripherals:        ADC, I2C, PWM, UART, SDIO 
+#### Categories:         Graphics, Motor Control, Industrial 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA156](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a144-5-6-a154-5-6-mcus:FRDM-MCXA156)
+
+#### Expansion boards
+* [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
+* [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-motor-control-pmsm-frdm-mcxa156/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-motor-control-pmsm-frdm-mcxa156
 
