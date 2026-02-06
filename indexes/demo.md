@@ -153,7 +153,8 @@
 145. [wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS](#nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr)
 146. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
 147. [UBX100 RF toolbox application](#dm-ubx100-rf-toolbox-application)
-148. [Motor Control PMSM FRDM with LVGL](#dm-motor-control-pmsm-frdm-mcxa156)
+148. [i.MX RT1170 Mirror and control android phone using Zephyr](#dm-i-mx-rt1170-android-phone-screen-mirroring)
+149. [Motor Control PMSM FRDM with LVGL](#dm-motor-control-pmsm-frdm-mcxa156)
 
 <!-- dm-lvgl-epaper-smartlabel-kw45/. -->
 ## 1. BLE smart label based on LVGL using Waveshare e-ink display and KW45<a id="dm-lvgl-epaper-smartlabel-kw45"></a> <a href="#top" style="float:right">⤒</a>
@@ -3101,8 +3102,29 @@ Software solution for evaluation of the OM-UBX100-001 radio board RF toolbox. Co
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-ubx100-rf-toolbox-application/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ubx100-rf-toolbox-application
 
+<!-- dm-i-mx-rt1170-android-phone-screen-mirroring/. -->
+## 148. i.MX RT1170 Mirror and control android phone using Zephyr<a id="dm-i-mx-rt1170-android-phone-screen-mirroring"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application demonstrates how to mirror and control an Android phone from an RT1170-EVKB running Zephyr. The Android screen is captured, encoded in MJPEG, and transmitted over Wi‑Fi or Ethernet to the RT1170-EVKB, where it is decoded and displayed on the LCD. The demo also supports touch input, allowing the user to control the phone directly from the RT1170’s touchscreen.
+
+#### Families:           i.MX RT 
+#### Toolchains:         GCC, VS Code 
+#### Peripherals:        DISPLAY, I2C, VIDEO, Wi-Fi 
+#### Categories:         Graphics, Touch Sensing, RTOS 
+#### Application format: Zephyr Project
+#### Compatible boards:
+* [MIMXRT1170-EVKB](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB)
+
+#### Expansion boards
+* [RK055HDMIPI4MA0](https://mcuxpresso.nxp.com/eb-hub/product/rk055hdmipi4ma0)
+* [IW612 - muRata Type-2EL Module](https://mcuxpresso.nxp.com/eb-hub/product/iw612 - murata type-2el module)
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-i-mx-rt1170-android-phone-screen-mirroring/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-i-mx-rt1170-android-phone-screen-mirroring
+
 <!-- dm-motor-control-pmsm-frdm-mcxa156/. -->
-## 148. Motor Control PMSM FRDM with LVGL<a id="dm-motor-control-pmsm-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 149. Motor Control PMSM FRDM with LVGL<a id="dm-motor-control-pmsm-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Demo is Motor Control Implementation of Permanent Magnet Synchronous Motor (PMSM) using LVGL with graphics.
