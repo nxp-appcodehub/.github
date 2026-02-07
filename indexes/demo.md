@@ -156,6 +156,7 @@
 148. [NAFE13388-UIM Industrial Applications with GUI and CLI support .](#dm-nafe13388-application-examples)
 149. [i.MX RT1170 Mirror and control android phone using Zephyr](#dm-i-mx-rt1170-android-phone-screen-mirroring)
 150. [PMSM Motor Control with NCP FRDM](#dm-mc-pmsm-ncp-frdm-mcxa156)
+151. [Demo and steps creating new Zephyr app repo and custom board](#dm-create-zephyr-app-repo)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -3164,4 +3165,24 @@ This application is an example of use PMSM motor control with NCP (Network Copro
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mc-pmsm-ncp-frdm-mcxa156/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mc-pmsm-ncp-frdm-mcxa156
+
+<!-- dm-create-zephyr-app-repo/. -->
+## 151. Demo and steps creating new Zephyr app repo and custom board<a id="dm-create-zephyr-app-repo"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+Demo
+with steps to create a new app repo with West manifest:<br /><ul><li>build using VS Code or CLI</li><li>use
+upstream or downstream repos</li><li>add custom
+board&lt;/li&gt;&lt;/ul&gt;</li></ul>
+
+#### Families:           i.MX, Kinetis, LPC, RW, MCX, i.MX RT, S32K 
+#### Toolchains:         GCC, VS Code 
+#### Peripherals:        Wi-Fi 
+#### Categories:         Tools 
+#### Application format: Zephyr Project
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-create-zephyr-app-repo/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-create-zephyr-app-repo
 
