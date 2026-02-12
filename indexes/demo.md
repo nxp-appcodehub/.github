@@ -157,6 +157,7 @@
 149. [i.MX RT1170 Mirror and control android phone using Zephyr](#dm-i-mx-rt1170-android-phone-screen-mirroring)
 150. [PMSM Motor Control with NCP FRDM](#dm-mc-pmsm-ncp-frdm-mcxa156)
 151. [Demo and steps creating new Zephyr app repo and custom board](#dm-create-zephyr-app-repo)
+152. [KNX IoT Point API stack with ETS support on NXP Connectivity MCUs](#dm-knx-iot-apps-with-ets-support-on-nxp-mcus)
 
 <!-- dm-lvgl_cluster_rt1170_evkb_rpi/. -->
 ## 1. Instrument cluster demo on MIMXRT1170-EVK with Raspberry Pi 7" touch panel, using LVGL<a id="dm-lvgl_cluster_rt1170_evkb_rpi"></a> <a href="#top" style="float:right">⤒</a>
@@ -3185,4 +3186,21 @@ board&lt;/li&gt;&lt;/ul&gt;</li></ul>
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-create-zephyr-app-repo/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-create-zephyr-app-repo
+
+<!-- dm-knx-iot-apps-with-ets-support-on-nxp-mcus/. -->
+## 152. KNX IoT Point API stack with ETS support on NXP Connectivity MCUs<a id="dm-knx-iot-apps-with-ets-support-on-nxp-mcus"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This repository contains light switched basic examples of the opensource KNX IoT Point API stack running on NXP Connectivity MCUs. These examples include light switched actuator basic (LSAB) and light switched sensor basic (LSSB) examples. The examples support connectivity with KNX Association's Engineering Tool Software (ETS) which is used as Management and Configuration Tool (MaC) for designing and configuring intelligent home and building control installations with the KNX systems.
+
+#### Families:           RW 
+#### Toolchains:         GCC, VS Code 
+#### Peripherals:        GPIO, UART, 802.15.4 
+#### Categories:         Wireless Connectivity 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-knx-iot-apps-with-ets-support-on-nxp-mcus/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-knx-iot-apps-with-ets-support-on-nxp-mcus
 
