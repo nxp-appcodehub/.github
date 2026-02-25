@@ -1596,7 +1596,7 @@ This demo shows how to configure and use the LPI2C and GPIO drivers from the Rea
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
 #### Peripherals:        GPIO, UART 
-#### Categories:         Tools 
+#### Categories:         Sensor, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
