@@ -1627,7 +1627,7 @@ This demo shows how to configure and use the LPI2C and GPIO drivers from the Rea
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-i2c-gpio-s32k344/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-a-s32k344-i2c-gpio
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-i2c-gpio-s32k344
 
 <!-- dm-motor-control-pmsm-frdm-mcxa156/. -->
 ## 75. Motor Control PMSM FRDM with LVGL<a id="dm-motor-control-pmsm-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
