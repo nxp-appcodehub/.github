@@ -856,7 +856,7 @@ This demo presents the S32 Design Studio toolchain, flashing flow and the basic 
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-gpio-blinky-s32k312/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-a-s32k312-gpio-blinky
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-gpio-blinky-s32k312
 
 <!-- nxp-appcodehub/dm-ble-cloud -->
 ## 36. Golioth Bluetooth Data to the Cloud using Pouch<a id="nxp-appcodehub_dm-ble-cloud"></a> <a href="#top" style="float:right">⤒</a>
@@ -2694,7 +2694,7 @@ This demo shows how to configure and use the UART driver from the Real-Time Driv
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-s32k344/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-a-s32k344-uart
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-s32k344
 
 <!-- dm-uart-button-s32k312/. -->
 ## 127. UART Communication and LED  Example on FRDM-Auto-S32K312<a id="dm-uart-button-s32k312"></a> <a href="#top" style="float:right">⤒</a>
@@ -2711,7 +2711,7 @@ This demo shows how to create a USB-UART serial console and basic LED control on
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-button-s32k312/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-a-s32k312-uart-button
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-button-s32k312
 
 <!-- dm-ubx100-freemaster-gui/. -->
 ## 128. UBX100 FreeMASTER evaluation GUI<a id="dm-ubx100-freemaster-gui"></a> <a href="#top" style="float:right">⤒</a>
