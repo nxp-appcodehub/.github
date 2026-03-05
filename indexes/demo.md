@@ -40,7 +40,7 @@
 32. [FRDMHB2002ESEVM: Driver and demo app for MC33HB2002ES H-bridge motor controller](#dm-frdmhb2002esevm-motor-control-demo-app)
 33. [Fashion MNIST Recognition on MCXN947](#dm-fashion-mnist-recognition-on-mcxn947)
 34. [Full Appliance Demo](#dm-rt1170evkb-full-appliance)
-35. [GPIO Blinking LED Demo for FRDM-Auto-S32K312](#dm-gpio-blinky-s32k312)
+35. [GPIO Blinking LED Demo for FRDM-A-S32K312](#dm-gpio-blinky-s32k312)
 36. [Golioth Bluetooth Data to the Cloud using Pouch](#nxp-appcodehub_dm-ble-cloud)
 37. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
 38. [HTTPS LCD LED Demo](#dm-https-lcd-led-demo)
@@ -79,7 +79,7 @@
 71. [MCXW71 Accelerometer and light sensor over Wireless UART](#dm-mcxw71-accel-and-light-ble)
 72. [Magnetic Wake-up Example using NMH1000 Magnetic Switch Sensor](#dm-nmh1000-magnetic-switch-example)
 73. [Matter EdgeLock 2GO secure lock example running on RW612](#dm-matter-secure-lock-on-rw612)
-74. [Motion and Temperature Sensing using LPI2C and GPIO on FRDM-Auto-S32K344 with MCAL Drivers](#dm-i2c-gpio-s32k344)
+74. [Motion and Temperature Sensing using LPI2C and GPIO on FRDM-A-S32K344 with MCAL Drivers](#dm-i2c-gpio-s32k344)
 75. [Motor Control PMSM FRDM with LVGL](#dm-motor-control-pmsm-frdm-mcxa156)
 76. [Motor RPM Control with KnobGClick and RPM Display in Real Time with USB](#dm-ip-frdmmcxc444-rotary-motor-update-usb)
 77. [Motor RPM Control with KnobGClick with USB](#dm-ip-frdmmcxc242-rotary-motor-update-usb)
@@ -131,8 +131,8 @@
 123. [This example demonstrates FXLS89xxxF 3-axis accelerometer evaluation GUI using ISSDK and FreeMASTER](#dm-freemaster-fxls89xxxf-evaluation-gui-firmware)
 124. [Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156](#dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156)
 125. [Touch Keypad Tuning on MCXN](#dm-mcxn-touch-keypad-tuning)
-126. [UART Communication Example using RTD Drivers on FRDM-Auto-S32K344](#dm-uart-s32k344)
-127. [UART Communication and LED  Example on FRDM-Auto-S32K312](#dm-uart-button-s32k312)
+126. [UART Communication Example using RTD Drivers on FRDM-A-S32K344](#dm-uart-s32k344)
+127. [UART Communication and LED  Example on FRDM-A-S32K312](#dm-uart-button-s32k312)
 128. [UBX100 FreeMASTER evaluation GUI](#dm-ubx100-freemaster-gui)
 129. [UBX100 RF toolbox application](#dm-ubx100-rf-toolbox-application)
 130. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
@@ -842,10 +842,10 @@ This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hel
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-rt1170evkb-full-appliance
 
 <!-- dm-gpio-blinky-s32k312/. -->
-## 35. GPIO Blinking LED Demo for FRDM-Auto-S32K312<a id="dm-gpio-blinky-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 35. GPIO Blinking LED Demo for FRDM-A-S32K312<a id="dm-gpio-blinky-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo presents the S32 Design Studio toolchain, flashing flow and the basic GPIO/clock initialization on the FRDM S32K312 by toggling the onboard LED. 
+This demo presents the S32 Design Studio toolchain, flashing flow and the basic GPIO/clock initialization on the FRDM-A-S32K312 by toggling the onboard LED.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
@@ -1613,10 +1613,10 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-matter-secure-lock-on-rw612
 
 <!-- dm-i2c-gpio-s32k344/. -->
-## 74. Motion and Temperature Sensing using LPI2C and GPIO on FRDM-Auto-S32K344 with MCAL Drivers<a id="dm-i2c-gpio-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 74. Motion and Temperature Sensing using LPI2C and GPIO on FRDM-A-S32K344 with MCAL Drivers<a id="dm-i2c-gpio-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to configure and use the LPI2C and GPIO drivers from the Real-Time Drivers (RTD / MCAL) package on the FRDM S32K344 Evaluation Board using S32 Design Studio.The example demonstrates motion and temperature monitoring using I2C sensor communication and RGB LED control via GPIO.
+This demo shows how to configure and use the LPI2C and GPIO drivers from the Real-Time Drivers (RTD / MCAL) package on the FRDM-A-S32K344 Evaluation Board using S32 Design Studio.The example demonstrates motion and temperature monitoring using I2C sensor communication and RGB LED control via GPIO.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
@@ -2680,10 +2680,10 @@ This demo shows how to configure and use the LPI2C and GPIO drivers on the FRDM 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn-touch-keypad-tuning
 
 <!-- dm-uart-s32k344/. -->
-## 126. UART Communication Example using RTD Drivers on FRDM-Auto-S32K344<a id="dm-uart-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 126. UART Communication Example using RTD Drivers on FRDM-A-S32K344<a id="dm-uart-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to configure and use the UART driver from the Real-Time Drivers (RTD / MCAL) package on the FRDM S32K344 microcontroller using S32 Design Studio.The example demonstrates UART communication using a loopback connection, where transmitted data is received back, validating UART TX/RX functionality using FLEXIO.
+This demo shows how to configure and use the UART driver from the Real-Time Drivers (RTD / MCAL) package on the FRDM-A-S32K344 microcontroller using S32 Design Studio.The example demonstrates UART communication using a loopback connection, where transmitted data is received back, validating UART TX/RX functionality using FLEXIO.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
@@ -2697,10 +2697,10 @@ This demo shows how to configure and use the UART driver from the Real-Time Driv
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-s32k344
 
 <!-- dm-uart-button-s32k312/. -->
-## 127. UART Communication and LED  Example on FRDM-Auto-S32K312<a id="dm-uart-button-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 127. UART Communication and LED  Example on FRDM-A-S32K312<a id="dm-uart-button-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to create a USB-UART serial console and basic LED control on the FRDM S32K312 board. The application provides a text-based UART console with simple commands and also supports LED control via onboard buttons.
+This demo shows how to create a USB-UART serial console and basic LED control on the FRDM-A-S32K312 board. The application provides a text-based UART console with simple commands and also supports LED control via onboard buttons.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
