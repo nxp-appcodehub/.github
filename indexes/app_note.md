@@ -11,36 +11,36 @@
 3. [lpc_uart_server](#an-lpc_uart_server)
 4. [mipi-dsi-screen-pushing-rt500](#an-mipi-dsi-screen-pushing-rt500)
 5. [multiple-usb-audio-formats-on-lpc5500](#an-multiple-usb-audio-formats-on-lpc5500)
-6. [ AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M27x](#an-mc-pmsm-s32m276)
-7. [AN how to implement 8K USB keyboard on MCXN236](#an-how-to-implement-8k-usb-keyboard-on-mcxn236)
-8. [AN12004: Low-Power Motion Wake-Up Examples for FXLS8974CF using Sensor Data Change Detection (SDCD) Block](#an-fxls8974cf-low-power-wake-up-examples)
-9. [AN12103: Simple USB video class device on i.MX RT1050](#an-uvc_imxrt)
-10. [AN12110: Developing a camera application with i.MX RT series](#an-hd_camera_rt1050)
-11. [AN12125: Using LPC802 as I2C-bus EEPROM](#an-lpc802_io_eeprom)
-12. [AN12126: Using LPC802 as an I2C I/O expander](#an-lpc802_io_expander)
-13. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
-14. [AN12822: Emulation of 8080 bus via FlexIO on RT1050](#an-flexio_8080_rt1050)
-15. [AN13075：i.MX RT1170 heterogeneous graphics pipeline](#an-graphics_features_rt1170)
-16. [AN13184: 3-phase PMSM sensorless vector control and 2-phase interleaved PFC on MC56F83783](#an-mc_pfc_56f83783)
-17. [AN13437: Triggering ADC multi-channel conversion via low power interrupt timer on KE17Z](#an-ftm_lpit_adc12_multi_channel)
-18. [AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500](#an-fft_with_pq_and_cmsis_dsp)
-19. [AN13497: Firmware update using secondary bootloader](#an-fw_update_using_sec_bootloader)
-20. [AN13498: PowerQuad digital signal processing on NXP LPC553x/LPC55S3x](#an-dsp_for_lpc553x_using_pq)
-21. [AN13569 How to run dual-servo motor on LPC553x](#an-lpc553x-dual-servo-motor-control)
-22. [AN13730: Developing a GUI on a memory constrained MCU with GUI Guider and LVGL](#an-lvgl_demo_for_small_mcu)
-23. [AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170](#an-display_low_power_rt1170)
-24. [AN13778: Porting VGLite driver for bare metal or single task](#an-vglite_porting_imxrt)
-25. [AN13793: FLAC codec porting and performance evaluation based on i.MX RT685](#an-flac-codec-rt685)
-26. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
-27. [AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application](#an-kw4x-bluetooth-le-nfc-integration)
-28. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-pmsm-one-shunt-lpc86x)
-29. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
-30. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
-31. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
-32. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
-33. [AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783](#an-bidirectional-dcdc-mc56f83783)
-34. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
-35. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
+6. [AN how to implement 8K USB keyboard on MCXN236](#an-how-to-implement-8k-usb-keyboard-on-mcxn236)
+7. [AN12004: Low-Power Motion Wake-Up Examples for FXLS8974CF using Sensor Data Change Detection (SDCD) Block](#an-fxls8974cf-low-power-wake-up-examples)
+8. [AN12103: Simple USB video class device on i.MX RT1050](#an-uvc_imxrt)
+9. [AN12110: Developing a camera application with i.MX RT series](#an-hd_camera_rt1050)
+10. [AN12125: Using LPC802 as I2C-bus EEPROM](#an-lpc802_io_eeprom)
+11. [AN12126: Using LPC802 as an I2C I/O expander](#an-lpc802_io_expander)
+12. [AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack](#an-ethernet-lwip-ptpd-imxrt)
+13. [AN12822: Emulation of 8080 bus via FlexIO on RT1050](#an-flexio_8080_rt1050)
+14. [AN13075：i.MX RT1170 heterogeneous graphics pipeline](#an-graphics_features_rt1170)
+15. [AN13184: 3-phase PMSM sensorless vector control and 2-phase interleaved PFC on MC56F83783](#an-mc_pfc_56f83783)
+16. [AN13437: Triggering ADC multi-channel conversion via low power interrupt timer on KE17Z](#an-ftm_lpit_adc12_multi_channel)
+17. [AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500](#an-fft_with_pq_and_cmsis_dsp)
+18. [AN13497: Firmware update using secondary bootloader](#an-fw_update_using_sec_bootloader)
+19. [AN13498: PowerQuad digital signal processing on NXP LPC553x/LPC55S3x](#an-dsp_for_lpc553x_using_pq)
+20. [AN13569 How to run dual-servo motor on LPC553x](#an-lpc553x-dual-servo-motor-control)
+21. [AN13730: Developing a GUI on a memory constrained MCU with GUI Guider and LVGL](#an-lvgl_demo_for_small_mcu)
+22. [AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170](#an-display_low_power_rt1170)
+23. [AN13778: Porting VGLite driver for bare metal or single task](#an-vglite_porting_imxrt)
+24. [AN13793: FLAC codec porting and performance evaluation based on i.MX RT685](#an-flac-codec-rt685)
+25. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
+26. [AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application](#an-kw4x-bluetooth-le-nfc-integration)
+27. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-pmsm-one-shunt-lpc86x)
+28. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
+29. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
+30. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
+31. [AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU](#an-mcxn947-camera-interface-by-smartdma)
+32. [AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783](#an-bidirectional-dcdc-mc56f83783)
+33. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
+34. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
+35. [AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M276](#an-mc-pmsm-s32m276)
 36. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
 37. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
 38. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
@@ -166,25 +166,8 @@
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-multiple-usb-audio-formats-on-lpc5500/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-multiple-usb-audio-formats-on-lpc5500
 
-<!-- an-mc-pmsm-s32m276/. -->
-## 6.  AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M27x<a id="an-mc-pmsm-s32m276"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) control using single shunt current sensing on the NXP and S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note. 
-
-#### Families:           S32M 
-#### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, PWM, SPI, UART, eMIOS, BCTU 
-#### Categories:         Motor Control 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-s32m276/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-pmsm-s32m276
-
 <!-- an-how-to-implement-8k-usb-keyboard-on-mcxn236/. -->
-## 7. AN how to implement 8K USB keyboard on MCXN236<a id="an-how-to-implement-8k-usb-keyboard-on-mcxn236"></a> <a href="#top" style="float:right">⤒</a>
+## 6. AN how to implement 8K USB keyboard on MCXN236<a id="an-how-to-implement-8k-usb-keyboard-on-mcxn236"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application note describes how to implement 8K USB keyboard on MCXN236
@@ -202,7 +185,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-how-to-implement-8k-usb-keyboard-on-mcxn236
 
 <!-- an-fxls8974cf-low-power-wake-up-examples/. -->
-## 8. AN12004: Low-Power Motion Wake-Up Examples for FXLS8974CF using Sensor Data Change Detection (SDCD) Block<a id="an-fxls8974cf-low-power-wake-up-examples"></a> <a href="#top" style="float:right">⤒</a>
+## 7. AN12004: Low-Power Motion Wake-Up Examples for FXLS8974CF using Sensor Data Change Detection (SDCD) Block<a id="an-fxls8974cf-low-power-wake-up-examples"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 <ul><li>This software describes how to configure SDCD block of FXLS897xCF sensor to enable low-power motion wake-up in interrupt mode and use auto-wake/sleep feature to autonomously put the sensor back to low-power sleep mode when no-motion is detected for configured auto-sleep timer.<br></li></ul>
@@ -223,7 +206,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-fxls8974cf-low-power-wake-up-examples
 
 <!-- an-uvc_imxrt/. -->
-## 9. AN12103: Simple USB video class device on i.MX RT1050<a id="an-uvc_imxrt"></a> <a href="#top" style="float:right">⤒</a>
+## 8. AN12103: Simple USB video class device on i.MX RT1050<a id="an-uvc_imxrt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN12103](https://www.nxp.com/docs/en/application-note/AN12103.pdf), which describes how to develop a simple UVC device using the NXP i.MX RT1050 or i.MX RT1170 processor. 
@@ -244,7 +227,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-uvc_imxrt
 
 <!-- an-hd_camera_rt1050/. -->
-## 10. AN12110: Developing a camera application with i.MX RT series<a id="an-hd_camera_rt1050"></a> <a href="#top" style="float:right">⤒</a>
+## 9. AN12110: Developing a camera application with i.MX RT series<a id="an-hd_camera_rt1050"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN12110](https://www.nxp.com/docs/en/application-note/AN12110.pdf), which describes how to develop an HD camera application with the NXP i.MX RT1050 processor. 
@@ -265,7 +248,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-hd_camera_rt1050
 
 <!-- an-lpc802_io_eeprom/. -->
-## 11. AN12125: Using LPC802 as I2C-bus EEPROM<a id="an-lpc802_io_eeprom"></a> <a href="#top" style="float:right">⤒</a>
+## 10. AN12125: Using LPC802 as I2C-bus EEPROM<a id="an-lpc802_io_eeprom"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  AN12125: Using LPC802 as I2C-bus EEPROM&nbsp; 
@@ -283,7 +266,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lpc802_io_eeprom
 
 <!-- an-lpc802_io_expander/. -->
-## 12. AN12126: Using LPC802 as an I2C I/O expander<a id="an-lpc802_io_expander"></a> <a href="#top" style="float:right">⤒</a>
+## 11. AN12126: Using LPC802 as an I2C I/O expander<a id="an-lpc802_io_expander"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note introduces how to use LPC802 as I/O expander via the I2C-bus interface. Please refer to AN12126 for complete instructions on how to use this software. https://www.nxp.com/docs/en/application-note/AN12126.pdf 
@@ -301,7 +284,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lpc802_io_expander
 
 <!-- an-ethernet-lwip-ptpd-imxrt/. -->
-## 13. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
+## 12. AN12149: Implementing an IEEE 1588 V2 on i.MX RT  Using PTPd, FreeRTOS, and lwIP TCP/IP  stack<a id="an-ethernet-lwip-ptpd-imxrt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note AN12149, which describes how to implementation a 1588 V2 application based on ptpd.
@@ -320,7 +303,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-ethernet-lwip-ptpd-imxrt
 
 <!-- an-flexio_8080_rt1050/. -->
-## 14. AN12822: Emulation of 8080 bus via FlexIO on RT1050<a id="an-flexio_8080_rt1050"></a> <a href="#top" style="float:right">⤒</a>
+## 13. AN12822: Emulation of 8080 bus via FlexIO on RT1050<a id="an-flexio_8080_rt1050"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example shows how to use the FlexIO module to emulate the 8080 parallel bus and to drive a graphic TFT LCD with the 8080 bus interface. 
@@ -337,7 +320,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio_8080_rt1050
 
 <!-- an-graphics_features_rt1170/. -->
-## 15. AN13075：i.MX RT1170 heterogeneous graphics pipeline<a id="an-graphics_features_rt1170"></a> <a href="#top" style="float:right">⤒</a>
+## 14. AN13075：i.MX RT1170 heterogeneous graphics pipeline<a id="an-graphics_features_rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note gives a brief overview of each one of the graphics engines (PxP, GPU2D, and LCDIFv2) how to initialize them, use them independently, and finally, it introduces a use case on how to use them in unison to get a performance and resource boost. Each stage has an associated software project to make things easier. 
@@ -356,7 +339,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-graphics_features_rt1170
 
 <!-- an-mc_pfc_56f83783/. -->
-## 16. AN13184: 3-phase PMSM sensorless vector control and 2-phase interleaved PFC on MC56F83783<a id="an-mc_pfc_56f83783"></a> <a href="#top" style="float:right">⤒</a>
+## 15. AN13184: 3-phase PMSM sensorless vector control and 2-phase interleaved PFC on MC56F83783<a id="an-mc_pfc_56f83783"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  One PMSM Sensorless FOC and 2-ph Interleaved Boost PFC<br>Control based on MC56F83783 <br>
@@ -375,7 +358,7 @@ This software accompanies application note AN12149, which describes how to imple
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc_pfc_56f83783
 
 <!-- an-ftm_lpit_adc12_multi_channel/. -->
-## 17. AN13437: Triggering ADC multi-channel conversion via low power interrupt timer on KE17Z<a id="an-ftm_lpit_adc12_multi_channel"></a> <a href="#top" style="float:right">⤒</a>
+## 16. AN13437: Triggering ADC multi-channel conversion via low power interrupt timer on KE17Z<a id="an-ftm_lpit_adc12_multi_channel"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The demo code shows the implementation of periodic triggering of the four ADC channels using LPIT0.
@@ -393,7 +376,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-ftm_lpit_adc12_multi_channel
 
 <!-- an-fft_with_pq_and_cmsis_dsp/. -->
-## 18. AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500<a id="an-fft_with_pq_and_cmsis_dsp"></a> <a href="#top" style="float:right">⤒</a>
+## 17. AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500<a id="an-fft_with_pq_and_cmsis_dsp"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  AN13496: Computing FFT with PowerQuad and CMSIS-DSP on LPC5500 
@@ -411,7 +394,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-fft_with_pq_and_cmsis_dsp
 
 <!-- an-fw_update_using_sec_bootloader/. -->
-## 19. AN13497: Firmware update using secondary bootloader<a id="an-fw_update_using_sec_bootloader"></a> <a href="#top" style="float:right">⤒</a>
+## 18. AN13497: Firmware update using secondary bootloader<a id="an-fw_update_using_sec_bootloader"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  AN13497: Firmware Update Using Secondary Bootloader 
@@ -429,7 +412,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-fw_update_using_sec_bootloader
 
 <!-- an-dsp_for_lpc553x_using_pq/. -->
-## 20. AN13498: PowerQuad digital signal processing on NXP LPC553x/LPC55S3x<a id="an-dsp_for_lpc553x_using_pq"></a> <a href="#top" style="float:right">⤒</a>
+## 19. AN13498: PowerQuad digital signal processing on NXP LPC553x/LPC55S3x<a id="an-dsp_for_lpc553x_using_pq"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  AN13498: Digital Signal Processing for NXP LPC553x/LPC55S3x Using PowerQuad 
@@ -447,7 +430,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-dsp_for_lpc553x_using_pq
 
 <!-- an-lpc553x-dual-servo-motor-control/. -->
-## 21. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
+## 20. AN13569 How to run dual-servo motor on LPC553x<a id="an-lpc553x-dual-servo-motor-control"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes the dual servo demo with the NXP LPC55S36 processor. It also can be used as a reference for motor control application developing based on other products. 
@@ -467,7 +450,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lpc553x-dual-servo-motor-control
 
 <!-- an-lvgl_demo_for_small_mcu/. -->
-## 22. AN13730: Developing a GUI on a memory constrained MCU with GUI Guider and LVGL<a id="an-lvgl_demo_for_small_mcu"></a> <a href="#top" style="float:right">⤒</a>
+## 21. AN13730: Developing a GUI on a memory constrained MCU with GUI Guider and LVGL<a id="an-lvgl_demo_for_small_mcu"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo is an example of dashboard for electric bicycle. This demo is based on LVGL GUI library and GUI Guider. This demo can be used by customer to evaluate GUI performance of NXP part. Here, this demo uses LPC5506 as target MCU and uses an external SPI Flash to store image source and font source. This demo supports various GUI widget to show customer information such as meter panel, chart, label. 
@@ -484,7 +467,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-lvgl_demo_for_small_mcu
 
 <!-- an-display_low_power_rt1170/. -->
-## 23. AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170<a id="an-display_low_power_rt1170"></a> <a href="#top" style="float:right">⤒</a>
+## 22. AN13768: LCD display On/Off switching in low-power mode on i.MX RT1170<a id="an-display_low_power_rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes how to add low-power mode operation on the Mobile Industry Processor Interface (MIPI) Display Serial Interface (DSI) host controller and LCDIFv2 controller. It is done to drive a DSI-compliant LCD panel on i.MX RT1170 to switch off and then back on again. 
@@ -502,7 +485,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-display_low_power_rt1170
 
 <!-- an-vglite_porting_imxrt/. -->
-## 24. AN13778: Porting VGLite driver for bare metal or single task<a id="an-vglite_porting_imxrt"></a> <a href="#top" style="float:right">⤒</a>
+## 23. AN13778: Porting VGLite driver for bare metal or single task<a id="an-vglite_porting_imxrt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application outlines the software structure of vglite middleware, analyzes current driver code to support multitask, then gives the details on how to port vglite middleware for bare metal and single task. The ported source code and its examples are provided. 
@@ -521,7 +504,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-vglite_porting_imxrt
 
 <!-- an-flac-codec-rt685/. -->
-## 25. AN13793: FLAC codec porting and performance evaluation based on i.MX RT685<a id="an-flac-codec-rt685"></a> <a href="#top" style="float:right">⤒</a>
+## 24. AN13793: FLAC codec porting and performance evaluation based on i.MX RT685<a id="an-flac-codec-rt685"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The FLAC demo application demonstrates how to porting FLAC and evaluation performance&nbsp;on i.MXRT685 evk board.
@@ -539,7 +522,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flac-codec-rt685
 
 <!-- an-smart-battery-charger-lpc86x/. -->
-## 26. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 25. AN13864: Smart Battery Charger by LPC865 with SMBus Interface<a id="an-smart-battery-charger-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The application introduces the smart battery charger solution based on LPC865. 
@@ -556,7 +539,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-smart-battery-charger-lpc86x
 
 <!-- an-kw4x-bluetooth-le-nfc-integration/. -->
-## 27. AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application<a id="an-kw4x-bluetooth-le-nfc-integration"></a> <a href="#top" style="float:right">⤒</a>
+## 26. AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application<a id="an-kw4x-bluetooth-le-nfc-integration"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN13953], which gives instructions on how to create a Bluetooth Low Energy project for the EVK-KW45 development board and MCUXpresso IDE, and how to integrate NFC Reader Library.  
@@ -575,7 +558,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-kw4x-bluetooth-le-nfc-integration
 
 <!-- an-pmsm-one-shunt-lpc86x/. -->
-## 28. AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x<a id="an-pmsm-one-shunt-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 27. AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x<a id="an-pmsm-one-shunt-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This project implements sensorless one-shunt FOC on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14017. 
@@ -595,7 +578,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-one-shunt-lpc86x
 
 <!-- an-mc-bldc-lpc86x/. -->
-## 29. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+## 28. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This project implements sensorless six-step square wave brushless DC(BLDC) motor control on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14018. 
@@ -613,7 +596,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-lpc86x
 
 <!-- an-pmsm-foc-mcxa153/. -->
-## 30. AN14099: PMSM Sensorless FOC Using MCXA153<a id="an-pmsm-foc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+## 29. AN14099: PMSM Sensorless FOC Using MCXA153<a id="an-pmsm-foc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes the implementation of sensorless flux oriented control(FOC) application for 3-phase Permanent Magnet Synchronous Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU. 
@@ -633,7 +616,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-foc-mcxa153
 
 <!-- an-mcxn947-keyscan-interface-by-smartdma/. -->
-## 31. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 30. AN14184 Using SmartDMA for Keyscan on MCX N Series MCU<a id="an-mcxn947-keyscan-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN14184](<a href="https://www.nxp.com.cn/docs/en/application-note/AN14184.pdf" target="_blank">nxp.com.cn/docs/en/application-note/AN14184.pdf</a>).This application note mainly introduces the Keyscan solution for MCX N series MCU. It includes the introduction of the Keyscan solution, its features and API routines, and a demo. 
@@ -651,7 +634,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-keyscan-interface-by-smartdma
 
 <!-- an-mcxn947-camera-interface-by-smartdma/. -->
-## 32. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 31. AN14191: How to Use SmartDMA to Implement Camera Interface in MCXN MCU<a id="an-mcxn947-camera-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note [AN14191](https://www.nxp.com.cn/docs/en/application-note/AN14191.pdf).This application note describes the parallel interface for the camera solution in MCXN947 andMCXN236. It includes the introduction of camera interface, features, API routines, and demo. 
@@ -669,7 +652,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-camera-interface-by-smartdma
 
 <!-- an-bidirectional-dcdc-mc56f83783/. -->
-## 33. AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783<a id="an-bidirectional-dcdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
+## 32. AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783<a id="an-bidirectional-dcdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a bidirectional CLLC resonant converter reference design using MC56F83783 DSC. 
@@ -686,7 +669,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-bidirectional-dcdc-mc56f83783
 
 <!-- an-bidirectional-acdc-mc56f83783/. -->
-## 34. AN14354: Multimode bidirectional AC-DC converter design using MC56F83783<a id="an-bidirectional-acdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
+## 33. AN14354: Multimode bidirectional AC-DC converter design using MC56F83783<a id="an-bidirectional-acdc-mc56f83783"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note AN14354, which describes how to design a multimode bidirectional ACDC converter using MC56F83783. 
@@ -703,7 +686,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-bidirectional-acdc-mc56f83783
 
 <!-- an-mcxn236-usb-bridge-to-i3c/. -->
-## 35. AN14434 How to implement MCXN236 USB to I3C demo<a id="an-mcxn236-usb-bridge-to-i3c"></a> <a href="#top" style="float:right">⤒</a>
+## 34. AN14434 How to implement MCXN236 USB to I3C demo<a id="an-mcxn236-usb-bridge-to-i3c"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is the complementary project for [AN14434](https://www.nxp.com.cn/docs/en/application-note/AN14434.pdf), which demonstrates how implement usb to i3c demo on MCXN236.<br><br>In the MCXN236 USB to I3C demo, the USB device uses USB CDC virtual com class to communicate with PC host.&nbsp;<br>You can use terminal tool to send a serial data to control I3C interface.<br>The terminal tool used in following contents is pzh-py-com tool. Customer can download it from followed link: https://github.com/JayHeng/pzh-py-com.<br>This demo provided some commands such as Dynamic address assign, direct write, direct read, write with register address, read with register address, IBI/Hot-join functions.<br>[&lt;img src="./images/MCXN236_USB_TO_I3C_Block.png" align="center" width="800"/&gt;](./images/MCXN236_USB_TO_I3C_Block.png) 
@@ -719,6 +702,23 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxn236-usb-bridge-to-i3c/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn236-usb-bridge-to-i3c
+
+<!-- an-mc-pmsm-s32m276/. -->
+## 35. AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M276<a id="an-mc-pmsm-s32m276"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) control using single shunt current sensing on the NXP and S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note.
+
+#### Families:           S32M 
+#### Toolchains:         S32 Design Studio IDE 
+#### Peripherals:        ADC, PWM, SPI, UART, eMIOS, BCTU 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-s32m276/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-pmsm-s32m276
 
 <!-- an-lpc55s69-rtc-osc-calibration/. -->
 ## 36. AN14605 Using the RTC OSC Calibration Feature of the LPC5500<a id="an-lpc55s69-rtc-osc-calibration"></a> <a href="#top" style="float:right">⤒</a>
