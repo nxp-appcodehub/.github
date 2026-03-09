@@ -111,7 +111,7 @@
 103. [PCAL6416AEV-ARD Low-Voltage Translating 16-Bit I²C-Bus/SMBus I/O Expander](#dm-pcal6416aev-low-voltage-translating-16-bit-i2c-bus-smbus-io-expander)
 104. [PCAL9722: 22-Bit SPI I/O Expander with Agile I/O Features](#dm-pcal9722hn-22-bit-spi-gpio-expander)
 105. [PCF2131 : Real Time Clock driver on FRDM-MCXN947.](#dm-pcf2131-real-time-clock-driver-with-demo-app)
-106. [PCF85063AT : Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.](#dm-pcf85063at-tp-real-time-clock-demo-app)
+106. [PCF85063AT/TP: Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.](#dm-pcf85063at-tp-real-time-clock-demo-app)
 107. [PCF85263ATL-ARD Arduino® Shield - Tiny Real-Time Clock demo application on FRDM -MCXN947 and FRDM-MCXA153](#dm-pcf85263atl-tiny-real-time-clock-demo-application)
 108. [PMIC for Low Power Applications on FRDM-MCXN947 and MCXA153](#dm-pca9420uk-evm-pmic-for-low-power-application)
 109. [PMSM Motor Control Sensorless dual Shunt FOC on FRDM-A-S32K312](#dm-mc-pmsm-foc-s32k312)
@@ -2283,10 +2283,10 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcf2131-real-time-clock-driver-with-demo-app
 
 <!-- dm-pcf85063at-tp-real-time-clock-demo-app/. -->
-## 106. PCF85063AT : Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.<a id="dm-pcf85063at-tp-real-time-clock-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 106. PCF85063AT/TP: Tiny Real Time Clock driver on FRDM-MCXN947 and MCXA153.<a id="dm-pcf85063at-tp-real-time-clock-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
- This example demo provides CMSIS Compliant APIs to configure different operating modes of PCF85063AT RTC. It also provides APIs to perform below mentioned operations:<br><ul><li>RTC Start</li><li>RTC Stop</li><li>Get/Set Time and date </li><li>Minute/Half Minute Interrupt</li><li>Offset Modes </li><li>Correction Interrupts </li><li>Get &amp; Set Alarm  etc. </li></ul>
+ This example demo provides CMSIS Compliant APIs to configure different operating modes of PCF85063AT RTC. It also provides APIs to perform below mentioned operations:<br /><ul><li>RTC Start</li><li>RTC Stop</li><li>Get/Set Time and date </li><li>Minute/Half Minute Interrupt</li><li>Offset Modes </li><li>Correction Interrupts </li><li>Get &amp; Set Alarm  etc. </li></ul>
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
@@ -2299,6 +2299,7 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 
 #### Expansion boards
 * [PCF85063AT](https://mcuxpresso.nxp.com/eb-hub/product/pcf85063at)
+* [PCF85263ATL-ARD](https://mcuxpresso.nxp.com/eb-hub/product/pcf85263atl-ard)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-pcf85063at-tp-real-time-clock-demo-app/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pcf85063at-real-time-clock-demo-app
