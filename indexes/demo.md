@@ -107,7 +107,7 @@
 99. [NXP Platform Accelerator for i.MXRT1170 EVK](#nxp-vee-imxrt1170-evk)
 100. [NXP Platform Accelerator for i.MXRT595 EVK](#nxp-vee-imxrt595-evk)
 101. [Nafe Industrial Application Examples using API Libraries](#dm-nafex388-application-examples)
-102. [Near and Far Motion Detection using WiFi CSI on FRDM i.MX 91 + IW610](#dm-csi-based-motion-detection)
+102. [Near and Far Motion Detection using WiFi CSI on FRDM i.MX 91 + IW610.](#dm-csi-based-motion-detection)
 103. [On device training fan anomaly detection on MCXN947](#dm-on-device-training-fan-anomaly-on-mcxn947)
 104. [P3H2X4X : I3C hub demo application on FRDM MCXN947 and MCXA153](#dm-p3h2x4x-i3c-hub-demo-application)
 105. [P3T1035xUK - P3T2030xUK - I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor](#dm-p3t1035xuk-p3t2030xuk-temperature-sensor-i2c-3c-bus-demo-app)
@@ -2193,7 +2193,7 @@ This release runs on EVK-MIMXRT595 with an <a href="https://www.nxp.com/part/G1
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nafex388-application-examples
 
 <!-- dm-csi-based-motion-detection/. -->
-## 102. Near and Far Motion Detection using WiFi CSI on FRDM i.MX 91 + IW610<a id="dm-csi-based-motion-detection"></a> <a href="#top" style="float:right">⤒</a>
+## 102. Near and Far Motion Detection using WiFi CSI on FRDM i.MX 91 + IW610.<a id="dm-csi-based-motion-detection"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The Near and Far Motion Detection demo updates a webpage with real-time CSI-based motion detection between the DUT (STA) and external AP.
