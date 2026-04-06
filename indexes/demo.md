@@ -130,7 +130,7 @@
 122. [Pressure and Altimeter Examples using MPL3115 Sensor](#dm-mpl3115-pressure-altimeter-examples)
 123. [RW612 EVSE with J1772, Metrology and OCPP](#dm-ocpp-evse-rw612)
 124. [RW612-FRDM Door chime demo with MQTT over Wi-Fi and I2S audio output](#dm-rw612frdm-door-chime-demo)
-125. [RW612-FRDM Smart AirCon Demo](#dm-rw612frdm-smart-aircon-demo)
+125. [RW612-FRDM Smart AirCon Demo](#dm-frdm-rw612-smart-aircon-demo)
 126. [Raw Video Playback Demo for MCX N947](#dm-mcxn947-video-playback)
 127. [Real-Time Interactive Control with DOOM](#doom-mcx)
 128. [SIGBRD-HPGP Board using MCXA154 as an add on board for EV charging solution.](#dm-evse-sigbrd-hpgp)
@@ -2664,8 +2664,8 @@ This PoC is part of NXP offering for EVSE<br />This setup is able to simulate an
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-rw612frdm-door-chime-demo/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-rw612frdm-door-chime-demo
 
-<!-- dm-rw612frdm-smart-aircon-demo/. -->
-## 125. RW612-FRDM Smart AirCon Demo<a id="dm-rw612frdm-smart-aircon-demo"></a> <a href="#top" style="float:right">⤒</a>
+<!-- dm-frdm-rw612-smart-aircon-demo/. -->
+## 125. RW612-FRDM Smart AirCon Demo<a id="dm-frdm-rw612-smart-aircon-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Smart AirCon demo based on the  RW612-FRDM board, featuring:<br><ul><li>Voice UI using NXP's voice intelligent technology (VIT) and VoiceSeeker.</li><li>Voice command engine feature of VIT.<br></li><li>Graphics using LVGL Open-Source library.<br></li><li>4ch VoiceSeeker configuration with adaptive beamformer.<br></li></ul>
@@ -2681,8 +2681,8 @@ This PoC is part of NXP offering for EVSE<br />This setup is able to simulate an
 * [8CH-DMIC](https://mcuxpresso.nxp.com/eb-hub/product/8ch-dmic)
 * [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
 
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-rw612frdm-smart-aircon-demo/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-rw612frdm-smart-aircon-demo
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-frdm-rw612-smart-aircon-demo/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-rw612-smart-aircon-demo
 
 <!-- dm-mcxn947-video-playback/. -->
 ## 126. Raw Video Playback Demo for MCX N947<a id="dm-mcxn947-video-playback"></a> <a href="#top" style="float:right">⤒</a>
