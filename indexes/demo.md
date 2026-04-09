@@ -1256,7 +1256,7 @@ This
 demo project provides a detailed information on how to integrate the EdgeLock®
 A30 Secure Authenticator into the FRDM-MCXA153 development board. The example
 code shows how to use A30 to generate a 256-bit ECC key pair and perform an ECDSA
-sign/verify operation. 
+sign/verify operation.
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
