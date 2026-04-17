@@ -82,7 +82,7 @@
 
 #### Families:           LPC, i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DMA, I2S, USB, SAI 
+#### Peripherals:        DMA, SAI, USB, I2S 
 #### Categories:         Voice 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -160,7 +160,7 @@ It operates as a Matter accessory, meaning it can be paired with an existing Mat
 
 #### Families:           Kinetis, LPC, MCX, i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, SENSOR, TIMER, UART, SDIO 
+#### Peripherals:        I2C, SDIO, SENSOR, UART, TIMER 
 #### Categories:         Sensor, Anomaly Detection, AI/ML, RTOS, Tools, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -202,7 +202,7 @@ It operates as a Matter accessory, meaning it can be paired with an existing Mat
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DMA, I2C, UART 
+#### Peripherals:        I2C, UART, DMA 
 #### Categories:         Voice 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -220,7 +220,7 @@ It operates as a Matter accessory, meaning it can be paired with an existing Mat
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, CAN, CLOCKS, DISPLAY, DMA, ETHERNET, FLASH, GPIO, I2C, PWM, SENSOR, SPI, TIMER, UART, USB, WATCHDOG 
+#### Peripherals:        ADC, CAN, CLOCKS, DISPLAY, DMA, ETHERNET, FLASH, GPIO, I2C, PWM, SENSOR, SPI, UART, USB, WATCHDOG, TIMER 
 #### Categories:         Graphics, Secure Provisioning, Sensor, Motor Control, Cloud Connected Devices, Industrial, Security, RTOS, Time Sensitive Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:

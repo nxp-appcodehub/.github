@@ -54,28 +54,29 @@
 46. [AN14797 3-Phase PMSM Field-Oriented Control Solution using MCX E31B](#an-mc-pmsm-mcxe31b)
 47. [AN14856 MPPT demo based on MCX A346](#an-mcxa346-mppt-demo)
 48. [AN14860 Using Segment Liquid Crystal Displays (SLCD) Controller on MCX A Series](#an-mcxa366-slcd-example)
-49. [AN14980 Emulating WS2812 bus with FlexIO on MCXA366](#an-emulating-ws2812-bus-with-flexio-on-mcx366)
-50. [CAN Communication using FRDM-A-S32K312](#an-canfd-to-canfd-secnode-s32k312)
-51. [DRM172: Half bridge LLC converter based on MC56F81xxx](#an-hbllc_mc56f8xxxx)
-52. [DRM174: Totem-pole power factor correction using MC56F81xxx](#an-tppfc_mc56f8xxxx)
-53. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
-54. [How to implment tamagawa protocol on MCXE31](#an-digital-encoder-tamagawa-on-mcx31)
-55. [How to running RT-Thread on MCUXpressoIDE](#an-running-rtthread-on-mcuxpressoide)
-56. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
-57. [How to use In-System Programming (ISP) on FRDM-RW612](#an-frdmrw612-in-system-programming)
-58. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
-59. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
-60. [MCX N PLU setup and usage](#an-mcxn-plu-setupandusage)
-61. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
-62. [SR250 UWB Plug-and-Play Application](#an-sr250-uwb-plug-and-play-demo)
-63. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
-64. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
-65. [USB to CAN-FD Adaptor based on MCXN Microcontroller](#an-usb-to-can-adaptor-mcxn947)
-66. [USB to Multi VCOM on MCXC444 Series MCU](#an-usb-to-multi-vcom-on-mcxc444)
-67. [Using SLCD controller on MCXC444 MCU](#an-using-slcd-controller-on-mcxc444)
-68. [Using the Real Time Clock (RTC) on MCX](#an-mcx-rtc-example)
-69. [XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module](#an-xip-external-nor-flash-plus-external-psram)
-70. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
+49. [AN14961 PMSM control with ADC shunt current measurement on i.MX 943](#an-mc-pmsm-adc-imx943)
+50. [AN14980 Emulating WS2812 bus with FlexIO on MCXA366](#an-emulating-ws2812-bus-with-flexio-on-mcx366)
+51. [CAN Communication using FRDM-A-S32K312](#an-canfd-to-canfd-secnode-s32k312)
+52. [DRM172: Half bridge LLC converter based on MC56F81xxx](#an-hbllc_mc56f8xxxx)
+53. [DRM174: Totem-pole power factor correction using MC56F81xxx](#an-tppfc_mc56f8xxxx)
+54. [How to emulate UART with IRDA by using FlexIO](#an-flexio-emulating-uart-with-irda)
+55. [How to implment tamagawa protocol on MCXE31](#an-digital-encoder-tamagawa-on-mcx31)
+56. [How to running RT-Thread on MCUXpressoIDE](#an-running-rtthread-on-mcuxpressoide)
+57. [How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU](#an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947)
+58. [How to use In-System Programming (ISP) on FRDM-RW612](#an-frdmrw612-in-system-programming)
+59. [How to use SmartMDA to implement MDIO slave interface on MCX MCU](#an-mcxn947-mdio-slave-interface-by-smartdma)
+60. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
+61. [MCX N PLU setup and usage](#an-mcxn-plu-setupandusage)
+62. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
+63. [SR250 UWB Plug-and-Play Application](#an-sr250-uwb-plug-and-play-demo)
+64. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
+65. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
+66. [USB to CAN-FD Adaptor based on MCXN Microcontroller](#an-usb-to-can-adaptor-mcxn947)
+67. [USB to Multi VCOM on MCXC444 Series MCU](#an-usb-to-multi-vcom-on-mcxc444)
+68. [Using SLCD controller on MCXC444 MCU](#an-using-slcd-controller-on-mcxc444)
+69. [Using the Real Time Clock (RTC) on MCX](#an-mcx-rtc-example)
+70. [XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module](#an-xip-external-nor-flash-plus-external-psram)
+71. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
 
 <!-- an-flexio_camera_rt1010/. -->
 ## 1. flexio_camera_rt1010<a id="an-flexio_camera_rt1010"></a> <a href="#top" style="float:right">⤒</a>
@@ -85,7 +86,7 @@
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        I2C, SPI, VIDEO 
+#### Peripherals:        VIDEO, I2C, SPI 
 #### Categories:         Graphics, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -102,7 +103,7 @@
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, GPIO, PWM, TIMER 
+#### Peripherals:        ADC, PWM, GPIO, TIMER 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -176,7 +177,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, USB, SmartDMA 
+#### Peripherals:        SmartDMA, USB, SPI 
 #### Categories:         HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -215,7 +216,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        USB, VIDEO 
+#### Peripherals:        VIDEO, USB 
 #### Categories:         Graphics, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -236,7 +237,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        DISPLAY, VIDEO, SDMMC 
+#### Peripherals:        VIDEO, DISPLAY, SDMMC 
 #### Categories:         Graphics, Vision, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -257,7 +258,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        FLASH, GPIO, UART 
+#### Peripherals:        UART, GPIO, FLASH 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -275,7 +276,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        FLASH, GPIO, UART 
+#### Peripherals:        UART, GPIO, FLASH 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -385,7 +386,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        FLASH, GPIO, UART 
+#### Peripherals:        UART, GPIO, FLASH 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -403,7 +404,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        FLASH, GPIO, UART 
+#### Peripherals:        UART, GPIO, FLASH 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -421,7 +422,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        FLASH, GPIO, UART 
+#### Peripherals:        UART, GPIO, FLASH 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -439,7 +440,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         IAR 
-#### Peripherals:        ADC, CLOCKS, GPIO, PWM, TIMER, UART 
+#### Peripherals:        ADC, GPIO, CLOCKS, PWM, UART, TIMER 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -513,7 +514,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        GPIO, UART, SDMMC 
+#### Peripherals:        SDMMC, UART, GPIO 
 #### Categories:         Audio, RTOS, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -531,7 +532,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, GPIO, I2C, SPI, TIMER, UART 
+#### Peripherals:        ADC, I2C, UART, TIMER, SPI, GPIO 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -548,7 +549,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           Kinetis, K32W, PN 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SPI, TIMER, UART 
+#### Peripherals:        UART, GPIO, SPI, TIMER 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -587,7 +588,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, PWM 
+#### Peripherals:        PWM, ADC 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -643,7 +644,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DMA, VIDEO, FlexIO 
+#### Peripherals:        DMA, FlexIO, VIDEO 
 #### Categories:         Graphics, HMI, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -925,7 +926,7 @@ for 3 phase permanent magnet synchronous motor(PMSM) on MCX E31x series MCU. 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, PWM 
+#### Peripherals:        PWM, ADC 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -945,7 +946,7 @@ This software accompanies the application note which primarily introduces the MP
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, GPIO, I2C, PWM, SPI, TIMER, UART 
+#### Peripherals:        ADC, GPIO, I2C, PWM, TIMER, UART, SPI 
 #### Categories:         Power Conversion 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -972,15 +973,33 @@ This application note provides a comprehensive guide on using the Segment Liquid
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mcxa366-slcd-example/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxa366-slcd-example
 
+<!-- an-mc-pmsm-adc-imx943/. -->
+## 49. AN14961 PMSM control with ADC shunt current measurement on i.MX 943<a id="an-mc-pmsm-adc-imx943"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+Implementation of advanced motor control algorithms using the IMX943-EVK with EnDat2.2 and EnDat3 absolute encoder support. This application demonstrates Field-Oriented Control (FOC), sensorless Back-EMF observer, and multiple control modes including position, speed, current, and scalar control.
+
+#### Families:           i.MX 
+#### Toolchains:         IAR 
+#### Peripherals:        ADC, PWM, TIMER 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [IMX943-EVK]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-adc-imx943/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-pmsm-adc-imx943
+
 <!-- an-emulating-ws2812-bus-with-flexio-on-mcx366/. -->
-## 49. AN14980 Emulating WS2812 bus with FlexIO on MCXA366<a id="an-emulating-ws2812-bus-with-flexio-on-mcx366"></a> <a href="#top" style="float:right">⤒</a>
+## 50. AN14980 Emulating WS2812 bus with FlexIO on MCXA366<a id="an-emulating-ws2812-bus-with-flexio-on-mcx366"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application note describes how to emulate WS2812 LED strip interface with FlexIO on MCXA366 to drive up to 4x LED strips.
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        DMA, FlexIO 
+#### Peripherals:        FlexIO, DMA 
 #### Categories:         User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -991,7 +1010,7 @@ This application note describes how to emulate WS2812 LED strip interface with F
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-emulating-ws2812-bus-with-flexio-on-mcx366
 
 <!-- an-canfd-to-canfd-secnode-s32k312/. -->
-## 50. CAN Communication using FRDM-A-S32K312<a id="an-canfd-to-canfd-secnode-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 51. CAN Communication using FRDM-A-S32K312<a id="an-canfd-to-canfd-secnode-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This project implements a configurable CAN communication node that operates in three selectable modes—Transmit (TX), Receive (RX), and Loopback—controlled at build time through compile‑time macros. By defining one of the mode macros in the project configuration, the firmware conditionally compiles the appropriate behavior without changing source code.<pre>/* Choose which mode by assigning a 1U to the desired macro */
@@ -1012,7 +1031,7 @@ This project implements a configurable CAN communication node that operates in t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-canfd-to-canfd-secnode-s32k312
 
 <!-- an-hbllc_mc56f8xxxx/. -->
-## 51. DRM172: Half bridge LLC converter based on MC56F81xxx<a id="an-hbllc_mc56f8xxxx"></a> <a href="#top" style="float:right">⤒</a>
+## 52. DRM172: Half bridge LLC converter based on MC56F81xxx<a id="an-hbllc_mc56f8xxxx"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is an LLC resonant converter reference design using MC56F8xxxx DSC. 
@@ -1029,7 +1048,7 @@ This project implements a configurable CAN communication node that operates in t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-hbllc_mc56f8xxxx
 
 <!-- an-tppfc_mc56f8xxxx/. -->
-## 52. DRM174: Totem-pole power factor correction using MC56F81xxx<a id="an-tppfc_mc56f8xxxx"></a> <a href="#top" style="float:right">⤒</a>
+## 53. DRM174: Totem-pole power factor correction using MC56F81xxx<a id="an-tppfc_mc56f8xxxx"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a totem-pole bridgeless power factor correction reference design using MC56F8xxxx DSC. 
@@ -1046,7 +1065,7 @@ This project implements a configurable CAN communication node that operates in t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-tppfc_mc56f8xxxx
 
 <!-- an-flexio-emulating-uart-with-irda/. -->
-## 53. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
+## 54. How to emulate UART with IRDA by using FlexIO<a id="an-flexio-emulating-uart-with-irda"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note[ANxxx], which describes how to implement emulating UART with IRDA by using FlexIO. 
@@ -1064,7 +1083,7 @@ This project implements a configurable CAN communication node that operates in t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-flexio-emulating-uart-with-irda
 
 <!-- an-digital-encoder-tamagawa-on-mcx31/. -->
-## 54. How to implment tamagawa protocol on MCXE31<a id="an-digital-encoder-tamagawa-on-mcx31"></a> <a href="#top" style="float:right">⤒</a>
+## 55. How to implment tamagawa protocol on MCXE31<a id="an-digital-encoder-tamagawa-on-mcx31"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
@@ -1082,7 +1101,7 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-digital-encoder-tamagawa-on-mcx31
 
 <!-- an-running-rtthread-on-mcuxpressoide/. -->
-## 55. How to running RT-Thread on MCUXpressoIDE<a id="an-running-rtthread-on-mcuxpressoide"></a> <a href="#top" style="float:right">⤒</a>
+## 56. How to running RT-Thread on MCUXpressoIDE<a id="an-running-rtthread-on-mcuxpressoide"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Overview:TBD 
@@ -1100,14 +1119,14 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-running-rtthread-on-mcuxpressoide
 
 <!-- an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947/. -->
-## 56. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 57. How to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU<a id="an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies application note, which describes how to use FlexIO state mode to generate center aligned PWM on MCXN Series MCU. 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        PWM, FlexIO 
+#### Peripherals:        FlexIO, PWM 
 #### Categories:         Motor Control, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1118,7 +1137,7 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-using-flexio-to-generate-center-aligned-pwm-on-mcxn947
 
 <!-- an-frdmrw612-in-system-programming/. -->
-## 57. How to use In-System Programming (ISP) on FRDM-RW612<a id="an-frdmrw612-in-system-programming"></a> <a href="#top" style="float:right">⤒</a>
+## 58. How to use In-System Programming (ISP) on FRDM-RW612<a id="an-frdmrw612-in-system-programming"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This Application Note shows you how to use the In-System Programming (ISP) feature of the RW61x family to program the external flash on the RW612-FRDM board. The RW family counts with on-chip ROM containing In-System Programming capability, supporting UART, SPI, I2C and USB flash programming (store application code and data), as well as APIs for user code and In-application-programming functionality by the IAP API, via the unified memory interface or the secondary bootloader API. 
@@ -1135,7 +1154,7 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-frdmrw612-in-system-programming
 
 <!-- an-mcxn947-mdio-slave-interface-by-smartdma/. -->
-## 58. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
+## 59. How to use SmartMDA to implement MDIO slave interface on MCX MCU<a id="an-mcxn947-mdio-slave-interface-by-smartdma"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This software accompanies the application note primarily introduces how to implement MDIOI slave interface functionality using SmartDMA.<br>
@@ -1153,14 +1172,14 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-mdio-slave-interface-by-smartdma
 
 <!-- an-mcxn947-ctimer-center-aligned-pwm/. -->
-## 59. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
+## 60. How to use ctimer to generate center aligned PWM in MCX MCU<a id="an-mcxn947-ctimer-center-aligned-pwm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software accompanies application note [AN12345], which describes how to use ctimer to generate center aligned PWM in MCX MCU.
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        CLOCKS, COUNTER, GPIO, TIMER 
+#### Peripherals:        CLOCKS, GPIO, COUNTER, TIMER 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1171,7 +1190,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn947-ctimer-center-aligned-pwm
 
 <!-- an-mcxn-plu-setupandusage/. -->
-## 60. MCX N PLU setup and usage<a id="an-mcxn-plu-setupandusage"></a> <a href="#top" style="float:right">⤒</a>
+## 61. MCX N PLU setup and usage<a id="an-mcxn-plu-setupandusage"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note explains the elements that compose the PLU module and how to integrate them to achieve logic networks, as well as providing examples of combinational, sequential and wakeup circuits. 
@@ -1189,7 +1208,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn-plu-setupandusage
 
 <!-- an-frdmrw612-module-migration-guide/. -->
-## 61. Migration guide from FRDM-RW612 to third-party module memories<a id="an-frdmrw612-module-migration-guide"></a> <a href="#top" style="float:right">⤒</a>
+## 62. Migration guide from FRDM-RW612 to third-party module memories<a id="an-frdmrw612-module-migration-guide"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The objective of this application note is to help developers migrating their applications from the RW612-FRDM board to their module-based board. <br>This application note contains: <br><ul><li>An overview of what does imply to move your application to a different board with different Flash and pSRAM.</li><li>Flash configuration files (flash_config.c) for each supported module.</li><li>Application Flash and pSRAM configurations for each supported module.</li></ul>
@@ -1206,7 +1225,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-frdmrw612-module-migration-guide
 
 <!-- an-sr250-uwb-plug-and-play-demo/. -->
-## 62. SR250 UWB Plug-and-Play Application<a id="an-sr250-uwb-plug-and-play-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 63. SR250 UWB Plug-and-Play Application<a id="an-sr250-uwb-plug-and-play-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 <h3>The Fastest Way to Explore, Prototype, and Validate UWB Scenarios from your laptop</h3>This application provides the fastest and most intuitive way to start exploring UWB technology using the Plug-and-Play application. Designed to eliminate setup complexity, the application runs directly on the MCU and exposes the SR250 UCI interface through a Virtual COM port.
@@ -1225,14 +1244,14 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-sr250-uwb-plug-and-play-demo
 
 <!-- an-mc-bldc-ke17z/. -->
-## 63. Sensorless BLDC motor control on KE17Z<a id="an-mc-bldc-ke17z"></a> <a href="#top" style="float:right">⤒</a>
+## 64. Sensorless BLDC motor control on KE17Z<a id="an-mc-bldc-ke17z"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on KE17Z512 and KE17Z256 MCUs. The NXP Freedom board FRDM-MC-LVBLDC is used as a hardware platform for the motor control reference solution. The hardware-dependent part of the motor control software is addressed as well, including a detailed peripheral setup and driver description. The FreeMASTER operation is also described in this document.<a target="_blank"></a>
 
 #### Families:           Kinetis 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, PWM 
+#### Peripherals:        PWM, ADC 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1244,7 +1263,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-ke17z
 
 <!-- an-mc-bldc-mcxa153/. -->
-## 64. Sensorless BLDC motor control on MCXA153<a id="an-mc-bldc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
+## 65. Sensorless BLDC motor control on MCXA153<a id="an-mc-bldc-mcxa153"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note demonstrates how to implement the six-step commutation control of brushless direct current(BLDC) motor on the MCXA family of MCUs. The NXP Freedom board FRDM-MC-LVBLDC is used as a hardware platform for the motor control reference solution. The hardware-dependent part of the motor control software is addressed as well, including a detailed peripheral setup and driver description. The FreeMASTER operation is also described in this document.<a target="_blank"></a>
@@ -1264,7 +1283,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-bldc-mcxa153
 
 <!-- an-usb-to-can-adaptor-mcxn947/. -->
-## 65. USB to CAN-FD Adaptor based on MCXN Microcontroller<a id="an-usb-to-can-adaptor-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 66. USB to CAN-FD Adaptor based on MCXN Microcontroller<a id="an-usb-to-can-adaptor-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note aims to build a USB to CAN-FD adaptor where the USB data retransmit to CAN-bus and vice versa. NXP MCXN devices a high-speed USB port and CAN-FD controllers. HS USB can reach up to 480 Mbit/s transmission speed, which is enough for transmitting CAN-FD frame at highest CAN baud rate on MCXN 8Mbit/s. To make the system easy to use and compatible with other devices, we use USB CDC virtual COM port as communication. Python Interface is used to visualize the CAN-FD information in ASCII format. 
@@ -1283,7 +1302,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-usb-to-can-adaptor-mcxn947
 
 <!-- an-usb-to-multi-vcom-on-mcxc444/. -->
-## 66. USB to Multi VCOM on MCXC444 Series MCU<a id="an-usb-to-multi-vcom-on-mcxc444"></a> <a href="#top" style="float:right">⤒</a>
+## 67. USB to Multi VCOM on MCXC444 Series MCU<a id="an-usb-to-multi-vcom-on-mcxc444"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  usb-to-multi-vcom-on-mcxc444 
@@ -1301,7 +1320,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-usb-to-multi-vcom-on-mcxc444
 
 <!-- an-using-slcd-controller-on-mcxc444/. -->
-## 67. Using SLCD controller on MCXC444 MCU<a id="an-using-slcd-controller-on-mcxc444"></a> <a href="#top" style="float:right">⤒</a>
+## 68. Using SLCD controller on MCXC444 MCU<a id="an-using-slcd-controller-on-mcxc444"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  SLCD is one of the oldest display technologies. It is still one of the most popular technologies, due to the lowest price and power consumption. <br>     <br> Segment LCD displays, also called static displays or glass-only displays, consist of two pieces of Indium Tin Oxide (ITO) glass with a twisted nematic fluid sandwiched in between. A static display is a segment display with one pin for each segment. A segment is any line, dot, or symbol that can be turned on and off independently. NXP MCXC444 MCU integrates an SLCD controller module with up to eight backplanes and 47 frontplanes, such as, 8 × 47 or 4 × 51. This document describes the usage of on-chip SLCD controller by enabling an SLCD device, S401M16KR, which is a four- digit 0.17" seven segment custom LCD panel. 
@@ -1319,7 +1338,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-using-slcd-controller-on-mcxc444
 
 <!-- an-mcx-rtc-example/. -->
-## 68. Using the Real Time Clock (RTC) on MCX<a id="an-mcx-rtc-example"></a> <a href="#top" style="float:right">⤒</a>
+## 69. Using the Real Time Clock (RTC) on MCX<a id="an-mcx-rtc-example"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example serves as a guide on enabling the RTC module on MCX, selecting the correct clock source, enable the time keeping functions, enabling the alarm mode and wake timer to wake the MCU from a Deep Power Down state. 
@@ -1338,14 +1357,14 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcx-rtc-example
 
 <!-- an-xip-external-nor-flash-plus-external-psram/. -->
-## 69. XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module<a id="an-xip-external-nor-flash-plus-external-psram"></a> <a href="#top" style="float:right">⤒</a>
+## 70. XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module<a id="an-xip-external-nor-flash-plus-external-psram"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  RW61x has a FlexSPI module with two ports that allows you to connect two QSPI/SPI memories allowing to perform XIP from one of them. This application note will guide you step by step how to configure the NOR flash connected to the portA and perform XIP and configure a pSRAM memory connected to the portB and access them through the AHB bus (cache) and IP bus. 
 
 #### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        FLASH, SPI 
+#### Peripherals:        SPI, FLASH 
 #### Categories:         Memory 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1355,14 +1374,14 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-xip-external-nor-flash-plus-external-psram
 
 <!-- an-emulating-i2s-bus-with-flexio-on-mcxa156/. -->
-## 70. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 71. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156. The audio function is tested using the codec on LPCXpress55s69 board. 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DMA, I2C, I2S, USB, FlexIO 
+#### Peripherals:        DMA, FlexIO, I2C, USB, I2S 
 #### Categories:         Audio 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:

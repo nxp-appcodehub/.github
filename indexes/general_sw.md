@@ -144,7 +144,7 @@ Test loader is a software component which must be integrated into the firmware o
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        UART, USB 
+#### Peripherals:        USB, UART 
 #### Categories:         Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -206,7 +206,7 @@ This is a middleware software used to simplify CAN communication, it is easy to 
 
 #### Families:           PN 
 #### Toolchains:         IAR 
-#### Peripherals:        CAN, GPIO, Bluetooth 
+#### Peripherals:        CAN, Bluetooth, GPIO 
 #### Categories:         Wireless Connectivity, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:

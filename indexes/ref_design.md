@@ -44,7 +44,7 @@ enables the EVSE-EMETER board to be controlled and interrogated from a remote cl
 
 #### Families:           Kinetis, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, CLOCKS, DMA, FLASH, GPIO, I2C, PWM, SPI, TIMER, UART, USB, WATCHDOG 
+#### Peripherals:        ADC, DMA, FLASH, GPIO, I2C, PWM, SPI, TIMER, UART, USB, WATCHDOG, CLOCKS 
 #### Categories:         Sensor, Industrial, Safety, Power Conversion, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -61,7 +61,7 @@ EasyEVSE is a simulated electric vehicle charging station, J1772 compliant, conn
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DISPLAY, DMA, ETHERNET, FLASH, GPIO, I2C, SPI, UART, USB, SDMMC, SDIO 
+#### Peripherals:        SDMMC, SDIO, DISPLAY, DMA, ETHERNET, FLASH, GPIO, I2C, SPI, UART, USB 
 #### Categories:         HMI, Cloud Connected Devices, Industrial, RTOS, Networking, Wireless Connectivity, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -84,7 +84,7 @@ This application showcases the analog and digital I/O features supported by the 
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
+#### Peripherals:        CAN, FLASH, PWM, SPI, UART, PINCTRL, TIMER, CLOCKS, DMA, ETHERNET, GPIO, ADC 
 #### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -101,7 +101,7 @@ This application showcases the analog and digital I/O features supported by the 
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
+#### Peripherals:        CAN, DMA, CLOCKS, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART, ADC 
 #### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -118,7 +118,7 @@ This application showcases the analog and digital I/O features supported by the 
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        CLOCKS, DMA, FLASH, GPIO, I2S, PWM, SPI, UART, USB, SDMMC, SDIO, SAI, FlexIO 
+#### Peripherals:        USB, UART, SPI, SDMMC, SDIO, SAI, PWM, I2S, GPIO, FlexIO, FLASH, DMA, CLOCKS 
 #### Categories:         Voice, HMI, Audio, RTOS, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
