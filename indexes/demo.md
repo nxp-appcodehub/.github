@@ -528,7 +528,6 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 * [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
 * [FRDM-MCXC041](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c041-mcus:FRDM-MCXC041)
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
-* [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-relay5click-frdm/tree/main
@@ -571,7 +570,6 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 * [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
 * [FRDM-MCXC041](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c041-mcus:FRDM-MCXC041)
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
-* [FRDM-MCXW71](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-w71x-wireless-mcus:FRDM-MCXW71)
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-oledbclick-frdm/tree/main
