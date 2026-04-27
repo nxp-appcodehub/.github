@@ -13,7 +13,7 @@
 5. [Accel and Pressure sensor demo with FRDM-MCXA153](#dm-mcxa-accel-and-pressure-logger)
 6. [BLE smart label based on LVGL using Waveshare e-ink display and KW45](#dm-lvgl-epaper-smartlabel-kw45)
 7. [BLE throughput measurement on RT1170 EVKB + IW612](#dm-ble-throughput-measurement-rt1170)
-8. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board](#dm-ble-fsci-host-application)
+8. [Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-EXP Board](#dm-ble-fsci-host-application)
 9. [Bluetooth® Channel Sounding](#dm-frdm-mcxw72-channel-sounding-with-oled-b-click)
 10. [Clea Astarte IoT devices using Zephyr RTOS](#astarte-device-sdk-zephyr_samples_astarte_app)
 11. [Clea Edgehog IoT devices using Zephyr RTOS](#edgehog-zephyr-device_samples_edgehog_app)
@@ -334,10 +334,10 @@ This application demonstrates BLE Throughput measurement on RT1170 using wireles
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ble-throughput-measurement-rt1170
 
 <!-- dm-ble-fsci-host-application/. -->
-## 8. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-Click Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
+## 8. Bluetooth LE FSCI Host Application running on FRDM-MCXN947 and MCXW236B-EXP Board<a id="dm-ble-fsci-host-application"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-The Bluetooth LE FSCI Host application demonstrates a host-side implementation for the Health Thermometer use case. It is designed to work alongside the Bluetooth LE FSCI Blackbox application, which runs on platforms such as the MCXW236 Click Board, FRDM-MCXW236, or other compatible Bluetooth LE wireless MCUs. 
+The Bluetooth LE FSCI Host application demonstrates a host-side implementation for the Health Thermometer use case. It is designed to work alongside the Bluetooth LE FSCI Blackbox application, which runs on platforms such as the MCXW236B-EXP Board, FRDM-MCXW236, or other compatible Bluetooth LE wireless MCUs.
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
