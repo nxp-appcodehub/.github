@@ -3275,7 +3275,7 @@ Our demonstration showcases a seamless and intelligent sensing experience by uni
 #### Toolchains:         VS Code 
 #### Peripherals:        USB 
 #### Categories:         Sensor 
-#### Application format: Python (Linux)
+#### Application format: Zephyr Project
 #### Compatible boards:
 
 #### Expansion boards

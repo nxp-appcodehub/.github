@@ -1234,7 +1234,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### Toolchains:         VS Code 
 #### Peripherals:        USB 
 #### Categories:         Sensor 
-#### Application format: Python (Linux)
+#### Application format: Zephyr Project
 #### Compatible boards:
 
 #### Expansion boards
