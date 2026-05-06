@@ -711,7 +711,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 ## 35. AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M276<a id="an-mc-pmsm-s32m276"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) control using single shunt current sensing on the NXP and S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note.
+This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) using single shunt current sensing on the NXP and S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note.
 
 #### Families:           S32M 
 #### Toolchains:         S32 Design Studio IDE 
