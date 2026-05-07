@@ -3659,12 +3659,13 @@ This application demonstrates how to mirror and control an Android phone from an
 This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan Sensor Bridge (HSB) device, enabling high speed data communication from i.MX RT1180 to an NVIDIA GPU using RoCEv2 (RDMA over Converged Ethernet) protocol.
 
 #### Families:           i.MX RT 
-#### Toolchains:         IAR 
+#### Toolchains:         IAR, VS Code 
 #### Peripherals:        ETHERNET 
 #### Categories:         Motor Control, Industrial, Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 * [MIMXRT1180-EVK](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1180-evaluation-kit:MIMXRT1180-EVK)
+* [FRDM-IMXRT1186]()
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-rt1180-hsb/tree/main
