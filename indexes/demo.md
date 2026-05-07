@@ -1893,7 +1893,7 @@ This application demonstrates LCD screen awake scenario when motion detected in
 * [LCD-PAR-S035](https://mcuxpresso.nxp.com/eb-hub/product/lcd-par-s035)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-motion-detection-using-wifi-csi-on-rw61x/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-motion-detection-using-frdm-rw612-wifi-csi
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-motion-detection-using-wifi-csi-on-rw61x
 
 <!-- dm-motor-control-pmsm-frdm-mcxa156/. -->
 ## 88. Motor Control PMSM FRDM with LVGL<a id="dm-motor-control-pmsm-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
