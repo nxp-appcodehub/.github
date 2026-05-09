@@ -1734,10 +1734,10 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 ## 79. MCXN947 NPU vs Tensorflm Benchmark<a id="dm-mcxn947-npu-vs-tensorflm-benchmark"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
- This demo shows the performance benchmark between NPU and TensorFLM. Real time results are displayed on TFT LCD. On-chip NPU accelerates AI/ML algorithms and improves the performance. 
+This demo shows the performance benchmark between NPU and TensorFLM. Real time results are displayed on TFT LCD. On-chip NPU accelerates AI/ML algorithms and improves the performance.
 
 #### Families:           MCX 
-#### Toolchains:         MCUXpresso IDE 
+#### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        DISPLAY 
 #### Categories:         Graphics, AI/ML 
 #### Application format: Project File (MCUX/MDK/IAR)
