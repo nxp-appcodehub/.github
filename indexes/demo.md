@@ -707,6 +707,9 @@ This demo showcases a brake status monitoring system on the FRDM-A-S32K312 devel
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
+#### Expansion boards
+* [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
+* [4x4 RGB 2 Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 rgb 2 click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-brake-control-s32k312/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-brake-control-s32k312
