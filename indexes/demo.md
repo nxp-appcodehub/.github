@@ -20,11 +20,11 @@
 12. [Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers.](#dm-control-led-emios-pwm-s32k312-mcal)
 13. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
 14. [Demo and steps creating new Zephyr app repo and custom board](#dm-create-zephyr-app-repo)
-15. [Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter](#dm-mikroe-oled-c-click-display-frdm)
-16. [Demo of Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-joystick2click-frdm)
-17. [Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-relay5click-frdm)
-18. [Demo of coffee machine using voice recognition (VIT) and LVGL graphics on i.MX RT1060](#dm-lvgl-vit-rt1060)
-19. [Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-oledbclick-frdm)
+15. [Demo for Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-joystick2click-frdm)
+16. [Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter](#dm-mikroe-oled-c-click-display-frdm)
+17. [Demo of Mikroe OledBClick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-oledbclick-frdm)
+18. [Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-relay5click-frdm)
+19. [Demo of coffee machine using voice recognition (VIT) and LVGL graphics on i.MX RT1060](#dm-lvgl-vit-rt1060)
 20. [Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6](#dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application)
 21. [Driving LCD-PAR-S035 using LVGL on FRM-MCXW71 board](#dm-mcxw71-driving-lcd-wireless-uart)
 22. [EVSE-SIG-BRD using LPC5536/LPC55S36 for electric vehicle chargers](#dm-lpc5536-evse-sigbrd)
@@ -473,8 +473,33 @@ board&lt;/li&gt;&lt;/ul&gt;</li></ul>
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-create-zephyr-app-repo/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-create-zephyr-app-repo
 
+<!-- dm-mikroe-joystick2click-frdm/. -->
+## 15. Demo for Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-joystick2click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo is an example for the Mikroe Joystick 2 Click module in FRDM boards with CMSIS driver and GPIO adapter.
+
+#### Families:           RW, MCX 
+#### Toolchains:         MCUXpresso IDE, VS Code 
+#### Peripherals:        GPIO, I2C, UART 
+#### Categories:         User Interface 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA156](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a144-5-6-a154-5-6-mcus:FRDM-MCXA156)
+* [FRDM-MCXN236](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n23x-mcus:FRDM-MCXN236)
+* [FRDM-MCXA153](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a14x-a15x-mcus:FRDM-MCXA153)
+* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+* [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
+* [FRDM-MCXC041](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c041-mcus:FRDM-MCXC041)
+* [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
+* [FRDM-MCXW72]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-joystick2click-frdm/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-joystick2click-frdm
+
 <!-- dm-mikroe-oled-c-click-display-frdm/. -->
-## 15. Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter<a id="dm-mikroe-oled-c-click-display-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 16. Demo of MikroE Oled C Click display in FRDM-MCX with CMSIS driver and GPIO adapter<a id="dm-mikroe-oled-c-click-display-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS driver and GPIO component
@@ -492,16 +517,16 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-oled-c-click-display-frdm/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-oled-c-click-display-frdm
 
-<!-- dm-mikroe-joystick2click-frdm/. -->
-## 16. Demo of Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-joystick2click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+<!-- dm-mikroe-oledbclick-frdm/. -->
+## 17. Demo of Mikroe OledBClick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-oledbclick-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
- Demo is an example for Mikroe Joystick 2 Click module in FRDM boards with CMSIS driver and GPIO adapter. 
+This demo is an example for the Mikroe OLED B click module in FRDM boards with CMSIS driver and GPIO adapter.
 
 #### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        GPIO, I2C, UART 
-#### Categories:         User Interface 
+#### Categories:         Graphics, HMI, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 * [FRDM-MCXA156](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a144-5-6-a154-5-6-mcus:FRDM-MCXA156)
@@ -511,13 +536,16 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 * [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
 * [FRDM-MCXC041](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c041-mcus:FRDM-MCXC041)
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
+* [FRDM-MCXW72]()
 
+#### Expansion boards
+* [OLED B click](https://mcuxpresso.nxp.com/eb-hub/product/oled b click)
 
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-joystick2click-frdm/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-joystick2click-frdm
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-oledbclick-frdm/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-oledbclick-frdm
 
 <!-- dm-mikroe-relay5click-frdm/. -->
-## 17. Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-relay5click-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 18. Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-relay5click-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Demo is an example for Mikroe Relay 5 click module in FRDM boards usign CMSIS driver for I2C comunication, and GPIO component. 
@@ -541,7 +569,7 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-relay5click-frdm
 
 <!-- dm-lvgl-vit-rt1060/. -->
-## 18. Demo of coffee machine using voice recognition (VIT) and LVGL graphics on i.MX RT1060<a id="dm-lvgl-vit-rt1060"></a> <a href="#top" style="float:right">⤒</a>
+## 19. Demo of coffee machine using voice recognition (VIT) and LVGL graphics on i.MX RT1060<a id="dm-lvgl-vit-rt1060"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application code is to demonstrate LVGL Coffee Machine GUI + NXP VIT on RT1060-EVK for smart panel demo 
@@ -557,30 +585,6 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-lvgl-vit-rt1060/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lvgl-vit-rt1060
-
-<!-- dm-mikroe-oledbclick-frdm/. -->
-## 19. Demo of mikroe oledBclick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-oledbclick-frdm"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
- Demo is an example for Mikroe OLED B click module in FRDM boards with CMSIS driver and GPIO adapter. 
-
-#### Families:           RW, MCX 
-#### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        GPIO, I2C, UART 
-#### Categories:         Graphics, HMI, User Interface 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-* [FRDM-MCXA156](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a144-5-6-a154-5-6-mcus:FRDM-MCXA156)
-* [FRDM-MCXN236](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n23x-mcus:FRDM-MCXN236)
-* [FRDM-MCXA153](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a14x-a15x-mcus:FRDM-MCXA153)
-* [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
-* [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
-* [FRDM-MCXC041](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c041-mcus:FRDM-MCXC041)
-* [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-oledbclick-frdm/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-oledbclick-frdm
 
 <!-- dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application/. -->
 ## 20. Door Lock Cluster integration on a Lighting App Matter Application using K32W061 DK6<a id="dm-nxp-k32w061-dk6-door-lock-and-lighting-app-matter-application"></a> <a href="#top" style="float:right">⤒</a>
