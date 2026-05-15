@@ -496,6 +496,8 @@ This demo is an example for the Mikroe Joystick 2 Click module in FRDM boards wi
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
 * [FRDM-MCXW72]()
 
+#### Expansion boards
+* [Joysitck 2 click](https://mcuxpresso.nxp.com/eb-hub/product/joysitck 2 click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-joystick2click-frdm/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mikroe-joystick2click-frdm
