@@ -3531,7 +3531,7 @@ This demo demonstrates control of vehicle lighting systems using embedded periph
 ## 168. Vehicle Lighting Control for Daylight and Hazard Signals on FRDM-A-S32K312<a id="dm-vehicle-lighting-signals-frdm-a-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo demonstrates control of vehicle lighting systems using embedded peripherals. Daylight running lights and hazard signals are managed based on input conditions, with real-time feedback through LEDs. The example highlights how automotive lighting features can be implemented and tested on an embedded platform, FRDM-A-S32K312.
+This demo demonstrates control of vehicle lighting systems using embedded peripherals. Daylight running lights and hazard signals are managed based on input conditions, with real-time feedback through LEDs. The example highlights how automotive lighting features can be implemented and tested on an embedded platform, FRDM-A-S32K312
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
