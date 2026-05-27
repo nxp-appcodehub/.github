@@ -3574,7 +3574,7 @@ Our demonstration showcases a seamless and intelligent sensing experience by uni
 ## 170. Vehicle Lighting Control for Daylight and Hazard Signals<a id="dm-vehicle-lighting-signals-frdm-a-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo demonstrates control of vehicle lighting systems using embedded peripherals. Daylight running lights and hazard signals are managed based on input conditions, with real-time feedback through LEDs. The example highlights how automotive lighting features can be implemented and tested on an embedded platform.
+This demo demonstrates control of vehicle lighting systems using embedded peripherals. Daylight running lights and hazard signals are managed based on input conditions, with real-time feedback through LEDs. The example highlights how automotive lighting features can be implemented and tested on an embedded platform
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
