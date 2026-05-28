@@ -3583,6 +3583,9 @@ This demo demonstrates control of vehicle lighting systems using embedded periph
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
+#### Expansion boards
+* [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
+* [4x4 RGB 2 Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 rgb 2 click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-vehicle-lighting-signals-frdm-a-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-vehicle-lighting-signals-frdm-a-s32k344
