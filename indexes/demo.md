@@ -392,14 +392,15 @@ The Bluetooth LE FSCI Host application demonstrates a host-side implementation f
 ## 10. Bluetooth® Channel Sounding<a id="dm-frdm-mcxw72-channel-sounding-with-oled-b-click"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-In this demo, we use a technique called Channel Sounding to estimate the distance between two FRDM-MCXW72 boards. By using this technique, the demo can calculate and display the distance between the two boards with cm/ft resolution.
+In this demo, we use a technique called Channel Sounding to estimate the distance between two FRDM-MCXW72 or KW47-LOC boards. By using this technique, the demo can calculate and display the distance between the two boards with cm/ft resolution.
 
 #### Families:           MCX 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        Bluetooth, I2C 
+#### Peripherals:        Bluetooth, I2C, UART 
 #### Categories:         Graphics, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
+* [KW47-LOC]()
 * [FRDM-MCXW72]()
 
 #### Expansion boards
