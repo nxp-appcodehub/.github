@@ -405,6 +405,7 @@ In this demo, we use a technique called Channel Sounding to estimate the distanc
 
 #### Expansion boards
 * [OLED B click](https://mcuxpresso.nxp.com/eb-hub/product/oled b click)
+* [OLED W click](https://mcuxpresso.nxp.com/eb-hub/product/oled w click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-frdm-mcxw72-channel-sounding-with-oled-b-click/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-mcxw72-channel-sounding-with-oled-b-click
