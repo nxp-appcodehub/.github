@@ -72,7 +72,7 @@
 64. [I²C-Bus , 1 Degree C Accuracy, Digital Temperature Sensor ](#dm-pct2075dp-ard-temperature-sensor)
 65. [K32W148 BLDC Motor control FreeRTOS application](#dm-bldc-motor-control-k32w148)
 66. [KNX IoT Point API stack with ETS support on NXP Connectivity MCUs](#dm-knx-iot-apps-with-ets-support-on-nxp-mcus)
-67. [KNX IoT Point API stack with ETS support on NXP Connectivity MCUs running on Zepyr](#dm-knx-iot-zephyr-apps-with-ets-support-on-nxp-mcus)
+67. [KNX IoT Point API stack with ETS support on NXP Connectivity MCUs running on Zephyr](#dm-knx-iot-zephyr-apps-with-ets-support-on-nxp-mcus)
 68. [KNX IoT stack examples running on FRDM-MCXW71](#dm-knx-iot-examples-on-nxp-mcxw71)
 69. [KW45: Secure boot scripts based on spsdk](#dm-kw45-secure-boot-scripts)
 70. [Knob G Click: multi-platform ecosystem.](#dm-mikroe-knob-g-click-frdm)
@@ -1516,7 +1516,7 @@ This repository contains light switched basic examples of the opensource KNX IoT
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-knx-iot-apps-with-ets-support-on-nxp-mcus
 
 <!-- dm-knx-iot-zephyr-apps-with-ets-support-on-nxp-mcus/. -->
-## 67. KNX IoT Point API stack with ETS support on NXP Connectivity MCUs running on Zepyr<a id="dm-knx-iot-zephyr-apps-with-ets-support-on-nxp-mcus"></a> <a href="#top" style="float:right">⤒</a>
+## 67. KNX IoT Point API stack with ETS support on NXP Connectivity MCUs running on Zephyr<a id="dm-knx-iot-zephyr-apps-with-ets-support-on-nxp-mcus"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This repository contains light switched basic examples of the opensource KNX IoT Point API stack running on NXP Connectivity MCUs using Zephyr OS. These examples include light switched actuator basic (LSAB) and light switched sensor basic (LSSB) examples. The examples support connectivity with KNX Association's Engineering Tool Software (ETS) which is used as Management and Configuration Tool (MaC) for designing and configuring intelligent home and building control installations with the KNX systems.<br /><br />This is the first deployment of the KNX IoT demo applications on Zephyr RTOS. Further development can be found in the [official KNX IoT Point API Demos repository](https://gitlab.knx.org/public-projects/knx-iot-point-api/knx-iot-point-api-demos).
