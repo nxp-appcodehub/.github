@@ -18,7 +18,7 @@
 10. [Bluetooth® Channel Sounding](#dm-frdm-mcxw72-channel-sounding-with-oled-b-click)
 11. [Clea Astarte IoT devices using Zephyr RTOS](#astarte-device-sdk-zephyr_samples_astarte_app)
 12. [Clea Edgehog IoT devices using Zephyr RTOS](#edgehog-zephyr-device_samples_edgehog_app)
-13. [Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers](#dm-control-led-emios-pwm-s32k312-mcal)
+13. [Control LED brightness through eMIOS PWM function on S32K312 series using MCAL drivers](#dm-control-led-emios-pwm-s32k312-mcal)
 14. [DeepPacket: Encrypted network packets classification system](#app-network-ml)
 15. [Demo and steps creating new Zephyr app repo and custom board](#dm-create-zephyr-app-repo)
 16. [Demo for Mikroe Joystick2Click in FRDM with CMSIS driver and GPIO adapter](#dm-mikroe-joystick2click-frdm)
@@ -447,7 +447,7 @@ Fleet manage your IoT device through opensource Edgehog device management platfo
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=edgehog-iot-devices-using-zephyr-rtos
 
 <!-- dm-control-led-emios-pwm-s32k312-mcal/. -->
-## 13. Control LED brightness through eMIOS PWM function on S32K3 series using MCAL drivers<a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
+## 13. Control LED brightness through eMIOS PWM function on S32K312 series using MCAL drivers<a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure the Enhanced Modular IO Subsystem (eMIOS) module to use it as a PWM specifically in OPWMB (Output Pulse Width Modulation Buffered) mode, using the RTD high-level drivers, commonly known as MCAL drivers.<br />
