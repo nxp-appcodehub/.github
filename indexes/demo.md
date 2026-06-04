@@ -454,7 +454,7 @@ Fleet manage your IoT device through opensource Edgehog device management platfo
 ## 13. Control LED brightness through eMIOS PWM function on S32K312 series using MCAL drivers<a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to configure the Enhanced Modular IO Subsystem (eMIOS) module to use it as a PWM specifically in OPWMB (Output Pulse Width Modulation Buffered) mode, using the RTD high-level drivers, commonly known as MCAL drivers.<br />
+This demo shows how to configure the Enhanced Modular I/O Subsystem (eMIOS) module to use it as a PWM specifically in OPWMB (Output Pulse Width Modulation Buffered) mode, using the RTD high-level drivers, commonly known as MCAL drivers.<br />
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
