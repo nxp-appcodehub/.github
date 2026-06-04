@@ -9,9 +9,10 @@
 1. [How to set up the motion control reference design on iMX.RT1180](#rd-motion-control-slave-servo-mimxrt1180)
 2. [NXP EVSE EMETER](#rd-evse-emeter)
 3. [NXP EasyEVSE iMXRT106x](#rd-nxp-easyevse-imxrt106x)
-4. [Remote IO Platform: Demo](#rd-riop-demo)
-5. [Remote IO Platform: ECAT Sample Application](#rd-riop-ecat)
-6. [i.MX RT106V Based Smart Voice User Interface Solution](#rd-mcu-svui)
+4. [Remote IO Platform](#rd-riop)
+5. [Remote IO Platform: Demo](#rd-riop-demo)
+6. [Remote IO Platform: ECAT Sample Application](#rd-riop-ecat)
+7. [i.MX RT106V Based Smart Voice User Interface Solution](#rd-mcu-svui)
 
 <!-- rd-motion-control-slave-servo-mimxrt1180/. -->
 ## 1. How to set up the motion control reference design on iMX.RT1180<a id="rd-motion-control-slave-servo-mimxrt1180"></a> <a href="#top" style="float:right">⤒</a>
@@ -76,8 +77,25 @@ EasyEVSE is a simulated electric vehicle charging station, J1772 compliant, conn
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-nxp-easyevse-imxrt106x/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-nxp-easyevse-imxrt106x
 
+<!-- rd-riop/. -->
+## 4. Remote IO Platform<a id="rd-riop"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This application showcases the analog and digital I/O features supported by the Remote IO Platform and industrial networking multi-protocol support. The platform uses EtherCAT, Profinet or Ethernet/IP to communicate with Codesys running on a PC.<br /><br />The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li><br /></li></ul>It is supported by VS Code and requires additional differently licensed packages to be downloaded from nxp.com/riop.
+
+#### Families:           i.MX RT 
+#### Toolchains:         VS Code 
+#### Peripherals:        ADC, CAN, CLOCKS, DMA, ETHERNET, FLASH, GPIO, PINCTRL, PWM, SPI, TIMER, UART 
+#### Categories:         Sensor, Industrial, RTOS, Networking, Analog Front End 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/rd-riop/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop
+
 <!-- rd-riop-demo/. -->
-## 4. Remote IO Platform: Demo<a id="rd-riop-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 5. Remote IO Platform: Demo<a id="rd-riop-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application showcases the analog and digital I/O features supported by the Remote IO Platform without using any industrial protocols. The platform communicates with a PC-based FreeMASTER application via NETC over ethernet. <br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>The application comes pre-programmed into the Remote IO Platform and is part of the Out-of-Box Experience. It is supported by MCUXpresso IDE and VS Code.
@@ -94,7 +112,7 @@ This application showcases the analog and digital I/O features supported by the 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-demo
 
 <!-- rd-riop-ecat/. -->
-## 5. Remote IO Platform: ECAT Sample Application<a id="rd-riop-ecat"></a> <a href="#top" style="float:right">⤒</a>
+## 6. Remote IO Platform: ECAT Sample Application<a id="rd-riop-ecat"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application showcases the analog and digital I/O features supported by the Remote IO Platform in combination with the EtherCAT industrial protocol. The platform communicates over ethernet with a TwinCAT-driven soft-PLC application running on a PC.<br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>
@@ -111,7 +129,7 @@ This application showcases the analog and digital I/O features supported by the 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=rd-riop-ecat
 
 <!-- rd-mcu-svui/. -->
-## 6. i.MX RT106V Based Smart Voice User Interface Solution<a id="rd-mcu-svui"></a> <a href="#top" style="float:right">⤒</a>
+## 7. i.MX RT106V Based Smart Voice User Interface Solution<a id="rd-mcu-svui"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This NXP EdgeReady solution for both local and online voice control leverages the i.MX RT106V crossover MCU, with integrated Voice Intelligent Technology (VIT) Speech to Intent offering a natural voice user interface for touchless applications. This ultra-small form-factor, production ready hardware design comes with fully integrated software running on FreeRTOS, for quick out-of-the-box evaluation and proof of concept development. This turnkey solution minimizes time to market, risk, and development effort enabling OEMs to easily add voice to their smart home and smart appliance products. This NXP EdgeReady solution is part of the EdgeVerse™ edge computing platform. The October 2024 software update enables Wifi connectivity and incorporates the Matter interoperability standard for IoT devices along with NXP’s proprietary Speech to Intent (S2I) natural language voice control for the edge. With this upgrade, developers can now use RT106V to design Matter connected IoT nodes and control any node on the system with natural voice commands. 
