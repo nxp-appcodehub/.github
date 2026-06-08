@@ -711,7 +711,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 ## 35. AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M276<a id="an-mc-pmsm-s32m276"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) using single shunt current sensing on the NXP and S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note.
+This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) using single shunt current sensing on the NXP S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note.
 
 #### Families:           S32M 
 #### Toolchains:         S32 Design Studio IDE 
@@ -1229,7 +1229,7 @@ This software accompanies application note [AN12345], which describes how to use
 ## 63. PMSM Motor Control Sensorless dual Shunt FOC on FRDM-A-S32K344<a id="an-mc-pmsm-foc-2sh-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) control using dual shunt current sensing on the NXP DEVKIT-MOTORGD and S32K344 microcontroller. The demo is based on the AN13767 3-phase Sensorless PMSM Motor Control Kit with S32K344 using RTD Low Level API, more details about the implementation can be found in the application note.
+This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) using dual shunt current sensing on the NXP DEVKIT-MOTORGD and S32K344 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN13767&amp;_gl=1*cyr8rf*_ga*MzQzMjM3MDY3LjE3Nzk5NTc1Nzk.*_ga_WM5LE0KMSH*czE3ODA5MTU3NTkkbzM0JGcxJHQxNzgwOTI3Nzc2JGozOSRsMCRoMTA1MjI2NTg1MA..">AN13767 3-phase Sensorless PMSM Motor Control Kit with S32K344 using RTD Low Level API</a>, more details about the implementation can be found in the application note.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
