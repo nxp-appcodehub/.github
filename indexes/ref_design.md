@@ -115,7 +115,7 @@ This application showcases the analog and digital I/O features supported by the 
 ## 6. Remote IO Platform: ECAT Sample Application<a id="rd-riop-ecat"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This application showcases the analog and digital I/O features supported by the Remote IO Platform in combination with the EtherCAT industrial protocol. The platform communicates over ethernet with a TwinCAT-driven soft-PLC application running on a PC.<br /><br />    The features include:<br /><ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>
+IMPORTANT NOTE: This repository has been deprecated and superceded by https://mcuxpresso.nxp.com/appcodehub?search=rd-riop.<br /><br />This application showcases the analog and digital I/O features supported by the Remote IO Platform in combination with the EtherCAT industrial protocol. The platform communicates over ethernet with a TwinCAT-driven soft-PLC application running on a PC.<br /><br />    The features include:<ul><li>Signal generator</li><li>MCU Digital Input pin control</li><li>MCU Digital Output pin control</li><li>AFE Digital I/Os control</li><li>External Voltage Signal Measurement (HVSIG)</li><li>Current Measurement</li><li>Temperature Measurement</li><li>Internal Voltage References measurement (LVSIG)</li><li>Voltage Calibration</li><li>Resistance Calibration</li></ul>
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE, VS Code 
