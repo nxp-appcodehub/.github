@@ -624,10 +624,10 @@ This demo is an example for the Mikroe OLED B click module in FRDM boards with C
 ## 21. Demo of Mikroe Relay5CLick in FRDM with CMSIS driver and GPIO adapter<a id="dm-mikroe-relay5click-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
- Demo is an example for Mikroe Relay 5 click module in FRDM boards usign CMSIS driver for I2C comunication, and GPIO component. 
+This demo is an example for Mikroe Relay 5 click module in FRDM boards usign CMSIS driver for I2C comunication, and GPIO component.
 
 #### Families:           RW, MCX 
-#### Toolchains:         MCUXpresso IDE, VS Code 
+#### Toolchains:         VS Code 
 #### Peripherals:        I2C, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
@@ -639,6 +639,7 @@ This demo is an example for the Mikroe OLED B click module in FRDM boards with C
 * [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
 * [FRDM-MCXC041](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c041-mcus:FRDM-MCXC041)
 * [FRDM-MCXC242](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c242-mcus:FRDM-MCXC242)
+* [FRDM-MCXW72]()
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-mikroe-relay5click-frdm/tree/main
