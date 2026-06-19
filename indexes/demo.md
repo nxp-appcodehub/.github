@@ -327,7 +327,7 @@ This example demonstrates how to control the brightness intensity of WS2812 addr
 ## 6. ADC Temperature Sensing MCAL with FreeMASTER on FRDM-A-S32K312<a id="dm-adc-tempsense-freemaster-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to configure and use the ADC to read the internal die temperature of the S32K312 microcontroller using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) MCAL layer and S32 Design Studio.
+This demo shows how to configure and use the ADC to read the internal die temperature of the S32K312 microcontroller using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) MCAL layer and plot data using FreeMASTER.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
