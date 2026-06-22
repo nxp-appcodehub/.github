@@ -78,7 +78,8 @@
 70. [Using SLCD controller on MCXC444 MCU](#an-using-slcd-controller-on-mcxc444)
 71. [Using the Real Time Clock (RTC) on MCX](#an-mcx-rtc-example)
 72. [XIP from external NOR flash and configuring external pSRAM using multiport FlexSPI module](#an-xip-external-nor-flash-plus-external-psram)
-73. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
+73. [continuous SRAM address usage on MCXA15x](#an-continuous-sram-address-mcxa15x)
+74. [emulating i2s bus with flexio on mcxa156](#an-emulating-i2s-bus-with-flexio-on-mcxa156)
 
 <!-- an-flexio_camera_rt1010/. -->
 ## 1. flexio_camera_rt1010<a id="an-flexio_camera_rt1010"></a> <a href="#top" style="float:right">⤒</a>
@@ -1412,8 +1413,26 @@ This example demonstrates a sensorless Field Oriented Control (FOC) implementati
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-xip-external-nor-flash-plus-external-psram/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-xip-external-nor-flash-plus-external-psram
 
+<!-- an-continuous-sram-address-mcxa15x/. -->
+## 73. continuous SRAM address usage on MCXA15x<a id="an-continuous-sram-address-mcxa15x"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+ This software configure and use the SRAM X0 Alias to form continuous SRAM address, and validate the feasibility of continuous SRAM address. 
+
+#### Families:           MCX 
+#### Toolchains:         IAR, MDK, MCUXpresso IDE 
+#### Peripherals:        DMA 
+#### Categories:         Memory 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA156](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a144-5-6-a154-5-6-mcus:FRDM-MCXA156)
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-continuous-sram-address-mcxa15x/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-continuous-sram-address-mcxa15x
+
 <!-- an-emulating-i2s-bus-with-flexio-on-mcxa156/. -->
-## 73. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 74. emulating i2s bus with flexio on mcxa156<a id="an-emulating-i2s-bus-with-flexio-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This application note describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156. The audio function is tested using the codec on LPCXpress55s69 board. 
