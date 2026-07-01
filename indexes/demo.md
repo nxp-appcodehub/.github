@@ -41,25 +41,25 @@
 33. [Ethernet Communication using FRDM-A-S32K344](#dm-high-speed-eth-frdm-a-s32k344)
 34. [FRDM MCXW72 802.15.4 MAC application with wireless UART support](#dm-frdmmcxw72-wireless-uart-15-4-mac-app)
 35. [FRDM RW612 Kitchen Timer](#dm-frdm-rw612-kitchen-timer)
-36. [FRDM-A-S32K356 Multicore LED Blink Demo](#dm-gpio-blinky-s32k356)
-37. [FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System](#dm-ml-sensorless-anomaly-detection)
-38. [FRDM-MCXW72 LCD-PAR-S035 enablement and control over PMOD](#dm-mcxw72-lcd-enablement-over-pmod)
-39. [FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller](#dm-frdmmcxw72-servo-motor-multi-control)
-40. [FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller and remote wireless UART commands and LCD GUI](#dm-frdmmcxw72-servo-motor-multi-control-with-wireless-uart-and-lcd)
-41. [FRDM-RW612 GUI Guider integration on Bluetooth LE example](#dm-nxp-rw612-gui-guider-ble)
-42. [FRDM-RW612 Heart Rate sensor over BLE](#dm-frdmrw612-heart-rate-sensor-over-ble)
-43. [FRDM-RW612 Matter standalone temperature measurement with on-board sensor](#dm-frdm-rw612-matter-standalone-temperature-sensor)
-44. [FRDM-RW612 On-board temperature sensor over BLE](#dm-frdmrw612-temperature-sensor-over-ble)
-45. [FRDM-RW612 Smart Aircon with Wi-Fi and MQTT](#dm-frdm-rw612-smart-aircon-with-wifi-and-mqtt)
-46. [FRDM-RW612 Voice Intelligent Technology on Zephyr RTOS](#dm-frdm-rw612-vit-on-zephyr)
-47. [FRDM-RW612 external accelerometer sensor over BLE](#dm-frdmrw612-accelerometer-sensor-over-ble)
-48. [FRDM33926PNBEVM: Driver and demo app for MC33926 motor controller](#dm-frdm33926pnbevm-motor-control-driver-demo-app)
-49. [FRDMHB2002ESEVM: Driver and demo app for MC33HB2002ES H-bridge motor controller](#dm-frdmhb2002esevm-motor-control-demo-app)
-50. [Fashion MNIST Recognition on MCXN947](#dm-fashion-mnist-recognition-on-mcxn947)
-51. [FreeRTOS-Based LittleFS Support on SPI-NAND (W25N01GV) for FRDM-RW612](#dm-nand-flash-support-on-frdmrw612)
-52. [Full Appliance Demo](#dm-rt1170evkb-full-appliance)
-53. [GPIO Blinking LED Demo for FRDM-A-S32K312](#dm-gpio-blinky-s32k312)
-54. [GPIO Blinking LED Demo for FRDM-A-S32K344](#dm-gpio-blinky-s32k344)
+36. [FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System](#dm-ml-sensorless-anomaly-detection)
+37. [FRDM-MCXW72 LCD-PAR-S035 enablement and control over PMOD](#dm-mcxw72-lcd-enablement-over-pmod)
+38. [FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller](#dm-frdmmcxw72-servo-motor-multi-control)
+39. [FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller and remote wireless UART commands and LCD GUI](#dm-frdmmcxw72-servo-motor-multi-control-with-wireless-uart-and-lcd)
+40. [FRDM-RW612 GUI Guider integration on Bluetooth LE example](#dm-nxp-rw612-gui-guider-ble)
+41. [FRDM-RW612 Heart Rate sensor over BLE](#dm-frdmrw612-heart-rate-sensor-over-ble)
+42. [FRDM-RW612 Matter standalone temperature measurement with on-board sensor](#dm-frdm-rw612-matter-standalone-temperature-sensor)
+43. [FRDM-RW612 On-board temperature sensor over BLE](#dm-frdmrw612-temperature-sensor-over-ble)
+44. [FRDM-RW612 Smart Aircon with Wi-Fi and MQTT](#dm-frdm-rw612-smart-aircon-with-wifi-and-mqtt)
+45. [FRDM-RW612 Voice Intelligent Technology on Zephyr RTOS](#dm-frdm-rw612-vit-on-zephyr)
+46. [FRDM-RW612 external accelerometer sensor over BLE](#dm-frdmrw612-accelerometer-sensor-over-ble)
+47. [FRDM33926PNBEVM: Driver and demo app for MC33926 motor controller](#dm-frdm33926pnbevm-motor-control-driver-demo-app)
+48. [FRDMHB2002ESEVM: Driver and demo app for MC33HB2002ES H-bridge motor controller](#dm-frdmhb2002esevm-motor-control-demo-app)
+49. [Fashion MNIST Recognition on MCXN947](#dm-fashion-mnist-recognition-on-mcxn947)
+50. [FreeRTOS-Based LittleFS Support on SPI-NAND (W25N01GV) for FRDM-RW612](#dm-nand-flash-support-on-frdmrw612)
+51. [Full Appliance Demo](#dm-rt1170evkb-full-appliance)
+52. [GPIO Blinking LED Demo for FRDM-A-S32K312](#dm-gpio-blinky-s32k312)
+53. [GPIO Blinking LED Demo for FRDM-A-S32K344](#dm-gpio-blinky-s32k344)
+54. [Getting Started with Multicore LED Control on FRDM-A-S32K356](#dm-gpio-blinky-s32k356)
 55. [Golioth Bluetooth Data to the Cloud using Pouch](#nxp-appcodehub_dm-ble-cloud)
 56. [HTTP Client Get and Post JSON Data](#dm-http-client-get-and-post-json-data)
 57. [HTTPS LCD LED Demo](#dm-https-lcd-led-demo)
@@ -920,25 +920,8 @@ This repository contains the standalone project for wireless UART application ov
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-frdm-rw612-kitchen-timer/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-rw612-kitchen-timer
 
-<!-- dm-gpio-blinky-s32k356/. -->
-## 36. FRDM-A-S32K356 Multicore LED Blink Demo<a id="dm-gpio-blinky-s32k356"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This demo presents the S32 Design Studio toolchain, flashing flow and the basic GPIO/clock initialization on the FRDM-A-S32K356 by toggling two onboard RGB LEDs, each independently controlled by a different core. This example showcases the multicore capabilities of the FRDM-A-S32K356.
-
-#### Families:           S32K 
-#### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        SIUL2, CLOCKS 
-#### Categories:         Tools 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-gpio-blinky-s32k356/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-gpio-blinky-s32k356
-
 <!-- dm-ml-sensorless-anomaly-detection/. -->
-## 37. FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System<a id="dm-ml-sensorless-anomaly-detection"></a> <a href="#top" style="float:right">⤒</a>
+## 36. FRDM-MCXN947 Sensorless Anomaly Detection for Motor Control System<a id="dm-ml-sensorless-anomaly-detection"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo showcases machine learning anomaly detection in a motor control system with modern GUI and touch controls. The demo showcases integration of many NXP tools. The demo utilizes MCUXpresso SDK for basic drivers, LVGL support for GUI and PMSM motor control algorithms. Using GUI Guider a modern and easy to navigate user interface is developed. Next, the demo incorporates FreeMASTER real time debugging tool to collect datasets using the Machine Learning Universal Datalogger project, which is also available as a standalone project on the Application Code Hub. This dataset can be used to develop a custom anomaly detection model using the Time Series Studio tool which is a part of eIQ® Toolkit. 
@@ -959,7 +942,7 @@ This demo presents the S32 Design Studio toolchain, flashing flow and the basic 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ml-sensorless-anomaly-detection
 
 <!-- dm-mcxw72-lcd-enablement-over-pmod/. -->
-## 38. FRDM-MCXW72 LCD-PAR-S035 enablement and control over PMOD<a id="dm-mcxw72-lcd-enablement-over-pmod"></a> <a href="#top" style="float:right">⤒</a>
+## 37. FRDM-MCXW72 LCD-PAR-S035 enablement and control over PMOD<a id="dm-mcxw72-lcd-enablement-over-pmod"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo focuses on <strong>enabling and validating the LCD_PAR_S035 display on the MCXW72 board</strong>, demonstrating a complete display and touch interface integration using the <strong>LVGL graphics library</strong>.The demo brings up the <strong>LCD_PAR_S035</strong> using <strong>SPI communication through the board’s PMOD connector</strong>, providing a simple and efficient hardware interface for display initialization and operation. In addition to the display, <strong>touch functionality is enabled via I2C</strong>, also routed through the same PMOD port, allowing full interaction with the graphical user interface.On the software side, the demo uses <strong>LVGL</strong> to create two application examples:<ul><li>A <strong>basic LVGL application</strong>, intended to validate display bring-up, rendering, and input handling.</li><li><strong>LVGL Demo Widgets</strong>, a more complete and feature-rich application that showcases multiple UI components, animations, and user interactions, serving as a reference for more complex GUI development.</li></ul>This demo is designed as a <strong>foundation and reference implementation</strong> for developers who want to integrate LVGL-based user interfaces on the MCXW72 platform, validating both display and touch capabilities.Key highlights of this demo include:<ul><li>LCD_PAR_S035 display bring-up on <strong>MCXW72</strong></li><li><strong>SPI-based LCD interface</strong> via <strong>PMOD</strong></li><li><strong>I2C-based touch support</strong> via the same PMOD connector</li><li>Graphics rendering using the <strong>LVGL library</strong></li><li>Support for a <strong>basic LVGL app</strong> and the <strong>LVGL Demo Widgets application</strong></li></ul>Overall, this demo provides a practical starting point for developing <strong>interactive graphical applications</strong> on MCXW72 using LVGL with both display and touch functionality enabled.
@@ -979,7 +962,7 @@ This demo focuses on <strong>enabling and validating the LCD_PAR_S035 display on
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxw72-lcd-enablement-over-pmod
 
 <!-- dm-frdmmcxw72-servo-motor-multi-control/. -->
-## 39. FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller<a id="dm-frdmmcxw72-servo-motor-multi-control"></a> <a href="#top" style="float:right">⤒</a>
+## 38. FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller<a id="dm-frdmmcxw72-servo-motor-multi-control"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This project demonstrates two independent methods for controlling multiple servo motors: direct PWM generation using the Timer PWM Module (TPM), and external control using the PCA9685 16-channel servo driver over I2C.
@@ -997,7 +980,7 @@ This project demonstrates two independent methods for controlling multiple servo
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmmcxw72-servo-motor-multi-control
 
 <!-- dm-frdmmcxw72-servo-motor-multi-control-with-wireless-uart-and-lcd/. -->
-## 40. FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller and remote wireless UART commands and LCD GUI<a id="dm-frdmmcxw72-servo-motor-multi-control-with-wireless-uart-and-lcd"></a> <a href="#top" style="float:right">⤒</a>
+## 39. FRDM-MCXW72 Servo motor control using internal TPM or external PCA9685 controller and remote wireless UART commands and LCD GUI<a id="dm-frdmmcxw72-servo-motor-multi-control-with-wireless-uart-and-lcd"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo showcases a <strong>Wireless UART–based servomotor control system</strong> implemented on the <strong>MCXW72</strong> platform. The main goal of the demo is to demonstrate flexible and scalable control of multiple servomotors using <strong>two independent control interfaces</strong>: wireless communication and a local graphical user interface.The servomotors can be driven using the <strong>TPM (Timer/PWM Module)</strong> or an external PCA9695 16-channel servo motor driver to generate the PWM signals required for accurate servo positioning. The demo supports the connection and control of <strong>up to 16 servomotors</strong>, making it suitable for applications such as robotic arms, positioning systems, and general automation use cases.Wireless control is achieved via <strong>Wireless UART</strong>, allowing remote commands to be sent to adjust the servomotor positions without requiring a physical connection.In addition to wireless control, the demo includes a <strong>graphical user interface (GUI)</strong> developed using the <strong>LVGL library</strong>, which displays simple graphics and interactive controls on the <strong>LCD_PAR_S035</strong> display. The LCD is connected via <strong>SPI through the PMOD port</strong>, providing a compact and efficient display interface. The servomotors can also be <strong>controlled directly from the LCD touchscreen/interface</strong>, enabling local operation even when the wireless connection is not in use. Overall, this demo highlights:<br /><br /><ul><li>Servomotor control via <strong>Wireless UART</strong></li><li>Local servomotor control using an <strong>LCD interface</strong></li><li>PWM signal generation using <strong>TPM</strong></li>PWM signal generation using the <strong>PCA96985 driver</strong><li>Implementation on the <strong>MCXW72</strong> platform</li><li>GUI development using <strong>LVGL</strong></li><li><strong>LCD_PAR_S035</strong> display connected via <strong>SPI (PMOD)</strong></li><li>Support for controlling <strong>up to 9 servomotors</strong></li></ul>
@@ -1017,7 +1000,7 @@ This demo showcases a <strong>Wireless UART–based servomotor control system</s
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmmcxw72-servo-motor-multi-control-with-wireless-uart-and-lcd
 
 <!-- dm-nxp-rw612-gui-guider-ble/. -->
-## 41. FRDM-RW612 GUI Guider integration on Bluetooth LE example<a id="dm-nxp-rw612-gui-guider-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 40. FRDM-RW612 GUI Guider integration on Bluetooth LE example<a id="dm-nxp-rw612-gui-guider-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE example.
@@ -1036,7 +1019,7 @@ This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nxp-rw612-gui-guider-ble
 
 <!-- dm-frdmrw612-heart-rate-sensor-over-ble/. -->
-## 42. FRDM-RW612 Heart Rate sensor over BLE<a id="dm-frdmrw612-heart-rate-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 41. FRDM-RW612 Heart Rate sensor over BLE<a id="dm-frdmrw612-heart-rate-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo shows how to use the HeartRate4Click Board with the FRDM-RW612 Board over BLE. The data from the sensor is sent over BLE so it can be seen with the IoT Toolbox mobile application. 
@@ -1055,7 +1038,7 @@ This software shows how to integrate GUI Guider and LVGL code in a Bluetooth LE 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-heart-rate-sensor-over-ble
 
 <!-- dm-frdm-rw612-matter-standalone-temperature-sensor/. -->
-## 43. FRDM-RW612 Matter standalone temperature measurement with on-board sensor<a id="dm-frdm-rw612-matter-standalone-temperature-sensor"></a> <a href="#top" style="float:right">⤒</a>
+## 42. FRDM-RW612 Matter standalone temperature measurement with on-board sensor<a id="dm-frdm-rw612-matter-standalone-temperature-sensor"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to modify matter examples to add a desired functionality, in this case adding support for the p3t1755 sensor on the FRDM-RW612 board
@@ -1072,7 +1055,7 @@ This demo shows how to modify matter examples to add a desired functionality, in
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-rw612-matter-standalone-temperature-sensor
 
 <!-- dm-frdmrw612-temperature-sensor-over-ble/. -->
-## 44. FRDM-RW612 On-board temperature sensor over BLE<a id="dm-frdmrw612-temperature-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 43. FRDM-RW612 On-board temperature sensor over BLE<a id="dm-frdmrw612-temperature-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo shows how to use the FRDM-RW612's P3T1755&nbsp;on-board temperature sensor. Also, temperature measurements are sent over Bluetooth low energy so they can be seen with the IoT toolbox mobile application.<br><br>
@@ -1089,7 +1072,7 @@ This demo shows how to modify matter examples to add a desired functionality, in
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-temperature-sensor-over-ble
 
 <!-- dm-frdm-rw612-smart-aircon-with-wifi-and-mqtt/. -->
-## 45. FRDM-RW612 Smart Aircon with Wi-Fi and MQTT<a id="dm-frdm-rw612-smart-aircon-with-wifi-and-mqtt"></a> <a href="#top" style="float:right">⤒</a>
+## 44. FRDM-RW612 Smart Aircon with Wi-Fi and MQTT<a id="dm-frdm-rw612-smart-aircon-with-wifi-and-mqtt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 Smart Aircon demo based on the FRDM-RW612 board, featuring: MQTT communication over Wi-Fi, Voice UI using NXP's voice intelligent technology (VIT) and VoiceSeeker, Speech to Intent feature of VIT.Graphics using LVGL Open-Source library, VoiceSeeker configuration with adaptive beamformer.
@@ -1108,7 +1091,7 @@ Smart Aircon demo based on the FRDM-RW612 board, featuring: MQTT communication 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm-rw612-smart-aircon-with-wifi-and-mqtt
 
 <!-- dm-frdm-rw612-vit-on-zephyr/. -->
-## 46. FRDM-RW612 Voice Intelligent Technology on Zephyr RTOS<a id="dm-frdm-rw612-vit-on-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 45. FRDM-RW612 Voice Intelligent Technology on Zephyr RTOS<a id="dm-frdm-rw612-vit-on-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hello world example which allows you to control the on board RGB LED and trigger serial terminal prints with voice commands.
@@ -1127,7 +1110,7 @@ This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hel
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-sensors-over-wifi
 
 <!-- dm-frdmrw612-accelerometer-sensor-over-ble/. -->
-## 47. FRDM-RW612 external accelerometer sensor over BLE<a id="dm-frdmrw612-accelerometer-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 46. FRDM-RW612 external accelerometer sensor over BLE<a id="dm-frdmrw612-accelerometer-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo shows how to use a&nbsp;&nbsp;<a href="https://www.mikroe.com/accel-4-click" target="_blank">FXLS8974CF </a>accelerometer connected to the&nbsp;FRDM-RW612's MikroE port. Also, accelerometer measurements are sent over Bluetooth low energy so they can be seen with the IoT toolbox mobile application. 
@@ -1144,7 +1127,7 @@ This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hel
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmrw612-accelerometer-sensor-over-ble
 
 <!-- dm-frdm33926pnbevm-motor-control-driver-demo-app/. -->
-## 48. FRDM33926PNBEVM: Driver and demo app for MC33926 motor controller<a id="dm-frdm33926pnbevm-motor-control-driver-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 47. FRDM33926PNBEVM: Driver and demo app for MC33926 motor controller<a id="dm-frdm33926pnbevm-motor-control-driver-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The 33926 is a SMARTMOS monolithic H-bridge power IC designed primarily for automotive electronic throttle control, but is applicable to any low-voltage DC servo motor control application within the current and voltage limits stated in this specification. 
@@ -1165,7 +1148,7 @@ This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hel
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdm33926pnbevm-motor-control-driver-demo-app
 
 <!-- dm-frdmhb2002esevm-motor-control-demo-app/. -->
-## 49. FRDMHB2002ESEVM: Driver and demo app for MC33HB2002ES H-bridge motor controller<a id="dm-frdmhb2002esevm-motor-control-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 48. FRDMHB2002ESEVM: Driver and demo app for MC33HB2002ES H-bridge motor controller<a id="dm-frdmhb2002esevm-motor-control-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo application provides various Motor Control interfaces like fault detection (over, under voltage and active current limits etc ) , Fault detection control and Motor can be either control by PWM or SPI.  Using PWM speed can be controlled by changing the duty cycles. 
@@ -1186,7 +1169,7 @@ This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hel
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-frdmhb2002esevm-motor-control-demo-app
 
 <!-- dm-fashion-mnist-recognition-on-mcxn947/. -->
-## 50. Fashion MNIST Recognition on MCXN947<a id="dm-fashion-mnist-recognition-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 49. Fashion MNIST Recognition on MCXN947<a id="dm-fashion-mnist-recognition-on-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Fashion-MNIST recognition based on machine learning algorithm, power by MCXN947.Model is trained on Fashion-MNIST dataset, which can recognition 10 classes of fashion product from camera.Machine learning algorithm is accelerated by the NPU inside, the inference during is smaller than 10ms.<br><br>
@@ -1206,7 +1189,7 @@ This demo shows how to integrate NXP VIT library with Zephyr RTOS in a basic hel
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-fashion-mnist-recognition-on-mcxn947
 
 <!-- dm-nand-flash-support-on-frdmrw612/. -->
-## 51. FreeRTOS-Based LittleFS Support on SPI-NAND (W25N01GV) for FRDM-RW612<a id="dm-nand-flash-support-on-frdmrw612"></a> <a href="#top" style="float:right">⤒</a>
+## 50. FreeRTOS-Based LittleFS Support on SPI-NAND (W25N01GV) for FRDM-RW612<a id="dm-nand-flash-support-on-frdmrw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This project showcases LittleFS-based persistent storage on SPI-NAND (W25N01GV) using the FRDM-RW612 board under FreeRTOS. It supports reliable file create, read, write, delete, and large-file operations using a DHARA Flash Translation Layer (FTL) for wear leveling and power-loss recovery.The firmware is configured by default for the W25N01GV device. Support for other SPI-NAND devices can be added by updating the corresponding device parameters (JEDEC ID, page and block geometry, command set, and timing values) in the configuration structures.
@@ -1223,7 +1206,7 @@ This project showcases LittleFS-based persistent storage on SPI-NAND (W25N01GV) 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nand-flash-support-on-frdmrw612
 
 <!-- dm-rt1170evkb-full-appliance/. -->
-## 52. Full Appliance Demo<a id="dm-rt1170evkb-full-appliance"></a> <a href="#top" style="float:right">⤒</a>
+## 51. Full Appliance Demo<a id="dm-rt1170evkb-full-appliance"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a Full Appliance Demo with LVGL on MIMXRT1170-EVKB with RK055HDMIPI4M 5.5" LCD panel. This Demo shows three appliances, an Oven, an Aircon and a Hood (each appliance has its own animations and can switch bettwen screens), it also has a central dashboard with the status of all appliances. 
@@ -1243,7 +1226,7 @@ This project showcases LittleFS-based persistent storage on SPI-NAND (W25N01GV) 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-rt1170evkb-full-appliance
 
 <!-- dm-gpio-blinky-s32k312/. -->
-## 53. GPIO Blinking LED Demo for FRDM-A-S32K312<a id="dm-gpio-blinky-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 52. GPIO Blinking LED Demo for FRDM-A-S32K312<a id="dm-gpio-blinky-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo presents the S32 Design Studio toolchain, flashing flow and the basic GPIO/clock initialization on the FRDM-A-S32K312 by toggling the onboard LED.
@@ -1260,7 +1243,7 @@ This demo presents the S32 Design Studio toolchain, flashing flow and the basic 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-gpio-blinky-s32k312
 
 <!-- dm-gpio-blinky-s32k344/. -->
-## 54. GPIO Blinking LED Demo for FRDM-A-S32K344<a id="dm-gpio-blinky-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 53. GPIO Blinking LED Demo for FRDM-A-S32K344<a id="dm-gpio-blinky-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo presents the S32 Design Studio toolchain, flashing flow and the basic GPIO/clock initialization on the FRDM-A-S32K344 by toggling the onboard LED.
@@ -1275,6 +1258,23 @@ This demo presents the S32 Design Studio toolchain, flashing flow and the basic 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-gpio-blinky-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-gpio-blinky-s32k344
+
+<!-- dm-gpio-blinky-s32k356/. -->
+## 54. Getting Started with Multicore LED Control on FRDM-A-S32K356<a id="dm-gpio-blinky-s32k356"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo presents the S32 Design Studio toolchain, flashing flow and the basic GPIO/clock initialization on the FRDM-A-S32K356 by toggling two onboard RGB LEDs, each independently controlled by a different core. This example showcases the multicore capabilities of the FRDM-A-S32K356.
+
+#### Families:           S32K 
+#### Toolchains:         S32 Design Studio IDE 
+#### Peripherals:        SIUL2, CLOCKS 
+#### Categories:         Tools 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-gpio-blinky-s32k356/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-gpio-blinky-s32k356
 
 <!-- nxp-appcodehub/dm-ble-cloud -->
 ## 55. Golioth Bluetooth Data to the Cloud using Pouch<a id="nxp-appcodehub_dm-ble-cloud"></a> <a href="#top" style="float:right">⤒</a>
