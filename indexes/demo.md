@@ -2221,7 +2221,7 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 ## 103. Monitoring Brake Status with Emergency LED Indicator<a id="dm-brake-status-monitoring-frdm-a-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo showcases a brake status monitoring system on the FRDM-A-S32K344 development board. The application detects braking events and provides visual feedback using an emergency LED indicator. The system simulates different braking conditions and highlights how real-time signals can be used to trigger immediate responses, improving safety and system awareness in automotive applications.
+This application demonstrates a real-time brake pressure monitoring system on the FRDM-A-S32K344 evaluation board. A Force Click board provides an analog force-sensitive input sampled via ADC0 (channel P0) to simulate brake pedal pressure, while a 4X4 RGB Click LED matrix driven through FlexIO delivers immediate color-coded visual feedback.<br />The project is built with the S32K3 Real-Time Drivers (RTD) for ADC and FlexIO peripherals, and is configured entirely within S32 Design Studio IDE — making it a practical reference for analog sensor-to-display pipelines in automotive safety and diagnostics applications.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
