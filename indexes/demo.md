@@ -172,25 +172,25 @@
 164. [SJA1124EVB : Quad LIN Commander Transceiver with LIN Commander Controller](#dm-sja1124evb-spi-to-quad-lin-bridge)
 165. [Secure Encrypted Ethernet End Nodes](#dm-secure-encrypt-eth-frdm-a-s32k344)
 166. [Selfie Segmenter](#nxp-demo-experience-demos-list_scripts_machine_learning_selfie_segmenter)
-167. [Serial Terminal LED Control Using UART Driver](#dm-uart-button-s32k358)
-168. [Servo Steering Control Using PWM](#dm-pwm-steering-control-frdm-a-s32k344)
-169. [Smart CAN Gateway for Automotive Actuators](#dm-smart-can-gtwy-frdm-a-s32k312-m276)
-170. [Smart Sensing Inhaler using Pressure and Tilt sensors](#dm-smart-sensing-inhaler)
-171. [Smart lighting LED bulb using LPC860](#dm-lpc860-smart-lighting)
-172. [SmartWatch Zephyr Demo](#apps_zephyr)
-173. [Snoring Detection based on RT1060 powered by AI\ML](#dm-snoring-detection-based-on-rt1060)
-174. [Startup Message via Serial Terminal Using UART Driver](#dm-uart-hello-s32k358)
-175. [Tamper detection with low-power wakeup sensor using BLE wireless UART](#dm-tamper-detection-using-low-power-wakeup-sensor-over-ble)
-176. [Temperature monitor with Modbus and CAN running in zephyr](#dm-modbus-can-temp-monitor-frdm)
-177. [Temperature sensor demo using FRDM-A-S32K344](#dm-temperature-monitor-lcd-frdm-a-s32k344)
-178. [Text to Speech with audio playback based on MIMXRT700](#dm-text-to-speech-based-on-rt700)
-179. [This demo provides APIs to configure and read accurate temperature using P3T1085UK sensor](#dm-p3t1085uk-temperature-sensor-driver-with-demo-app)
-180. [This example demonstrates FXLS89xxxF 3-axis accelerometer evaluation GUI using ISSDK and FreeMASTER](#dm-freemaster-fxls89xxxf-evaluation-gui-firmware)
-181. [Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156](#dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156)
-182. [Touch Keypad Tuning on MCXN](#dm-mcxn-touch-keypad-tuning)
-183. [Transmission Control Module On FRDM-A-S32K344](#dm-transmission-control-s32k344)
-184. [UART Communication Example using RTD Drivers on FRDM-A-S32K312](#dm-uart-s32k312)
-185. [UART Communication Example using RTD Drivers on FRDM-A-S32K344](#dm-uart-s32k344)
+167. [Serial Communication Using FLEXIO and RTD](#dm-uart-s32k344)
+168. [Serial Terminal LED Control Using UART Driver](#dm-uart-button-s32k358)
+169. [Servo Steering Control Using PWM](#dm-pwm-steering-control-frdm-a-s32k344)
+170. [Smart CAN Gateway for Automotive Actuators](#dm-smart-can-gtwy-frdm-a-s32k312-m276)
+171. [Smart Sensing Inhaler using Pressure and Tilt sensors](#dm-smart-sensing-inhaler)
+172. [Smart lighting LED bulb using LPC860](#dm-lpc860-smart-lighting)
+173. [SmartWatch Zephyr Demo](#apps_zephyr)
+174. [Snoring Detection based on RT1060 powered by AI\ML](#dm-snoring-detection-based-on-rt1060)
+175. [Startup Message via Serial Terminal Using UART Driver](#dm-uart-hello-s32k358)
+176. [Tamper detection with low-power wakeup sensor using BLE wireless UART](#dm-tamper-detection-using-low-power-wakeup-sensor-over-ble)
+177. [Temperature monitor with Modbus and CAN running in zephyr](#dm-modbus-can-temp-monitor-frdm)
+178. [Temperature sensor demo using FRDM-A-S32K344](#dm-temperature-monitor-lcd-frdm-a-s32k344)
+179. [Text to Speech with audio playback based on MIMXRT700](#dm-text-to-speech-based-on-rt700)
+180. [This demo provides APIs to configure and read accurate temperature using P3T1085UK sensor](#dm-p3t1085uk-temperature-sensor-driver-with-demo-app)
+181. [This example demonstrates FXLS89xxxF 3-axis accelerometer evaluation GUI using ISSDK and FreeMASTER](#dm-freemaster-fxls89xxxf-evaluation-gui-firmware)
+182. [Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156](#dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156)
+183. [Touch Keypad Tuning on MCXN](#dm-mcxn-touch-keypad-tuning)
+184. [Transmission Control Module On FRDM-A-S32K344](#dm-transmission-control-s32k344)
+185. [UART Communication Example using RTD Drivers on FRDM-A-S32K312](#dm-uart-s32k312)
 186. [UART Communication Example using RTD Drivers on FRDM-A-S32K356](#dm-uart-button-s32k356)
 187. [UART Communication and LED  Example on FRDM-A-S32K312](#dm-uart-button-s32k312)
 188. [UART Communication and LED Example on FRDM-A-S32K344](#dm-uart-button-s32k344)
@@ -3539,8 +3539,25 @@ This demo is showing the encryption capabilities for the FRDM-A-S32K344 developm
 #### **Repository URL:** https://github.com/nxp-imx-support/nxp-demo-experience-demos-list/tree/lf-6.6.52_2.2.0/scripts/machine_learning/selfie_segmenter
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-selfie-segmenter
 
+<!-- dm-uart-s32k344/. -->
+## 167. Serial Communication Using FLEXIO and RTD<a id="dm-uart-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo demonstrates how to configure and use UART communication on the FRDM-A-S32K344 microcontroller using the NXP Real-Time Drivers (RTD/MCAL) package within S32 Design Studio. The example showcases UART initialization, data transmission, and data reception, providing a practical introduction to serial communication on the S32K3 platform.
+
+#### Families:           S32K 
+#### Toolchains:         S32 Design Studio IDE 
+#### Peripherals:        UART 
+#### Categories:         Tools 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-s32k344/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-s32k344
+
 <!-- dm-uart-button-s32k358/. -->
-## 167. Serial Terminal LED Control Using UART Driver<a id="dm-uart-button-s32k358"></a> <a href="#top" style="float:right">⤒</a>
+## 168. Serial Terminal LED Control Using UART Driver<a id="dm-uart-button-s32k358"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application implements serial terminal control of the onboard LED using the RTD LPUART driver, allowing users to send commands and receive status feedback while demonstrating UART communication and GPIO interaction.
@@ -3557,7 +3574,7 @@ This application implements serial terminal control of the onboard LED using the
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-button-s32k358
 
 <!-- dm-pwm-steering-control-frdm-a-s32k344/. -->
-## 168. Servo Steering Control Using PWM<a id="dm-pwm-steering-control-frdm-a-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 169. Servo Steering Control Using PWM<a id="dm-pwm-steering-control-frdm-a-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application implements a real-time steer-by-wire concept on the FRDM-A-S32K344 evaluation board. A POT Click potentiometer provides an analog steering-wheel input that is sampled via ADC0 , scaled to angular position, and converted into a PWM duty cycle that drives a Micro Servo SG 180° motor through a Servo Click board controlled over LPI2C1.<br />On startup the servo centers to its neutral position; as the potentiometer is rotated the servo smoothly tracks the angle in real time, closing the full signal chain from analog acquisition → signal processing → actuator control.<br />The project is built with the S32K3 Real-Time Drivers (RTD) for ADC, I2C, and GPIO peripherals, and is configured entirely within S32 Design Studio IDE — making it a practical reference for PWM-based motor control and sensor-to-actuator mapping in automotive prototyping.
@@ -3576,7 +3593,7 @@ This application implements a real-time steer-by-wire concept on the FRDM-A-S32K
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-pwm-steering-control-frdm-a-s32k344
 
 <!-- dm-smart-can-gtwy-frdm-a-s32k312-m276/. -->
-## 169. Smart CAN Gateway for Automotive Actuators<a id="dm-smart-can-gtwy-frdm-a-s32k312-m276"></a> <a href="#top" style="float:right">⤒</a>
+## 170. Smart CAN Gateway for Automotive Actuators<a id="dm-smart-can-gtwy-frdm-a-s32k312-m276"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312 (primary controller) and FRDM-A-S32M276 (motor control unit) — connected via CAN bus. The S32K312 sends high-level commands (speed, direction) over CAN, while the S32M276 handles real-time motor-drive tasks such as PWM generation, current regulation, and feedback processing for [Sensorless 6-step BLDC motor control](&lt;https://community.nxp.com/t5/S32M-Knowledge-Base/S32M276-Sensorless-6-step-BLDC-motor-control/ta-p/2035476&gt;). This split architecture improves modularity, scalability, and safety, while enabling independent firmware updates and easier debugging.
@@ -3593,7 +3610,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-smart-can-gtwy-frdm-a-s32k312-m276
 
 <!-- dm-smart-sensing-inhaler/. -->
-## 170. Smart Sensing Inhaler using Pressure and Tilt sensors<a id="dm-smart-sensing-inhaler"></a> <a href="#top" style="float:right">⤒</a>
+## 171. Smart Sensing Inhaler using Pressure and Tilt sensors<a id="dm-smart-sensing-inhaler"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example use FRDM-MCXW71 and on-board FXLS8974CF accelerometer as Tilt sensor withMPL3115 absolute pressure sensor expansion board FRDM-STBC-P3115 to demonstrate connected smart sensing inhaler application.<br><ul><li>Intelligent dosage trigger function to align dispensation with patient’s tidal breathing pattern using High precision, digital pressure sensor MPL3115.</li><li>Maintains correct inhaler posture to deliver right amount dosage using 3-axis accelerometer FXLS8974CF as Tilt sensor.</li><li>Inform on dosages inhaled over BLE wireless UART&nbsp;allowing remote patient monitoring, helps with patient’s adherence to dosages and compliance.</li></ul>
@@ -3614,7 +3631,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-smart-sensing-inhaler
 
 <!-- dm-lpc860-smart-lighting/. -->
-## 171. Smart lighting LED bulb using LPC860<a id="dm-lpc860-smart-lighting"></a> <a href="#top" style="float:right">⤒</a>
+## 172. Smart lighting LED bulb using LPC860<a id="dm-lpc860-smart-lighting"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is the source code for using LPC860 as an IEC-62386 compatible smart RGB light bulb, and is the default firmware for the smart lighting control gear board. 
@@ -3631,7 +3648,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-lpc860-smart-lighting
 
 <!-- apps_zephyr/. -->
-## 172. SmartWatch Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 173. SmartWatch Zephyr Demo<a id="apps_zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Wearable example application optimized for the i.MX RT500 MCU.&nbsp; Leverages display driver to MIPI smart wearable display.&nbsp; Power-optimized reference for battery-powered devices. Leverages Zephyr’s Power Management subsystem.&nbsp; Demonstrates power-optimization techniques for applications.&nbsp; UI created with LVGL and NXP’s&nbsp;<a href="https://www.nxp.com/design/software/development-software/gui-guider:GUI-GUIDER" target="_blank">GUI-Guider tool</a>.&nbsp; Professional LVGL graphics with multiple animated watch screens.&nbsp; Leverages GPU acceleration to offload CPU.&nbsp; &nbsp;<br>
@@ -3651,7 +3668,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-smartwatch-zephyr-demo
 
 <!-- dm-snoring-detection-based-on-rt1060/. -->
-## 173. Snoring Detection based on RT1060 powered by AI\ML<a id="dm-snoring-detection-based-on-rt1060"></a> <a href="#top" style="float:right">⤒</a>
+## 174. Snoring Detection based on RT1060 powered by AI\ML<a id="dm-snoring-detection-based-on-rt1060"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The snoring detection demo is designed based on the i.MX RT1060. WAV audio files on the SD card can be played through the speaker and processed into a ML model to determine whether there is snoring or not, the results will be displayed on a GUI designed based on LVGL. 
@@ -3669,7 +3686,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-snoring-detection-based-on-rt1060
 
 <!-- dm-uart-hello-s32k358/. -->
-## 174. Startup Message via Serial Terminal Using UART Driver<a id="dm-uart-hello-s32k358"></a> <a href="#top" style="float:right">⤒</a>
+## 175. Startup Message via Serial Terminal Using UART Driver<a id="dm-uart-hello-s32k358"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This project demonstrates a basic serial terminal startup message using Real-Time Drivers (RTD) on the FRDM-A-S32K358 development board. At power-up, the application initializes the UART peripheral and transmits two predefined welcome messages over the serial terminal, offering a simple way to verify RTD UART configuration and confirm reliable serial communication.
@@ -3686,7 +3703,7 @@ This project demonstrates a basic serial terminal startup message using Real-Tim
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-hello-s32k358
 
 <!-- dm-tamper-detection-using-low-power-wakeup-sensor-over-ble/. -->
-## 175. Tamper detection with low-power wakeup sensor using BLE wireless UART<a id="dm-tamper-detection-using-low-power-wakeup-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 176. Tamper detection with low-power wakeup sensor using BLE wireless UART<a id="dm-tamper-detection-using-low-power-wakeup-sensor-over-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 <ul><li>This example demo describes how to configure low-power motion or magnetic or pressure wake-up sensor for tamper/theft detection and transmit ALERT to connected end user via BLE wireless UART using FRDM-MCXW71.</li><li>Such use-case can find many applications where user would like to completely shut off power supply or put the device in power down mode etc. based on wake up detected by sensors. Examples include, smart meters, shelf labels, reed switch replacement, smart home etc.</li></ul>
@@ -3710,7 +3727,7 @@ This project demonstrates a basic serial terminal startup message using Real-Tim
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-tamper-detection-using-low-power-wakeup-sensor-over-ble
 
 <!-- dm-modbus-can-temp-monitor-frdm/. -->
-## 176. Temperature monitor with Modbus and CAN running in zephyr<a id="dm-modbus-can-temp-monitor-frdm"></a> <a href="#top" style="float:right">⤒</a>
+## 177. Temperature monitor with Modbus and CAN running in zephyr<a id="dm-modbus-can-temp-monitor-frdm"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Zephyr application integrates two development boards, two Mikroe Click modules, and two Modbus-based modules to demonstrate an industrial‑style use case similar to a PLC or PLC peripheral.
@@ -3731,7 +3748,7 @@ This Zephyr application integrates two development boards, two Mikroe Click modu
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-modbus-can-temp-monitor-frdm
 
 <!-- dm-temperature-monitor-lcd-frdm-a-s32k344/. -->
-## 177. Temperature sensor demo using FRDM-A-S32K344<a id="dm-temperature-monitor-lcd-frdm-a-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 178. Temperature sensor demo using FRDM-A-S32K344<a id="dm-temperature-monitor-lcd-frdm-a-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure and use the LPI2C and GPIO drivers on the FRDM S32K344 Evaluation Board using S32 Design Studio. The example demonstrates motion and temperature monitoring using I2C sensor communication and RGB LED control via GPIO.<br /><br />All the information is send over UART to a serial terminal.
@@ -3748,7 +3765,7 @@ This demo shows how to configure and use the LPI2C and GPIO drivers on the FRDM 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-temperature-monitor-lcd-frdm-a-s32k344
 
 <!-- dm-text-to-speech-based-on-rt700/. -->
-## 178. Text to Speech with audio playback based on MIMXRT700<a id="dm-text-to-speech-based-on-rt700"></a> <a href="#top" style="float:right">⤒</a>
+## 179. Text to Speech with audio playback based on MIMXRT700<a id="dm-text-to-speech-based-on-rt700"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This example shows how to convert text to speech and output audio through headphone on evk_mimxrt700.<br />The algorithm is powered by lightspeech network, with DNS-MOS:4.07±0.22 quality, output 16K wave.
@@ -3766,7 +3783,7 @@ This example shows how to convert text to speech and output audio through headph
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-text-to-speech-based-on-rt700
 
 <!-- dm-p3t1085uk-temperature-sensor-driver-with-demo-app/. -->
-## 179. This demo provides APIs to configure and read accurate temperature using P3T1085UK sensor<a id="dm-p3t1085uk-temperature-sensor-driver-with-demo-app"></a> <a href="#top" style="float:right">⤒</a>
+## 180. This demo provides APIs to configure and read accurate temperature using P3T1085UK sensor<a id="dm-p3t1085uk-temperature-sensor-driver-with-demo-app"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example demo describes how to configure the accurate temperature sensor P3T1085UK for temperature measurement. This sensor can be used in many industrial and medical applications. 
@@ -3787,7 +3804,7 @@ This example shows how to convert text to speech and output audio through headph
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-p3t1085uk-temperature-sensor-driver-with-demo-app
 
 <!-- dm-freemaster-fxls89xxxf-evaluation-gui-firmware/. -->
-## 180. This example demonstrates FXLS89xxxF 3-axis accelerometer evaluation GUI using ISSDK and FreeMASTER<a id="dm-freemaster-fxls89xxxf-evaluation-gui-firmware"></a> <a href="#top" style="float:right">⤒</a>
+## 181. This example demonstrates FXLS89xxxF 3-axis accelerometer evaluation GUI using ISSDK and FreeMASTER<a id="dm-freemaster-fxls89xxxf-evaluation-gui-firmware"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 <ul><li>This example demonstrates combining ISSDK and FreeMASTER to create FXLS89xxxF 3-axis accelerometer evaluation GUI for our customer to evaluate this sensor using sensor development tools with sensors expansion boards.</li><li>NXP’s next-generation accelerometer feature a strong balance of intelligent integration, logic and customizable platform software to enable smarter, more differentiated applications<br></li><li>This example demonstrates how we can combine multiple middleware(s)  (e.g. ISSDK, FreeMASTER) to develop evaluation tools that helps improve "ease of evaluation and development" for our customers using our parts.</li></ul>
@@ -3808,7 +3825,7 @@ This example shows how to convert text to speech and output audio through headph
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-freemaster-fxls89xxxf-evaluation-gui-firmware
 
 <!-- dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156/. -->
-## 181. Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156<a id="dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 182. Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156<a id="dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Time Series Studio powered, on-device learning Fan anomaly detection based on FRDM-MCXA156 
@@ -3829,7 +3846,7 @@ This example shows how to convert text to speech and output audio through headph
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-tss-powered-on-device-learning-fan-anomaly-based-on-mcxa156
 
 <!-- dm-mcxn-touch-keypad-tuning/. -->
-## 182. Touch Keypad Tuning on MCXN<a id="dm-mcxn-touch-keypad-tuning"></a> <a href="#top" style="float:right">⤒</a>
+## 183. Touch Keypad Tuning on MCXN<a id="dm-mcxn-touch-keypad-tuning"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The demo shows how to use NXP Touch sensing library with the python tool for Capacitive Touch keypad sensitivity tuning 
@@ -3846,7 +3863,7 @@ This example shows how to convert text to speech and output audio through headph
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn-touch-keypad-tuning
 
 <!-- dm-transmission-control-s32k344/. -->
-## 183. Transmission Control Module On FRDM-A-S32K344<a id="dm-transmission-control-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 184. Transmission Control Module On FRDM-A-S32K344<a id="dm-transmission-control-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo showcases the simulation of an automotive transmission system using embedded peripherals. It reads throttle input from a potentiometer feeds it into a transmission model that computes vehicle speed, gear selection, and engine RPM across six forward gears and neutral. The current gear is displayed in real time by positioning a servo motor, while a DC motor reflects throttle input through variable PWM duty cycle on an eMIOS channel. The example illustrates how automotive drivetrain principles — including gear shift hysteresis, RPM smoothing, and torque-based acceleration modelling — are applied to embedded motor control, emphasising the integration of analogue sensing, I2C communication, and PWM generation to represent the behaviour of a real vehicle transmission system.
@@ -3867,7 +3884,7 @@ This demo showcases the simulation of an automotive transmission system using em
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-transmission-control-s32k344
 
 <!-- dm-uart-s32k312/. -->
-## 184. UART Communication Example using RTD Drivers on FRDM-A-S32K312<a id="dm-uart-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 185. UART Communication Example using RTD Drivers on FRDM-A-S32K312<a id="dm-uart-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure and use the UART driver from the Real-Time Drivers (RTD / MCAL) package on the FRDM-A-S32K312 microcontroller using S32 Design Studio. The example demonstrates UART communication using a loopback connection, where transmitted data is received back, validating UART TX/RX functionality using FLEXIO.
@@ -3882,23 +3899,6 @@ This demo shows how to configure and use the UART driver from the Real-Time Driv
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-s32k312/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-s32k312
-
-<!-- dm-uart-s32k344/. -->
-## 185. UART Communication Example using RTD Drivers on FRDM-A-S32K344<a id="dm-uart-s32k344"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This demo shows how to configure and use the UART driver from the Real-Time Drivers (RTD / MCAL) package on the FRDM-A-S32K344 microcontroller using S32 Design Studio.The example demonstrates UART communication using a loopback connection, where transmitted data is received back, validating UART TX/RX functionality using FLEXIO.
-
-#### Families:           S32K 
-#### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART 
-#### Categories:         Tools 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-s32k344/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-s32k344
 
 <!-- dm-uart-button-s32k356/. -->
 ## 186. UART Communication Example using RTD Drivers on FRDM-A-S32K356<a id="dm-uart-button-s32k356"></a> <a href="#top" style="float:right">⤒</a>
