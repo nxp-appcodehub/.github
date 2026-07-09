@@ -195,8 +195,8 @@
 187. [Touch Keypad Tuning on MCXN](#dm-mcxn-touch-keypad-tuning)
 188. [Transmission Control Module On FRDM-A-S32K344](#dm-transmission-control-s32k344)
 189. [UART Communication Example using RTD Drivers on FRDM-A-S32K312](#dm-uart-s32k312)
-190. [UART Communication Example using RTD Drivers on FRDM-A-S32K356](#dm-uart-button-s32k356)
-191. [UART Communication and LED Example on FRDM-A-S32K344](#dm-uart-button-s32k344)
+190. [UART Communication and LED Example on FRDM-A-S32K344](#dm-uart-button-s32k344)
+191. [UART Status Monitoring with Button Control](#dm-uart-button-s32k356)
 192. [UBX100 FreeMASTER evaluation GUI](#dm-ubx100-freemaster-gui)
 193. [UBX100 RF toolbox application](#dm-ubx100-rf-toolbox-application)
 194. [UBX100 flashloader demo application](#dm-ubx100-flashloader)
@@ -3973,25 +3973,8 @@ This demo shows how to configure and use the UART driver from the Real-Time Driv
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-s32k312/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-s32k312
 
-<!-- dm-uart-button-s32k356/. -->
-## 190. UART Communication Example using RTD Drivers on FRDM-A-S32K356<a id="dm-uart-button-s32k356"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This demo shows how to configure and use the UART driver from the Real-Time Drivers (RTD / MCAL) package on the FRDM-A-S32K356 microcontroller using S32 Design Studio. The example demonstrates UART communication using a loopback connection, where transmitted data is received back, validating UART TX/RX functionality using FLEXIO.
-
-#### Families:           S32K 
-#### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
-#### Categories:         Touch Sensing 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-button-s32k356/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-button-s32k356
-
 <!-- dm-uart-button-s32k344/. -->
-## 191. UART Communication and LED Example on FRDM-A-S32K344<a id="dm-uart-button-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 190. UART Communication and LED Example on FRDM-A-S32K344<a id="dm-uart-button-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to create a USB-UART serial console and basic LED control on the FRDM-A-S32K344 board. The application provides a text-based UART console with simple commands and also supports LED control via onboard buttons.
@@ -4006,6 +3989,23 @@ This demo shows how to create a USB-UART serial console and basic LED control on
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-button-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-button-s32k344
+
+<!-- dm-uart-button-s32k356/. -->
+## 191. UART Status Monitoring with Button Control<a id="dm-uart-button-s32k356"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo shows how to configure and use the UART driver from the RTD Low-Level Drivers (LLD) package on the FRDM-A-S32K356 microcontroller using S32 Design Studio. The example demonstrates UART communication through a loopback connection, where transmitted data is received back, validating UART TX/RX functionality using the LPUART peripheral.
+
+#### Families:           S32K 
+#### Toolchains:         S32 Design Studio IDE 
+#### Peripherals:        UART, GPIO 
+#### Categories:         Touch Sensing 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-uart-button-s32k356/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-uart-button-s32k356
 
 <!-- dm-ubx100-freemaster-gui/. -->
 ## 192. UBX100 FreeMASTER evaluation GUI<a id="dm-ubx100-freemaster-gui"></a> <a href="#top" style="float:right">⤒</a>
