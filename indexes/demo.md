@@ -217,33 +217,34 @@
 209. [Vital Health Signal Visual Monitor On FRDM-A-S32K344](#dm-vital-health-signal-visual-monitor-s32k344)
 210. [Wi-Fi Easy Connect (DPP) In-Band Provisioning Demo on RT1060EVKC with IW612](#dm-dpp-in-band-provisioning-rt1060-iw612)
 211. [Wi-Fi Scan and Connectivity Demo on RW612BGA](#dm-wifi-set-up-ping)
-212. [Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510](#dm-wifi-lcd-connect-frdm-mcxn947)
-213. [WiFi CLI M2 FRDM MCXN947](#dm-wifi-cli-frdm-mcxn947)
-214. [WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL](#dm-wifi-provisioning-using-ble)
-215. [Wireless Co-Processor Enabled Motor Control](#dm-mc-pmsm-ncp-frdm-mcxa156)
-216. [Wireless RFTM Application for Performance Testing of RW612 board](#dm-wireless-rf-test-mode-demo)
-217. [[OOBE-MCXW71] Controlling LEDS using BLE Wireless UART](#dm-mcx-wireless-uart-leds)
-218. [[RT1060 + IW416] MQTT client using Wi-Fi](#dm-wifi-sta-mqtt)
-219. [afci 8ch mcxn547 demo](#dm-afci-8ch-mcxn547)
-220. [demo project to use the module sCan](#dm-loc-apps-kw47)
-221. [eIQ GenAI Flow Demonstrator](#dm-eiq-genai-flow-demonstrator)
-222. [i.MX Driver Monitor System](#nxp-demo-experience-demos-list_scripts_machine_learning_dms)
-223. [i.MX Machine Learning Benchmark Tool](#nxp-demo-experience-demos-list_scripts_machine_learning_ml_benchmark)
-224. [i.MX RT1170 + NAFE13388 drivers and demos](#dm-nafe_rt1170)
-225. [i.MX RT1170 Mirror and control android phone using Zephyr](#dm-i-mx-rt1170-android-phone-screen-mirroring)
-226. [i.MX RT1180 based Holoscan Sensor Bridge (HSB)](#dm-rt1180-hsb)
-227. [i.MX Smart Fitness](#nxp-demo-experience-demos-list_scripts_machine_learning_imx_smart_fitness)
-228. [i.MX Smart Kitchen](#nxp-demo-experience-demos-list_scripts_multimedia_smart_kitchen)
-229. [i.MX V4L2 Video Test Tool](#nxp-demo-experience-demos-list_scripts_multimedia_gstreamer_video_test)
-230. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
-231. [i.MX93 Smart Appliance for MATTER](#meta-smart-appliance)
-232. [low power measurement on mcxn236](#dm-low-power-measurement-on-mcxn236)
-233. [matter zigbee bridge rw612](#dm-matter-zigbee-bridge-rw612)
-234. [vital signal monitor](#dm-mcxn947-lcd-heart-rate-spo2)
-235. [wolfSSH RGB Server using Zephyr RTOS](#nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr)
-236. [wolfSSL MQTT AWS Test using Zephyr RTOS](#nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr)
-237. [wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS](#nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr)
-238. [wolfSSL TLSv1.3 Hello Server using Zephyr RTOS](#nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr)
+212. [Wi-Fi Sensing using Sniffer on RW61x with Zephyr OS](#dm-wifi-sensing-using-sniffer-on-rw61x-with-zephyr-os)
+213. [Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510](#dm-wifi-lcd-connect-frdm-mcxn947)
+214. [WiFi CLI M2 FRDM MCXN947](#dm-wifi-cli-frdm-mcxn947)
+215. [WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL](#dm-wifi-provisioning-using-ble)
+216. [Wireless Co-Processor Enabled Motor Control](#dm-mc-pmsm-ncp-frdm-mcxa156)
+217. [Wireless RFTM Application for Performance Testing of RW612 board](#dm-wireless-rf-test-mode-demo)
+218. [[OOBE-MCXW71] Controlling LEDS using BLE Wireless UART](#dm-mcx-wireless-uart-leds)
+219. [[RT1060 + IW416] MQTT client using Wi-Fi](#dm-wifi-sta-mqtt)
+220. [afci 8ch mcxn547 demo](#dm-afci-8ch-mcxn547)
+221. [demo project to use the module sCan](#dm-loc-apps-kw47)
+222. [eIQ GenAI Flow Demonstrator](#dm-eiq-genai-flow-demonstrator)
+223. [i.MX Driver Monitor System](#nxp-demo-experience-demos-list_scripts_machine_learning_dms)
+224. [i.MX Machine Learning Benchmark Tool](#nxp-demo-experience-demos-list_scripts_machine_learning_ml_benchmark)
+225. [i.MX RT1170 + NAFE13388 drivers and demos](#dm-nafe_rt1170)
+226. [i.MX RT1170 Mirror and control android phone using Zephyr](#dm-i-mx-rt1170-android-phone-screen-mirroring)
+227. [i.MX RT1180 based Holoscan Sensor Bridge (HSB)](#dm-rt1180-hsb)
+228. [i.MX Smart Fitness](#nxp-demo-experience-demos-list_scripts_machine_learning_imx_smart_fitness)
+229. [i.MX Smart Kitchen](#nxp-demo-experience-demos-list_scripts_multimedia_smart_kitchen)
+230. [i.MX V4L2 Video Test Tool](#nxp-demo-experience-demos-list_scripts_multimedia_gstreamer_video_test)
+231. [i.MX93 Low Power Machine Learning](#nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml)
+232. [i.MX93 Smart Appliance for MATTER](#meta-smart-appliance)
+233. [low power measurement on mcxn236](#dm-low-power-measurement-on-mcxn236)
+234. [matter zigbee bridge rw612](#dm-matter-zigbee-bridge-rw612)
+235. [vital signal monitor](#dm-mcxn947-lcd-heart-rate-spo2)
+236. [wolfSSH RGB Server using Zephyr RTOS](#nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr)
+237. [wolfSSL MQTT AWS Test using Zephyr RTOS](#nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr)
+238. [wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS](#nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr)
+239. [wolfSSL TLSv1.3 Hello Server using Zephyr RTOS](#nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr)
 
 <!-- dm-mc-pmsm-triple-mcxa34x/. -->
 ## 1.  MCXA34X  triple motor control demo using HVP board<a id="dm-mc-pmsm-triple-mcxa34x"></a> <a href="#top" style="float:right">⤒</a>
@@ -4386,8 +4387,25 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-wifi-set-up-ping/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-set-up-ping
 
+<!-- dm-wifi-sensing-using-sniffer-on-rw61x-with-zephyr-os/. -->
+## 212. Wi-Fi Sensing using Sniffer on RW61x with Zephyr OS<a id="dm-wifi-sensing-using-sniffer-on-rw61x-with-zephyr-os"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo demonstrates the Ambient Motion Index (AMI) algorithm on Wi-Fi CSI running on Zephyr RTOS, to detect motion in a residential-like environment using a Wi-Fi Sniffer on RW61x.
+
+#### Families:           RW 
+#### Toolchains:         GCC 
+#### Peripherals:        Wi-Fi 
+#### Categories:         Wireless Connectivity 
+#### Application format: Zephyr Project
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-wifi-sensing-using-sniffer-on-rw61x-with-zephyr-os/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-sensing-using-sniffer-on-rw61x-with-zephyr-os
+
 <!-- dm-wifi-lcd-connect-frdm-mcxn947/. -->
-## 212. Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510<a id="dm-wifi-lcd-connect-frdm-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 213. Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510<a id="dm-wifi-lcd-connect-frdm-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510. 
@@ -4407,7 +4425,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-lcd-connect-frdm-mcxn947
 
 <!-- dm-wifi-cli-frdm-mcxn947/. -->
-## 213. WiFi CLI M2 FRDM MCXN947<a id="dm-wifi-cli-frdm-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
+## 214. WiFi CLI M2 FRDM MCXN947<a id="dm-wifi-cli-frdm-mcxn947"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This is an example of cli use with wifi on frdm-mcxn947 
@@ -4425,7 +4443,7 @@ This is a demo example of Wi-Fi scan, connect and ping with nearby access point 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-cli-frdm-mcxn947
 
 <!-- dm-wifi-provisioning-using-ble/. -->
-## 214. WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL<a id="dm-wifi-provisioning-using-ble"></a> <a href="#top" style="float:right">⤒</a>
+## 215. WiFi provisioning using BLE on RT1170 EVKB using Wi-Fi Module Murata 2EL<a id="dm-wifi-provisioning-using-ble"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is a demo example of Wi-Fi connection using BLE on RT1170 EVKB using Wi-Fi module Murata 2EL.
@@ -4443,7 +4461,7 @@ This is a demo example of Wi-Fi connection using BLE on RT1170 EVKB using Wi-Fi 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-provisioning-using-ble
 
 <!-- dm-mc-pmsm-ncp-frdm-mcxa156/. -->
-## 215. Wireless Co-Processor Enabled Motor Control<a id="dm-mc-pmsm-ncp-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
+## 216. Wireless Co-Processor Enabled Motor Control<a id="dm-mc-pmsm-ncp-frdm-mcxa156"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo showcases a distributed Network Co‑Processor (NCP) architecture for motor control applications using the FRDM‑MCXA156 as the main control, running motor control algorithms and controlling the high‑performance wireless co‑processor FRDM-RW612.
@@ -4463,7 +4481,7 @@ This demo showcases a distributed Network Co‑Processor (NCP) architecture for 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mc-pmsm-ncp-frdm-mcxa156
 
 <!-- dm-wireless-rf-test-mode-demo/. -->
-## 216. Wireless RFTM Application for Performance Testing of RW612 board<a id="dm-wireless-rf-test-mode-demo"></a> <a href="#top" style="float:right">⤒</a>
+## 217. Wireless RFTM Application for Performance Testing of RW612 board<a id="dm-wireless-rf-test-mode-demo"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This software demonstrates a Custom Wireless RF Test Mode (RFTM) application running on an NXP development board.  <br />
@@ -4485,7 +4503,7 @@ This example is useful for validating wireless performance, range, and stability
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wireless-rf-test-mode-demo
 
 <!-- dm-mcx-wireless-uart-leds/. -->
-## 217. [OOBE-MCXW71] Controlling LEDS using BLE Wireless UART<a id="dm-mcx-wireless-uart-leds"></a> <a href="#top" style="float:right">⤒</a>
+## 218. [OOBE-MCXW71] Controlling LEDS using BLE Wireless UART<a id="dm-mcx-wireless-uart-leds"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo allows the user to interact with the device through a serial terminal and also it can be possible to change the LCD screen via command sent by the IoT Toolbox using a Smartphone. 
@@ -4504,7 +4522,7 @@ This example is useful for validating wireless performance, range, and stability
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcx-wireless-uart-leds
 
 <!-- dm-wifi-sta-mqtt/. -->
-## 218. [RT1060 + IW416] MQTT client using Wi-Fi<a id="dm-wifi-sta-mqtt"></a> <a href="#top" style="float:right">⤒</a>
+## 219. [RT1060 + IW416] MQTT client using Wi-Fi<a id="dm-wifi-sta-mqtt"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The WiFi_Cli_STA_MQTT demo application demonstrates Wi-Fi station's connection to an access point while facilitating asynchronous data exchange between the local device and a remote broker via the MQTT protocol.
@@ -4522,7 +4540,7 @@ The WiFi_Cli_STA_MQTT demo application demonstrates Wi-Fi station's connection t
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wifi-sta-mqtt
 
 <!-- dm-afci-8ch-mcxn547/. -->
-## 219. afci 8ch mcxn547 demo<a id="dm-afci-8ch-mcxn547"></a> <a href="#top" style="float:right">⤒</a>
+## 220. afci 8ch mcxn547 demo<a id="dm-afci-8ch-mcxn547"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 afci 8ch mcxn547 demo
@@ -4539,7 +4557,7 @@ afci 8ch mcxn547 demo
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-afci-8ch-mcxn547
 
 <!-- dm-loc-apps-kw47/. -->
-## 220. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
+## 221. demo project to use the module sCan<a id="dm-loc-apps-kw47"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This is demo project about how to use the module sCan. sCan is a middleware software used to simplify CAN communication, it is easy to configure and provides simple sending and receiving functions and the format for transmitting data was specified. It has some defined commands such as reset, data transmission, OTA, Bluetooth settings, the users can extend these commands according to your needs. 
@@ -4558,7 +4576,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-loc-apps-kw47
 
 <!-- dm-eiq-genai-flow-demonstrator/. -->
-## 221. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
+## 222. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application designed for NXP i.MX95 devices. This Demonstrator Demo enables t following pipeline components:<br /><br />    VIT: "Hey NXP" Wake word, or custom<br />    STT: Whisper Small English, moonshine-tiny, moonshine-base<br />    RAG: Embedding model + example database<br />    LLM: Danube<br />    TTS: 16kHz English
@@ -4585,7 +4603,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-eiq-genai-flow-demonstrator
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/dms -->
-## 222. i.MX Driver Monitor System<a id="nxp-demo-experience-demos-list_scripts_machine_learning_dms"></a> <a href="#top" style="float:right">⤒</a>
+## 223. i.MX Driver Monitor System<a id="nxp-demo-experience-demos-list_scripts_machine_learning_dms"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  i.MX Driver Monitor System is a vehicle safety system to assess the driver's alertness and warn the driver if needed using a camera and NPU. 
@@ -4604,7 +4622,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-i-mx-dms
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/ml_benchmark -->
-## 223. i.MX Machine Learning Benchmark Tool<a id="nxp-demo-experience-demos-list_scripts_machine_learning_ml_benchmark"></a> <a href="#top" style="float:right">⤒</a>
+## 224. i.MX Machine Learning Benchmark Tool<a id="nxp-demo-experience-demos-list_scripts_machine_learning_ml_benchmark"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  ML Benchmark tool allows to easily compare the performance of TensorFlow Lite models running on CPU (Cortex-A) and NPU, without the need to type in any command. 
@@ -4624,7 +4642,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-ml-benchmark
 
 <!-- dm-nafe_rt1170/. -->
-## 224. i.MX RT1170 + NAFE13388 drivers and demos<a id="dm-nafe_rt1170"></a> <a href="#top" style="float:right">⤒</a>
+## 225. i.MX RT1170 + NAFE13388 drivers and demos<a id="dm-nafe_rt1170"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This example demonstrates how to use NAFE13388 and i.MXRT1170 to sample analog signals. The results are either shown in a serial terminal window or in waveforms by using the FreeMASTER Run-Time Debugging Tool. 
@@ -4642,7 +4660,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-nafe_rt1170
 
 <!-- dm-i-mx-rt1170-android-phone-screen-mirroring/. -->
-## 225. i.MX RT1170 Mirror and control android phone using Zephyr<a id="dm-i-mx-rt1170-android-phone-screen-mirroring"></a> <a href="#top" style="float:right">⤒</a>
+## 226. i.MX RT1170 Mirror and control android phone using Zephyr<a id="dm-i-mx-rt1170-android-phone-screen-mirroring"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This application demonstrates how to mirror and control an Android phone from an RT1170-EVKB running Zephyr. The Android screen is captured, encoded in MJPEG, and transmitted over Wi‑Fi or Ethernet to the RT1170-EVKB, where it is decoded and displayed on the LCD. The demo also supports touch input, allowing the user to control the phone directly from the RT1170’s touchscreen.
@@ -4663,7 +4681,7 @@ This application demonstrates how to mirror and control an Android phone from an
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-i-mx-rt1170-android-phone-screen-mirroring
 
 <!-- dm-rt1180-hsb/. -->
-## 226. i.MX RT1180 based Holoscan Sensor Bridge (HSB)<a id="dm-rt1180-hsb"></a> <a href="#top" style="float:right">⤒</a>
+## 227. i.MX RT1180 based Holoscan Sensor Bridge (HSB)<a id="dm-rt1180-hsb"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan Sensor Bridge (HSB) device, enabling high speed data communication from i.MX RT1180 to an NVIDIA GPU using RoCEv2 (RDMA over Converged Ethernet) protocol.
@@ -4682,7 +4700,7 @@ This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan S
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-rt1180-hsb
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/imx_smart_fitness -->
-## 227. i.MX Smart Fitness<a id="nxp-demo-experience-demos-list_scripts_machine_learning_imx_smart_fitness"></a> <a href="#top" style="float:right">⤒</a>
+## 228. i.MX Smart Fitness<a id="nxp-demo-experience-demos-list_scripts_machine_learning_imx_smart_fitness"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  i.MX Smart Fitness tracks the 'squats' fitness exercise using a camera and NPU on i.MX Applications Processors. 
@@ -4701,7 +4719,7 @@ This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan S
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-i-mx-smart-fitness
 
 <!-- nxp-demo-experience-demos-list/scripts/multimedia/smart_kitchen -->
-## 228. i.MX Smart Kitchen<a id="nxp-demo-experience-demos-list_scripts_multimedia_smart_kitchen"></a> <a href="#top" style="float:right">⤒</a>
+## 229. i.MX Smart Kitchen<a id="nxp-demo-experience-demos-list_scripts_multimedia_smart_kitchen"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  i.MX Smart Kitchen emulates an interactive kitchen through a GUI controlled by voice commands. 
@@ -4721,7 +4739,7 @@ This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan S
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-i-mx-smart-kitchen
 
 <!-- nxp-demo-experience-demos-list/scripts/multimedia/gstreamer/video_test -->
-## 229. i.MX V4L2 Video Test Tool<a id="nxp-demo-experience-demos-list_scripts_multimedia_gstreamer_video_test"></a> <a href="#top" style="float:right">⤒</a>
+## 230. i.MX V4L2 Video Test Tool<a id="nxp-demo-experience-demos-list_scripts_multimedia_gstreamer_video_test"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Voice test shows an example GStreamer video pipeline on screen. 
@@ -4746,7 +4764,7 @@ This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan S
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-video-test
 
 <!-- nxp-demo-experience-demos-list/scripts/machine_learning/low_power_ml -->
-## 230. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
+## 231. i.MX93 Low Power Machine Learning<a id="nxp-demo-experience-demos-list_scripts_machine_learning_low_power_ml"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This Low Power Machine Learning (ML) application showcases the i.MX 93's machine learning capabilities in low power use case by using Cortex-M33 core to run ML model inference with tflite-micro framework. When running the application, the Cortex-A55 core, which runs Linux, will be put into suspend mode to save power consumption. NPU is not used in this application for the same reason.
@@ -4764,7 +4782,7 @@ This Low Power Machine Learning (ML) application showcases the i.MX 93's machine
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=i-mx93-low-power-ml
 
 <!-- meta-smart-appliance/. -->
-## 231. i.MX93 Smart Appliance for MATTER<a id="meta-smart-appliance"></a> <a href="#top" style="float:right">⤒</a>
+## 232. i.MX93 Smart Appliance for MATTER<a id="meta-smart-appliance"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 i.MX93 Smart Appliance Demo <br />Features:<br /><ul><li>Board level power &lt; 400mW in DSM</li><li>Fast boot from power on to GUI </li><li>GUI design by LVGL_V8.3.5</li><li>Vision inference
@@ -4785,7 +4803,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=short-title-i-mx93-smart-appliance
 
 <!-- dm-low-power-measurement-on-mcxn236/. -->
-## 232. low power measurement on mcxn236<a id="dm-low-power-measurement-on-mcxn236"></a> <a href="#top" style="float:right">⤒</a>
+## 233. low power measurement on mcxn236<a id="dm-low-power-measurement-on-mcxn236"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The low power measurement demo is used to reproduce the power consumption and wake-up time in the datasheet on the FRDM-MCXN236 board. 
@@ -4803,7 +4821,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-low-power-measurement-on-mcxn236
 
 <!-- dm-matter-zigbee-bridge-rw612/. -->
-## 233. matter zigbee bridge rw612<a id="dm-matter-zigbee-bridge-rw612"></a> <a href="#top" style="float:right">⤒</a>
+## 234. matter zigbee bridge rw612<a id="dm-matter-zigbee-bridge-rw612"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo provide user how to integrate non-matter device as zigbee nodes to Matter enviroment 
@@ -4821,7 +4839,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-matter-zigbee-bridge-rw612
 
 <!-- dm-mcxn947-lcd-heart-rate-spo2/. -->
-## 234. vital signal monitor<a id="dm-mcxn947-lcd-heart-rate-spo2"></a> <a href="#top" style="float:right">⤒</a>
+## 235. vital signal monitor<a id="dm-mcxn947-lcd-heart-rate-spo2"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The project is vital sign monitor that use a pulse-oximeter sensor to obtain the values and uses an LCD to show the values and the graphics of the measurements. 
@@ -4842,7 +4860,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-mcxn947-lcd-heart-rate-spo2
 
 <!-- nxp-appcodehub/dm-wolfssh-rgb-server-with-zephyr -->
-## 235. wolfSSH RGB Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 236. wolfSSH RGB Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssh-rgb-server-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo demostrates capabilities of new FRDM-MCXN947.<br><a href="https://github.com/wolfSSL/nxp-appcodehub/tree/main/dm-wolfssh-rgb-server-with-zephyr#demo" target="_blank"></a>Creating a simple server using the Zephyr RTOS and wolfSSL to utilize the networking capabilities of the FRDM-MCXN947 through its ethernet port. 
@@ -4860,7 +4878,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wolfssh-rgb-server-with-zephyr
 
 <!-- nxp-appcodehub/dm-wolfmqtt-publisher-client-with-zephyr -->
-## 236. wolfSSL MQTT AWS Test using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 237. wolfSSL MQTT AWS Test using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfmqtt-publisher-client-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This demo demostrate capabilities of new FRDM-MCXN947.<br><a href="https://github.com/wolfSSL/nxp-appcodehub/tree/main/dm-wolfmqtt-publisher-client-with-zephyr#demo" target="_blank"></a>Simple connects to an AWS broker subscribes, and publishes a message. 
@@ -4878,7 +4896,7 @@ board power measurement</li></ul>
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-wolfmqtt-publisher-client-with-zephyr
 
 <!-- nxp-appcodehub/dm-wolfssl-tls-hello-server-pqc-with-zephyr -->
-## 237. wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 238. wolfSSL TLSv1.3 Hello Server Doing Post-Quantum Cryptography using Zephyr RTOS<a id="nxp-appcodehub_dm-wolfssl-tls-hello-server-pqc-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 It starts with running our benchmarks for the wolfCrypt library and getting performance numbers for all enable algorithms which in this case includes ML-KEM and ML-DSA. Once the benchmarks are done, a TLS 1.3 server is started. Importantly, this server is configured to support the post-quantum algorithms ML-KEM and ML-DSA.
@@ -4896,7 +4914,7 @@ It starts with running our benchmarks for the wolfCrypt library and getting perf
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=wolfssl-tls-1-3-example-using-pqc-on-zephyr
 
 <!-- nxp-appcodehub/dm-wolftpm-wolfssl-tls-with-zephyr -->
-## 238. wolfSSL TLSv1.3 Hello Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
+## 239. wolfSSL TLSv1.3 Hello Server using Zephyr RTOS<a id="nxp-appcodehub_dm-wolftpm-wolfssl-tls-with-zephyr"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  Creating a simple server using the Zephyr RTOS and wolfSSL to utilize the networking capabilities of the FRDM-MCXN947 through its ethernet port. 
