@@ -32,7 +32,7 @@
 24. [AN13793: FLAC codec porting and performance evaluation based on i.MX RT685](#an-flac-codec-rt685)
 25. [AN13864: Smart Battery Charger by LPC865 with SMBus Interface](#an-smart-battery-charger-lpc86x)
 26. [AN13953 Integrating NFC Reader Library in a KW4x Bluetooth Low Energy Application](#an-kw4x-bluetooth-le-nfc-integration)
-27. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-pmsm-one-shunt-lpc86x)
+27. [AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x](#an-mc-pmsm-one-shunt-lpc865)
 28. [AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x](#an-mc-bldc-lpc86x)
 29. [AN14099: PMSM Sensorless FOC Using MCXA153](#an-pmsm-foc-mcxa153)
 30. [AN14184 Using SmartDMA for Keyscan on MCX N Series MCU](#an-mcxn947-keyscan-interface-by-smartdma)
@@ -563,8 +563,8 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-kw4x-bluetooth-le-nfc-integration/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-kw4x-bluetooth-le-nfc-integration
 
-<!-- an-pmsm-one-shunt-lpc86x/. -->
-## 27. AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x<a id="an-pmsm-one-shunt-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
+<!-- an-mc-pmsm-one-shunt-lpc865/. -->
+## 27. AN14017 Permanent Magnet Synchronous Motors One-shunt Control Using LPC86x<a id="an-mc-pmsm-one-shunt-lpc865"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  This project implements sensorless one-shunt FOC on NXP LPCXpresso860-MAX board. Refer README to set up demo hardware. Peripheral setup, driver description and control algorithms are described in AN14017. 
@@ -580,8 +580,8 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### Expansion boards
 * [FRDM-MC-LVPMSM](https://mcuxpresso.nxp.com/eb-hub/product/frdm-mc-lvpmsm)
 
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-pmsm-one-shunt-lpc86x/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-pmsm-one-shunt-lpc86x
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/an-mc-pmsm-one-shunt-lpc865/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mc-pmsm-one-shunt-lpc865
 
 <!-- an-mc-bldc-lpc86x/. -->
 ## 28. AN14018: Sensorless Brushless DC(BLDC) Motor Control on LPC86x<a id="an-mc-bldc-lpc86x"></a> <a href="#top" style="float:right">⤒</a>
