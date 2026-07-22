@@ -4389,7 +4389,7 @@ This demo showcases a real-time health monitoring system built on the FRDM-S32K3
 ## 212. Wake Up from Sleep via GPIO Button Press<a id="dm-gpio-button-wakeup-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to configure and use the WKPU (Wake-Up Unit) driver to wake up the S32K344 microcontroller from Standby low-power mode using a GPIO button event and send UART messages using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) LLD layer and S32 Design Studio.<br />
+This demo shows how to configure and use the WKPU (Wake-Up Unit) driver to wake up the S32K344 microcontroller from Standby low-power mode using a GPIO button event and send UART messages using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) LLD layer and S32 Design Studio. <br />
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
