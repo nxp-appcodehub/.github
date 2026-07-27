@@ -4731,7 +4731,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 ## 230. eIQ GenAI Flow Demonstrator<a id="dm-eiq-genai-flow-demonstrator"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application designed for NXP i.MX95 devices. This Demonstrator Demo enables t following pipeline components:<br /><br />    VIT: "Hey NXP" Wake word, or custom<br />    STT: Whisper Small English, moonshine-tiny, moonshine-base<br />    RAG: Embedding model + example database<br />    LLM: Danube<br />    TTS: 16kHz English
+The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application designed for NXP i.MX95 devices. This Demonstrator Demo enables t following pipeline components:<br /><br />    VIT: "Hey NXP" Wake word, or custom<br />    VoiceID: Speaker recognition<br />    STT: Whisper Small English, moonshine-tiny, moonshine-base<br />    RAG: Embedding model + example database<br />    LLM: Danube or models supported by ARA240<br />    TTS: 16kHz English<br />    VLM: standalone Demonstrator
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
@@ -4748,7 +4748,11 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 * [IMX95LPD5EVK-19]()
 * [IMX943-EVK]()
 * [IMX95LP4XEVK-15]()
+* [FRDM-IMX95-PRO]()
+* [IMX952-EVK]()
 * [FRDM-IMX95]()
+* [FRDM-IMX937]()
+* [FRDM-IMX952]()
 
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-eiq-genai-flow-demonstrator/tree/main
