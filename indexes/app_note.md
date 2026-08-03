@@ -790,7 +790,7 @@ The FlexTimer module (FTM) is an enhanced timer module that supports input captu
 This is demo code for PMSM sensorless one shunt FOC on MCX A
 
 #### Families:           MCX 
-#### Toolchains:         MCUXpresso IDE 
+#### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        ADC, PWM 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
