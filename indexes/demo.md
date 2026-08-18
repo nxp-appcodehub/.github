@@ -2919,7 +2919,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 ## 139. NAFE13388-UIM Industrial Applications with GUI and CLI support .<a id="dm-nafe13388-application-examples"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
- This is a demo application which provides a command line interface&nbsp; and GUI interface for these six applications of NAFE13388 for Analog to Digital Conversion.<br>Current Sensing using SCSR Conversion<br>Voltage Sensing using SCSR Conversion<br>Voltage Sensing using MCMR Conversion<br>RTD 2/4 Wires using SCCR Conversion<br>Weight Scale 
+This is a demo application which provides a command line interface and GUI interface for these six applications of NAFE13388 for Analog to Digital Conversion.<br />Current Sensing using SCSR Conversion<br />Voltage Sensing using SCSR Conversion<br />Voltage Sensing using MCMR Conversion<br />RTD 2/4 Wires using SCCR Conversion<br />Weight Scale  <br />Thermo-couple<br />Pressure Sensor
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
