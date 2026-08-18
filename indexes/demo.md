@@ -400,7 +400,7 @@ This demo shows how to configure and use the ADC to measure the internal die tem
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, ADC 
+#### Peripherals:        ADC, UART 
 #### Categories:         Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -451,7 +451,7 @@ This demo shows how to configure and use the ADC to read the internal die temper
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, UART, SENSOR, GPIO, TIMER 
+#### Peripherals:        GPIO, I2C, SENSOR, TIMER, UART 
 #### Categories:         Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -471,7 +471,7 @@ Agentic AI Network Management System to detect anomalies through LLM.
 
 #### Families:           i.MX 
 #### Toolchains:         GCC 
-#### Peripherals:        Wi-Fi, ETHERNET 
+#### Peripherals:        ETHERNET, Wi-Fi 
 #### Categories:         AI/ML, Time Sensitive Networking 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -547,7 +547,7 @@ The Bluetooth LE FSCI Host application demonstrates a host-side implementation f
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        UART, TIMER, Bluetooth, CLOCKS, GPIO 
+#### Peripherals:        CLOCKS, GPIO, TIMER, UART, Bluetooth 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -567,7 +567,7 @@ In this demo, we use a technique called Channel Sounding to estimate the distanc
 
 #### Families:           MCX 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        Bluetooth, I2C, UART 
+#### Peripherals:        I2C, UART, Bluetooth 
 #### Categories:         Graphics, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -589,7 +589,7 @@ This example shows how to configure and the WKPU (Wake-Up Unit) driver to exit f
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Low Power 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -642,7 +642,7 @@ This application demos how control the brightness of an LED by using the eMIOS P
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, eMIOS, UART 
+#### Peripherals:        ADC, UART, eMIOS 
 #### Categories:         Low Power, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -819,7 +819,7 @@ This demo uses MikroE Oled C Click display with FRDM MCX boards using SPI CMSIS 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SPI, DISPLAY 
+#### Peripherals:        DISPLAY, GPIO, SPI 
 #### Categories:         Graphics 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -865,7 +865,7 @@ This demo is an example for Mikroe Relay 5 click module in FRDM boards usign CM
 
 #### Families:           RW, MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        I2C, GPIO, UART 
+#### Peripherals:        GPIO, I2C, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -908,7 +908,7 @@ This example demo describes the process of adding and executing a Door Lock Clus
 
 #### Families:           K32W 
 #### Toolchains:         GCC 
-#### Peripherals:        Bluetooth, USB 
+#### Peripherals:        USB, Bluetooth 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -944,7 +944,7 @@ This example demo describes the process of adding and executing a Door Lock Clus
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        UART, TIMER, SPI, PWM, I2C, GPIO, FLASH, CLOCKS, ADC, CAN, ETHERNET 
+#### Peripherals:        ADC, CAN, CLOCKS, ETHERNET, FLASH, GPIO, I2C, PWM, SPI, TIMER, UART 
 #### Categories:         Low Power, Industrial, Security, Safety 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -999,7 +999,7 @@ This example demo describes the process of adding and executing a Door Lock Clus
 
 #### Families:           MCX, i.MX RT 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        DISPLAY, DMA, FlexIO, I2C, VIDEO 
+#### Peripherals:        DISPLAY, DMA, I2C, VIDEO, FlexIO 
 #### Categories:         AI/ML, RTOS, Vision 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -1021,7 +1021,7 @@ This demo showcases a brake status monitoring system on the FRDM-A-S32K312 devel
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        FlexIO, ADC 
+#### Peripherals:        ADC, FlexIO 
 #### Categories:         Touch Sensing, Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1044,7 +1044,7 @@ This project implements a configurable Ethernet communication node that can oper
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ETHERNET, ADC 
+#### Peripherals:        ADC, ETHERNET 
 #### Categories:         Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1061,7 +1061,7 @@ This repository contains the standalone project for wireless UART application ov
 
 #### Families:           MCX 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        802.15.4, GPIO, UART 
+#### Peripherals:        GPIO, UART, 802.15.4 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1137,7 +1137,7 @@ This demo focuses on <strong>enabling and validating the LCD_PAR_S035 display on
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        DISPLAY, SPI, I2C 
+#### Peripherals:        DISPLAY, I2C, SPI 
 #### Categories:         Graphics, Touch Sensing, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1175,7 +1175,7 @@ This demo showcases a <strong>Wireless UART–based servomotor control system</s
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        Bluetooth, DISPLAY, I2C, PWM, SPI 
+#### Peripherals:        DISPLAY, I2C, PWM, SPI, Bluetooth 
 #### Categories:         Graphics, Wireless Connectivity, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1195,7 +1195,7 @@ This project demonstrates two independent methods for controlling multiple servo
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        Bluetooth, I2C, UART, PWM 
+#### Peripherals:        I2C, PWM, UART, Bluetooth 
 #### Categories:         Motor Control 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -1251,7 +1251,7 @@ This demo shows how to modify matter examples to add a desired functionality, in
 
 #### Families:           RW 
 #### Toolchains:         VS Code 
-#### Peripherals:        802.15.4, SENSOR, Wi-Fi, UART 
+#### Peripherals:        SENSOR, UART, Wi-Fi, 802.15.4 
 #### Categories:         Sensor, Wireless Connectivity, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1473,7 +1473,7 @@ This getting-started example demonstrates independent multicore execution on the
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        SIUL2, CLOCKS 
+#### Peripherals:        CLOCKS, SIUL2 
 #### Categories:         Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1490,7 +1490,7 @@ This is a standalone repository with the Pouch BLE GATT example. It also require
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        Bluetooth, I2C, SENSOR, Wi-Fi, ETHERNET 
+#### Peripherals:        ETHERNET, I2C, SENSOR, Bluetooth, Wi-Fi 
 #### Categories:         Secure Provisioning, Sensor, Cloud Connected Devices, Networking, Wireless Connectivity 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -1548,7 +1548,7 @@ This is a demo example of HTTPS client-server communication using LCD interface 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DISPLAY, Wi-Fi, SDIO 
+#### Peripherals:        DISPLAY, SDIO, Wi-Fi 
 #### Categories:         Touch Sensing, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1568,7 +1568,7 @@ Hand key points detection and gesture recognition from USB Camera based on MIMXR
 
 #### Families:           i.MX RT 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        DISPLAY, VIDEO, USB 
+#### Peripherals:        DISPLAY, USB, VIDEO 
 #### Categories:         AI/ML, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1704,7 +1704,7 @@ This software describes how to enable wake-up from Deep Sleep functionality at 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SAI, USB 
+#### Peripherals:        USB, SAI 
 #### Categories:         Audio 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1797,7 +1797,7 @@ P3T1755DP is a ±0.5°C accurate temperature-to-digital converter with a -40 °C
 
 #### Families:           i.MX 
 #### Toolchains:         IAR 
-#### Peripherals:        PWM, GPIO, ADC 
+#### Peripherals:        ADC, GPIO, PWM 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1817,7 +1817,7 @@ Industrial connectivity panel is a improved version of Industrial Panel, with ne
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        GPIO, I2C, USB, ADC, CAN, FlexIO, CLOCKS, I3C, PWM, UART, SmartDMA, ETHERNET 
+#### Peripherals:        ADC, CAN, CLOCKS, ETHERNET, GPIO, I2C, I3C, PWM, UART, USB, FlexIO, SmartDMA 
 #### Categories:         Graphics, HMI, Motor Control, Industrial, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1838,7 +1838,7 @@ Industrial connectivity panel is a improved version of Industrial Panel, with ne
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, PWM, UART, TIMER, I2C, ETHERNET 
+#### Peripherals:        ADC, ETHERNET, I2C, PWM, TIMER, UART 
 #### Categories:         Graphics, Sensor, Motor Control, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1946,7 +1946,7 @@ This example shows how to implement a UART-based user interface on the FRDM-A-S3
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1963,7 +1963,7 @@ This demo shows how to create a USB-UART serial console and basic LED control on
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Low Power, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2057,7 +2057,7 @@ This repository contains light switched basic examples of the opensource KNX IoT
 
 #### Families:           RW 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        802.15.4, GPIO, UART 
+#### Peripherals:        GPIO, UART, 802.15.4 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2131,7 +2131,7 @@ This is scripts package is used for KW45 secure boot, including generating keys,
 
 #### Families:           RW, MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        I2C, UART, TIMER, GPIO 
+#### Peripherals:        GPIO, I2C, TIMER, UART 
 #### Categories:         Industrial, Tools, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2157,7 +2157,7 @@ This demo shows how to combine the eMIOS PWM, ADC and UART (LPUART) MCAL/RTD dri
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, eMIOS, UART 
+#### Peripherals:        ADC, UART, eMIOS 
 #### Categories:         Low Power, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2246,7 +2246,7 @@ This demo shows how to combine the eMIOS PWM, ADC and UART (LPUART) MCAL/RTD dri
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, SENSOR, UART, TIMER, CLOCKS 
+#### Peripherals:        CLOCKS, I2C, SENSOR, TIMER, UART 
 #### Categories:         AI/ML, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2265,7 +2265,7 @@ This application demonstrates efficient power management techniques for the S32K
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        I2C, GPIO 
+#### Peripherals:        GPIO, I2C 
 #### Categories:         Low Power 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2309,7 +2309,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, GPIO, I2C, DMA 
+#### Peripherals:        DMA, GPIO, I2C, SPI 
 #### Categories:         Low Power, Industrial 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -2329,7 +2329,7 @@ The PCAL6408A is an 8-bit general purpose I/O expander that provides remote I/O 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        USB, DISPLAY 
+#### Peripherals:        DISPLAY, USB 
 #### Categories:         Graphics, HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2350,7 +2350,7 @@ This demo highlights the low-power capabilities of the FRDM‑MCXC162 platform u
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        I2C, DMA 
+#### Peripherals:        DMA, I2C 
 #### Categories:         HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2521,7 +2521,7 @@ This is a demo application run on the FRDM-MCXW72 board, which provides a demons
 
 #### Families:           MCX 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        802.15.4, Bluetooth, UART 
+#### Peripherals:        UART, Bluetooth, 802.15.4 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2539,7 +2539,7 @@ This demo showcases Matter-compliant Electric Vehicle Supply Equipment (EVSE) re
 
 #### Families:           RW 
 #### Toolchains:         GCC 
-#### Peripherals:        802.15.4, ADC, Bluetooth, DAC, DISPLAY, GPIO, I2C, SPI, Wi-Fi 
+#### Peripherals:        ADC, DAC, DISPLAY, GPIO, I2C, SPI, Bluetooth, Wi-Fi, 802.15.4 
 #### Categories:         Graphics, Touch Sensing, Security, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2556,7 +2556,7 @@ This is a demo application run on the FRDM-RW612 board, which provides an exampl
 
 #### Families:           RW 
 #### Toolchains:         GCC 
-#### Peripherals:        Wi-Fi, 802.15.4, Bluetooth, UART 
+#### Peripherals:        UART, Bluetooth, Wi-Fi, 802.15.4 
 #### Categories:         Security, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2607,7 +2607,7 @@ This demo shows how to configure and use the LPI2C and GPIO drivers from the Rea
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Sensor, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2641,7 +2641,7 @@ This application demonstrates LCD screen awake scenario when motion detected in
 
 #### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        Wi-Fi, DISPLAY 
+#### Peripherals:        DISPLAY, Wi-Fi 
 #### Categories:         Sensor, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2660,7 +2660,7 @@ Demo is Motor Control Implementation of Permanent Magnet Synchronous Motor (PMSM
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, PWM, SDIO, UART, I2C 
+#### Peripherals:        ADC, I2C, PWM, UART, SDIO 
 #### Categories:         Graphics, Motor Control, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2904,7 +2904,7 @@ This application will demonstrate to run iPerf Simultaneously on Wi-Fi and Ether
 
 #### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        Wi-Fi, ETHERNET 
+#### Peripherals:        ETHERNET, Wi-Fi 
 #### Categories:         RTOS, Networking, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2922,7 +2922,7 @@ Software-configurable analog input solution for high-precision sensing with wire
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, GCC 
-#### Peripherals:        ETHERNET, USB, CAN 
+#### Peripherals:        CAN, ETHERNET, USB 
 #### Categories:         Sensor, Industrial, Analog Front End 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -2942,7 +2942,7 @@ This is a demo application which provides a command line interface and GUI inter
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SENSOR, SPI, TIMER, UART, DMA 
+#### Peripherals:        DMA, GPIO, SENSOR, SPI, TIMER, UART 
 #### Categories:         Sensor, Industrial, User Interface 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -3021,7 +3021,7 @@ The NAFE33352 is a software-configurable universal analog input and output (AIO)
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -3043,7 +3043,7 @@ The NAFE33352 is a software-configurable universal analog input and output (AIO)
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -3089,7 +3089,7 @@ This release runs on FRDM-MCXN947 with an LCD_PAR_S035 display panel.
 
 #### Families:           MCX 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        DISPLAY, ETHERNET, VIDEO, UART 
+#### Peripherals:        DISPLAY, ETHERNET, UART, VIDEO 
 #### Categories:         Graphics, AI/ML, Security, RTOS, Networking, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3109,7 +3109,7 @@ NXP Platform Accelerator provides a development environment to run virtualised a
 
 #### Families:           RW 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        Wi-Fi, DISPLAY, ETHERNET, PINCTRL, UART 
+#### Peripherals:        DISPLAY, ETHERNET, PINCTRL, UART, Wi-Fi 
 #### Categories:         Security, RTOS, Networking, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3154,7 +3154,7 @@ This release runs on EVK-MIMXRT595 with an <a href="https://www.nxp.com/part/G1
 
 #### Families:           i.MX RT 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        UART, VIDEO, DISPLAY 
+#### Peripherals:        DISPLAY, UART, VIDEO 
 #### Categories:         AI/ML, Security, RTOS, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3174,7 +3174,7 @@ This release runs on EVK-MIMXRT595 with an <a href="https://www.nxp.com/part/G1
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        GPIO, SPI, TIMER, UART, SENSOR, DMA 
+#### Peripherals:        DMA, GPIO, SENSOR, SPI, TIMER, UART 
 #### Categories:         Sensor, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3273,7 +3273,7 @@ The <a href="https://www.nxp.com/products/P3T1035xUK">P3T1035xUK</a> or <a hr
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I3C, I2C 
+#### Peripherals:        I2C, I3C 
 #### Categories:         Sensor 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -3469,7 +3469,7 @@ Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, i
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, I2C 
+#### Peripherals:        I2C, SPI 
 #### Categories:         Real Time Clock 
 #### Application format: CMSIS Pack
 #### Compatible boards:
@@ -3580,7 +3580,7 @@ This example demonstrates a sensorless Field Oriented Control (FOC) implementati
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, BCTU, PWM, SPI, UART, eMIOS 
+#### Peripherals:        ADC, PWM, SPI, UART, eMIOS, BCTU 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3599,7 +3599,7 @@ This demo showcases a steering angle control system on the FRDM‑A‑S32K312 de
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        I2C, PWM, ADC 
+#### Peripherals:        ADC, I2C, PWM 
 #### Categories:         Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3635,7 +3635,7 @@ This demo shows how to use the RTC API timer as a periodic wakeup source from st
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        VIDEO, DISPLAY, FLASH, I2C, PWM, UART 
+#### Peripherals:        DISPLAY, FLASH, I2C, PWM, UART, VIDEO 
 #### Categories:         Graphics, Sensor, Anomaly Detection, AI/ML 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -3657,7 +3657,7 @@ This project implements a programmable power‑delivery system that uses a USB�
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, I2C, USB, SPI 
+#### Peripherals:        ADC, I2C, SPI, USB 
 #### Categories:         Power Conversion 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3733,7 +3733,7 @@ This demo shows how to configure and use the QuadSPI (QSPI), Clock, and GPIO dri
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        SPI, FLASH 
+#### Peripherals:        FLASH, SPI 
 #### Categories:         Memory 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3883,7 +3883,7 @@ This PoC is part of NXP offering for EVSE<br />This setup is able to simulate an
 
 #### Families:           Kinetis, RW 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        ADC, SPI, Wi-Fi, DAC, PWM, TIMER 
+#### Peripherals:        ADC, DAC, PWM, SPI, TIMER, Wi-Fi 
 #### Categories:         Power Conversion 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3938,7 +3938,7 @@ This PoC is part of NXP offering for EVSE<br />This setup is able to simulate an
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SDMMC, DISPLAY 
+#### Peripherals:        DISPLAY, SDMMC 
 #### Categories:         Graphics, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -3958,7 +3958,7 @@ This application demos how to read the I2C Sensor PCT2075DP and Send UART Messa
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        I2C, UART, GPIO 
+#### Peripherals:        GPIO, I2C, UART 
 #### Categories:         Low Power, Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4050,7 +4050,7 @@ This demo is showing the encryption capabilities for the FRDM-A-S32K344 developm
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ETHERNET, ADC 
+#### Peripherals:        ADC, ETHERNET 
 #### Categories:         Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4067,7 +4067,7 @@ This demo is showing the encryption capabilities for the FRDM-A-S32K344 developm
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -4103,7 +4103,7 @@ This application implements serial terminal control of the onboard LED using the
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Touch Sensing 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4120,7 +4120,7 @@ This application implements a real-time steer-by-wire concept on the FRDM-A-S32K
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        PWM, ADC, I2C 
+#### Peripherals:        ADC, I2C, PWM 
 #### Categories:         Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4139,7 +4139,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 
 #### Families:           S32K, S32M 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, BCTU, CAN, eMIOS, UART, SPI 
+#### Peripherals:        ADC, CAN, SPI, UART, eMIOS, BCTU 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4156,7 +4156,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, UART, SENSOR 
+#### Peripherals:        I2C, SENSOR, UART 
 #### Categories:         Sensor, Wireless Connectivity, Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4177,7 +4177,7 @@ This project demonstrates BLDC Motor Control using two boards — FRDM-A-S32K312
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, TIMER, PWM, DMA 
+#### Peripherals:        ADC, DMA, PWM, TIMER 
 #### Categories:         HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4307,7 +4307,7 @@ This Zephyr application integrates two development boards, two Mikroe Click modu
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        CAN, UART, GPIO 
+#### Peripherals:        CAN, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -4463,7 +4463,7 @@ This demo showcases the simulation of an automotive transmission system using em
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, eMIOS, GPIO, I2C 
+#### Peripherals:        ADC, GPIO, I2C, eMIOS 
 #### Categories:         Sensor, Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4484,7 +4484,7 @@ This demo shows how to configure and use the UART driver from the Real-Time Driv
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        FlexIO, UART 
+#### Peripherals:        UART, FlexIO 
 #### Categories:         Tools 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4501,7 +4501,7 @@ This demo shows how to create a USB-UART serial console and basic LED control on
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4518,7 +4518,7 @@ This demo shows how to configure and use the UART driver from the RTD Low-Level 
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        UART, GPIO 
+#### Peripherals:        GPIO, UART 
 #### Categories:         Touch Sensing 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4535,7 +4535,7 @@ The UBX100 FreeMASTER evaluation GUI is a demo developed for the FRDM-MCXN947. I
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, GPIO, TIMER 
+#### Peripherals:        GPIO, SPI, TIMER 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4555,7 +4555,7 @@ Software solution for evaluation of the OM-UBX100-001 radio board RF toolbox. Co
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, TIMER, GPIO 
+#### Peripherals:        GPIO, SPI, TIMER 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4633,7 +4633,7 @@ Our demonstration showcases a seamless and intelligent sensing experience by uni
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        I2C, GPIO, SPI, VIDEO 
+#### Peripherals:        GPIO, I2C, SPI, VIDEO 
 #### Categories:         Graphics, HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4763,7 +4763,7 @@ This demo showcases a real-time health monitoring system built on the FRDM-S32K3
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        FlexIO, I2C 
+#### Peripherals:        I2C, FlexIO 
 #### Categories:         Graphics, Sensor 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4804,7 +4804,7 @@ This demo shows how to configure and use the WKPU (Wake-Up Unit) driver to wake 
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        GPIO, UART, CLOCKS 
+#### Peripherals:        CLOCKS, GPIO, UART 
 #### Categories:         Low Power 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4898,7 +4898,7 @@ This demo demonstrates the Ambient Motion Index (AMI) algorithm on Wi-Fi CSI run
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        UART, SDIO, DISPLAY 
+#### Peripherals:        DISPLAY, UART, SDIO 
 #### Categories:         Graphics, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4936,7 +4936,7 @@ The Wi-Fi AP and BLE Peripheral demo application demonstrates an Device Connect 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        SDIO, UART 
+#### Peripherals:        UART, SDIO 
 #### Categories:         RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4972,7 +4972,7 @@ This demo showcases a distributed Network Co‑Processor (NCP) architecture for 
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        ADC, PWM, SPI, TIMER, UART, GPIO 
+#### Peripherals:        ADC, GPIO, PWM, SPI, TIMER, UART 
 #### Categories:         Motor Control, Industrial, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -4996,7 +4996,7 @@ This example is useful for validating wireless performance, range, and stability
 
 #### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        Wi-Fi, Bluetooth 
+#### Peripherals:        Bluetooth, Wi-Fi 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -5068,7 +5068,7 @@ This is demo project about how to use the module sCan. sCan is a middleware soft
 
 #### Families:           KW45 
 #### Toolchains:         IAR 
-#### Peripherals:        Bluetooth, CAN, GPIO 
+#### Peripherals:        CAN, GPIO, Bluetooth 
 #### Categories:         Low Power, RTOS, Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -5087,7 +5087,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        ADC, DAC, I2S, SDIO, UART 
+#### Peripherals:        ADC, DAC, I2S, UART, SDIO 
 #### Categories:         Voice, Audio, AI/ML 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -5118,7 +5118,7 @@ The eIQ GenAI Flow Demonstrator is a Conversational AI Pipeline application desi
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        DISPLAY, MIPI-CSI, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -5175,7 +5175,7 @@ This application demonstrates how to mirror and control an Android phone from an
 
 #### Families:           i.MX RT 
 #### Toolchains:         GCC, VS Code 
-#### Peripherals:        DISPLAY, VIDEO, Wi-Fi, I2C 
+#### Peripherals:        DISPLAY, I2C, VIDEO, Wi-Fi 
 #### Categories:         Graphics, Touch Sensing, RTOS 
 #### Application format: Zephyr Project
 #### Compatible boards:
@@ -5215,7 +5215,7 @@ This demonstration showcases NXP’s i.MX RT1180 microcontroller as a Holoscan S
 
 #### Families:           i.MX 
 #### Toolchains:         VS Code 
-#### Peripherals:        MIPI-CSI, DISPLAY, USB, VIDEO 
+#### Peripherals:        DISPLAY, USB, VIDEO, MIPI-CSI 
 #### Categories:         AI/ML, Vision 
 #### Application format: Python (Linux)
 #### Compatible boards:
@@ -5300,7 +5300,7 @@ board power measurement</li></ul>
 
 #### Families:           i.MX 
 #### Toolchains:         GCC 
-#### Peripherals:        802.15.4, Bluetooth, Wi-Fi, USB 
+#### Peripherals:        USB, Bluetooth, Wi-Fi, 802.15.4 
 #### Categories:         Low Power, AI/ML, Wireless Connectivity, Vision 
 #### Application format: Yocto Project
 #### Compatible boards:
@@ -5393,7 +5393,7 @@ board power measurement</li></ul>
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        UART, ETHERNET 
+#### Peripherals:        ETHERNET, UART 
 #### Categories:         Cloud Connected Devices, Networking, Wireless Connectivity 
 #### Application format: Zephyr Project
 #### Compatible boards:

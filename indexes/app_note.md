@@ -90,7 +90,7 @@
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        VIDEO, I2C, SPI 
+#### Peripherals:        I2C, SPI, VIDEO 
 #### Categories:         Graphics, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -107,7 +107,7 @@
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, PWM, GPIO, TIMER 
+#### Peripherals:        ADC, GPIO, PWM, TIMER 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -181,7 +181,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SmartDMA, USB, SPI 
+#### Peripherals:        SPI, USB, SmartDMA 
 #### Categories:         HMI 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -220,7 +220,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        VIDEO, USB 
+#### Peripherals:        USB, VIDEO 
 #### Categories:         Graphics, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -241,7 +241,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        VIDEO, DISPLAY, SDMMC 
+#### Peripherals:        DISPLAY, VIDEO, SDMMC 
 #### Categories:         Graphics, Vision, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -262,7 +262,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        UART, GPIO, FLASH 
+#### Peripherals:        FLASH, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -280,7 +280,7 @@ This application note describes how to implement 8K USB keyboard on MCXN236
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        UART, GPIO, FLASH 
+#### Peripherals:        FLASH, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -390,7 +390,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        UART, GPIO, FLASH 
+#### Peripherals:        FLASH, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -408,7 +408,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        UART, GPIO, FLASH 
+#### Peripherals:        FLASH, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -426,7 +426,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         MDK 
-#### Peripherals:        UART, GPIO, FLASH 
+#### Peripherals:        FLASH, GPIO, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -444,7 +444,7 @@ The demo code shows the implementation of periodic triggering of the four ADC ch
 
 #### Families:           LPC 
 #### Toolchains:         IAR 
-#### Peripherals:        ADC, GPIO, CLOCKS, PWM, UART, TIMER 
+#### Peripherals:        ADC, CLOCKS, GPIO, PWM, TIMER, UART 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -518,7 +518,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           i.MX RT 
 #### Toolchains:         IAR 
-#### Peripherals:        SDMMC, UART, GPIO 
+#### Peripherals:        GPIO, UART, SDMMC 
 #### Categories:         Audio, RTOS, SDMMC 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -536,7 +536,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, I2C, UART, TIMER, SPI, GPIO 
+#### Peripherals:        ADC, GPIO, I2C, SPI, TIMER, UART 
 #### Categories:         Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -553,7 +553,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           Kinetis, K32W, PN 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        UART, GPIO, SPI, TIMER 
+#### Peripherals:        GPIO, SPI, TIMER, UART 
 #### Categories:         Wireless Connectivity 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -592,7 +592,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           LPC 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        PWM, ADC 
+#### Peripherals:        ADC, PWM 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -648,7 +648,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DMA, FlexIO, VIDEO 
+#### Peripherals:        DMA, VIDEO, FlexIO 
 #### Categories:         Graphics, HMI, Vision 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -930,7 +930,7 @@ for 3 phase permanent magnet synchronous motor(PMSM) on MCX E31x series MCU. 
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE, VS Code 
-#### Peripherals:        PWM, ADC 
+#### Peripherals:        ADC, PWM 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -950,7 +950,7 @@ This software accompanies the application note which primarily introduces the MP
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        ADC, GPIO, I2C, PWM, TIMER, UART, SPI 
+#### Peripherals:        ADC, GPIO, I2C, PWM, SPI, TIMER, UART 
 #### Categories:         Power Conversion 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1003,7 +1003,7 @@ This application note describes how to emulate WS2812 LED strip interface with F
 
 #### Families:           MCX 
 #### Toolchains:         VS Code 
-#### Peripherals:        FlexIO, DMA 
+#### Peripherals:        DMA, FlexIO 
 #### Categories:         User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1168,7 +1168,7 @@ This demo shows how to implment tamagawa protocol(t-format, a-format) on MCXE31
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        FlexIO, PWM 
+#### Peripherals:        PWM, FlexIO 
 #### Categories:         Motor Control, Industrial 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1221,7 +1221,7 @@ This software accompanies application note [AN12345], which describes how to use
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        CLOCKS, GPIO, COUNTER, TIMER 
+#### Peripherals:        CLOCKS, COUNTER, GPIO, TIMER 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1274,7 +1274,7 @@ This example demonstrates a sensorless Field Oriented Control (FOC) implementati
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, BCTU, eMIOS, PWM, SPI, TIMER, UART, GPIO 
+#### Peripherals:        ADC, GPIO, PWM, SPI, TIMER, UART, eMIOS, BCTU 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1312,7 +1312,7 @@ This example demonstrates a sensorless Field Oriented Control (FOC) implementati
 
 #### Families:           Kinetis 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        PWM, ADC 
+#### Peripherals:        ADC, PWM 
 #### Categories:         Motor Control 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1425,7 +1425,7 @@ This example demonstrates a sensorless Field Oriented Control (FOC) implementati
 
 #### Families:           RW 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        SPI, FLASH 
+#### Peripherals:        FLASH, SPI 
 #### Categories:         Memory 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
@@ -1460,7 +1460,7 @@ This example demonstrates a sensorless Field Oriented Control (FOC) implementati
 
 #### Families:           MCX 
 #### Toolchains:         MCUXpresso IDE 
-#### Peripherals:        DMA, FlexIO, I2C, USB, I2S 
+#### Peripherals:        DMA, I2C, I2S, USB, FlexIO 
 #### Categories:         Audio 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
