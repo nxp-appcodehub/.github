@@ -2723,6 +2723,9 @@ This demo shows how to configure and use the LPI2C and GPIO drivers from the Rea
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
+#### Expansion boards
+* [ACCEL 4 CLICK](https://mcuxpresso.nxp.com/eb-hub/product/accel 4 click)
+* [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-motion-temperature-freemaster-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-motion-temperature-freemaster-s32k344
