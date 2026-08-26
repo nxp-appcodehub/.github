@@ -12,9 +12,9 @@
 4. [A simple CAN bootloader project for FRDM-MCXA156](#dm-frdm-mcxa156-can-bootloader)
 5. [ADC Die Temperature Plotting Using FreeMASTER](#dm-adc-tempsense-freemaster-s32k356)
 6. [ADC Potentiometer control LED WS2812 intensity](#dm-adc-pot-led-ws2812-intensity-s32k344)
-7. [ADC Temperature Measure on FRDM-A-S32K344](#dm-adc-tempsense-uart-s32k344)
-8. [ADC Temperature Sensing MCAL with FreeMASTER](#dm-adc-tempsense-freemaster-s32k312)
-9. [ADC Temperature Sensing MCAL with UART](#dm-adc-tempsense-uart-s32k312)
+7. [ADC Temperature Sensing MCAL with FreeMASTER](#dm-adc-tempsense-freemaster-s32k312)
+8. [ADC Temperature Sensing MCAL with UART](#dm-adc-tempsense-uart-s32k312)
+9. [ADC Temperature Sensing MCAL with UART](#dm-adc-tempsense-uart-s32k344)
 10. [Accel and Pressure sensor demo with FRDM-MCXA153](#dm-mcxa-accel-and-pressure-logger)
 11. [Agentic AI Network Management System](#dm-agentic-ai-network-management)
 12. [Analog Potentiometer Control of WS2812 LED Brightness](#dm-adc-pot-led-ws2812-intensity-s32k356)
@@ -398,25 +398,8 @@ This example demonstrates how to control the brightness intensity of WS2812 addr
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-pot-led-ws2812-intensity-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-pot-led-ws2812-intensity-s32k344
 
-<!-- dm-adc-tempsense-uart-s32k344/. -->
-## 7. ADC Temperature Measure on FRDM-A-S32K344<a id="dm-adc-tempsense-uart-s32k344"></a> <a href="#top" style="float:right">⤒</a>
-
-### Overview
-This demo shows how to configure and use the ADC to measure the internal die temperature of the S32K344 microcontroller.
-
-#### Families:           S32K 
-#### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ADC, UART 
-#### Categories:         Analog Front End 
-#### Application format: Project File (MCUX/MDK/IAR)
-#### Compatible boards:
-
-
-#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-tempsense-uart-s32k344/tree/main
-#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-uart-s32k344
-
 <!-- dm-adc-tempsense-freemaster-s32k312/. -->
-## 8. ADC Temperature Sensing MCAL with FreeMASTER<a id="dm-adc-tempsense-freemaster-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 7. ADC Temperature Sensing MCAL with FreeMASTER<a id="dm-adc-tempsense-freemaster-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure and use the ADC to read the internal die temperature of the S32K312 microcontroller using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) MCAL layer and plot data using FreeMASTER.
@@ -433,7 +416,7 @@ This demo shows how to configure and use the ADC to read the internal die temper
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-freemaster-s32k312
 
 <!-- dm-adc-tempsense-uart-s32k312/. -->
-## 9. ADC Temperature Sensing MCAL with UART<a id="dm-adc-tempsense-uart-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 8. ADC Temperature Sensing MCAL with UART<a id="dm-adc-tempsense-uart-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure and use the ADC to read the internal die temperature of the S32K312 microcontroller using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) MCAL layer and S32 Design Studio.
@@ -448,6 +431,23 @@ This demo shows how to configure and use the ADC to read the internal die temper
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-tempsense-uart-s32k312/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-uart-s32k312
+
+<!-- dm-adc-tempsense-uart-s32k344/. -->
+## 9. ADC Temperature Sensing MCAL with UART<a id="dm-adc-tempsense-uart-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This demo shows how to configure and use the ADC to measure the internal die temperature of the S32K344 microcontroller.
+
+#### Families:           S32K 
+#### Toolchains:         S32 Design Studio IDE 
+#### Peripherals:        ADC, UART 
+#### Categories:         Analog Front End 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-tempsense-uart-s32k344/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-uart-s32k344
 
 <!-- dm-mcxa-accel-and-pressure-logger/. -->
 ## 10. Accel and Pressure sensor demo with FRDM-MCXA153<a id="dm-mcxa-accel-and-pressure-logger"></a> <a href="#top" style="float:right">⤒</a>
@@ -4088,7 +4088,7 @@ This application demos how to read the I2C Sensor PCT2075DP and Send UART Messa
 ## 195. Real-Time Temperature Readout Using ADC TempSense and UART<a id="dm-adc-tempsense-uart-s32k356"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo shows how to configure and use the UART MCAL driver together with the ADC TempSense peripheral from the Real-Time Drivers (RTD) package on the S32K356 microcontroller using S32 Design Studio. Each loop iteration reads the on-chip die temperature via the internal TempSense channel, formats the result using integer fixed-point arithmetic, and transmits it along with welcome messages through LPUART6.
+This demo shows how to configure and use the UART MCAL driver together with the ADC TempSense peripheral from the Real-Time Drivers (RTD) package on the S32K356 microcontroller using S32 Design Studio.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
