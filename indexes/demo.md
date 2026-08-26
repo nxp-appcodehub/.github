@@ -706,7 +706,6 @@ This demo shows how to change the brightness intensity of WS2812 addressable RGB
 
 #### Expansion boards
 * [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
-* [4x4 RGB 2 Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 rgb 2 click)
 * [Pot Click](https://mcuxpresso.nxp.com/eb-hub/product/pot click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-pot-led-ws2812-intensity-s32k312/tree/main
