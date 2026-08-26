@@ -11,7 +11,7 @@
 3. [4x4 Key Click: multi-platform ecosystem.](#dm-mikroe-4x4-key-click-frdm)
 4. [A simple CAN bootloader project for FRDM-MCXA156](#dm-frdm-mcxa156-can-bootloader)
 5. [ADC Die Temperature Plotting Using FreeMASTER](#dm-adc-tempsense-freemaster-s32k356)
-6. [ADC Potentiometer control LED WS2812 intensity on FRDM-A-S32K344](#dm-adc-pot-led-ws2812-intensity-s32k344)
+6. [ADC Potentiometer control LED WS2812 intensity](#dm-adc-pot-led-ws2812-intensity-s32k344)
 7. [ADC Temperature Measure on FRDM-A-S32K344](#dm-adc-tempsense-uart-s32k344)
 8. [ADC Temperature Sensing MCAL with FreeMASTER on FRDM-A-S32K312](#dm-adc-tempsense-freemaster-s32k312)
 9. [ADC Temperature Sensing MCAL with UART on FRDM-A-S32K312](#dm-adc-tempsense-uart-s32k312)
@@ -379,7 +379,7 @@ This demo reads the on-chip die temperature via the internal TempSense channel, 
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-freemaster-s32k356
 
 <!-- dm-adc-pot-led-ws2812-intensity-s32k344/. -->
-## 6. ADC Potentiometer control LED WS2812 intensity on FRDM-A-S32K344<a id="dm-adc-pot-led-ws2812-intensity-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 6. ADC Potentiometer control LED WS2812 intensity<a id="dm-adc-pot-led-ws2812-intensity-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This example demonstrates how to control the brightness intensity of WS2812 addressable RGB LEDs using an analog potentiometer connected to the ADC (Analog-to-Digital Converter) on the FRDM-A-S32K344 development board.
@@ -393,7 +393,6 @@ This example demonstrates how to control the brightness intensity of WS2812 addr
 
 #### Expansion boards
 * [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
-* [4x4 RGB 2 Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 rgb 2 click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-pot-led-ws2812-intensity-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-pot-led-ws2812-intensity-s32k344
