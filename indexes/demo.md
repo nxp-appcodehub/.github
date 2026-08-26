@@ -14,7 +14,7 @@
 6. [ADC Potentiometer control LED WS2812 intensity](#dm-adc-pot-led-ws2812-intensity-s32k344)
 7. [ADC Temperature Measure on FRDM-A-S32K344](#dm-adc-tempsense-uart-s32k344)
 8. [ADC Temperature Sensing MCAL with FreeMASTER on FRDM-A-S32K312](#dm-adc-tempsense-freemaster-s32k312)
-9. [ADC Temperature Sensing MCAL with UART on FRDM-A-S32K312](#dm-adc-tempsense-uart-s32k312)
+9. [ADC Temperature Sensing MCAL with UART](#dm-adc-tempsense-uart-s32k312)
 10. [Accel and Pressure sensor demo with FRDM-MCXA153](#dm-mcxa-accel-and-pressure-logger)
 11. [Agentic AI Network Management System](#dm-agentic-ai-network-management)
 12. [Analog Potentiometer Control of WS2812 LED Brightness](#dm-adc-pot-led-ws2812-intensity-s32k356)
@@ -393,6 +393,7 @@ This example demonstrates how to control the brightness intensity of WS2812 addr
 
 #### Expansion boards
 * [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
+* [4X4 RGB Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 rgb click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-pot-led-ws2812-intensity-s32k344/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-pot-led-ws2812-intensity-s32k344
@@ -432,7 +433,7 @@ This demo shows how to configure and use the ADC to read the internal die temper
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-freemaster-s32k312
 
 <!-- dm-adc-tempsense-uart-s32k312/. -->
-## 9. ADC Temperature Sensing MCAL with UART on FRDM-A-S32K312<a id="dm-adc-tempsense-uart-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 9. ADC Temperature Sensing MCAL with UART<a id="dm-adc-tempsense-uart-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure and use the ADC to read the internal die temperature of the S32K312 microcontroller using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) MCAL layer and S32 Design Studio.
