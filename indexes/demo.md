@@ -13,7 +13,7 @@
 5. [ADC Die Temperature Plotting Using FreeMASTER](#dm-adc-tempsense-freemaster-s32k356)
 6. [ADC Potentiometer control LED WS2812 intensity](#dm-adc-pot-led-ws2812-intensity-s32k344)
 7. [ADC Temperature Measure on FRDM-A-S32K344](#dm-adc-tempsense-uart-s32k344)
-8. [ADC Temperature Sensing MCAL with FreeMASTER on FRDM-A-S32K312](#dm-adc-tempsense-freemaster-s32k312)
+8. [ADC Temperature Sensing MCAL with FreeMASTER](#dm-adc-tempsense-freemaster-s32k312)
 9. [ADC Temperature Sensing MCAL with UART](#dm-adc-tempsense-uart-s32k312)
 10. [Accel and Pressure sensor demo with FRDM-MCXA153](#dm-mcxa-accel-and-pressure-logger)
 11. [Agentic AI Network Management System](#dm-agentic-ai-network-management)
@@ -416,7 +416,7 @@ This demo shows how to configure and use the ADC to measure the internal die tem
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-tempsense-uart-s32k344
 
 <!-- dm-adc-tempsense-freemaster-s32k312/. -->
-## 8. ADC Temperature Sensing MCAL with FreeMASTER on FRDM-A-S32K312<a id="dm-adc-tempsense-freemaster-s32k312"></a> <a href="#top" style="float:right">⤒</a>
+## 8. ADC Temperature Sensing MCAL with FreeMASTER<a id="dm-adc-tempsense-freemaster-s32k312"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure and use the ADC to read the internal die temperature of the S32K312 microcontroller using the NXP S32K3 AUTOSAR Real-Time Drivers (RTD) MCAL layer and plot data using FreeMASTER.
