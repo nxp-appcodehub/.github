@@ -70,7 +70,7 @@
 62. [How to use ctimer to generate center aligned PWM in MCX MCU](#an-mcxn947-ctimer-center-aligned-pwm)
 63. [MCX N PLU setup and usage](#an-mcxn-plu-setupandusage)
 64. [Migration guide from FRDM-RW612 to third-party module memories](#an-frdmrw612-module-migration-guide)
-65. [PMSM Motor Control Sensorless dual Shunt FOC on FRDM-A-S32K344](#an-mc-pmsm-foc-2sh-s32k344)
+65. [PMSM Motor Control Sensorless dual Shunt FOC](#an-mc-pmsm-foc-2sh-s32k344)
 66. [SR250 UWB Plug-and-Play Application](#an-sr250-uwb-plug-and-play-demo)
 67. [Sensorless BLDC motor control on KE17Z](#an-mc-bldc-ke17z)
 68. [Sensorless BLDC motor control on MCXA153](#an-mc-bldc-mcxa153)
@@ -1267,7 +1267,7 @@ This software accompanies application note [AN12345], which describes how to use
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-frdmrw612-module-migration-guide
 
 <!-- an-mc-pmsm-foc-2sh-s32k344/. -->
-## 65. PMSM Motor Control Sensorless dual Shunt FOC on FRDM-A-S32K344<a id="an-mc-pmsm-foc-2sh-s32k344"></a> <a href="#top" style="float:right">⤒</a>
+## 65. PMSM Motor Control Sensorless dual Shunt FOC<a id="an-mc-pmsm-foc-2sh-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) using dual shunt current sensing on the NXP DEVKIT-MOTORGD and S32K344 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN13767&amp;_gl=1*cyr8rf*_ga*MzQzMjM3MDY3LjE3Nzk5NTc1Nzk.*_ga_WM5LE0KMSH*czE3ODA5MTU3NTkkbzM0JGcxJHQxNzgwOTI3Nzc2JGozOSRsMCRoMTA1MjI2NTg1MA..">AN13767 3-phase Sensorless PMSM Motor Control Kit with S32K344 using RTD Low Level API</a>, more details about the implementation can be found in the application note.
