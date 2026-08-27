@@ -365,7 +365,7 @@ The PCA9958 is a 24-channel SPI serial bus 63 mA LED driver with a supply voltag
 ## 5. ADC Die Temperature Plotting Using FreeMASTER<a id="dm-adc-tempsense-freemaster-s32k356"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This demo reads the on-chip die temperature via the internal TempSense channel, stores the raw Q11.4 fixed-point result in the rawTempQ11_4 global, and calls FMSTR_Poll() so the FreeMASTER host tool can sample rawTempQ11_4 and error_flag.
+This demo reads the on-chip die temperature via the internal TempSense channel, stores the raw Q11.4 fixed-point result in the raw temeprature, and calls FMSTR_Poll() so the FreeMASTER host tool can sample rawTempQ11_4 and error_flag.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
@@ -707,6 +707,7 @@ This demo shows how to change the brightness intensity of WS2812 addressable RGB
 #### Expansion boards
 * [FRDM K64 Click shield](https://mcuxpresso.nxp.com/eb-hub/product/frdm k64 click shield)
 * [Pot Click](https://mcuxpresso.nxp.com/eb-hub/product/pot click)
+* [4X4 RGB Click](https://mcuxpresso.nxp.com/eb-hub/product/4x4 rgb click)
 
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/dm-adc-pot-led-ws2812-intensity-s32k312/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-adc-pot-led-ws2812-intensity-s32k312
