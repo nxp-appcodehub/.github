@@ -27,7 +27,7 @@
 19. [Clea Edgehog IoT devices using Zephyr RTOS](#edgehog-zephyr-device_samples_edgehog_app)
 20. [Control LED Brightness with eMIOS PWM using ADC and UART messaging](#dm-control-led-emios-pwm-adc-uart-s32k358)
 21. [Control LED brightness through eMIOS PWM function on FRDM-A-S32K344 using MCAL drivers](#dm-control-led-emios-pwm-s32k344-mcal)
-22. [Control LED brightness through eMIOS PWM function on S32K312 series using MCAL drivers](#dm-control-led-emios-pwm-s32k312-mcal)
+22. [Control LED brightness through eMIOS PWM using MCAL drivers with UART](#dm-control-led-emios-pwm-s32k312-mcal)
 23. [Control WS2812 LED intensity with ADC Potentiometer](#dm-adc-pot-led-ws2812-intensity-s32k312)
 24. [Controlling LEDs with GPIO](#dm-gpio-blinky-s32k312)
 25. [Controlling WS2812 LED Brightness with an Analog Potentiometer](#dm-adc-pot-led-ws2812-intensity-s32k358)
@@ -675,15 +675,15 @@ This demo showcases how to configure the Enhanced Modular IO Subsystem (eMIOS) m
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=dm-control-led-emios-pwm-s32k344-mcal
 
 <!-- dm-control-led-emios-pwm-s32k312-mcal/. -->
-## 22. Control LED brightness through eMIOS PWM function on S32K312 series using MCAL drivers<a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
+## 22. Control LED brightness through eMIOS PWM using MCAL drivers with UART<a id="dm-control-led-emios-pwm-s32k312-mcal"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This demo shows how to configure the Enhanced Modular I/O Subsystem (eMIOS) module to use it as a PWM specifically in OPWMB (Output Pulse Width Modulation Buffered) mode, using the RTD high-level drivers, commonly known as MCAL drivers.<br />
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        PWM, eMIOS 
-#### Categories:         Low Power, User Interface 
+#### Peripherals:        PWM, UART, eMIOS 
+#### Categories:         Low Power, Motor Control, User Interface 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
 
