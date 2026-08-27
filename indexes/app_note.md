@@ -40,7 +40,7 @@
 32. [AN14333: Bidirectional Resonant DC-DC Converter Design using MC56F83783](#an-bidirectional-dcdc-mc56f83783)
 33. [AN14354: Multimode bidirectional AC-DC converter design using MC56F83783](#an-bidirectional-acdc-mc56f83783)
 34. [AN14434 How to implement MCXN236 USB to I3C demo](#an-mcxn236-usb-bridge-to-i3c)
-35. [AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M276](#an-mc-pmsm-s32m276)
+35. [AN14482 3-Phase PMSM Field-Oriented Control Solution](#an-mc-pmsm-s32m276)
 36. [AN14605 Using the RTC OSC Calibration Feature of the LPC5500](#an-lpc55s69-rtc-osc-calibration)
 37. [AN14616: Sensorless Field oriented Control (FOC) on MCXE24x](#an-mc-pmsm-mcxe247)
 38. [AN14617 Features and Operation Modes of FlexTimer Module on MCXE24x](#an-mcxe24x-flextimer-example)
@@ -711,7 +711,7 @@ The FLAC demo application demonstrates how to porting FLAC and evaluation perfor
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=an-mcxn236-usb-bridge-to-i3c
 
 <!-- an-mc-pmsm-s32m276/. -->
-## 35. AN14482 3-Phase PMSM Field-Oriented Control Solution using S32M276<a id="an-mc-pmsm-s32m276"></a> <a href="#top" style="float:right">⤒</a>
+## 35. AN14482 3-Phase PMSM Field-Oriented Control Solution<a id="an-mc-pmsm-s32m276"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
 This example demonstrates a sensorless Field Oriented Control (FOC) implementation for Permanent Magnet Synchronous Motor (PMSM) using single shunt current sensing on the NXP S32M276 microcontroller. The demo is based on the <a href="https://www.nxp.com/webapp/Download?colCode=AN14482">AN14482 3-phase Sensorless PMSM Motor Control with S32M276</a>, more details about the implementation can be found in the application note.
