@@ -4274,7 +4274,7 @@ This example demonstrates a lightweight HTTP server running on the FRDM S32K344Â
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ETHERNET, GPIO, FlexIO 
+#### Peripherals:        ETHERNET, GPIO 
 #### Categories:         Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
