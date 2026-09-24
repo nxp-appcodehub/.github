@@ -1180,7 +1180,7 @@ This example implements an Ethernet frame CRC-32 validator on the FRDM-A-S32K344
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
-#### Peripherals:        ETHERNET, GPIO, UART 
+#### Peripherals:        ETHERNET, GPIO, UART, CRC 
 #### Categories:         Networking 
 #### Application format: Project File (MCUX/MDK/IAR)
 #### Compatible boards:
