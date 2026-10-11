@@ -4434,7 +4434,7 @@ This application demos how to read the I2C Sensor PCT2075DP and Send UART Messa
 ## 213. Real-Time ADC Monitoring and LED Dimming Using FreeMASTER<a id="dm-adc-pot-led-emios-s32k344"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
-This example demonstrates how to control the brightness intensity of an LED using an analog potentiometer connected to the ADC (Analog-to-Digital Converter) on the FRDM-A-S32K344 development board.
+This example demonstrates how to control the brightness intensity of an LED using the FreeMASTER debugging tool GUI on the FRDM-A-S32K344 development board, leveraging the eMIOS peripheral for PWM generation.
 
 #### Families:           S32K 
 #### Toolchains:         S32 Design Studio IDE 
