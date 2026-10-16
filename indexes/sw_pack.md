@@ -16,7 +16,8 @@
 8. [ML State Monitor](#ap-ml-state-monitor)
 9. [ML Universal Datalogger for FreeMASTER](#ap-ml-universal-datalogger-for-freemaster)
 10. [Power Optimized Voice UI](#ap-optimized-voice-ui)
-11. [i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM](#ap-qmc2g-industrial)
+11. [SimpleFOC Support for NXP MCX Arduino Platform](#ap-mcx-simplefoc-arduino-core)
+12. [i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM](#ap-qmc2g-industrial)
 
 <!-- ap-ml-person-detector/. -->
 ## 1. ML Person Detector<a id="ap-ml-person-detector"></a> <a href="#top" style="float:right">⤒</a>
@@ -212,8 +213,26 @@ It operates as a Matter accessory, meaning it can be paired with an existing Mat
 #### **Repository URL:** https://github.com/NXP-APPCODEHUB/ap-optimized-voice-ui/tree/main
 #### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-optimized-voice-ui
 
+<!-- ap-mcx-simplefoc-arduino-core/. -->
+## 11. SimpleFOC Support for NXP MCX Arduino Platform<a id="ap-mcx-simplefoc-arduino-core"></a> <a href="#top" style="float:right">⤒</a>
+
+### Overview
+This software package provides SimpleFOC support for NXP MCX devices using the Arduino platform.<br />The package integrates the ArduinoCore-MCX BSP, a pre-configured SimpleFOC port, reference examples, and supporting documentation to help developers quickly evaluate and develop field-oriented motor control (FOC) applications on MCX devices.<br />Key features include:<br />- SimpleFOC support for NXP MCX devices<br />- Arduino-based development workflow<br />- Ready-to-run motor control examples<br />- Integrated ArduinoCore-MCX platform support<br />- Easy evaluation and rapid prototyping for BLDC motor control applications<br />This software package is intended as a starting point for developing MCX-based motor control applications using the SimpleFOC ecosystem.<br /><br />
+
+#### Families:           MCX 
+#### Toolchains:         VS Code 
+#### Peripherals:        ADC, I2C, PWM, UART 
+#### Categories:         Motor Control 
+#### Application format: Project File (MCUX/MDK/IAR)
+#### Compatible boards:
+* [FRDM-MCXA366]()
+
+
+#### **Repository URL:** https://github.com/NXP-APPCODEHUB/ap-mcx-simplefoc-arduino-core/tree/main
+#### **ACH URL:**        https://mcuxpresso.nxp.com/appcodehub?search=ap-mcx-simplefoc-arduino-core
+
 <!-- ap-qmc2g-industrial/. -->
-## 11. i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM<a id="ap-qmc2g-industrial"></a> <a href="#top" style="float:right">⤒</a>
+## 12. i.MX RT INDUSTRIAL DRIVE DEVELOPMENT PLATFORM<a id="ap-qmc2g-industrial"></a> <a href="#top" style="float:right">⤒</a>
 
 ### Overview
  The Industrial Drive Development Platform shows how a single i.MX RT1176 Crossover MCU can control up to four different motors, while managing wired or wireless connectivity and an HMI interface. 
