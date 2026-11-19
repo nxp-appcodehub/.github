@@ -3946,7 +3946,7 @@ This example demonstrates a weather station application running on the FRDM-A-S3
 I3C-Hub connects to a host CPU via I3C/I2C/SMBus bus on one side and connect to multiple peripheral devices on the other side. The hub device generally have two controller ports and up to eight target ports to expand bus connectivity to multiple devices
 
 #### Families:           MCX 
-#### Toolchains:         MCUXpresso IDE 
+#### Toolchains:         MCUXpresso IDE, VS Code 
 #### Peripherals:        I2C, I3C 
 #### Categories:         Bridge 
 #### Application format: CMSIS Pack
@@ -4894,6 +4894,7 @@ This demo shows how to write a file to a microSD card on the FRDM-A-S32K358 usin
 #### Compatible boards:
 * [FRDM-MCXA153](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-a14x-a15x-mcus:FRDM-MCXA153)
 * [FRDM-MCXN947](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-n94-n54-mcus:FRDM-MCXN947)
+* [FRDM-MCXC444](https://www.nxp.com/design/design-center/development-boards-and-designs/general-purpose-mcus/frdm-development-board-for-mcx-c444-mcus:FRDM-MCXC444)
 
 #### Expansion boards
 * [SJA1124EVB](https://mcuxpresso.nxp.com/eb-hub/product/sja1124evb)
