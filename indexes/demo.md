@@ -973,9 +973,9 @@ This is an encrypted traffic packets classification demo, which can tell us whic
 Demo
 with steps to create a new app repo with West manifest:<br /><ul><li>build using VS Code or CLI</li><li>use
 upstream or downstream repos</li><li>add custom
-board&lt;/li&gt;&lt;/ul&gt;</li></ul>
+board</li></ul>
 
-#### Families:           i.MX, Kinetis, LPC, RW, MCX, i.MX RT, S32K 
+#### Families:           i.MX, Kinetis, LPC, RW, MCX, i.MX RT 
 #### Toolchains:         GCC, VS Code 
 #### Peripherals:        Wi-Fi 
 #### Categories:         Tools 
